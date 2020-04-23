@@ -1,10 +1,9 @@
-Futura-Renner
-=============
+# Futura-Renner
 
 Futura Renner family is a digital version of Futura lead character belonging to the typography department of Ecole Nationale Supérieure des Arts de la Cambre, and probably the first draft of Futura as we know it.
 
 ## Specimen
-![Specimen 1](https://raw.github.com/bsozoo/FuturaRenner/master/documentation/images/Sample.jpeg)
+![Specimen 1](https://raw.githubusercontent.com/noirblancrouge/FuturaRenner/master/documentation/images/sample.jpg)
 
 ## License
 

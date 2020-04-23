@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="4.0">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="400" maximum="400" default="400">
+      <map input="400" output="100"/>
+    </axis>
+  </axes>
+  <sources>
+    <source filename="FuturaRenner-Regular.ufo" name="FuturaRenner Regular" familyname="FuturaRenner" stylename="Regular">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="FuturaRenner Regular" familyname="FuturaRenner" stylename="Regular" filename="../instance_ufo/FuturaRenner-Regular.ufo" stylemapfamilyname="FuturaRenner" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="100"/>
+      </location>
+      <kerning/>
+      <info/>
+    </instance>
+  </instances>
+  <lib>
+    <dict>
+      <key>UFOFormat</key>
+      <integer>2</integer>
+    </dict>
+  </lib>
+</designspace>
