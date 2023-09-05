@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Udieresis" format="2">
+  <advance width="652"/>
+  <unicode hex="00DC"/>
+  <anchor x="336" y="0" name="bottom"/>
+  <anchor x="357" y="10" name="ogonek"/>
+  <anchor x="320" y="738" name="top"/>
+  <anchor x="628" y="695" name="topright"/>
+  <outline>
+    <component base="U"/>
+    <component base="dieresiscomb" xOffset="5" yOffset="-1"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>dieresiscomb</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

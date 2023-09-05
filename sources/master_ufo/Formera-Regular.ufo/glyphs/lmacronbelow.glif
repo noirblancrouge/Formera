@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lmacronbelow" format="2">
+  <advance width="187"/>
+  <unicode hex="1E3B"/>
+  <anchor x="101" y="0" name="bottom"/>
+  <anchor x="101" y="375" name="center"/>
+  <anchor x="92" y="809" name="top"/>
+  <anchor x="188" y="750" name="topright"/>
+  <outline>
+    <component base="l"/>
+    <component base="macronbelowcomb" xOffset="-196"/>
+  </outline>
+</glyph>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tbar" format="2">
+  <advance width="284"/>
+  <unicode hex="0167"/>
+  <anchor x="143" y="14" name="bottom"/>
+  <anchor x="156" y="228" name="center"/>
+  <anchor x="156" y="455" name="top"/>
+  <anchor x="275" y="750" name="topright"/>
+  <outline>
+    <component base="t" xOffset="23"/>
+    <component base="endash" xOffset="5" yOffset="25"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>t</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>endash</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="four.dnom" format="2">
+  <advance width="303"/>
+  <outline>
+    <component base="four" xScale="0.6061" yScale="0.6061"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.hints</key>
+      <array>
+        <dict>
+          <key>horizontal</key>
+          <true/>
+          <key>name</key>
+          <string></string>
+          <key>options</key>
+          <integer>0</integer>
+          <key>place</key>
+          <array>
+            <integer>-128</integer>
+            <integer>21</integer>
+          </array>
+          <key>stem</key>
+          <integer>-2</integer>
+          <key>target</key>
+          <string>up</string>
+          <key>type</key>
+          <string>BottomGhost</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>
