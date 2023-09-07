@@ -1,14 +1,10 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph name="dcaron" format="2">
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dcaron" format="1">
   <advance width="621"/>
   <unicode hex="010F"/>
-  <anchor x="257" y="0" name="bottom"/>
-  <anchor x="257" y="218" name="center"/>
-  <anchor x="418" y="711" name="top"/>
-  <anchor x="492" y="750" name="topright"/>
   <outline>
     <component base="d"/>
-    <component base="caroncomb.alt" xOffset="185" yOffset="14"/>
+    <component base="uni030C.alt" xOffset="185" yOffset="14"/>
   </outline>
   <lib>
     <dict>
@@ -28,7 +24,7 @@
           <key>index</key>
           <integer>1</integer>
           <key>name</key>
-          <string>caroncomb.alt</string>
+          <string>uni030C.alt</string>
         </dict>
       </array>
     </dict>

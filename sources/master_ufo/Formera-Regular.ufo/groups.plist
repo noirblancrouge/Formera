@@ -473,7 +473,7 @@
     </array>
     <key>public.kern1.ff</key>
     <array>
-      <string>ff</string>
+      <string>f_f</string>
     </array>
     <key>public.kern1.five</key>
     <array>
@@ -1489,12 +1489,9 @@
     <key>public.kern2.f</key>
     <array>
       <string>f</string>
+      <string>f_f</string>
       <string>f_i</string>
       <string>f_l</string>
-    </array>
-    <key>public.kern2.ff</key>
-    <array>
-      <string>ff</string>
     </array>
     <key>public.kern2.five</key>
     <array>

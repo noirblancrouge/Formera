@@ -8,6 +8,6 @@
   <outline>
     <component base="e"/>
     <component base="cedillacomb" xOffset="-120"/>
-    <component base="brevecomb" xOffset="-82" yOffset="-75"/>
+    <component base="brevecomb" xOffset="-89" yOffset="-75"/>
   </outline>
 </glyph>

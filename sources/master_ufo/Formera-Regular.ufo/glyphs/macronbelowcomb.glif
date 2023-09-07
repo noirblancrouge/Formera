@@ -3,7 +3,7 @@
   <unicode hex="0331"/>
   <anchor x="297" y="0" name="_bottom"/>
   <outline>
-    <component base="macroncomb" xOffset="-24" yOffset="-820"/>
+    <component base="macroncomb" xOffset="-24" yOffset="-805"/>
   </outline>
   <lib>
     <dict>

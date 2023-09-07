@@ -10,6 +10,6 @@
   <anchor x="811" y="695" name="topright"/>
   <outline>
     <component base="O"/>
-    <component base="brevecomb" xOffset="92" yOffset="165"/>
+    <component base="brevecomb" xOffset="85" yOffset="165"/>
   </outline>
 </glyph>

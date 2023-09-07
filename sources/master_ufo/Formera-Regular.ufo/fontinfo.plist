@@ -15,7 +15,7 @@
     <key>italicAngle</key>
     <integer>0</integer>
     <key>openTypeHeadCreated</key>
-    <string>2023/09/05 13:05:47</string>
+    <string>2023/09/07 15:18:41</string>
     <key>openTypeNameDesigner</key>
     <string>Bastien Sozeau</string>
     <key>openTypeNameDesignerURL</key>
@@ -45,7 +45,7 @@
     <key>versionMajor</key>
     <integer>3</integer>
     <key>versionMinor</key>
-    <integer>2</integer>
+    <integer>3</integer>
     <key>xHeight</key>
     <integer>455</integer>
   </dict>

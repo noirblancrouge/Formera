@@ -3,7 +3,7 @@
   <unicode hex="032E"/>
   <anchor x="264" y="0" name="_bottom"/>
   <outline>
-    <component base="brevecomb" xOffset="-51" yOffset="-831"/>
+    <component base="brevecomb" xOffset="-51" yOffset="-804"/>
   </outline>
   <lib>
     <dict>

@@ -413,6 +413,10 @@
       <string>zcaron</string>
       <string>zdotaccent</string>
       <string>zdotbelow</string>
+      <string>f_f</string>
+      <string>f_f_i</string>
+      <string>f_f_ij</string>
+      <string>f_f_l</string>
       <string>f_i</string>
       <string>f_l</string>
       <string>ordfeminine</string>
@@ -597,7 +601,6 @@
       <string>cedilla</string>
       <string>ogonek</string>
       <string>IJacute</string>
-      <string>ff</string>
     </array>
     <key>public.openTypeCategories</key>
     <dict>
@@ -1051,6 +1054,10 @@
       <string>base</string>
       <key>f</key>
       <string>base</string>
+      <key>f_f_i</key>
+      <string>ligature</string>
+      <key>f_f_ij</key>
+      <string>ligature</string>
       <key>g</key>
       <string>base</string>
       <key>gbreve</key>

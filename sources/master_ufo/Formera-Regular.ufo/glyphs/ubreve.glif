@@ -8,6 +8,6 @@
   <anchor x="462" y="455" name="topright"/>
   <outline>
     <component base="u"/>
-    <component base="brevecomb" xOffset="-77" yOffset="-75"/>
+    <component base="brevecomb" xOffset="-84" yOffset="-75"/>
   </outline>
 </glyph>

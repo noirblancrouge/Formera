@@ -4,7 +4,7 @@
   <unicode hex="0055"/>
   <anchor x="336" y="0" name="bottom"/>
   <anchor x="357" y="10" name="ogonek"/>
-  <anchor x="336" y="695" name="top"/>
+  <anchor x="331" y="695" name="top"/>
   <anchor x="628" y="695" name="topright"/>
   <outline>
     <contour>
@@ -61,7 +61,7 @@
       <point x="519" y="693"/>
       <point x="500" y="682" type="curve"/>
       <point x="492" y="665"/>
-      <point x="496" y="642"/>
+      <point x="497" y="642"/>
       <point x="496" y="621" type="curve" smooth="yes"/>
       <point x="492" y="560" type="line"/>
       <point x="494" y="553"/>

@@ -3,7 +3,7 @@
   <unicode hex="0326"/>
   <anchor x="230" y="0" name="_bottom"/>
   <outline>
-    <component base="quoteright" xOffset="78" yOffset="-850"/>
+    <component base="quoteright" xOffset="68" yOffset="-840"/>
   </outline>
   <lib>
     <dict>

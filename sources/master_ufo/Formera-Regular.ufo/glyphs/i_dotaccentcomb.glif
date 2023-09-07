@@ -3,9 +3,10 @@
   <advance width="211"/>
   <anchor x="106" y="0" name="bottom"/>
   <anchor x="82" y="10" name="ogonek"/>
-  <anchor x="105" y="664" name="top"/>
+  <anchor x="104" y="873" name="top"/>
   <outline>
     <component base="idotless"/>
     <component base="dotaccentcomb" xOffset="-214" yOffset="-75"/>
+    <component base="dotaccentcomb" xOffset="-215" yOffset="134"/>
   </outline>
 </glyph>

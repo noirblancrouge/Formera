@@ -4,10 +4,10 @@
   <unicode hex="00DA"/>
   <anchor x="336" y="0" name="bottom"/>
   <anchor x="357" y="10" name="ogonek"/>
-  <anchor x="336" y="904" name="top"/>
+  <anchor x="331" y="904" name="top"/>
   <anchor x="628" y="695" name="topright"/>
   <outline>
     <component base="U"/>
-    <component base="acutecomb" xOffset="17" yOffset="165"/>
+    <component base="acutecomb" xOffset="12" yOffset="165"/>
   </outline>
 </glyph>

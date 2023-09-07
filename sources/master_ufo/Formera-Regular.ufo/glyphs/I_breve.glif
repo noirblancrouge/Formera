@@ -2,12 +2,12 @@
 <glyph name="Ibreve" format="2">
   <advance width="220"/>
   <unicode hex="012C"/>
-  <anchor x="118" y="0" name="bottom"/>
+  <anchor x="108" y="0" name="bottom"/>
   <anchor x="87" y="10" name="ogonek"/>
-  <anchor x="118" y="904" name="top"/>
+  <anchor x="108" y="904" name="top"/>
   <anchor x="21" y="695" name="topleft"/>
   <outline>
     <component base="I"/>
-    <component base="brevecomb" xOffset="-204" yOffset="165"/>
+    <component base="brevecomb" xOffset="-221" yOffset="165"/>
   </outline>
 </glyph>

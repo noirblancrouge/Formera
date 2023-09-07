@@ -2,11 +2,11 @@
 <glyph name="Ddotbelow" format="2">
   <advance width="658"/>
   <unicode hex="1E0C"/>
-  <anchor x="334" y="0" name="bottom"/>
+  <anchor x="288" y="0" name="bottom"/>
   <anchor x="334" y="348" name="center"/>
-  <anchor x="334" y="695" name="top"/>
+  <anchor x="288" y="695" name="top"/>
   <outline>
     <component base="D"/>
-    <component base="dotbelowcomb" xOffset="111"/>
+    <component base="dotbelowcomb" xOffset="65"/>
   </outline>
 </glyph>

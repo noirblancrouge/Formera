@@ -9,6 +9,6 @@
   <outline>
     <component base="E"/>
     <component base="cedillacomb" xOffset="-87"/>
-    <component base="brevecomb" xOffset="-69" yOffset="165"/>
+    <component base="brevecomb" xOffset="-76" yOffset="165"/>
   </outline>
 </glyph>
