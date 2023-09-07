@@ -5,7 +5,7 @@
   <anchor x="102" y="-250" name="bottom"/>
   <anchor x="104" y="664" name="top"/>
   <outline>
-    <component base="dotlessj"/>
+    <component base="jdotless"/>
     <component base="circumflexcomb" xOffset="-218" yOffset="-75"/>
   </outline>
 </glyph>

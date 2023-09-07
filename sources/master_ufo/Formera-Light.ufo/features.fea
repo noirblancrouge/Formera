@@ -11,6 +11,7 @@ languagesystem latn TRK;
 languagesystem latn ROM;
 languagesystem latn MOL;
 languagesystem latn CAT;
+languagesystem latn NLD;
 
 
 feature aalt {
@@ -29,13 +30,12 @@ feature ss01;
 
 feature ccmp {
 # automatic
-lookup ccmp_latn_1 {
-	sub fi by f i;
-	sub fl by f l;
-} ccmp_latn_1;
-
-script latn;
-lookup ccmp_latn_1;
+lookup ccmp_Other_1 {
+	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
+	@CombiningNonTopAccents = [brevebelowcomb cedillacomb dotbelowcomb macronbelowcomb ogonekcomb];
+	sub [i j]' @CombiningTopAccents by [idotless jdotless];
+	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
+} ccmp_Other_1;
 
 } ccmp;
 
@@ -75,6 +75,13 @@ lookup locl_latn_2 {
 	sub  l' periodcentered' l by ldot;
 	sub  L' periodcentered' L by Ldot;
 } locl_latn_2;
+
+lookup locl_latn_3 {
+	script latn;
+	language NLD;
+	sub iacute j' by jacute;
+	sub Iacute J' by Jacute;
+} locl_latn_3;
 
 } locl;
 
@@ -179,8 +186,8 @@ sub N o period by numero;
 feature liga {
 # automatic
 lookupflag IgnoreMarks;
-sub f i by fi;
-sub f l by fl;
+sub f i by f_i;
+sub f l by f_l;
 
 } liga;
 

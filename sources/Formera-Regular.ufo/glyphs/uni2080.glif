@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2080" format="1">
+  <advance width="361"/>
+  <unicode hex="2080"/>
+  <outline>
+    <component base="zero.dnom"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>zero.dnom</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>zero.dnom</string>
+    </dict>
+  </lib>
+</glyph>

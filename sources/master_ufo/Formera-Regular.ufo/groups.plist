@@ -563,7 +563,7 @@
     <key>public.kern1.i</key>
     <array>
       <string>i</string>
-      <string>dotlessi</string>
+      <string>idotless</string>
       <string>i_dotaccentcomb</string>
       <string>iacute</string>
       <string>ibreve</string>
@@ -575,7 +575,7 @@
       <string>imacron</string>
       <string>iogonek</string>
       <string>itilde</string>
-      <string>fi</string>
+      <string>f_i</string>
     </array>
     <key>public.kern1.idieresisacute</key>
     <array>
@@ -593,7 +593,7 @@
     <array>
       <string>ij</string>
       <string>j</string>
-      <string>dotlessj</string>
+      <string>jdotless</string>
       <string>jcircumflex</string>
       <string>eng</string>
     </array>
@@ -617,7 +617,7 @@
       <string>ldot</string>
       <string>ldotbelow</string>
       <string>lmacronbelow</string>
-      <string>fl</string>
+      <string>f_l</string>
     </array>
     <key>public.kern1.less</key>
     <array>
@@ -1489,8 +1489,8 @@
     <key>public.kern2.f</key>
     <array>
       <string>f</string>
-      <string>fi</string>
-      <string>fl</string>
+      <string>f_i</string>
+      <string>f_l</string>
     </array>
     <key>public.kern2.ff</key>
     <array>
@@ -1600,7 +1600,7 @@
     <key>public.kern2.i</key>
     <array>
       <string>i</string>
-      <string>dotlessi</string>
+      <string>idotless</string>
       <string>i_dotaccentcomb</string>
       <string>iacute</string>
       <string>ibreve</string>
@@ -1629,7 +1629,7 @@
     <key>public.kern2.j</key>
     <array>
       <string>j</string>
-      <string>dotlessj</string>
+      <string>jdotless</string>
       <string>jcircumflex</string>
     </array>
     <key>public.kern2.less</key>

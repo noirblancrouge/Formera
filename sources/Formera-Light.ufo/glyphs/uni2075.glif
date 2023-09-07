@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2075" format="1">
+  <advance width="288"/>
+  <unicode hex="2075"/>
+  <outline>
+    <component base="five.numr"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>five.numr</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>five.numr</string>
+    </dict>
+  </lib>
+</glyph>

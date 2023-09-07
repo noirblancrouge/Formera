@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="five.dnom" format="1">
+  <advance width="305"/>
+  <outline>
+    <component base="five" xScale="0.6061" yScale="0.6061"/>
+  </outline>
+</glyph>

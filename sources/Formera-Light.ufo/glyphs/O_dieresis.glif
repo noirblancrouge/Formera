@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Odieresis" format="1">
+  <advance width="804"/>
+  <unicode hex="00D6"/>
+  <outline>
+    <contour>
+      <point x="698" y="648" type="curve"/>
+      <point x="703" y="666"/>
+      <point x="694" y="680"/>
+      <point x="691" y="695" type="curve"/>
+      <point x="685" y="699"/>
+      <point x="682" y="706"/>
+      <point x="674" y="709" type="curve"/>
+      <point x="658" y="711"/>
+      <point x="650" y="706"/>
+      <point x="643" y="701" type="curve"/>
+      <point x="638" y="699"/>
+      <point x="634" y="698"/>
+      <point x="630" y="695" type="curve"/>
+      <point x="632" y="681"/>
+      <point x="625" y="674"/>
+      <point x="625" y="662" type="curve"/>
+      <point x="629" y="654"/>
+      <point x="632" y="647"/>
+      <point x="638" y="641" type="curve"/>
+      <point x="655" y="632"/>
+      <point x="687" y="634"/>
+    </contour>
+    <contour>
+      <point x="91" y="652" type="curve"/>
+      <point x="96" y="645"/>
+      <point x="106" y="641"/>
+      <point x="113" y="635" type="curve"/>
+      <point x="121" y="636"/>
+      <point x="128" y="634"/>
+      <point x="135" y="634" type="curve"/>
+      <point x="149" y="642"/>
+      <point x="161" y="652"/>
+      <point x="165" y="671" type="curve"/>
+      <point x="155" y="677"/>
+      <point x="158" y="695"/>
+      <point x="149" y="701" type="curve"/>
+      <point x="132" y="707"/>
+      <point x="108" y="705"/>
+      <point x="99" y="693" type="curve"/>
+      <point x="98" y="677"/>
+      <point x="87" y="669"/>
+    </contour>
+    <component base="O"/>
+  </outline>
+</glyph>

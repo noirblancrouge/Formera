@@ -120,6 +120,7 @@
       <string>Iogonek</string>
       <string>Itilde</string>
       <string>J</string>
+      <string>Jacute</string>
       <string>Jcircumflex</string>
       <string>K</string>
       <string>Kcommaaccent</string>
@@ -281,7 +282,7 @@
       <string>hcircumflex</string>
       <string>hdotbelow</string>
       <string>i</string>
-      <string>dotlessi</string>
+      <string>idotless</string>
       <string>i_dotaccentcomb</string>
       <string>iacute</string>
       <string>ibreve</string>
@@ -296,7 +297,8 @@
       <string>iogonek</string>
       <string>itilde</string>
       <string>j</string>
-      <string>dotlessj</string>
+      <string>jdotless</string>
+      <string>jacute</string>
       <string>jcircumflex</string>
       <string>k</string>
       <string>kcommaaccent</string>
@@ -403,8 +405,8 @@
       <string>zcaron</string>
       <string>zdotaccent</string>
       <string>zdotbelow</string>
-      <string>fi</string>
-      <string>fl</string>
+      <string>f_i</string>
+      <string>f_l</string>
       <string>ordfeminine</string>
       <string>ordmasculine</string>
       <string>Delta</string>
@@ -731,6 +733,8 @@
       <string>base</string>
       <key>J</key>
       <string>base</string>
+      <key>Jacute</key>
+      <string>base</string>
       <key>Jcircumflex</key>
       <string>base</string>
       <key>K</key>
@@ -1005,10 +1009,6 @@
       <string>mark</string>
       <key>dotbelowcomb</key>
       <string>mark</string>
-      <key>dotlessi</key>
-      <string>base</string>
-      <key>dotlessj</key>
-      <string>base</string>
       <key>e</key>
       <string>base</string>
       <key>eacute</key>
@@ -1091,6 +1091,8 @@
       <string>base</string>
       <key>idotbelow</key>
       <string>base</string>
+      <key>idotless</key>
+      <string>base</string>
       <key>igrave</key>
       <string>base</string>
       <key>ij</key>
@@ -1101,7 +1103,11 @@
       <string>base</string>
       <key>itilde</key>
       <string>base</string>
+      <key>jacute</key>
+      <string>base</string>
       <key>jcircumflex</key>
+      <string>base</string>
+      <key>jdotless</key>
       <string>base</string>
       <key>k</key>
       <string>base</string>
@@ -1348,6 +1354,8 @@
       <string>uni1E2E</string>
       <key>Idotbelow</key>
       <string>uni1ECA</string>
+      <key>Jacute</key>
+      <string>uni004A0301</string>
       <key>Kcommaaccent</key>
       <string>uni0136</string>
       <key>Lcommaaccent</key>
@@ -1442,8 +1450,6 @@
       <string>uni0308</string>
       <key>dotaccentcomb</key>
       <string>uni0307</string>
-      <key>dotlessj</key>
-      <string>uni0237</string>
       <key>ecedillabreve</key>
       <string>uni1E1D</string>
       <key>edotbelow</key>
@@ -1484,6 +1490,12 @@
       <string>i.loclTRK</string>
       <key>idotbelow</key>
       <string>uni1ECB</string>
+      <key>idotless</key>
+      <string>dotlessi</string>
+      <key>jacute</key>
+      <string>uni006A0301</string>
+      <key>jdotless</key>
+      <string>uni0237</string>
       <key>kcommaaccent</key>
       <string>uni0137</string>
       <key>lcommaaccent</key>

@@ -158,6 +158,8 @@
     <string>I_tilde.glif</string>
     <key>J</key>
     <string>J_.glif</string>
+    <key>Jacute</key>
+    <string>J_acute.glif</string>
     <key>Jcircumflex</key>
     <string>J_circumflex.glif</string>
     <key>K</key>
@@ -506,10 +508,6 @@
     <string>dotaccentcomb.glif</string>
     <key>dotbelowcomb</key>
     <string>dotbelowcomb.glif</string>
-    <key>dotlessi</key>
-    <string>dotlessi.glif</string>
-    <key>dotlessj</key>
-    <string>dotlessj.glif</string>
     <key>e</key>
     <string>e.glif</string>
     <key>eacute</key>
@@ -568,10 +566,12 @@
     <string>exclamdown.glif</string>
     <key>f</key>
     <string>f.glif</string>
+    <key>f_i</key>
+    <string>f_i.glif</string>
+    <key>f_l</key>
+    <string>f_l.glif</string>
     <key>ff</key>
     <string>ff.glif</string>
-    <key>fi</key>
-    <string>fi.glif</string>
     <key>five</key>
     <string>five.glif</string>
     <key>five.dnom</key>
@@ -582,8 +582,6 @@
     <string>fiveinferior.glif</string>
     <key>fivesuperior</key>
     <string>fivesuperior.glif</string>
-    <key>fl</key>
-    <string>fl.glif</string>
     <key>florin</key>
     <string>florin.glif</string>
     <key>four</key>
@@ -664,6 +662,8 @@
     <string>idotaccent.glif</string>
     <key>idotbelow</key>
     <string>idotbelow.glif</string>
+    <key>idotless</key>
+    <string>idotless.glif</string>
     <key>igrave</key>
     <string>igrave.glif</string>
     <key>ij</key>
@@ -680,8 +680,12 @@
     <string>itilde.glif</string>
     <key>j</key>
     <string>j.glif</string>
+    <key>jacute</key>
+    <string>jacute.glif</string>
     <key>jcircumflex</key>
     <string>jcircumflex.glif</string>
+    <key>jdotless</key>
+    <string>jdotless.glif</string>
     <key>k</key>
     <string>k.glif</string>
     <key>kcommaaccent</key>

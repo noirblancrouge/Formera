@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni00B3" format="1">
+  <advance width="276"/>
+  <unicode hex="00B3"/>
+  <outline>
+    <component base="three.numr"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>three.numr</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>three.numr</string>
+    </dict>
+  </lib>
+</glyph>
