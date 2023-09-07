@@ -4,6 +4,9 @@
 
 Formera (AKA Futura Renner) family is a digital version of Futura lead character belonging to the typography department of Ecole Nationale Supérieure des Arts de la Cambre, and probably the first draft of Futura as we know it.
 
+We first printed the full set of lead characters, and then we vectorized these prints. The outlines irregularities are obtained by this method.
+
+«No other similar is known. It is undoubtedly the very first (1927). It is distinguished by m &amp; n absolutely straight; by an r which is a bar followed by a point.» — Translated quotes by Fernand Baudin, 1971.
 
 ![Specimen](https://raw.githubusercontent.com/noirblancrouge/Formera/master/documentation/images/formera-charset.jpg)
 
