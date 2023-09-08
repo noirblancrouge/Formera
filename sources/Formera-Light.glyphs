@@ -412,6 +412,10 @@ value = 1110;
 {
 name = winDescent;
 value = 310;
+},
+{
+name = weightClass;
+value = 300;
 }
 );
 iconName = Light;
@@ -79711,11 +79715,17 @@ width = 221;
 );
 instances = (
 {
+customParameters = (
+{
+name = weightClass;
+value = 300;
+}
+);
 instanceInterpolations = {
 "C5490108-C233-4ADF-8B6D-CFE8E3B23812" = 1;
 };
 name = Light;
-weightClass = 200;
+weightClass = 300;
 }
 );
 kerningLTR = {

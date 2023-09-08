@@ -412,6 +412,10 @@ value = 1110;
 {
 name = winDescent;
 value = 310;
+},
+{
+name = weightClass;
+value = 400;
 }
 );
 id = "7C3BCDA4-8F92-4DF1-91BA-B714BE37B8B5";
@@ -68771,6 +68775,12 @@ width = 248;
 );
 instances = (
 {
+customParameters = (
+{
+name = weightClass;
+value = 400;
+}
+);
 instanceInterpolations = {
 "7C3BCDA4-8F92-4DF1-91BA-B714BE37B8B5" = 1;
 };
