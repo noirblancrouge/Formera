@@ -3,3 +3,4 @@ sources:
   - Formera-Regular.glyphs
 familyName: "Formera"
 buildVariable: false
+buildWebfont: true
