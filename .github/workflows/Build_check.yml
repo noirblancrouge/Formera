@@ -48,9 +48,8 @@ jobs:
         uses: f-actions/font-bakery@v1
         with:
           version: "latest"
-          subcmd: "check-googlefonts"
+          subcmd: "check-universal"
           args: "-C --succinct --loglevel WARN --ghmarkdown fonts/report.md"
-          path: "fonts/webfonts/*.ttf"
       - name: Upload Fonts
         uses: actions/upload-artifact@v2
         with:
