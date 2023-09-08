@@ -380,6 +380,40 @@ tag = ss01;
 );
 fontMaster = (
 {
+customParameters = (
+{
+name = hheaAscender;
+value = 1084;
+},
+{
+name = hheaDescender;
+value = -294;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = typoAscender;
+value = 1084;
+},
+{
+name = typoDescender;
+value = -294;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1084;
+},
+{
+name = winDescent;
+value = 294;
+}
+);
 id = "7C3BCDA4-8F92-4DF1-91BA-B714BE37B8B5";
 metricValues = (
 {
@@ -68848,6 +68882,10 @@ language = dflt;
 value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
 }
 );
+},
+{
+key = vendorID;
+value = NBR;
 }
 );
 settings = {
@@ -68858,5 +68896,5 @@ userData = {
 UFOFormat = 2;
 };
 versionMajor = 3;
-versionMinor = 5;
+versionMinor = 6;
 }
