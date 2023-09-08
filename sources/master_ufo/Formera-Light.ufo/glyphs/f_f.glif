@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="f_f" format="2">
   <advance width="524"/>
+  <anchor x="262" y="0" name="caret_1"/>
   <outline>
     <contour>
       <point x="218" y="792" type="line"/>

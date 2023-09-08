@@ -1,12 +1,6 @@
 {
 .appVersion = "3151";
 .formatVersion = 3;
-axes = (
-{
-name = Weight;
-tag = wght;
-}
-);
 customParameters = (
 {
 name = fsType;
@@ -386,13 +380,10 @@ tag = ss01;
 );
 fontMaster = (
 {
-axesValues = (
-300
-);
 customParameters = (
 {
 name = hheaAscender;
-value = 1084;
+value = 1110;
 },
 {
 name = hheaDescender;
@@ -420,7 +411,7 @@ value = 1084;
 },
 {
 name = winDescent;
-value = 294;
+value = 310;
 }
 );
 iconName = Light;
@@ -31163,9 +31154,15 @@ unicode = 7827;
 glyphname = f_f;
 kernLeft = f;
 kernRight = ff;
-lastChange = "2023-09-08 04:27:29 +0000";
+lastChange = "2023-09-08 13:33:44 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+pos = (262,0);
+}
+);
 layerId = "C5490108-C233-4ADF-8B6D-CFE8E3B23812";
 shapes = (
 {
@@ -31463,13 +31460,21 @@ metricLeft = f;
 },
 {
 glyphname = f_f_i;
-lastChange = "2023-09-08 04:27:29 +0000";
+lastChange = "2023-09-08 13:33:44 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
 pos = (112,-13);
+},
+{
+name = caret_1;
+pos = (219.333,0);
+},
+{
+name = caret_2;
+pos = (438.667,0);
 },
 {
 name = top;
@@ -31920,9 +31925,43 @@ metricRight = i;
 },
 {
 glyphname = f_f_ij;
-lastChange = "2023-09-08 04:27:29 +0000";
+lastChange = "2023-09-08 13:33:44 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+pos = (139,0);
+},
+{
+name = bottom_2;
+pos = (418,0);
+},
+{
+name = bottom_3;
+pos = (697,0);
+},
+{
+name = caret_1;
+pos = (278.667,0);
+},
+{
+name = caret_2;
+pos = (557.333,0);
+},
+{
+name = top_1;
+pos = (139,750);
+},
+{
+name = top_2;
+pos = (418,750);
+},
+{
+name = top_3;
+pos = (697,750);
+}
+);
 layerId = "C5490108-C233-4ADF-8B6D-CFE8E3B23812";
 shapes = (
 {
@@ -31942,9 +31981,19 @@ metricRight = ij;
 },
 {
 glyphname = f_f_l;
-lastChange = "2023-09-08 04:27:29 +0000";
+lastChange = "2023-09-08 13:33:44 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+pos = (220,0);
+},
+{
+name = caret_2;
+pos = (440,0);
+}
+);
 layerId = "C5490108-C233-4ADF-8B6D-CFE8E3B23812";
 shapes = (
 {
@@ -32385,9 +32434,31 @@ metricRight = l;
 glyphname = f_i;
 kernLeft = f;
 kernRight = i;
-lastChange = "2023-09-08 04:27:29 +0000";
+lastChange = "2023-09-08 13:33:44 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+pos = (109,0);
+},
+{
+name = bottom_2;
+pos = (326,0);
+},
+{
+name = caret_1;
+pos = (217,0);
+},
+{
+name = top_1;
+pos = (109,750);
+},
+{
+name = top_2;
+pos = (326,750);
+}
+);
 layerId = "C5490108-C233-4ADF-8B6D-CFE8E3B23812";
 shapes = (
 {
@@ -32688,9 +32759,31 @@ unicode = 64257;
 glyphname = f_l;
 kernLeft = f;
 kernRight = l;
-lastChange = "2023-09-08 04:27:29 +0000";
+lastChange = "2023-09-08 13:33:44 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+pos = (109,0);
+},
+{
+name = bottom_2;
+pos = (327,0);
+},
+{
+name = caret_1;
+pos = (218,0);
+},
+{
+name = top_1;
+pos = (109,750);
+},
+{
+name = top_2;
+pos = (327,750);
+}
+);
 layerId = "C5490108-C233-4ADF-8B6D-CFE8E3B23812";
 shapes = (
 {
@@ -79618,14 +79711,11 @@ width = 221;
 );
 instances = (
 {
-axesValues = (
-300
-);
 instanceInterpolations = {
 "C5490108-C233-4ADF-8B6D-CFE8E3B23812" = 1;
 };
 name = Light;
-weightClass = 300;
+weightClass = 200;
 }
 );
 kerningLTR = {
@@ -79866,7 +79956,7 @@ value = "https://noirblancrouge.com";
 },
 {
 key = licenseURL;
-value = "http://scripts.sil.org/OFL";
+value = "https://scripts.sil.org/OFL";
 },
 {
 key = copyrights;

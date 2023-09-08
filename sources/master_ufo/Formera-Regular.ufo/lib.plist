@@ -44,13 +44,13 @@
     <key>com.schriftgestaltung.customParameter.GSFontMaster.iconName</key>
     <string></string>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.weightValue</key>
-    <integer>120</integer>
+    <integer>400</integer>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.widthValue</key>
     <integer>100</integer>
     <key>com.schriftgestaltung.fontMasterOrder</key>
-    <integer>1</integer>
+    <integer>0</integer>
     <key>com.schriftgestaltung.weightValue</key>
-    <integer>120</integer>
+    <integer>400</integer>
     <key>com.schriftgestaltung.widthValue</key>
     <integer>100</integer>
     <key>public.glyphOrder</key>

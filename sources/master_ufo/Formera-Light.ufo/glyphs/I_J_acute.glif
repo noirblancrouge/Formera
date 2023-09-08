@@ -9,8 +9,8 @@
   <anchor x="13" y="695" name="topleft"/>
   <outline>
     <component base="IJ"/>
-    <component base="acutecomb" xOffset="69" yOffset="195"/>
-    <component base="acutecomb" xOffset="-125" yOffset="195"/>
+    <component base="acutecomb" xOffset="161" yOffset="195"/>
+    <component base="acutecomb" xOffset="-33" yOffset="195"/>
   </outline>
   <lib>
     <dict>

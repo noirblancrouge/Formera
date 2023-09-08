@@ -36,13 +36,13 @@
     <key>com.schriftgestaltung.customParameter.GSFontMaster.iconName</key>
     <string>Light</string>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.weightValue</key>
-    <integer>60</integer>
+    <integer>300</integer>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.widthValue</key>
     <integer>100</integer>
     <key>com.schriftgestaltung.fontMasterOrder</key>
     <integer>0</integer>
     <key>com.schriftgestaltung.weightValue</key>
-    <integer>60</integer>
+    <integer>300</integer>
     <key>com.schriftgestaltung.widthValue</key>
     <integer>100</integer>
     <key>public.glyphOrder</key>
@@ -1152,9 +1152,17 @@
       <string>base</string>
       <key>f</key>
       <string>base</string>
+      <key>f_f</key>
+      <string>ligature</string>
       <key>f_f_i</key>
       <string>ligature</string>
       <key>f_f_ij</key>
+      <string>ligature</string>
+      <key>f_f_l</key>
+      <string>ligature</string>
+      <key>f_i</key>
+      <string>ligature</string>
+      <key>f_l</key>
       <string>ligature</string>
       <key>g</key>
       <string>base</string>

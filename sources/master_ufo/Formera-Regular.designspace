@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<designspace format="5.0">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="400" maximum="400" default="400"/>
+  </axes>
+  <sources>
+    <source filename="Formera-Regular.ufo" name="Formera Regular" familyname="Formera" stylename="Regular">
+      <lib copy="1"/>
+      <groups copy="1"/>
+      <features copy="1"/>
+      <info copy="1"/>
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+      </location>
+    </source>
+  </sources>
+  <instances>
+    <instance name="Formera Regular" familyname="Formera" stylename="Regular" filename="../instance_ufo/Formera-Regular.ufo" stylemapfamilyname="Formera" stylemapstylename="regular">
+      <location>
+        <dimension name="Weight" xvalue="400"/>
+      </location>
+    </instance>
+  </instances>
+  <lib>
+    <dict>
+      <key>UFOFormat</key>
+      <integer>2</integer>
+    </dict>
+  </lib>
+</designspace>

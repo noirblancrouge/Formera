@@ -7,7 +7,7 @@
     <key>capHeight</key>
     <integer>695</integer>
     <key>copyright</key>
-    <string>Copyright 2023 The FuturaRenner Project Authors (https://github.com/noirblancrouge/FuturaRenner)</string>
+    <string>Copyright 2023 The Formera Project Authors (https://github.com/noirblancrouge/Formera)</string>
     <key>descender</key>
     <integer>-250</integer>
     <key>familyName</key>
@@ -16,20 +16,44 @@
     <integer>0</integer>
     <key>openTypeHeadCreated</key>
     <string>2023/09/08 07:36:58</string>
+    <key>openTypeHheaAscender</key>
+    <integer>1084</integer>
+    <key>openTypeHheaDescender</key>
+    <integer>-294</integer>
+    <key>openTypeHheaLineGap</key>
+    <integer>0</integer>
     <key>openTypeNameDesigner</key>
     <string>Bastien Sozeau</string>
     <key>openTypeNameDesignerURL</key>
     <string>https://noirblancrouge.com</string>
+    <key>openTypeNameLicense</key>
+    <string>This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL</string>
     <key>openTypeNameLicenseURL</key>
     <string>http://scripts.sil.org/OFL</string>
     <key>openTypeNameManufacturer</key>
     <string>NBR — Bastien Sozeau</string>
     <key>openTypeNameManufacturerURL</key>
     <string>https://noirblancrouge.com</string>
-    <key>openTypeOS2Type</key>
+    <key>openTypeOS2Selection</key>
     <array>
-      <integer>3</integer>
+      <integer>7</integer>
     </array>
+    <key>openTypeOS2Type</key>
+    <array/>
+    <key>openTypeOS2TypoAscender</key>
+    <integer>1084</integer>
+    <key>openTypeOS2TypoDescender</key>
+    <integer>-294</integer>
+    <key>openTypeOS2TypoLineGap</key>
+    <integer>0</integer>
+    <key>openTypeOS2VendorID</key>
+    <string>NBR</string>
+    <key>openTypeOS2WinAscent</key>
+    <integer>1084</integer>
+    <key>openTypeOS2WinDescent</key>
+    <integer>294</integer>
+    <key>postscriptBlueScale</key>
+    <real>0.037</real>
     <key>postscriptUnderlinePosition</key>
     <integer>-100</integer>
     <key>postscriptUnderlineThickness</key>
@@ -45,7 +69,7 @@
     <key>versionMajor</key>
     <integer>3</integer>
     <key>versionMinor</key>
-    <integer>5</integer>
+    <integer>6</integer>
     <key>xHeight</key>
     <integer>455</integer>
   </dict>
