@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="zero.numr" format="2">
-  <advance width="361"/>
+  <advance width="355"/>
   <outline>
     <component base="zero.dnom" yOffset="395"/>
   </outline>

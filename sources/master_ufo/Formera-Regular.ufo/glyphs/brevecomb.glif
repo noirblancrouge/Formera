@@ -2,7 +2,7 @@
 <glyph name="brevecomb" format="2">
   <unicode hex="0306"/>
   <anchor x="329" y="530" name="_top"/>
-  <anchor x="329" y="739" name="top"/>
+  <anchor x="323" y="750" name="top"/>
   <outline>
     <contour>
       <point x="166" y="739" type="curve"/>

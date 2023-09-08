@@ -5,7 +5,7 @@
   <anchor x="265" y="0" name="bottom"/>
   <anchor x="265" y="228" name="center"/>
   <anchor x="274" y="10" name="ogonek"/>
-  <anchor x="265" y="664" name="top"/>
+  <anchor x="259" y="636" name="top"/>
   <anchor x="522" y="455" name="topright"/>
   <outline>
     <component base="o"/>

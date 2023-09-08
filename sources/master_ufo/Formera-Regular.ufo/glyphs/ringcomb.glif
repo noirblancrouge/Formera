@@ -2,7 +2,7 @@
 <glyph name="ringcomb" format="2">
   <unicode hex="030A"/>
   <anchor x="322" y="600" name="_top"/>
-  <anchor x="322" y="739" name="top"/>
+  <anchor x="319" y="730" name="top"/>
   <outline>
     <contour>
       <point x="403" y="708" type="line" smooth="yes"/>

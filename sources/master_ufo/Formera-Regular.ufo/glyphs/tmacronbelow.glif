@@ -2,12 +2,12 @@
 <glyph name="tmacronbelow" format="2">
   <advance width="274"/>
   <unicode hex="1E6F"/>
-  <anchor x="120" y="14" name="bottom"/>
+  <anchor x="120" y="0" name="bottom"/>
   <anchor x="133" y="228" name="center"/>
   <anchor x="133" y="455" name="top"/>
   <anchor x="252" y="750" name="topright"/>
   <outline>
     <component base="t"/>
-    <component base="macronbelowcomb" xOffset="-177" yOffset="14"/>
+    <component base="macronbelowcomb" xOffset="-177"/>
   </outline>
 </glyph>

@@ -3,10 +3,10 @@
   <advance width="503"/>
   <unicode hex="1E66"/>
   <anchor x="240" y="0" name="bottom"/>
-  <anchor x="239" y="1113" name="top"/>
+  <anchor x="240" y="1076" name="top"/>
   <outline>
     <component base="S"/>
     <component base="caroncomb" xOffset="-82" yOffset="165"/>
-    <component base="dotaccentcomb" xOffset="-80" yOffset="374"/>
+    <component base="dotaccentcomb" xOffset="-78" yOffset="359"/>
   </outline>
 </glyph>

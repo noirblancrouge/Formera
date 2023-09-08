@@ -1,7 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="D" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="D" format="2">
   <advance width="594"/>
   <unicode hex="0044"/>
+  <anchor x="264" y="0" name="bottom"/>
+  <anchor x="304" y="348" name="center"/>
+  <anchor x="264" y="695" name="top"/>
   <outline>
     <contour>
       <point x="540" y="236" type="line" smooth="yes"/>
@@ -248,15 +251,6 @@
       <point x="117" y="119"/>
       <point x="117" y="136"/>
       <point x="117" y="153" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="264" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="304" y="348" type="move" name="center"/>
-    </contour>
-    <contour>
-      <point x="264" y="695" type="move" name="top"/>
     </contour>
   </outline>
 </glyph>

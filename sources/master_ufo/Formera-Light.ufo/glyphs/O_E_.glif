@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="OE" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="OE" format="2">
   <advance width="1098"/>
   <unicode hex="0152"/>
   <outline>
@@ -554,12 +554,4 @@
       <point x="619" y="133" type="curve"/>
     </contour>
   </outline>
-  <lib>
-    <dict>
-      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-      <string>O</string>
-      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-      <string>E</string>
-    </dict>
-  </lib>
 </glyph>

@@ -5,12 +5,12 @@
   <anchor x="414" y="0" name="bottom"/>
   <anchor x="414" y="348" name="center"/>
   <anchor x="453" y="10" name="ogonek"/>
-  <anchor x="414" y="1113" name="top"/>
+  <anchor x="364" y="1104" name="top"/>
   <anchor x="17" y="695" name="topleft"/>
   <anchor x="811" y="695" name="topright"/>
   <outline>
     <component base="O"/>
     <component base="macroncomb" xOffset="92" yOffset="165"/>
-    <component base="gravecomb" xOffset="97" yOffset="374"/>
+    <component base="gravecomb" xOffset="72" yOffset="338"/>
   </outline>
 </glyph>

@@ -2,7 +2,7 @@
 <glyph name="caroncomb" format="2">
   <unicode hex="030C"/>
   <anchor x="322" y="530" name="_top"/>
-  <anchor x="322" y="739" name="top"/>
+  <anchor x="324" y="724" name="top"/>
   <outline>
     <component base="circumflexcomb" yScale="-1" xOffset="2" yOffset="1331"/>
   </outline>

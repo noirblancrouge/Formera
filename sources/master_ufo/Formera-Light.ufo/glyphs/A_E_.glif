@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="AE" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="AE" format="2">
   <advance width="902"/>
   <unicode hex="00C6"/>
+  <anchor x="439" y="0" name="bottom"/>
+  <anchor x="439" y="695" name="top"/>
   <outline>
     <contour>
       <point x="882" y="29" type="line"/>
@@ -429,12 +431,6 @@
       <point x="425" y="296"/>
       <point x="426" y="295"/>
       <point x="427" y="293" type="curve"/>
-    </contour>
-    <contour>
-      <point x="439" y="0" type="move" name="bottom"/>
-    </contour>
-    <contour>
-      <point x="439" y="695" type="move" name="top"/>
     </contour>
   </outline>
 </glyph>

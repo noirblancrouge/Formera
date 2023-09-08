@@ -1,7 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Adieresis" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Adieresis" format="2">
   <advance width="588"/>
   <unicode hex="00C4"/>
+  <anchor x="286.5" y="892" name="top"/>
+  <anchor x="294" y="0" name="bottom"/>
+  <anchor x="541" y="11" name="ogonek"/>
   <outline>
     <contour>
       <point x="457" y="634" type="curve"/>
@@ -47,8 +50,5 @@
       <point x="116" y="655"/>
     </contour>
     <component base="A"/>
-    <contour>
-      <point x="286.5" y="892" type="move" name="top"/>
-    </contour>
   </outline>
 </glyph>

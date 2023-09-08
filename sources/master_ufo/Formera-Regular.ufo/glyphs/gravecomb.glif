@@ -2,7 +2,7 @@
 <glyph name="gravecomb" format="2">
   <unicode hex="0300"/>
   <anchor x="317" y="530" name="_top"/>
-  <anchor x="317" y="739" name="top"/>
+  <anchor x="292" y="766" name="top"/>
   <outline>
     <contour>
       <point x="277" y="752"/>

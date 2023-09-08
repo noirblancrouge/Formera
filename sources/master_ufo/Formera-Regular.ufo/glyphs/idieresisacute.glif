@@ -4,10 +4,10 @@
   <unicode hex="1E2F"/>
   <anchor x="106" y="0" name="bottom"/>
   <anchor x="82" y="10" name="ogonek"/>
-  <anchor x="105" y="873" name="top"/>
+  <anchor x="128" y="840" name="top"/>
   <outline>
     <component base="idotless"/>
     <component base="dieresiscomb" xOffset="-210" yOffset="-75"/>
-    <component base="acutecomb" xOffset="-214" yOffset="134"/>
+    <component base="acutecomb" xOffset="-212" yOffset="90"/>
   </outline>
 </glyph>

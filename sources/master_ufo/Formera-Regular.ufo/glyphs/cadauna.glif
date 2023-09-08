@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="cadauna" format="2">
+  <advance width="829"/>
+  <unicode hex="2106"/>
+  <anchor x="182.74259999999998" y="389.0" name="bottom_1"/>
+  <anchor x="642.506" y="0.0" name="bottom_2"/>
+  <anchor x="638.312" y="8.388" name="ogonek"/>
+  <anchor x="182.74259999999998" y="764.7845" name="top_1"/>
+  <anchor x="632.4404" y="381.654" name="top_2"/>
+  <anchor x="824.5255999999999" y="381.654" name="topright"/>
+  <outline>
+    <component base="c" xScale="0.8259" yScale="0.8259" xOffset="6" yOffset="389"/>
+    <component base="u" xScale="0.8388" yScale="0.8388" xOffset="437"/>
+    <component base="fraction" xOffset="179"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+      <array>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>0</integer>
+          <key>name</key>
+          <string>c</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>1</integer>
+          <key>name</key>
+          <string>u</string>
+        </dict>
+        <dict>
+          <key>alignment</key>
+          <integer>-1</integer>
+          <key>index</key>
+          <integer>2</integer>
+          <key>name</key>
+          <string>fraction</string>
+        </dict>
+      </array>
+    </dict>
+  </lib>
+</glyph>

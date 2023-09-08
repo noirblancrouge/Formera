@@ -4,11 +4,11 @@
   <unicode hex="1E7B"/>
   <anchor x="245" y="0" name="bottom"/>
   <anchor x="240" y="10" name="ogonek"/>
-  <anchor x="244" y="873" name="top"/>
+  <anchor x="209" y="793" name="top"/>
   <anchor x="462" y="455" name="topright"/>
   <outline>
     <component base="u"/>
-    <component base="macroncomb" xOffset="-77" yOffset="-75"/>
-    <component base="dieresiscomb" xOffset="-71" yOffset="134"/>
+    <component base="macroncomb" xOffset="-89" yOffset="-75"/>
+    <component base="dieresiscomb" xOffset="-108" yOffset="98"/>
   </outline>
 </glyph>

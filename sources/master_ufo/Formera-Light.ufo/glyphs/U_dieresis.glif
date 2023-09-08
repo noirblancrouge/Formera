@@ -1,10 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<glyph name="Udieresis" format="1">
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Udieresis" format="2">
   <advance width="616"/>
   <unicode hex="00DC"/>
+  <anchor x="305" y="0" name="bottom"/>
+  <anchor x="355" y="10" name="ogonek"/>
+  <anchor x="313" y="705" name="top"/>
+  <anchor x="568" y="695" name="topright"/>
   <outline>
     <component base="U"/>
-    <component base="uni0308" xOffset="13" yOffset="55"/>
+    <component base="dieresiscomb" xOffset="13" yOffset="55"/>
   </outline>
   <lib>
     <dict>
@@ -16,7 +20,7 @@
           <key>index</key>
           <integer>1</integer>
           <key>name</key>
-          <string>uni0308</string>
+          <string>dieresiscomb</string>
         </dict>
       </array>
     </dict>

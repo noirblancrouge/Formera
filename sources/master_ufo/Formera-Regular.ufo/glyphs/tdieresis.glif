@@ -2,9 +2,9 @@
 <glyph name="tdieresis" format="2">
   <advance width="274"/>
   <unicode hex="1E97"/>
-  <anchor x="120" y="14" name="bottom"/>
+  <anchor x="120" y="0" name="bottom"/>
   <anchor x="133" y="228" name="center"/>
-  <anchor x="132" y="805" name="top"/>
+  <anchor x="134" y="761" name="top"/>
   <anchor x="252" y="750" name="topright"/>
   <outline>
     <component base="t"/>

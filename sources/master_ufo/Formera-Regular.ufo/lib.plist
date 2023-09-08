@@ -7,9 +7,7 @@
     <key>GSOffsetCapStyle</key>
     <integer>3</integer>
     <key>GSOffsetHorizontal</key>
-    <integer>38</integer>
-    <key>GSOffsetMakeStroke</key>
-    <integer>1</integer>
+    <integer>11</integer>
     <key>GSOffsetProportional</key>
     <integer>1</integer>
     <key>GSOffsetVertical</key>
@@ -435,6 +433,40 @@
       <string>seven</string>
       <string>eight</string>
       <string>nine</string>
+      <string>zero.zero</string>
+      <string>zero.lf</string>
+      <string>one.lf</string>
+      <string>two.lf</string>
+      <string>three.lf</string>
+      <string>four.lf</string>
+      <string>five.lf</string>
+      <string>six.lf</string>
+      <string>seven.lf</string>
+      <string>eight.lf</string>
+      <string>nine.lf</string>
+      <string>zero.tf</string>
+      <string>one.tf</string>
+      <string>two.tf</string>
+      <string>three.tf</string>
+      <string>four.tf</string>
+      <string>five.tf</string>
+      <string>six.tf</string>
+      <string>seven.tf</string>
+      <string>eight.tf</string>
+      <string>nine.tf</string>
+      <string>zero.tosf</string>
+      <string>one.tosf</string>
+      <string>two.tosf</string>
+      <string>three.tosf</string>
+      <string>four.tosf</string>
+      <string>five.tosf</string>
+      <string>six.tosf</string>
+      <string>seven.tosf</string>
+      <string>eight.tosf</string>
+      <string>nine.tosf</string>
+      <string>zero.lf.zero</string>
+      <string>zero.tf.zero</string>
+      <string>zero.tosf.zero</string>
       <string>zero.dnom</string>
       <string>one.dnom</string>
       <string>two.dnom</string>
@@ -459,6 +491,18 @@
       <string>onehalf</string>
       <string>onequarter</string>
       <string>threequarters</string>
+      <string>zero.dnom.zero</string>
+      <string>zero.numr.zero</string>
+      <string>zero.subs</string>
+      <string>one.subs</string>
+      <string>two.subs</string>
+      <string>three.subs</string>
+      <string>four.subs</string>
+      <string>five.subs</string>
+      <string>six.subs</string>
+      <string>seven.subs</string>
+      <string>eight.subs</string>
+      <string>nine.subs</string>
       <string>zeroinferior</string>
       <string>oneinferior</string>
       <string>twoinferior</string>
@@ -482,8 +526,13 @@
       <string>CR</string>
       <string>.notdef</string>
       <string>.null</string>
+      <string>figurespace</string>
+      <string>hairspace</string>
+      <string>punctuationspace</string>
       <string>space</string>
       <string>nbspace</string>
+      <string>thinspace</string>
+      <string>zerowidthspace</string>
       <string>period</string>
       <string>comma</string>
       <string>colon</string>
@@ -499,10 +548,15 @@
       <string>numbersign</string>
       <string>slash</string>
       <string>backslash</string>
+      <string>periodcentered.loclCAT</string>
+      <string>periodcentered.loclCAT.case</string>
       <string>hyphen</string>
       <string>softhyphen</string>
       <string>endash</string>
       <string>emdash</string>
+      <string>figuredash</string>
+      <string>horizontalbar</string>
+      <string>hyphentwo</string>
       <string>underscore</string>
       <string>parenleft</string>
       <string>parenright</string>
@@ -516,8 +570,8 @@
       <string>quotedblright</string>
       <string>quoteleft</string>
       <string>quoteright</string>
-      <string>guillemotleft</string>
-      <string>guillemotright</string>
+      <string>guillemetleft</string>
+      <string>guillemetright</string>
       <string>guilsinglleft</string>
       <string>guilsinglright</string>
       <string>quotedbl</string>
@@ -530,19 +584,40 @@
       <string>copyright</string>
       <string>registered</string>
       <string>trademark</string>
+      <string>careof</string>
       <string>degree</string>
+      <string>minute</string>
+      <string>second</string>
       <string>bar</string>
       <string>brokenbar</string>
       <string>dagger</string>
+      <string>literSign</string>
       <string>daggerdbl</string>
+      <string>estimated</string>
       <string>numero</string>
+      <string>blackDownEquilateralArrowhead</string>
+      <string>blackLargeSquare</string>
+      <string>blackLeftEquilateralArrowhead</string>
+      <string>blackRightEquilateralArrowhead</string>
+      <string>blackUpEquilateralArrowhead</string>
+      <string>cadauna</string>
+      <string>optionKey</string>
+      <string>propellor</string>
+      <string>threeDLeftLightedDownEquilateralArrowhead</string>
+      <string>threeDRightLightedUpEquilateralArrowhead</string>
+      <string>threeDTopLightedLeftEquilateralArrowhead</string>
+      <string>threeDTopLightedRightEquilateralArrowhead</string>
+      <string>viewdataSquare</string>
+      <string>whiteLargeSquare</string>
       <string>ampersand.ss01</string>
-      <string>Euro</string>
       <string>cent</string>
       <string>currency</string>
       <string>dollar</string>
+      <string>euro</string>
       <string>sterling</string>
       <string>yen</string>
+      <string>bulletoperator</string>
+      <string>divisionslash</string>
       <string>plus</string>
       <string>minus</string>
       <string>multiply</string>
@@ -559,7 +634,10 @@
       <string>asciitilde</string>
       <string>asciicircum</string>
       <string>infinity</string>
+      <string>emptyset</string>
       <string>integral</string>
+      <string>Ohm</string>
+      <string>increment</string>
       <string>product</string>
       <string>summation</string>
       <string>radical</string>
@@ -567,7 +645,22 @@
       <string>partialdiff</string>
       <string>percent</string>
       <string>perthousand</string>
+      <string>upWhiteArrow</string>
+      <string>blackCircle</string>
+      <string>whiteCircle</string>
+      <string>blackDiamond</string>
+      <string>whiteDiamond</string>
       <string>lozenge</string>
+      <string>blackSquare</string>
+      <string>whiteSquare</string>
+      <string>upBlackTriangle</string>
+      <string>rightBlackTriangle</string>
+      <string>downBlackTriangle</string>
+      <string>leftBlackTriangle</string>
+      <string>upWhiteTriangle</string>
+      <string>rightWhiteTriangle</string>
+      <string>downWhiteTriangle</string>
+      <string>leftWhiteTriangle</string>
       <string>dieresiscomb</string>
       <string>dotaccentcomb</string>
       <string>gravecomb</string>
@@ -593,14 +686,23 @@
       <string>acute</string>
       <string>hungarumlaut</string>
       <string>circumflex</string>
+      <string>secondtonechinese</string>
       <string>caron</string>
+      <string>fourthtonechinese</string>
       <string>breve</string>
       <string>ring</string>
       <string>tilde</string>
       <string>macron</string>
       <string>cedilla</string>
       <string>ogonek</string>
+      <string>commaturnedmod</string>
+      <string>ringhalfleft</string>
+      <string>ringhalfright</string>
+      <string>verticallinelowmod</string>
+      <string>verticallinemod</string>
       <string>IJacute</string>
+      <string>ijacute</string>
+      <string>prime</string>
     </array>
     <key>public.openTypeCategories</key>
     <dict>
@@ -982,6 +1084,10 @@
       <string>base</string>
       <key>cacute</key>
       <string>base</string>
+      <key>cadauna</key>
+      <string>base</string>
+      <key>careof</key>
+      <string>base</string>
       <key>caroncomb</key>
       <string>mark</string>
       <key>caroncomb.alt</key>
@@ -1109,6 +1215,8 @@
       <key>igrave</key>
       <string>base</string>
       <key>ij</key>
+      <string>base</string>
+      <key>ijacute</key>
       <string>base</string>
       <key>imacron</key>
       <string>base</string>
@@ -1387,6 +1495,8 @@
       <string>uni019D</string>
       <key>Odotbelow</key>
       <string>uni1ECC</string>
+      <key>Ohm</key>
+      <string>uni2126</string>
       <key>Omacronacute</key>
       <string>uni1E52</string>
       <key>Omacrongrave</key>
@@ -1439,10 +1549,32 @@
       <string>uni1E92</string>
       <key>adotbelow</key>
       <string>uni1EA1</string>
+      <key>blackCircle</key>
+      <string>uni25CF</string>
+      <key>blackDiamond</key>
+      <string>uni25C6</string>
+      <key>blackDownEquilateralArrowhead</key>
+      <string>uni2B9F</string>
+      <key>blackLargeSquare</key>
+      <string>uni2B1B</string>
+      <key>blackLeftEquilateralArrowhead</key>
+      <string>uni2B9C</string>
+      <key>blackRightEquilateralArrowhead</key>
+      <string>uni2B9E</string>
+      <key>blackSquare</key>
+      <string>filledbox</string>
+      <key>blackUpEquilateralArrowhead</key>
+      <string>uni2B9D</string>
       <key>brevebelowcomb</key>
       <string>uni032E</string>
       <key>brevecomb</key>
       <string>uni0306</string>
+      <key>bulletoperator</key>
+      <string>uni2219</string>
+      <key>cadauna</key>
+      <string>uni2106</string>
+      <key>careof</key>
+      <string>uni2105</string>
       <key>caroncomb</key>
       <string>uni030C</string>
       <key>caroncomb.alt</key>
@@ -1457,12 +1589,20 @@
       <string>uni0326</string>
       <key>commaturnedabovecomb</key>
       <string>uni0312</string>
+      <key>commaturnedmod</key>
+      <string>uni02BB</string>
       <key>ddotbelow</key>
       <string>uni1E0D</string>
       <key>dieresiscomb</key>
       <string>uni0308</string>
+      <key>divisionslash</key>
+      <string>uni2215</string>
       <key>dotaccentcomb</key>
       <string>uni0307</string>
+      <key>downBlackTriangle</key>
+      <string>triagdn</string>
+      <key>downWhiteTriangle</key>
+      <string>uni25BD</string>
       <key>ecedillabreve</key>
       <string>uni1E1D</string>
       <key>edotbelow</key>
@@ -1477,6 +1617,10 @@
       <string>uni1E15</string>
       <key>etilde</key>
       <string>uni1EBD</string>
+      <key>euro</key>
+      <string>Euro</string>
+      <key>figurespace</key>
+      <string>uni2007</string>
       <key>fiveinferior</key>
       <string>uni2085</string>
       <key>fivesuperior</key>
@@ -1485,16 +1629,28 @@
       <string>uni2084</string>
       <key>foursuperior</key>
       <string>uni2074</string>
+      <key>fourthtonechinese</key>
+      <string>uni02CB</string>
       <key>gcommaaccent</key>
       <string>uni0123</string>
       <key>gmacron</key>
       <string>uni1E21</string>
+      <key>guillemetleft</key>
+      <string>guillemotleft</string>
+      <key>guillemetright</key>
+      <string>guillemotright</string>
+      <key>hairspace</key>
+      <string>uni200A</string>
       <key>hbrevebelow</key>
       <string>uni1E2B</string>
       <key>hdotbelow</key>
       <string>uni1E25</string>
+      <key>horizontalbar</key>
+      <string>uni2015</string>
       <key>hungarumlautcomb</key>
       <string>uni030B</string>
+      <key>hyphentwo</key>
+      <string>uni2010</string>
       <key>i_dotaccentcomb</key>
       <string>uni00690307</string>
       <key>idieresisacute</key>
@@ -1505,6 +1661,8 @@
       <string>uni1ECB</string>
       <key>idotless</key>
       <string>dotlessi</string>
+      <key>increment</key>
+      <string>uni2206</string>
       <key>jacute</key>
       <string>uni006A0301</string>
       <key>jdotless</key>
@@ -1515,6 +1673,12 @@
       <string>uni013C</string>
       <key>ldotbelow</key>
       <string>uni1E37</string>
+      <key>leftBlackTriangle</key>
+      <string>uni25C0</string>
+      <key>leftWhiteTriangle</key>
+      <string>uni25C1</string>
+      <key>literSign</key>
+      <string>uni2113</string>
       <key>macronbelowcomb</key>
       <string>uni0331</string>
       <key>macroncomb</key>
@@ -1555,16 +1719,30 @@
       <string>uni00B9</string>
       <key>oogonek</key>
       <string>uni01EB</string>
+      <key>optionKey</key>
+      <string>uni2325</string>
       <key>otildeacute</key>
       <string>uni1E4D</string>
       <key>otildedieresis</key>
       <string>uni1E4F</string>
+      <key>propellor</key>
+      <string>uni2318</string>
+      <key>punctuationspace</key>
+      <string>uni2008</string>
       <key>rcommaaccent</key>
       <string>uni0157</string>
       <key>rdotbelow</key>
       <string>uni1E5B</string>
+      <key>rightBlackTriangle</key>
+      <string>uni25B6</string>
+      <key>rightWhiteTriangle</key>
+      <string>uni25B7</string>
       <key>ringcomb</key>
       <string>uni030A</string>
+      <key>ringhalfleft</key>
+      <string>uni02BF</string>
+      <key>ringhalfright</key>
+      <string>uni02BE</string>
       <key>sacutedotaccent</key>
       <string>uni1E65</string>
       <key>scarondotaccent</key>
@@ -1579,6 +1757,8 @@
       <string>uni1E63</string>
       <key>sdotbelowdotaccent</key>
       <string>uni1E69</string>
+      <key>secondtonechinese</key>
+      <string>uni02CA</string>
       <key>seveninferior</key>
       <string>uni2087</string>
       <key>sevensuperior</key>
@@ -1597,6 +1777,16 @@
       <string>uni1E97</string>
       <key>tdotbelow</key>
       <string>uni1E6D</string>
+      <key>thinspace</key>
+      <string>uni2009</string>
+      <key>threeDLeftLightedDownEquilateralArrowhead</key>
+      <string>uni2B9B</string>
+      <key>threeDRightLightedUpEquilateralArrowhead</key>
+      <string>uni2B99</string>
+      <key>threeDTopLightedLeftEquilateralArrowhead</key>
+      <string>uni2B98</string>
+      <key>threeDTopLightedRightEquilateralArrowhead</key>
+      <string>uni2B9A</string>
       <key>threeinferior</key>
       <string>uni2083</string>
       <key>threesuperior</key>
@@ -1609,8 +1799,28 @@
       <string>uni1EE5</string>
       <key>umacrondieresis</key>
       <string>uni1E7B</string>
+      <key>upBlackTriangle</key>
+      <string>triagup</string>
+      <key>upWhiteArrow</key>
+      <string>uni21E7</string>
+      <key>upWhiteTriangle</key>
+      <string>uni25B3</string>
       <key>utildeacute</key>
       <string>uni1E79</string>
+      <key>verticallinelowmod</key>
+      <string>uni02CC</string>
+      <key>verticallinemod</key>
+      <string>uni02C8</string>
+      <key>viewdataSquare</key>
+      <string>uni2317</string>
+      <key>whiteCircle</key>
+      <string>circle</string>
+      <key>whiteDiamond</key>
+      <string>uni25C7</string>
+      <key>whiteLargeSquare</key>
+      <string>uni2B1C</string>
+      <key>whiteSquare</key>
+      <string>uni25A1</string>
       <key>ydotaccent</key>
       <string>uni1E8F</string>
       <key>ymacron</key>
@@ -1623,6 +1833,8 @@
       <string>uni2080</string>
       <key>zerosuperior</key>
       <string>uni2070</string>
+      <key>zerowidthspace</key>
+      <string>uni200B</string>
     </dict>
   </dict>
 </plist>

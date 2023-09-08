@@ -5,11 +5,11 @@
   <anchor x="265" y="0" name="bottom"/>
   <anchor x="265" y="228" name="center"/>
   <anchor x="274" y="10" name="ogonek"/>
-  <anchor x="265" y="873" name="top"/>
+  <anchor x="215" y="864" name="top"/>
   <anchor x="522" y="455" name="topright"/>
   <outline>
     <component base="o"/>
     <component base="macroncomb" xOffset="-57" yOffset="-75"/>
-    <component base="gravecomb" xOffset="-52" yOffset="134"/>
+    <component base="gravecomb" xOffset="-77" yOffset="98"/>
   </outline>
 </glyph>

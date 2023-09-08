@@ -170,15 +170,30 @@
       <key>public.kern2.z</key>
       <integer>-40</integer>
     </dict>
+    <key>public.kern1.eight.numr</key>
+    <dict>
+      <key>public.kern2.slash</key>
+      <integer>-180</integer>
+    </dict>
     <key>public.kern1.five</key>
     <dict>
       <key>public.kern2.zero</key>
       <integer>-10</integer>
     </dict>
+    <key>public.kern1.five.numr</key>
+    <dict>
+      <key>public.kern2.slash</key>
+      <integer>-150</integer>
+    </dict>
     <key>public.kern1.four</key>
     <dict>
       <key>public.kern2.zero</key>
       <integer>-30</integer>
+    </dict>
+    <key>public.kern1.four.numr</key>
+    <dict>
+      <key>public.kern2.slash</key>
+      <integer>-140</integer>
     </dict>
     <key>public.kern1.k</key>
     <dict>
@@ -198,6 +213,11 @@
       <key>public.kern2.x</key>
       <integer>-20</integer>
     </dict>
+    <key>public.kern1.nine.numr</key>
+    <dict>
+      <key>public.kern2.slash</key>
+      <integer>-210</integer>
+    </dict>
     <key>public.kern1.o</key>
     <dict>
       <key>public.kern2.n</key>
@@ -208,6 +228,11 @@
       <integer>-40</integer>
       <key>public.kern2.x</key>
       <integer>-50</integer>
+    </dict>
+    <key>public.kern1.one.numr</key>
+    <dict>
+      <key>public.kern2.slash</key>
+      <integer>-130</integer>
     </dict>
     <key>public.kern1.r</key>
     <dict>
@@ -223,10 +248,53 @@
       <key>public.kern2.zero</key>
       <integer>-80</integer>
     </dict>
+    <key>public.kern1.seven.numr</key>
+    <dict>
+      <key>public.kern2.slash</key>
+      <integer>-270</integer>
+    </dict>
+    <key>public.kern1.six.numr</key>
+    <dict>
+      <key>public.kern2.slash</key>
+      <integer>-200</integer>
+    </dict>
+    <key>public.kern1.slash</key>
+    <dict>
+      <key>public.kern2.eight.dnom</key>
+      <integer>-120</integer>
+      <key>public.kern2.five.dnom</key>
+      <integer>-170</integer>
+      <key>public.kern2.four.dnom</key>
+      <integer>-240</integer>
+      <key>public.kern2.nine.dnom</key>
+      <integer>-170</integer>
+      <key>public.kern2.one.dnom</key>
+      <integer>-130</integer>
+      <key>public.kern2.seven.dnom</key>
+      <integer>-150</integer>
+      <key>public.kern2.six.dnom</key>
+      <integer>-160</integer>
+      <key>public.kern2.three.dnom</key>
+      <integer>-160</integer>
+      <key>public.kern2.two.dnom</key>
+      <integer>-170</integer>
+      <key>public.kern2.zero.dnom</key>
+      <integer>-190</integer>
+    </dict>
     <key>public.kern1.t</key>
     <dict>
       <key>public.kern2.a</key>
       <integer>-20</integer>
+    </dict>
+    <key>public.kern1.three.numr</key>
+    <dict>
+      <key>public.kern2.slash</key>
+      <integer>-140</integer>
+    </dict>
+    <key>public.kern1.two.numr</key>
+    <dict>
+      <key>public.kern2.slash</key>
+      <integer>-170</integer>
     </dict>
     <key>public.kern1.v</key>
     <dict>
@@ -260,6 +328,11 @@
       <integer>-80</integer>
       <key>public.kern2.seven</key>
       <integer>-30</integer>
+    </dict>
+    <key>public.kern1.zero.numr</key>
+    <dict>
+      <key>public.kern2.slash</key>
+      <integer>-220</integer>
     </dict>
   </dict>
 </plist>

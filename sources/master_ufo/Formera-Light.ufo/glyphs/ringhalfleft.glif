@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ringhalfleft" format="2">
+  <advance width="600"/>
+  <unicode hex="02BF"/>
+  <anchor x="295" y="500" name="_top"/>
+  <outline>
+    <component base="ringhalfright" xScale="-1" xOffset="590"/>
+  </outline>
+</glyph>

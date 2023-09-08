@@ -4,7 +4,7 @@
   <unicode hex="0164"/>
   <anchor x="249" y="0" name="bottom"/>
   <anchor x="249" y="348" name="center"/>
-  <anchor x="249" y="904" name="top"/>
+  <anchor x="251" y="889" name="top"/>
   <outline>
     <component base="T"/>
     <component base="caroncomb" xOffset="-73" yOffset="165"/>
