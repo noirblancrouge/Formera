@@ -23,6 +23,9 @@ This license is copied below, and is also available with a FAQ at http://scripts
 When you make modifications, be sure to add a description of your changes,
 following the format of the other entries, to the start of this section.
 
+8 Sep 2023 (Bastien Sozeau)
+- Add glyphs, review anchors position,cleanup drawing
+
 5 Sep 2023 (Bastien Sozeau)
 - Change name to Formera
 
