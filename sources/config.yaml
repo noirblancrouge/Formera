@@ -2,5 +2,5 @@ sources:
   - Formera-Light.glyphs
   - Formera-Regular.glyphs
 familyName: "Formera"
-buildVariable: false
 buildWebfont: true
+buildVariable: false
