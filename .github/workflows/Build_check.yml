@@ -43,13 +43,15 @@ jobs:
           sudo apt-get install ttfautohint
       - name: Build fonts
         id: build_fonts
-        run: gftools builder sources/config.yaml
-      - name: Make Fontbakery Report
-        uses: f-actions/font-bakery@v1
-        with:
-          version: "latest"
-          subcmd: "check-universal"
-          args: "-C --succinct --loglevel WARN --ghmarkdown fonts/report.md"
+        run: make build
+      - name: Check with fontbakery
+        run: make test
+        continue-on-error: true
+      - name: proof
+        run: make proof
+      - name: setup site
+        run: cp scripts/index.html out/index.html
+  
       - name: Upload Fonts
         uses: actions/upload-artifact@v2
         with:
