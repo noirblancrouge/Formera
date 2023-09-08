@@ -1,6 +1,12 @@
 {
 .appVersion = "3151";
 .formatVersion = 3;
+axes = (
+{
+name = Weight;
+tag = wght;
+}
+);
 customParameters = (
 {
 name = fsType;
@@ -380,6 +386,9 @@ tag = ss01;
 );
 fontMaster = (
 {
+axesValues = (
+300
+);
 customParameters = (
 {
 name = hheaAscender;
@@ -79609,6 +79618,9 @@ width = 221;
 );
 instances = (
 {
+axesValues = (
+300
+);
 instanceInterpolations = {
 "C5490108-C233-4ADF-8B6D-CFE8E3B23812" = 1;
 };
