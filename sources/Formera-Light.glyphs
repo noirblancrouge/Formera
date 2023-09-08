@@ -1,10 +1,19 @@
 {
 .appVersion = "3151";
 .formatVersion = 3;
-axes = (
+customParameters = (
 {
-name = Weight;
-tag = wght;
+name = fsType;
+value = (
+);
+},
+{
+name = blueScale;
+value = 0.037;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 date = "2023-09-08 07:36:58 +0000";
@@ -371,9 +380,6 @@ tag = ss01;
 );
 fontMaster = (
 {
-axesValues = (
-60
-);
 iconName = Light;
 id = "C5490108-C233-4ADF-8B6D-CFE8E3B23812";
 metricValues = (
@@ -79569,9 +79575,6 @@ width = 221;
 );
 instances = (
 {
-axesValues = (
-60
-);
 instanceInterpolations = {
 "C5490108-C233-4ADF-8B6D-CFE8E3B23812" = 1;
 };
@@ -79824,7 +79827,16 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright 2023 The FuturaRenner Project Authors (https://github.com/noirblancrouge/FuturaRenner)";
+value = "Copyright 2023 The Formera Project Authors (https://github.com/noirblancrouge/Formera)";
+}
+);
+},
+{
+key = licenses;
+values = (
+{
+language = dflt;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
 }
 );
 }
