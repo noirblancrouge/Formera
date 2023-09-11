@@ -1,7 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <designspace format="5.0">
   <axes>
-    <axis tag="wght" name="Weight" minimum="200" maximum="200" default="200"/>
+    <axis tag="wght" name="Weight" minimum="300" maximum="300" default="300">
+      <map input="300" output="100"/>
+    </axis>
   </axes>
   <sources>
     <source filename="Formera-Light.ufo" name="Formera Light" familyname="Formera" stylename="Light">
@@ -10,14 +12,14 @@
       <features copy="1"/>
       <info copy="1"/>
       <location>
-        <dimension name="Weight" xvalue="300"/>
+        <dimension name="Weight" xvalue="100"/>
       </location>
     </source>
   </sources>
   <instances>
     <instance name="Formera Light" familyname="Formera" stylename="Light" filename="../instance_ufo/Formera-Light.ufo" stylemapfamilyname="Formera Light" stylemapstylename="regular">
       <location>
-        <dimension name="Weight" xvalue="200"/>
+        <dimension name="Weight" xvalue="100"/>
       </location>
     </instance>
   </instances>

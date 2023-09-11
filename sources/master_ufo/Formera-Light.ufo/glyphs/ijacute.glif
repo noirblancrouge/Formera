@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ijacute" format="2">
   <advance width="335"/>
+  <unicode hex="E134"/>
   <anchor x="93" y="0" name="bottom_1"/>
   <anchor x="242" y="-250" name="bottom_2"/>
   <anchor x="81" y="10" name="ogonek"/>

@@ -562,7 +562,6 @@
     <key>public.kern1.hyphen</key>
     <array>
       <string>hyphen</string>
-      <string>softhyphen</string>
       <string>endash</string>
       <string>emdash</string>
       <string>figuredash</string>
@@ -1636,7 +1635,6 @@
     <key>public.kern2.hyphen</key>
     <array>
       <string>hyphen</string>
-      <string>softhyphen</string>
       <string>endash</string>
       <string>emdash</string>
       <string>figuredash</string>

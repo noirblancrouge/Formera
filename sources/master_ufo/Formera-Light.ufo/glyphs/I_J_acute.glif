@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="IJacute" format="2">
   <advance width="375"/>
+  <unicode hex="E133"/>
   <anchor x="89" y="0" name="bottom_1"/>
   <anchor x="244" y="0" name="bottom_2"/>
   <anchor x="81" y="12" name="ogonek"/>
@@ -9,8 +10,8 @@
   <anchor x="13" y="695" name="topleft"/>
   <outline>
     <component base="IJ"/>
-    <component base="acutecomb" xOffset="161" yOffset="195"/>
-    <component base="acutecomb" xOffset="-33" yOffset="195"/>
+    <component base="acutecomb" xOffset="67" yOffset="195"/>
+    <component base="acutecomb" xOffset="-127" yOffset="195"/>
   </outline>
   <lib>
     <dict>

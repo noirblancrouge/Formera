@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Kmacronbelow" format="2">
+  <advance width="597"/>
+  <unicode hex="1E34"/>
+  <anchor x="304" y="0" name="bottom"/>
+  <anchor x="304" y="695" name="top"/>
+  <outline>
+    <component base="K"/>
+    <component base="macronbelowcomb" xOffset="7"/>
+  </outline>
+</glyph>

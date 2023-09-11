@@ -175,6 +175,15 @@
       <key>public.kern2.slash</key>
       <integer>-190</integer>
     </dict>
+    <key>public.kern1.f</key>
+    <dict>
+      <key>public.kern2.f</key>
+      <integer>10</integer>
+      <key>public.kern2.h</key>
+      <integer>10</integer>
+      <key>public.kern2.i</key>
+      <integer>10</integer>
+    </dict>
     <key>public.kern1.five</key>
     <dict>
       <key>public.kern2.zero</key>
@@ -195,10 +204,22 @@
       <key>public.kern2.slash</key>
       <integer>-140</integer>
     </dict>
+    <key>public.kern1.i</key>
+    <dict>
+      <key>public.kern2.f</key>
+      <integer>10</integer>
+      <key>public.kern2.h</key>
+      <integer>10</integer>
+    </dict>
     <key>public.kern1.k</key>
     <dict>
       <key>public.kern2.n</key>
       <integer>-10</integer>
+    </dict>
+    <key>public.kern1.l</key>
+    <dict>
+      <key>public.kern2.f</key>
+      <integer>10</integer>
     </dict>
     <key>public.kern1.n</key>
     <dict>

@@ -2,7 +2,7 @@
 
 Fontbakery version: 0.8.13
 
-<details><summary><b>[15] Formera-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Ensure that the font can be rasterized by FreeType. (derived from com.adobe.fonts/check/freetype_rasterizer) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.adobe.fonts/check/freetype_rasterizer">com.adobe.fonts/check/freetype_rasterizer</a>)</summary><div>
+<details><summary><b>[14] Formera-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Ensure that the font can be rasterized by FreeType. (derived from com.adobe.fonts/check/freetype_rasterizer) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.adobe.fonts/check/freetype_rasterizer">com.adobe.fonts/check/freetype_rasterizer</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with UnboundLocalError: local variable 'FT_Exception' referenced before assignment
@@ -11,63 +11,119 @@ Fontbakery version: 0.8.13
 
 * 🔥 **FAIL** The following glyphs have components which themselves are component glyphs:
 	* uni1EA0
+	* Ccaron
+	* Dcaron
 	* uni1E0C
-	* uni1E0E
+	* Dmacronbelow
+	* Ecaron
 	* uni1EB8
+	* Gcaron
 	* uni0122
 	* uni1E2A
 	* uni1E24
 	* uni1ECA
 	* uni0136
+	* Kmacronbelow
 	* uni013B
 	* uni1E36
-	* uni1E3A
+	* Lmacronbelow
 	* uni1E42
+	* Ncaron
 	* uni0145
 	* uni1E46
-	* uni1E48
+	* Nmacronbelow
 	* uni1ECC
+	* Rcaron
 	* uni0156
 	* uni1E5A
-	* uni1E5E
+	* Rmacronbelow
+	* Scaron
+	* uni1E66
 	* uni0218
 	* uni1E62
 	* uni1E68
+	* Tcaron
 	* uni021A
 	* uni1E6C
-	* uni1E6E
+	* Tmacronbelow
 	* uni1EE4
+	* Zcaron
 	* uni1E92
 	* uni1EA1
+	* ccaron
 	* uni1E0D
-	* uni1E0F
+	* dmacronbelow
+	* ecaron
 	* uni1EB9
+	* gcaron
+	* uni0123
 	* uni1E2B
 	* uni1E25
+	* hmacronbelow
 	* uni1ECB
 	* uni0137
+	* kmacronbelow
 	* uni013C
 	* uni1E37
-	* uni1E3B
+	* lmacronbelow
 	* uni1E43
+	* ncaron
 	* uni0146
 	* uni1E47
-	* uni1E49
+	* nmacronbelow
 	* uni1ECD
+	* rcaron
 	* uni0157
 	* uni1E5B
-	* uni1E5F
+	* rmacronbelow
+	* scaron
+	* uni1E67
 	* uni0219
 	* uni1E63
 	* uni1E69
 	* uni021B
 	* uni1E6D
-	* uni1E6F
+	* tmacronbelow
 	* uni1EE5
+	* zcaron
 	* uni1E93
+	* zero.numr
+	* one.numr
+	* two.numr
+	* three.numr
+	* four.numr
+	* five.numr
+	* six.numr
+	* seven.numr
+	* eight.numr
+	* nine.numr
+	* onehalf
 	* onehalf
 	* onequarter
+	* onequarter
 	* threequarters
+	* threequarters
+	* zero.numr.zero
+	* zero.subs
+	* one.subs
+	* two.subs
+	* three.subs
+	* four.subs
+	* five.subs
+	* six.subs
+	* seven.subs
+	* eight.subs
+	* nine.subs
+	* uni2080
+	* uni2081
+	* uni2082
+	* uni2083
+	* uni2084
+	* uni2085
+	* uni2086
+	* uni2087
+	* uni2088
+	* uni2089
 	* uni2070
 	* uni00B9
 	* uni00B2
@@ -78,45 +134,49 @@ Fontbakery version: 0.8.13
 	* uni2077
 	* uni2078
 	* uni2079
-	* quotedblbase and IJacute [code: found-nested-components]
-</div></details><details><summary>🔥 <b>FAIL:</b> PPEM must be an integer on hinted fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/integer_ppem_if_hinted">com.google.fonts/check/integer_ppem_if_hinted</a>)</summary><div>
+	* quotedblbase
+	* caron
+	* uni02BC
+	* uni02BD
+	* uni02BB and IJacute [code: found-nested-components]
+</div></details><details><summary>🔥 <b>FAIL:</b> Font enables smart dropout control in "prep" table instructions? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/smart_dropout">com.google.fonts/check/smart_dropout</a>)</summary><div>
 
 
-* 🔥 **FAIL** This is a hinted font, so it must have bit 3 set on the flags of the head table, so that PPEM values will be rounded into an integer value.
+* 🔥 **FAIL** The 'prep' table does not contain TrueType instructions enabling smart dropout control. To fix, export the font with autohinting enabled, or run ttfautohint on the font, or run the `gftools fix-nonhinting` script. [code: lacks-smart-dropout]
+</div></details><details><summary>🔥 <b>FAIL:</b> Checking with fontTools.ttx (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ttx_roundtrip">com.google.fonts/check/ttx_roundtrip</a>)</summary><div>
 
-This can be accomplished by using the 'gftools fix-hinting' command.
 
-# create virtualenv
-python3 -m venv venv
-# activate virtualenv
-source venv/bin/activate
-# install gftools
-pip install git+https://www.github.com/googlefonts/tools [code: bad-flags]
+* 🔥 **FAIL** name id 256 missing from name table
+</div></details><details><summary>🔥 <b>FAIL:</b> Ensure component transforms do not perform scaling or rotation. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/transformed_components">com.google.fonts/check/transformed_components</a>)</summary><div>
+
+
+* 🔥 **FAIL** The following glyphs had components with scaling or rotation
+or inverted outline direction:
+
+* parenright (component parenleft)
+* braceright (component braceleft)
+* bracketright (component bracketleft)
+* less (component greater)
+* lessequal (component greaterequal)
+* uni030C (component uni0302)
+* uni02BB (component uni0326)
+* uni02BF (component uni02BE)
+ [code: transformed-components]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
 
 The dot of soft dotted characters should disappear in other cases, for example: i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̊ j̦̋ ǰ̦ j̦̒ į̆ į̇ į̈ į̊ [code: soft-dotted]
-</div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><details><summary>🔥 <b>FAIL:</b> Check name table for empty records. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.adobe.fonts/check/name/empty_records">com.adobe.fonts/check/name/empty_records</a>)</summary><div>
 
 
-* ⚠ **WARN** GF_TransLatin_Arabic is almost fulfilled. Missing codepoints:
-
-	- 0x02BC (MODIFIER LETTER APOSTROPHE)
-
-
-	- 0x1E34 (LATIN CAPITAL LETTER K WITH LINE BELOW)
+* 🔥 **FAIL** "name" table record with key=(3, 1, 1033, 256) is empty and should be removed. [code: empty-record]
+</div></details><details><summary>⚠ <b>WARN:</b> Is the Grid-fitting and Scan-conversion Procedure ('gasp') table set to optimize rendering? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/gasp">com.google.fonts/check/gasp</a>)</summary><div>
 
 
-	- 0x1E35 (LATIN SMALL LETTER K WITH LINE BELOW)
-
-
-	- 0x1E96 (LATIN SMALL LETTER H WITH LINE BELOW)
- 
-
-	- 0x02BD (MODIFIER LETTER REVERSED COMMA)
- [code: missing-codepoints]
+* ⚠ **WARN** The gasp table has a range of 9 that may be unneccessary. [code: non-ffff-range]
+* ⚠ **WARN** The gasp table has a range of 21 that may be unneccessary. [code: non-ffff-range]
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -133,20 +193,6 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 	- l + f 
 
 	- i + l [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure Stylistic Sets have description. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/stylisticset_description">com.google.fonts/check/stylisticset_description</a>)</summary><div>
-
-
-* ⚠ **WARN** The stylistic set ss01 lacks a description string on the 'name' table. [code: missing-description]
-* ⚠ **WARN** The stylistic set ss01 lacks a description string on the 'name' table. [code: missing-description]
-* ⚠ **WARN** The stylistic set ss01 lacks a description string on the 'name' table. [code: missing-description]
-* ⚠ **WARN** The stylistic set ss01 lacks a description string on the 'name' table. [code: missing-description]
-* ⚠ **WARN** The stylistic set ss01 lacks a description string on the 'name' table. [code: missing-description]
-* ⚠ **WARN** The stylistic set ss01 lacks a description string on the 'name' table. [code: missing-description]
-* ⚠ **WARN** The stylistic set ss01 lacks a description string on the 'name' table. [code: missing-description]
-* ⚠ **WARN** The stylistic set ss01 lacks a description string on the 'name' table. [code: missing-description]
-* ⚠ **WARN** The stylistic set ss01 lacks a description string on the 'name' table. [code: missing-description]
-* ⚠ **WARN** The stylistic set ss01 lacks a description string on the 'name' table. [code: missing-description]
-* ⚠ **WARN** The stylistic set ss01 lacks a description string on the 'name' table. [code: missing-description]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -156,21 +202,15 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- IJacute
-
 	- eight.subs
 
 	- five.subs
 
 	- four.subs
 
-	- ijacute
-
 	- nine.subs
 
 	- one.subs
-
-	- prime
 
 	- seven.subs
 
@@ -195,39 +235,19 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: r	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
-	- Glyph name: macron	Contours detected: 2	Expected: 1
-
 	- Glyph name: uni00B5	Contours detected: 2	Expected: 1
-
-	- Glyph name: onequarter	Contours detected: 5	Expected: 3 or 4
-
-	- Glyph name: onehalf	Contours detected: 4	Expected: 3
-
-	- Glyph name: threequarters	Contours detected: 5	Expected: 3 or 4
-
-	- Glyph name: Thorn	Contours detected: 3	Expected: 1 or 2
-
-	- Glyph name: aring	Contours detected: 3	Expected: 4
 
 	- Glyph name: ae	Contours detected: 2	Expected: 3
 
 	- Glyph name: ntilde	Contours detected: 3	Expected: 2
 
-	- Glyph name: Amacron	Contours detected: 4	Expected: 3
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: amacron	Contours detected: 4	Expected: 3
+	- Glyph name: dcroat	Contours detected: 3	Expected: 2
 
-	- Glyph name: Emacron	Contours detected: 3	Expected: 2
+	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: emacron	Contours detected: 4	Expected: 3
-
-	- Glyph name: Imacron	Contours detected: 3	Expected: 2
-
-	- Glyph name: imacron	Contours detected: 3	Expected: 2
-
-	- Glyph name: iogonek	Contours detected: 1	Expected: 2 or 3
+	- Glyph name: hbar	Contours detected: 2	Expected: 1
 
 	- Glyph name: lslash	Contours detected: 2	Expected: 1
 
@@ -241,121 +261,73 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: eng	Contours detected: 2	Expected: 1
 
-	- Glyph name: Omacron	Contours detected: 4	Expected: 3
-
-	- Glyph name: omacron	Contours detected: 4	Expected: 3
-
 	- Glyph name: racute	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni0157	Contours detected: 3	Expected: 2
 
 	- Glyph name: rcaron	Contours detected: 3	Expected: 2
 
-	- Glyph name: Umacron	Contours detected: 3	Expected: 2
+	- Glyph name: Tbar	Contours detected: 2	Expected: 1
 
-	- Glyph name: umacron	Contours detected: 3	Expected: 2
+	- Glyph name: tbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni01EA	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni01EB	Contours detected: 3	Expected: 2
 
 	- Glyph name: aeacute	Contours detected: 3	Expected: 4
 
-	- Glyph name: uni0232	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni0233	Contours detected: 3	Expected: 2
-
 	- Glyph name: uni0272	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0304	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0331	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni03BC	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni1E0E	Contours detected: 4	Expected: 3
+	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1E0F	Contours detected: 4	Expected: 3
+	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1E14	Contours detected: 4	Expected: 3
+	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1E15	Contours detected: 5	Expected: 4
-
-	- Glyph name: uni1E16	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni1E17	Contours detected: 5	Expected: 4
-
-	- Glyph name: uni1E20	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E3A	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E3B	Contours detected: 3	Expected: 2
+	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
 
 	- Glyph name: uni1E45	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni1E47	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1E48	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E49	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni1E50	Contours detected: 5	Expected: 4
-
-	- Glyph name: uni1E51	Contours detected: 5	Expected: 4
-
-	- Glyph name: uni1E52	Contours detected: 5	Expected: 4
-
-	- Glyph name: uni1E53	Contours detected: 5	Expected: 4
+	- Glyph name: nmacronbelow	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni1E5B	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1E5E	Contours detected: 4	Expected: 3
+	- Glyph name: rmacronbelow	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1E5F	Contours detected: 4	Expected: 2
+	- Glyph name: uni2113	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1E6E	Contours detected: 3	Expected: 2
+	- Glyph name: estimated	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1E6F	Contours detected: 3	Expected: 2
+	- Glyph name: Tbar	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni1E7A	Contours detected: 5	Expected: 4
-
-	- Glyph name: uni1E7B	Contours detected: 5	Expected: 4
-
-	- Glyph name: fraction	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni2105	Contours detected: 5	Expected: 4
-
-	- Glyph name: uni2113	Contours detected: 4	Expected: 2
-
-	- Glyph name: Amacron	Contours detected: 4	Expected: 3
-
-	- Glyph name: Emacron	Contours detected: 3	Expected: 2
-
-	- Glyph name: Imacron	Contours detected: 3	Expected: 2
-
-	- Glyph name: Omacron	Contours detected: 4	Expected: 3
-
-	- Glyph name: Thorn	Contours detected: 3	Expected: 1 or 2
-
-	- Glyph name: Umacron	Contours detected: 3	Expected: 2
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
 	- Glyph name: ae	Contours detected: 2	Expected: 3
 
 	- Glyph name: aeacute	Contours detected: 3	Expected: 4
 
-	- Glyph name: amacron	Contours detected: 4	Expected: 3
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: aring	Contours detected: 3	Expected: 4
-
-	- Glyph name: emacron	Contours detected: 4	Expected: 3
+	- Glyph name: dcroat	Contours detected: 3	Expected: 2
 
 	- Glyph name: eng	Contours detected: 2	Expected: 1
 
-	- Glyph name: fraction	Contours detected: 2	Expected: 1
+	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: imacron	Contours detected: 3	Expected: 2
+	- Glyph name: estimated	Contours detected: 3	Expected: 2
 
-	- Glyph name: iogonek	Contours detected: 1	Expected: 2 or 3
+	- Glyph name: hbar	Contours detected: 2	Expected: 1
 
 	- Glyph name: lslash	Contours detected: 2	Expected: 1
-
-	- Glyph name: macron	Contours detected: 2	Expected: 1
 
 	- Glyph name: n	Contours detected: 2	Expected: 1
 
@@ -367,23 +339,13 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: ntilde	Contours detected: 3	Expected: 2
 
-	- Glyph name: omacron	Contours detected: 4	Expected: 3
-
-	- Glyph name: onehalf	Contours detected: 4	Expected: 3
-
-	- Glyph name: onequarter	Contours detected: 5	Expected: 3 or 4
-
 	- Glyph name: r	Contours detected: 2	Expected: 1
 
 	- Glyph name: racute	Contours detected: 3	Expected: 2
 
 	- Glyph name: rcaron	Contours detected: 3	Expected: 2
 
-	- Glyph name: threequarters	Contours detected: 5	Expected: 3 or 4
-
-	- Glyph name: umacron	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+	- Glyph name: tbar	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni00B5	Contours detected: 2	Expected: 1
 
@@ -391,105 +353,52 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni0157	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni0232	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni0233	Contours detected: 3	Expected: 2
-
 	- Glyph name: uni0272	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0304	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni0331	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni03BC	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni1E0E	Contours detected: 4	Expected: 3
+	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1E0F	Contours detected: 4	Expected: 3
+	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1E14	Contours detected: 4	Expected: 3
+	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1E15	Contours detected: 5	Expected: 4
-
-	- Glyph name: uni1E16	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni1E17	Contours detected: 5	Expected: 4
-
-	- Glyph name: uni1E20	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E3A	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E3B	Contours detected: 3	Expected: 2
+	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
 
 	- Glyph name: uni1E45	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni1E47	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1E48	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E49	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni1E50	Contours detected: 5	Expected: 4
-
-	- Glyph name: uni1E51	Contours detected: 5	Expected: 4
-
-	- Glyph name: uni1E52	Contours detected: 5	Expected: 4
-
-	- Glyph name: uni1E53	Contours detected: 5	Expected: 4
-
 	- Glyph name: uni1E5B	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1E5E	Contours detected: 4	Expected: 3
+	- Glyph name: uni2113	Contours detected: 3	Expected: 2 
 
-	- Glyph name: uni1E5F	Contours detected: 4	Expected: 2
-
-	- Glyph name: uni1E6E	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E6F	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E7A	Contours detected: 5	Expected: 4
-
-	- Glyph name: uni1E7B	Contours detected: 5	Expected: 4
-
-	- Glyph name: uni2105	Contours detected: 5	Expected: 4 
-
-	- Glyph name: uni2113	Contours detected: 4	Expected: 2
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
-
-
-* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><details><summary>⚠ <b>WARN:</b> Does the font have a DSIG table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/dsig.html#com.google.fonts/check/dsig">com.google.fonts/check/dsig</a>)</summary><div>
-
-
-* ⚠ **WARN** This font has a digital signature (DSIG table) which is only required - even if only a placeholder - on old programs like MS Office 2013 in order to work properly.
-The current recommendation is to completely remove the DSIG table. [code: found-DSIG]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
-	* approxequal (U+2248): L<<331.0,182.0>--<356.0,180.0>>/L<<356.0,180.0>--<352.0,180.0>> = 4.573921259900818
+	* approxequal (U+2248): L<<352.0,180.0>--<356.0,180.0>>/L<<356.0,180.0>--<331.0,182.0>> = 4.573921259900818
 
-	* approxequal (U+2248): L<<331.0,372.0>--<356.0,370.0>>/L<<356.0,370.0>--<352.0,370.0>> = 4.573921259900818
+	* approxequal (U+2248): L<<352.0,370.0>--<356.0,370.0>>/L<<356.0,370.0>--<331.0,372.0>> = 4.573921259900818
 
-	* approxequal (U+2248): L<<356.0,180.0>--<352.0,180.0>>/L<<352.0,180.0>--<369.0,177.0>> = 10.00797980144135
+	* approxequal (U+2248): L<<369.0,177.0>--<352.0,180.0>>/L<<352.0,180.0>--<356.0,180.0>> = 10.007979801441312
 
-	* approxequal (U+2248): L<<356.0,370.0>--<352.0,370.0>>/L<<352.0,370.0>--<369.0,367.0>> = 10.00797980144135
+	* approxequal (U+2248): L<<369.0,367.0>--<352.0,370.0>>/L<<352.0,370.0>--<356.0,370.0>> = 10.007979801441312
 
-	* asciitilde (U+007E): L<<338.0,224.0>--<363.0,222.0>>/L<<363.0,222.0>--<359.0,222.0>> = 4.573921259900818
+	* asciitilde (U+007E): L<<359.0,222.0>--<363.0,222.0>>/L<<363.0,222.0>--<338.0,224.0>> = 4.573921259900818
 
-	* asciitilde (U+007E): L<<363.0,222.0>--<359.0,222.0>>/L<<359.0,222.0>--<376.0,219.0>> = 10.00797980144135
+	* asciitilde (U+007E): L<<376.0,219.0>--<359.0,222.0>>/L<<359.0,222.0>--<363.0,222.0>> = 10.007979801441312
+
+	* copyright (U+00A9): B<<187.0,624.0>-<199.0,632.0>-<198.0,631.0>>/L<<198.0,631.0>--<206.0,636.0>> = 12.994616791916483
+
+	* copyright (U+00A9): B<<506.5,54.5>-<509.0,56.0>-<508.0,55.0>>/B<<508.0,55.0>-<517.0,61.0>-<515.0,59.0>> = 11.309932474020195
 
 	* copyright (U+00A9): B<<649.0,203.0>-<655.0,218.0>-<655.0,216.0>>/L<<655.0,216.0>--<656.0,223.0>> = 8.13010235415596
 
 	* copyright (U+00A9): L<<514.0,439.0>--<513.0,418.0>>/B<<513.0,418.0>-<513.0,421.0>-<505.0,429.0>> = 2.726310993906212
-
-	* currency (U+00A4): B<<450.0,202.0>-<450.0,194.0>-<461.0,192.0>>/L<<461.0,192.0>--<460.0,192.0>> = 10.304846468766044
 
 	* currency (U+00A4): L<<239.0,129.0>--<242.0,129.0>>/L<<242.0,129.0>--<212.0,135.0>> = 11.309932474020195
 
@@ -501,15 +410,21 @@ The current recommendation is to completely remove the DSIG table. [code: found-
 
 	* currency (U+00A4): L<<438.0,535.0>--<512.0,608.0>>/B<<512.0,608.0>-<511.0,607.0>-<518.0,601.0>> = 0.3897611953170412
 
-	* dagger (U+2020): L<<179.0,775.0>--<178.0,775.0>>/L<<178.0,775.0>--<184.0,776.0>> = 9.462322208025613
+	* currency (U+00A4): L<<524.0,103.0>--<508.0,88.0>>/B<<508.0,88.0>-<511.0,91.0>-<502.0,99.0>> = 1.8476102659945155
 
-	* degree (U+00B0): B<<243.0,697.0>-<283.0,699.0>-<278.0,699.0>>/B<<278.0,699.0>-<295.0,695.0>-<314.0,695.0>> = 13.240519915187184
+	* dagger (U+2020): B<<167.0,774.0>-<172.0,774.0>-<179.0,775.0>>/B<<179.0,775.0>-<175.0,775.0>-<184.5,776.0>> = 8.13010235415596
 
-	* divide (U+00F7): L<<468.0,329.0>--<467.0,307.0>>/B<<467.0,307.0>-<467.0,309.0>-<464.0,309.0>> = 2.6025622024998034
+	* dagger (U+2020): B<<188.5,-56.5>-<179.0,-56.0>-<182.0,-56.0>>/B<<182.0,-56.0>-<176.0,-55.0>-<170.0,-54.5>> = 9.462322208025613
 
-	* equal (U+003D): L<<443.0,278.0>--<462.0,277.0>>/L<<462.0,277.0>--<460.0,277.0>> = 3.012787504183286
+	* divide (U+00F7): L<<468.0,329.0>--<467.0,307.0>>/B<<467.0,307.0>-<467.0,310.0>-<455.0,307.0>> = 2.6025622024998034
 
-	* equal (U+003D): L<<468.0,258.0>--<467.0,236.0>>/B<<467.0,236.0>-<467.0,238.0>-<464.0,238.0>> = 2.6025622024998034
+	* equal (U+003D): L<<443.0,278.0>--<462.0,277.0>>/B<<462.0,277.0>-<458.0,277.0>-<462.5,275.0>> = 3.012787504183286
+
+	* equal (U+003D): L<<444.0,420.0>--<458.0,419.0>>/B<<458.0,419.0>-<457.0,419.0>-<462.0,417.0>> = 4.085616779974888
+
+	* equal (U+003D): L<<468.0,258.0>--<467.0,236.0>>/B<<467.0,236.0>-<467.0,239.0>-<454.0,236.0>> = 2.6025622024998034
+
+	* estimated (U+212E): B<<170.5,64.0>-<163.0,69.0>-<164.0,69.0>>/B<<164.0,69.0>-<152.0,71.0>-<155.0,74.0>> = 9.462322208025613
 
 	* estimated (U+212E): L<<203.0,613.0>--<206.0,616.0>>/L<<206.0,616.0>--<184.0,599.0>> = 7.3057595333108205
 
@@ -519,21 +434,23 @@ The current recommendation is to completely remove the DSIG table. [code: found-
 
 	* estimated (U+212E): L<<408.0,692.0>--<407.0,692.0>>/L<<407.0,692.0>--<421.0,691.0>> = 4.085616779974888
 
-	* estimated (U+212E): L<<587.0,149.0>--<607.0,175.0>>/L<<607.0,175.0>--<606.0,174.0>> = 7.431407971172489
-
 	* estimated (U+212E): L<<591.0,94.0>--<594.0,97.0>>/L<<594.0,97.0>--<576.0,80.0>> = 1.6365770416166923
 
 	* estimated (U+212E): L<<600.0,102.0>--<591.0,94.0>>/L<<591.0,94.0>--<594.0,97.0>> = 3.3664606634298315
 
-	* guillemotright (U+00BB): B<<307.0,270.0>-<321.0,253.0>-<320.0,254.0>>/B<<320.0,254.0>-<333.0,245.0>-<345.0,228.0>> = 10.304846468765973
+	* greater (U+003E): B<<268.0,220.0>-<260.0,217.0>-<261.0,218.0>>/B<<261.0,218.0>-<249.0,208.0>-<243.0,207.0>> = 5.1944289077348
 
-	* infinity (U+221E): L<<208.0,443.0>--<209.0,443.0>>/B<<209.0,443.0>-<197.0,444.0>-<187.5,446.0>> = 4.763641690726144
+	* greater (U+003E): B<<66.0,525.0>-<80.0,520.0>-<79.0,520.0>>/B<<79.0,520.0>-<87.0,518.0>-<91.0,516.5>> = 14.036243467926484
+
+	* infinity (U+221E): L<<208.0,443.0>--<209.0,443.0>>/B<<209.0,443.0>-<196.0,445.0>-<187.0,446.5>> = 8.746162262555211
 
 	* infinity (U+221E): L<<545.0,239.0>--<544.0,238.0>>/L<<544.0,238.0>--<552.0,244.0>> = 8.13010235415596
 
 	* integral (U+222B): L<<222.0,-182.0>--<222.0,-183.0>>/L<<222.0,-183.0>--<229.0,-152.0>> = 12.724355685422363
 
-	* lslash (U+0142): L<<159.0,473.0>--<160.0,464.0>>/B<<160.0,464.0>-<160.0,475.0>-<159.0,473.0>> = 6.340191745909908
+	* less (U+003C): B<<232.0,220.0>-<240.0,217.0>-<239.0,218.0>>/B<<239.0,218.0>-<251.0,208.0>-<257.0,207.0>> = 5.1944289077348
+
+	* less (U+003C): B<<434.0,525.0>-<420.0,520.0>-<421.0,520.0>>/B<<421.0,520.0>-<413.0,518.0>-<409.0,516.5>> = 14.036243467926484
 
 	* minus (U+2212): L<<32.0,342.0>--<33.0,349.0>>/B<<33.0,349.0>-<33.0,348.0>-<40.0,349.0>> = 8.13010235415596
 
@@ -545,23 +462,33 @@ The current recommendation is to completely remove the DSIG table. [code: found-
 
 	* minute (U+2032): L<<31.0,518.0>--<31.0,517.0>>/L<<31.0,517.0>--<35.0,542.0>> = 9.090276920822312
 
-	* multiply (U+00D7): B<<255.0,293.0>-<250.0,298.0>-<251.0,299.0>>/L<<251.0,299.0>--<228.0,280.0>> = 5.4403320310054815
+	* multiply (U+00D7): B<<255.5,293.0>-<250.0,298.0>-<251.0,299.0>>/L<<251.0,299.0>--<228.0,280.0>> = 5.4403320310054815
 
-	* notequal (U+2260): B<<179.0,222.5>-<184.0,237.0>-<185.0,237.0>>/L<<185.0,237.0>--<159.0,239.0>> = 4.398705354995508
+	* notequal (U+2260): B<<151.0,155.0>-<152.0,158.0>-<152.0,157.0>>/L<<152.0,157.0>--<153.0,161.0>> = 14.036243467926484
 
-	* notequal (U+2260): B<<293.0,460.0>-<299.0,475.0>-<299.0,472.0>>/B<<299.0,472.0>-<300.0,476.0>-<307.0,488.0>> = 14.036243467926484
+	* notequal (U+2260): B<<165.0,185.0>-<172.0,199.0>-<172.0,198.0>>/B<<172.0,198.0>-<173.0,202.0>-<175.5,211.5>> = 14.036243467926484
+
+	* notequal (U+2260): B<<181.0,229.0>-<184.0,237.0>-<185.0,237.0>>/L<<185.0,237.0>--<159.0,239.0>> = 4.398705354995508
 
 	* notequal (U+2260): L<<30.0,258.0>--<33.0,278.0>>/B<<33.0,278.0>-<33.0,276.0>-<56.0,278.0>> = 8.530765609948096
 
-	* numbersign (U+0023): L<<448.0,313.0>--<449.0,313.0>>/B<<449.0,313.0>-<439.0,312.0>-<433.0,299.0>> = 5.710593137499633
+	* numbersign (U+0023): B<<26.5,139.0>-<26.0,140.0>-<26.0,139.0>>/B<<26.0,139.0>-<24.0,158.0>-<41.0,163.0>> = 6.009005957494474
+
+	* numbersign (U+0023): L<<448.0,313.0>--<449.0,313.0>>/B<<449.0,313.0>-<439.0,312.0>-<434.0,300.5>> = 5.710593137499633
 
 	* numbersign (U+0023): L<<468.0,315.0>--<448.0,313.0>>/L<<448.0,313.0>--<449.0,313.0>> = 5.710593137499633
+
+	* paragraph (U+00B6): L<<371.0,462.0>--<371.0,461.0>>/B<<371.0,461.0>-<369.0,475.0>-<373.0,475.0>> = 8.13010235415596
 
 	* paragraph (U+00B6): L<<372.0,455.0>--<371.0,462.0>>/L<<371.0,462.0>--<371.0,461.0>> = 8.13010235415596
 
 	* paragraph (U+00B6): L<<67.0,614.0>--<74.0,620.0>>/L<<74.0,620.0>--<73.0,619.0>> = 4.398705354995508
 
 	* paragraph (U+00B6): L<<74.0,620.0>--<73.0,619.0>>/L<<73.0,619.0>--<87.0,630.0>> = 6.842773412630916
+
+	* partialdiff (U+2202): B<<180.0,616.0>-<175.0,618.0>-<176.0,618.0>>/B<<176.0,618.0>-<163.0,620.0>-<154.0,622.0>> = 8.746162262555211
+
+	* partialdiff (U+2202): B<<338.5,49.5>-<341.0,51.0>-<340.0,50.0>>/L<<340.0,50.0>--<345.0,54.0>> = 6.34019174590985
 
 	* partialdiff (U+2202): L<<274.0,396.0>--<277.0,396.0>>/L<<277.0,396.0>--<259.0,399.0>> = 9.462322208025613
 
@@ -583,6 +510,8 @@ The current recommendation is to completely remove the DSIG table. [code: found-
 
 	* percent (U+0025): L<<154.0,450.0>--<153.0,450.0>>/L<<153.0,450.0>--<170.0,448.0>> = 6.709836807756896
 
+	* percent (U+0025): L<<341.0,219.0>--<358.0,235.0>>/B<<358.0,235.0>-<357.0,234.0>-<358.0,235.0>> = 1.735704588928346
+
 	* percent (U+0025): L<<391.0,204.0>--<391.0,205.0>>/L<<391.0,205.0>--<390.0,201.0>> = 14.036243467926484
 
 	* percent (U+0025): L<<391.0,205.0>--<390.0,201.0>>/L<<390.0,201.0>--<390.0,204.0>> = 14.036243467926484
@@ -601,9 +530,11 @@ The current recommendation is to completely remove the DSIG table. [code: found-
 
 	* perthousand (U+2030): L<<712.0,205.0>--<707.0,201.0>>/L<<707.0,201.0>--<710.0,204.0>> = 6.340191745909908
 
-	* pi (U+03C0): B<<415.0,366.0>-<408.0,366.0>-<408.0,367.0>>/L<<408.0,367.0>--<406.0,343.0>> = 4.763641690726144
+	* pi (U+03C0): B<<415.5,366.0>-<408.0,366.0>-<408.0,367.0>>/L<<408.0,367.0>--<406.0,343.0>> = 4.763641690726144
 
 	* pi (U+03C0): L<<122.0,-3.0>--<99.0,0.0>>/L<<99.0,0.0>--<101.0,0.0>> = 7.431407971172489
+
+	* pi (U+03C0): L<<363.0,133.0>--<363.0,132.0>>/B<<363.0,132.0>-<362.0,153.0>-<364.0,153.0>> = 2.726310993906212
 
 	* pi (U+03C0): L<<366.0,101.0>--<363.0,133.0>>/L<<363.0,133.0>--<363.0,132.0>> = 5.355825042855143
 
@@ -614,6 +545,8 @@ The current recommendation is to completely remove the DSIG table. [code: found-
 	* plus (U+002B): L<<418.0,348.0>--<443.0,349.0>>/L<<443.0,349.0>--<442.0,349.0>> = 2.2906100426384346
 
 	* plus (U+002B): L<<443.0,349.0>--<442.0,349.0>>/B<<442.0,349.0>-<456.0,350.0>-<461.0,349.0>> = 4.085616779974799
+
+	* plusminus (U+00B1): L<<227.0,314.0>--<227.0,313.0>>/B<<227.0,313.0>-<226.0,318.0>-<227.0,320.5>> = 11.309932474020195
 
 	* plusminus (U+00B1): L<<228.0,309.0>--<227.0,314.0>>/L<<227.0,314.0>--<227.0,313.0>> = 11.309932474020227
 
@@ -629,6 +562,10 @@ The current recommendation is to completely remove the DSIG table. [code: found-
 
 	* product (U+220F): L<<452.0,-253.0>--<430.0,-250.0>>/B<<430.0,-250.0>-<433.0,-250.0>-<430.0,-240.0>> = 7.765166018425308
 
+	* radical (U+221A): B<<248.0,100.5>-<245.0,92.0>-<245.0,93.0>>/L<<245.0,93.0>--<243.0,85.0>> = 14.036243467926484
+
+	* radical (U+221A): B<<262.0,146.5>-<259.0,138.0>-<259.0,139.0>>/B<<259.0,139.0>-<258.0,132.0>-<256.5,126.5>> = 8.13010235415596
+
 	* radical (U+221A): L<<187.0,91.0>--<193.0,64.0>>/L<<193.0,64.0>--<193.0,68.0>> = 12.52880770915152
 
 	* radical (U+221A): L<<401.0,747.0>--<402.0,754.0>>/L<<402.0,754.0>--<402.0,753.0>> = 8.13010235415596
@@ -636,6 +573,10 @@ The current recommendation is to completely remove the DSIG table. [code: found-
 	* radical (U+221A): L<<644.0,828.0>--<669.0,827.0>>/B<<669.0,827.0>-<667.0,827.0>-<669.0,810.0>> = 2.2906100426384346
 
 	* radical (U+221A): L<<87.0,354.0>--<110.0,353.0>>/B<<110.0,353.0>-<109.0,353.0>-<112.0,348.0>> = 2.489552921999128
+
+	* registered (U+00AE): B<<528.0,28.0>-<520.0,24.0>-<521.0,25.0>>/B<<521.0,25.0>-<511.0,16.0>-<498.0,12.0>> = 3.012787504183286
+
+	* registered (U+00AE): B<<640.0,185.0>-<647.0,199.0>-<647.0,197.0>>/B<<647.0,197.0>-<648.0,201.0>-<648.5,202.5>> = 14.036243467926484
 
 	* registered (U+00AE): L<<674.0,280.0>--<675.0,304.0>>/L<<675.0,304.0>--<675.0,303.0>> = 2.3859440303887243
 
@@ -651,9 +592,11 @@ The current recommendation is to completely remove the DSIG table. [code: found-
 
 	* uni00B5 (U+00B5): L<<386.0,75.0>--<387.0,76.0>>/L<<387.0,76.0>--<378.0,68.0>> = 3.3664606634298315
 
-	* uni00B5 (U+00B5): L<<69.0,-156.0>--<69.0,-157.0>>/B<<69.0,-157.0>-<68.0,-147.0>-<70.0,-145.0>> = 5.710593137499633
-
 	* uni00B5 (U+00B5): L<<70.0,-166.0>--<69.0,-155.0>>/L<<69.0,-155.0>--<69.0,-156.0>> = 5.1944289077348
+
+	* uni03A9 (U+03A9): B<<409.5,59.5>-<412.0,61.0>-<411.0,60.0>>/L<<411.0,60.0>--<429.0,72.0>> = 11.309932474020227
+
+	* uni03A9 (U+03A9): B<<92.0,446.5>-<89.0,436.0>-<89.0,437.0>>/L<<89.0,437.0>--<82.0,408.0>> = 13.570434385161475
 
 	* uni03A9 (U+03A9): L<<371.0,630.0>--<374.0,630.0>>/L<<374.0,630.0>--<362.0,632.0>> = 9.462322208025613
 
@@ -669,27 +612,29 @@ The current recommendation is to completely remove the DSIG table. [code: found-
 
 	* uni03BC (U+03BC): L<<386.0,75.0>--<387.0,76.0>>/L<<387.0,76.0>--<378.0,68.0>> = 3.3664606634298315
 
-	* uni03BC (U+03BC): L<<69.0,-156.0>--<69.0,-157.0>>/B<<69.0,-157.0>-<68.0,-147.0>-<70.0,-145.0>> = 5.710593137499633
-
 	* uni03BC (U+03BC): L<<70.0,-166.0>--<69.0,-155.0>>/L<<69.0,-155.0>--<69.0,-156.0>> = 5.1944289077348
 
 	* uni1E9E (U+1E9E): L<<375.0,-5.0>--<376.0,-5.0>>/L<<376.0,-5.0>--<343.0,-3.0>> = 3.468229258917096
 
 	* uni1E9E (U+1E9E): L<<385.0,-6.0>--<375.0,-5.0>>/L<<375.0,-5.0>--<376.0,-5.0>> = 5.710593137499633
 
-	* uni2113 (U+2113): L<<200.0,97.0>--<197.0,86.0>>/B<<197.0,86.0>-<198.0,88.0>-<199.0,80.0>> = 11.309932474020195
+	* uni2113 (U+2113): B<<198.0,87.0>-<198.0,88.0>-<197.0,86.0>>/L<<197.0,86.0>--<200.0,97.0>> = 11.309932474020162
 
-	* uni2113 (U+2113): L<<274.0,560.0>--<279.0,600.0>>/L<<279.0,600.0>--<279.0,591.0>> = 7.1250163489018075
+	* uni2113 (U+2113): B<<312.0,-6.0>-<313.0,-6.0>-<314.0,-6.0>>/L<<314.0,-6.0>--<310.0,-7.0>> = 14.036243467926484
 
-	* uni2113 (U+2113): L<<312.0,-6.0>--<314.0,-6.0>>/L<<314.0,-6.0>--<310.0,-7.0>> = 14.036243467926484
+	* uni2113 (U+2113): L<<279.0,591.0>--<279.0,600.0>>/L<<279.0,600.0>--<274.0,560.0>> = 7.125016348901757
 
-	* uni2113 (U+2113): L<<314.0,-6.0>--<310.0,-7.0>>/L<<310.0,-7.0>--<312.0,-6.0>> = 12.528807709151463
+	* uni2113 (U+2113): L<<314.0,-6.0>--<310.0,-7.0>>/B<<310.0,-7.0>-<311.0,-7.0>-<312.0,-6.0>> = 14.036243467926484
 
-	* uni2113 (U+2113): L<<357.0,491.0>--<356.0,485.0>>/L<<356.0,485.0>--<356.0,487.0>> = 9.462322208025613
+	* uni2113 (U+2113): L<<356.0,487.0>--<356.0,485.0>>/L<<356.0,485.0>--<357.0,491.0>> = 9.462322208025613
 
-	* uni2113 (U+2113): L<<368.0,22.0>--<386.0,37.0>>/L<<386.0,37.0>--<383.0,35.0>> = 6.115503566285384
+	* uni2113 (U+2113): L<<383.0,35.0>--<386.0,37.0>>/L<<386.0,37.0>--<368.0,22.0>> = 6.115503566285445
 
-	* uni2113 (U+2113): L<<386.0,37.0>--<383.0,35.0>>/L<<383.0,35.0>--<400.0,48.0>> = 3.715289105428815
+	* uni2113 (U+2113): L<<400.0,48.0>--<383.0,35.0>>/L<<383.0,35.0>--<386.0,37.0>> = 3.715289105428815
+
+	* uni2126 (U+2126): B<<409.5,59.5>-<412.0,61.0>-<411.0,60.0>>/L<<411.0,60.0>--<429.0,72.0>> = 11.309932474020227
+
+	* uni2126 (U+2126): B<<92.0,446.5>-<89.0,436.0>-<89.0,437.0>>/L<<89.0,437.0>--<82.0,408.0>> = 13.570434385161475
 
 	* uni2126 (U+2126): L<<371.0,630.0>--<374.0,630.0>>/L<<374.0,630.0>--<362.0,632.0>> = 9.462322208025613
 
@@ -703,7 +648,13 @@ The current recommendation is to completely remove the DSIG table. [code: found-
 
 	* uni2126 (U+2126): L<<592.0,337.0>--<592.0,336.0>>/L<<592.0,336.0>--<593.0,366.0>> = 1.9091524329963898
 
+	* uni21E7 (U+21E7): B<<308.0,37.0>-<309.0,15.0>-<308.0,15.0>>/L<<308.0,15.0>--<331.0,14.0>> = 2.489552921999128
+
 	* uni2325 (U+2325): L<<51.0,478.0>--<52.0,484.0>>/L<<52.0,484.0>--<52.0,483.0>> = 9.462322208025613
+
+	* uni25CC (U+25CC): L<<675.0,100.0>--<676.0,100.0>>/L<<676.0,100.0>--<668.0,102.0>> = 14.036243467926484
+
+	* uni25CC (U+25CC): L<<727.0,224.0>--<729.0,224.0>>/L<<729.0,224.0>--<720.0,225.0>> = 6.340191745909908
 
 	* uni2B1B (U+2B1B): L<<51.0,274.0>--<51.0,273.0>>/B<<51.0,273.0>-<50.0,284.0>-<52.0,286.0>> = 5.1944289077348
 
@@ -717,106 +668,131 @@ The current recommendation is to completely remove the DSIG table. [code: found-
 
 * ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
 
-	* t (U+0074): L<<109.0,322.0>--<108.0,56.0>>
-
-	* tcaron (U+0165): L<<109.0,322.0>--<108.0,56.0>>
-
-	* thorn (U+00FE): L<<109.0,540.0>--<108.0,401.0>>
-
-	* uni0163 (U+0163): L<<109.0,322.0>--<108.0,56.0>>
-
-	* uni018F (U+018F): L<<491.0,288.0>--<375.0,289.0>>
-
-	* uni021B (U+021B): L<<109.0,322.0>--<108.0,56.0>>
-
-	* uni1E6D (U+1E6D): L<<109.0,322.0>--<108.0,56.0>>
-
-	* uni1E6F (U+1E6F): L<<109.0,322.0>--<108.0,56.0>>
-
-	* uni1E97 (U+1E97): L<<109.0,322.0>--<108.0,56.0>>
-
 	* uni1E9E (U+1E9E): L<<124.0,571.0>--<123.0,416.0>> 
 
 	* uni2015 (U+2015): L<<443.0,405.0>--<565.0,404.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[17] Formera-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Ensure that the font can be rasterized by FreeType. (derived from com.adobe.fonts/check/freetype_rasterizer) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.adobe.fonts/check/freetype_rasterizer">com.adobe.fonts/check/freetype_rasterizer</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[11] Formera-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Ensure that the font can be rasterized by FreeType. (derived from com.adobe.fonts/check/freetype_rasterizer) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.adobe.fonts/check/freetype_rasterizer">com.adobe.fonts/check/freetype_rasterizer</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with UnboundLocalError: local variable 'FT_Exception' referenced before assignment
-</div></details><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
-
-
-* 🔥 **FAIL** Font names are incorrect:
-
-| nameID | current | expected |
-| :--- | :--- | :--- |
-| Family Name | Formera | Formera |
-| Subfamily Name | Regular | Regular |
-| Full Name | Formera Regular | Formera Regular |
-| Poscript Name | Formera-Regular | Formera-Regular |
-| Typographic Family Name | Formera | N/A |
-| Typographic Subfamily Name | Regular | N/A | [code: bad-names]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have components which are themselves components. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyf_nested_components">com.google.fonts/check/glyf_nested_components</a>)</summary><div>
 
 
 * 🔥 **FAIL** The following glyphs have components which themselves are component glyphs:
 	* uni1EA0
+	* Ccaron
+	* Dcaron
 	* uni1E0C
-	* uni1E0E
+	* Dmacronbelow
+	* Ecaron
 	* uni1EB8
+	* Gcaron
 	* uni0122
 	* uni1E2A
 	* uni1E24
 	* uni1ECA
 	* uni0136
+	* Kmacronbelow
 	* uni013B
 	* uni1E36
-	* uni1E3A
+	* Lmacronbelow
 	* uni1E42
+	* Ncaron
 	* uni0145
 	* uni1E46
-	* uni1E48
+	* Nmacronbelow
 	* uni1ECC
+	* Rcaron
 	* uni0156
 	* uni1E5A
-	* uni1E5E
+	* Rmacronbelow
+	* Scaron
+	* uni1E66
 	* uni0218
 	* uni1E62
 	* uni1E68
+	* Tcaron
 	* uni021A
 	* uni1E6C
-	* uni1E6E
+	* Tmacronbelow
 	* uni1EE4
+	* Zcaron
 	* uni1E92
 	* uni1EA1
+	* ccaron
 	* uni1E0D
-	* uni1E0F
+	* dmacronbelow
+	* ecaron
 	* uni1EB9
+	* gcaron
+	* uni0123
 	* uni1E2B
 	* uni1E25
+	* hmacronbelow
 	* uni1ECB
 	* uni0137
+	* kmacronbelow
 	* uni013C
 	* uni1E37
-	* uni1E3B
+	* lmacronbelow
 	* uni1E43
+	* ncaron
 	* uni0146
 	* uni1E47
-	* uni1E49
+	* nmacronbelow
 	* uni1ECD
+	* rcaron
 	* uni0157
 	* uni1E5B
-	* uni1E5F
+	* rmacronbelow
+	* scaron
+	* uni1E67
 	* uni0219
 	* uni1E63
 	* uni1E69
 	* uni021B
 	* uni1E6D
-	* uni1E6F
+	* tmacronbelow
 	* uni1EE5
+	* zcaron
 	* uni1E93
+	* zero.numr
+	* one.numr
+	* two.numr
+	* three.numr
+	* four.numr
+	* five.numr
+	* six.numr
+	* seven.numr
+	* eight.numr
+	* nine.numr
+	* onehalf
 	* onehalf
 	* onequarter
+	* onequarter
 	* threequarters
+	* threequarters
+	* zero.numr.zero
+	* zero.subs
+	* one.subs
+	* two.subs
+	* three.subs
+	* four.subs
+	* five.subs
+	* six.subs
+	* seven.subs
+	* eight.subs
+	* nine.subs
+	* uni2080
+	* uni2081
+	* uni2082
+	* uni2083
+	* uni2084
+	* uni2085
+	* uni2086
+	* uni2087
+	* uni2088
+	* uni2089
 	* uni2070
 	* uni00B9
 	* uni00B2
@@ -827,45 +803,41 @@ The current recommendation is to completely remove the DSIG table. [code: found-
 	* uni2077
 	* uni2078
 	* uni2079
-	* quotedblbase and IJacute [code: found-nested-components]
-</div></details><details><summary>🔥 <b>FAIL:</b> PPEM must be an integer on hinted fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/integer_ppem_if_hinted">com.google.fonts/check/integer_ppem_if_hinted</a>)</summary><div>
+	* quotedblbase
+	* caron
+	* uni02BC
+	* uni02BD
+	* uni02BB and IJacute [code: found-nested-components]
+</div></details><details><summary>🔥 <b>FAIL:</b> Font enables smart dropout control in "prep" table instructions? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/smart_dropout">com.google.fonts/check/smart_dropout</a>)</summary><div>
 
 
-* 🔥 **FAIL** This is a hinted font, so it must have bit 3 set on the flags of the head table, so that PPEM values will be rounded into an integer value.
+* 🔥 **FAIL** The 'prep' table does not contain TrueType instructions enabling smart dropout control. To fix, export the font with autohinting enabled, or run ttfautohint on the font, or run the `gftools fix-nonhinting` script. [code: lacks-smart-dropout]
+</div></details><details><summary>🔥 <b>FAIL:</b> Ensure component transforms do not perform scaling or rotation. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/transformed_components">com.google.fonts/check/transformed_components</a>)</summary><div>
 
-This can be accomplished by using the 'gftools fix-hinting' command.
 
-# create virtualenv
-python3 -m venv venv
-# activate virtualenv
-source venv/bin/activate
-# install gftools
-pip install git+https://www.github.com/googlefonts/tools [code: bad-flags]
+* 🔥 **FAIL** The following glyphs had components with scaling or rotation
+or inverted outline direction:
+
+* parenright (component parenleft)
+* braceright (component braceleft)
+* bracketright (component bracketleft)
+* less (component greater)
+* lessequal (component greaterequal)
+* uni030C (component uni0302)
+* uni02BB (component uni0326)
+* uni02BF (component uni02BE)
+ [code: transformed-components]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
 
 The dot of soft dotted characters should disappear in other cases, for example: i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̊ j̦̋ ǰ̦ j̦̒ į̆ į̇ į̈ į̊ [code: soft-dotted]
-</div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Is the Grid-fitting and Scan-conversion Procedure ('gasp') table set to optimize rendering? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/gasp">com.google.fonts/check/gasp</a>)</summary><div>
 
 
-* ⚠ **WARN** GF_TransLatin_Arabic is almost fulfilled. Missing codepoints:
-
-	- 0x02BC (MODIFIER LETTER APOSTROPHE)
-
-
-	- 0x1E34 (LATIN CAPITAL LETTER K WITH LINE BELOW)
-
-
-	- 0x1E35 (LATIN SMALL LETTER K WITH LINE BELOW)
-
-
-	- 0x1E96 (LATIN SMALL LETTER H WITH LINE BELOW)
- 
-
-	- 0x02BD (MODIFIER LETTER REVERSED COMMA)
- [code: missing-codepoints]
+* ⚠ **WARN** The gasp table has a range of 9 that may be unneccessary. [code: non-ffff-range]
+* ⚠ **WARN** The gasp table has a range of 21 that may be unneccessary. [code: non-ffff-range]
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -882,20 +854,6 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 	- l + f 
 
 	- i + l [code: lacks-kern-info]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure Stylistic Sets have description. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/stylisticset_description">com.google.fonts/check/stylisticset_description</a>)</summary><div>
-
-
-* ⚠ **WARN** The stylistic set ss01 lacks a description string on the 'name' table. [code: missing-description]
-* ⚠ **WARN** The stylistic set ss01 lacks a description string on the 'name' table. [code: missing-description]
-* ⚠ **WARN** The stylistic set ss01 lacks a description string on the 'name' table. [code: missing-description]
-* ⚠ **WARN** The stylistic set ss01 lacks a description string on the 'name' table. [code: missing-description]
-* ⚠ **WARN** The stylistic set ss01 lacks a description string on the 'name' table. [code: missing-description]
-* ⚠ **WARN** The stylistic set ss01 lacks a description string on the 'name' table. [code: missing-description]
-* ⚠ **WARN** The stylistic set ss01 lacks a description string on the 'name' table. [code: missing-description]
-* ⚠ **WARN** The stylistic set ss01 lacks a description string on the 'name' table. [code: missing-description]
-* ⚠ **WARN** The stylistic set ss01 lacks a description string on the 'name' table. [code: missing-description]
-* ⚠ **WARN** The stylistic set ss01 lacks a description string on the 'name' table. [code: missing-description]
-* ⚠ **WARN** The stylistic set ss01 lacks a description string on the 'name' table. [code: missing-description]
 </div></details><details><summary>⚠ <b>WARN:</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/meta/script_lang_tags">com.google.fonts/check/meta/script_lang_tags</a>)</summary><div>
 
 
@@ -905,21 +863,15 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- IJacute
-
 	- eight.subs
 
 	- five.subs
 
 	- four.subs
 
-	- ijacute
-
 	- nine.subs
 
 	- one.subs
-
-	- prime
 
 	- seven.subs
 
@@ -942,15 +894,17 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: r	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
 	- Glyph name: Thorn	Contours detected: 3	Expected: 1 or 2
-
-	- Glyph name: aring	Contours detected: 3	Expected: 4
 
 	- Glyph name: ae	Contours detected: 2	Expected: 3
 
-	- Glyph name: iogonek	Contours detected: 1	Expected: 2 or 3
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: hbar	Contours detected: 2	Expected: 1
 
 	- Glyph name: racute	Contours detected: 3	Expected: 2
 
@@ -958,21 +912,49 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: rcaron	Contours detected: 3	Expected: 2
 
+	- Glyph name: Tbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: tbar	Contours detected: 2	Expected: 1
+
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni01EA	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni01EB	Contours detected: 3	Expected: 2
+
 	- Glyph name: aeacute	Contours detected: 3	Expected: 4
+
+	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
 
 	- Glyph name: uni1E5B	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni1E5F	Contours detected: 3	Expected: 2
+	- Glyph name: rmacronbelow	Contours detected: 3	Expected: 2
+
+	- Glyph name: Tbar	Contours detected: 2	Expected: 1
 
 	- Glyph name: Thorn	Contours detected: 3	Expected: 1 or 2
+
+	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
 	- Glyph name: ae	Contours detected: 2	Expected: 3
 
 	- Glyph name: aeacute	Contours detected: 3	Expected: 4
 
-	- Glyph name: aring	Contours detected: 3	Expected: 4
+	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: iogonek	Contours detected: 1	Expected: 2 or 3
+	- Glyph name: dcroat	Contours detected: 3	Expected: 2
+
+	- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+	- Glyph name: hbar	Contours detected: 2	Expected: 1
 
 	- Glyph name: r	Contours detected: 2	Expected: 1
 
@@ -980,46 +962,38 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: rcaron	Contours detected: 3	Expected: 2
 
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+	- Glyph name: tbar	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni0157	Contours detected: 3	Expected: 2
 
+	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E09	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+
 	- Glyph name: uni1E5B	Contours detected: 3	Expected: 2 
 
-	- Glyph name: uni1E5F	Contours detected: 3	Expected: 2
+	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
-
-
-* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
-
-
-* ⚠ **WARN** The most common width is 500 among a set of 12 math glyphs.
-The following math glyphs have a different width, though:
-
-Width = 600:
-approxequal
- [code: width-outliers]
-</div></details><details><summary>⚠ <b>WARN:</b> Does the font have a DSIG table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/dsig.html#com.google.fonts/check/dsig">com.google.fonts/check/dsig</a>)</summary><div>
-
-
-* ⚠ **WARN** This font has a digital signature (DSIG table) which is only required - even if only a placeholder - on old programs like MS Office 2013 in order to work properly.
-The current recommendation is to completely remove the DSIG table. [code: found-DSIG]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
+
+	* Eng (U+014A): B<<568.0,-163.0>-<586.0,-167.0>-<585.0,-168.0>>/L<<585.0,-168.0>--<603.0,-155.0>> = 9.162347045721626
+
+	* ampersand (U+0026): B<<159.0,73.0>-<173.0,66.0>-<172.0,66.0>>/L<<172.0,66.0>--<186.0,64.0>> = 8.13010235415596
 
 	* ampersand (U+0026): L<<286.0,469.0>--<290.0,472.0>>/L<<290.0,472.0>--<289.0,471.0>> = 8.13010235415596
 
 	* ampersand (U+0026): L<<290.0,472.0>--<289.0,471.0>>/L<<289.0,471.0>--<301.0,481.0>> = 5.19442890773487
 
 	* ampersand (U+0026): L<<419.0,543.0>--<418.0,534.0>>/L<<418.0,534.0>--<418.0,537.0>> = 6.340191745909908
+
+	* copyright (U+00A9): B<<625.0,200.0>-<627.0,203.0>-<627.0,202.0>>/B<<627.0,202.0>-<629.0,210.0>-<631.0,210.0>> = 14.036243467926484
 
 	* copyright (U+00A9): L<<236.0,468.0>--<255.0,485.0>>/L<<255.0,485.0>--<254.0,484.0>> = 3.1798301198642793
 
@@ -1033,8 +1007,6 @@ The current recommendation is to completely remove the DSIG table. [code: found-
 
 	* copyright (U+00A9): L<<604.0,81.0>--<583.0,62.0>>/L<<583.0,62.0>--<586.0,65.0>> = 2.862405226111779
 
-	* currency (U+00A4): B<<515.0,620.0>-<530.0,620.0>-<533.0,637.0>>/L<<533.0,637.0>--<533.0,636.0>> = 10.007979801441312
-
 	* currency (U+00A4): L<<314.0,592.0>--<338.0,589.0>>/L<<338.0,589.0>--<337.0,589.0>> = 7.125016348901757
 
 	* currency (U+00A4): L<<338.0,589.0>--<337.0,589.0>>/L<<337.0,589.0>--<362.0,583.0>> = 13.495733280795811
@@ -1043,21 +1015,27 @@ The current recommendation is to completely remove the DSIG table. [code: found-
 
 	* currency (U+00A4): L<<61.0,402.0>--<61.0,401.0>>/L<<61.0,401.0>--<67.0,426.0>> = 13.495733280795811
 
-	* degree (U+00B0): B<<273.0,745.0>-<317.0,747.0>-<311.0,747.0>>/B<<311.0,747.0>-<329.0,743.0>-<349.0,743.0>> = 12.528807709151492
+	* estimated (U+212E): B<<278.0,74.0>-<293.0,71.0>-<290.0,71.0>>/L<<290.0,71.0>--<305.0,68.0>> = 11.309932474020195
+
+	* estimated (U+212E): B<<427.0,713.5>-<430.0,713.0>-<429.0,713.0>>/L<<429.0,713.0>--<438.0,711.0>> = 12.52880770915152
+
+	* estimated (U+212E): B<<494.0,100.0>-<497.0,101.0>-<496.0,100.0>>/L<<496.0,100.0>--<520.0,117.0>> = 9.688786560366827
 
 	* estimated (U+212E): L<<321.0,-19.0>--<324.0,-19.0>>/L<<324.0,-19.0>--<296.0,-16.0>> = 6.115503566285384
 
 	* estimated (U+212E): L<<328.0,-20.0>--<321.0,-19.0>>/L<<321.0,-19.0>--<324.0,-19.0>> = 8.13010235415596
 
+	* greater (U+003E): B<<206.0,412.0>-<197.0,416.0>-<198.0,416.0>>/B<<198.0,416.0>-<186.0,418.0>-<186.0,421.0>> = 9.462322208025613
+
 	* infinity (U+221E): L<<376.0,441.0>--<396.0,458.0>>/L<<396.0,458.0>--<395.0,457.0>> = 4.635463426902695
 
 	* infinity (U+221E): L<<396.0,458.0>--<395.0,457.0>>/L<<395.0,457.0>--<407.0,466.0>> = 8.13010235415596
 
-	* k (U+006B): B<<280.0,195.0>-<322.0,150.0>-<321.0,151.0>>/B<<321.0,151.0>-<326.0,143.0>-<333.0,133.5>> = 12.994616791916483
+	* less (U+003C): B<<294.0,412.0>-<303.0,416.0>-<302.0,416.0>>/B<<302.0,416.0>-<314.0,418.0>-<314.0,421.0>> = 9.462322208025613
 
-	* kgreenlandic (U+0138): B<<289.0,195.0>-<331.0,150.0>-<330.0,151.0>>/B<<330.0,151.0>-<335.0,143.0>-<342.0,133.5>> = 12.994616791916483
+	* logicalnot (U+00AC): B<<402.0,-2.0>-<396.0,-1.0>-<397.0,0.0>>/L<<397.0,0.0>--<394.0,-2.0>> = 11.309932474020227
 
-	* logicalnot (U+00AC): B<<417.0,-3.0>-<394.0,-3.0>-<397.0,0.0>>/L<<397.0,0.0>--<394.0,-2.0>> = 11.309932474020227
+	* lozenge (U+25CA): B<<160.0,455.0>-<168.0,468.0>-<168.0,467.0>>/L<<168.0,467.0>--<169.0,471.0>> = 14.036243467926484
 
 	* minute (U+2032): L<<43.0,602.0>--<46.0,627.0>>/L<<46.0,627.0>--<46.0,626.0>> = 6.842773412630916
 
@@ -1065,43 +1043,25 @@ The current recommendation is to completely remove the DSIG table. [code: found-
 
 	* multiply (U+00D7): L<<267.0,397.0>--<281.0,414.0>>/L<<281.0,414.0>--<280.0,413.0>> = 5.527540151656193
 
-	* multiply (U+00D7): L<<281.0,414.0>--<280.0,413.0>>/B<<280.0,413.0>-<286.0,421.0>-<294.0,426.0>> = 8.13010235415596
-
-	* numbersign (U+0023): L<<403.0,71.0>--<399.0,53.0>>/B<<399.0,53.0>-<399.0,57.0>-<392.0,34.0>> = 12.528807709151492
-
-	* o (U+006F): B<<363.0,123.0>-<378.0,141.0>-<377.0,140.0>>/B<<377.0,140.0>-<393.0,159.0>-<401.5,172.5>> = 4.899092453787774
-
-	* oacute (U+00F3): B<<363.0,123.0>-<378.0,141.0>-<377.0,140.0>>/B<<377.0,140.0>-<393.0,159.0>-<401.5,172.5>> = 4.899092453787774
-
-	* obreve (U+014F): B<<363.0,123.0>-<378.0,141.0>-<377.0,140.0>>/B<<377.0,140.0>-<393.0,159.0>-<401.5,172.5>> = 4.899092453787774
-
-	* ocircumflex (U+00F4): B<<363.0,123.0>-<378.0,141.0>-<377.0,140.0>>/B<<377.0,140.0>-<393.0,159.0>-<401.5,172.5>> = 4.899092453787774
-
-	* odieresis (U+00F6): B<<363.0,123.0>-<378.0,141.0>-<377.0,140.0>>/B<<377.0,140.0>-<393.0,159.0>-<401.5,172.5>> = 4.899092453787774
-
-	* ograve (U+00F2): B<<363.0,123.0>-<378.0,141.0>-<377.0,140.0>>/B<<377.0,140.0>-<393.0,159.0>-<401.5,172.5>> = 4.899092453787774
-
-	* ohungarumlaut (U+0151): B<<363.0,123.0>-<378.0,141.0>-<377.0,140.0>>/B<<377.0,140.0>-<393.0,159.0>-<401.5,172.5>> = 4.899092453787774
-
-	* omacron (U+014D): B<<363.0,123.0>-<378.0,141.0>-<377.0,140.0>>/B<<377.0,140.0>-<393.0,159.0>-<401.5,172.5>> = 4.899092453787774
-
-	* oslash (U+00F8): B<<375.0,123.0>-<390.0,141.0>-<389.0,140.0>>/B<<389.0,140.0>-<405.0,159.0>-<413.5,172.5>> = 4.899092453787774
-
-	* oslashacute (U+01FF): B<<375.0,123.0>-<390.0,141.0>-<389.0,140.0>>/B<<389.0,140.0>-<405.0,159.0>-<413.5,172.5>> = 4.899092453787774
-
-	* otilde (U+00F5): B<<363.0,123.0>-<378.0,141.0>-<377.0,140.0>>/B<<377.0,140.0>-<393.0,159.0>-<401.5,172.5>> = 4.899092453787774
+	* multiply (U+00D7): L<<281.0,414.0>--<280.0,413.0>>/B<<280.0,413.0>-<284.0,418.0>-<287.0,421.0>> = 6.340191745909908
 
 	* paragraph (U+00B6): L<<385.0,586.0>--<385.0,585.0>>/B<<385.0,585.0>-<384.0,594.0>-<386.0,596.0>> = 6.340191745909908
 
 	* paragraph (U+00B6): L<<386.0,575.0>--<385.0,586.0>>/L<<385.0,586.0>--<385.0,585.0>> = 5.1944289077348
 
+	* partialdiff (U+2202): B<<225.0,58.0>-<228.0,57.0>-<227.0,57.0>>/L<<227.0,57.0>--<251.0,53.0>> = 9.462322208025613
+
 	* partialdiff (U+2202): L<<135.0,668.0>--<153.0,665.0>>/L<<153.0,665.0>--<152.0,665.0>> = 9.462322208025613
 
-	* partialdiff (U+2202): L<<153.0,665.0>--<152.0,665.0>>/B<<152.0,665.0>-<162.0,664.0>-<177.0,659.0>> = 5.710593137499633
+	* partialdiff (U+2202): L<<153.0,665.0>--<152.0,665.0>>/B<<152.0,665.0>-<160.0,664.0>-<165.0,662.5>> = 7.125016348901757
 
 	* percent (U+0025): L<<623.0,24.0>--<626.0,27.0>>/L<<626.0,27.0>--<603.0,10.0>> = 8.530765609948139
 
+	* percent (U+0025): L<<626.0,27.0>--<603.0,10.0>>/B<<603.0,10.0>-<604.0,11.0>-<597.5,8.5>> = 8.530765609948096
+
 	* percent (U+0025): L<<631.0,31.0>--<623.0,24.0>>/L<<623.0,24.0>--<626.0,27.0>> = 3.8140748342902824
+
+	* perthousand (U+2030): B<<252.0,490.0>-<256.0,501.0>-<256.0,500.0>>/L<<256.0,500.0>--<260.0,525.0>> = 9.090276920822312
 
 	* perthousand (U+2030): B<<558.0,56.0>-<574.0,62.0>-<572.0,60.0>>/L<<572.0,60.0>--<580.0,67.0>> = 3.814074834290187
 
@@ -1117,6 +1077,8 @@ The current recommendation is to completely remove the DSIG table. [code: found-
 
 	* plusminus (U+00B1): L<<30.0,343.0>--<30.0,342.0>>/B<<30.0,342.0>-<28.0,355.0>-<32.0,355.0>> = 8.746162262555211
 
+	* plusminus (U+00B1): L<<30.0,389.0>--<33.0,412.0>>/B<<33.0,412.0>-<33.0,411.0>-<45.0,412.0>> = 7.431407971172489
+
 	* product (U+220F): L<<101.0,337.0>--<98.0,360.0>>/L<<98.0,360.0>--<98.0,359.0>> = 7.431407971172489
 
 	* product (U+220F): L<<257.0,-228.0>--<256.0,-253.0>>/B<<256.0,-253.0>-<256.0,-250.0>-<231.0,-250.0>> = 2.2906100426384346
@@ -1125,9 +1087,19 @@ The current recommendation is to completely remove the DSIG table. [code: found-
 
 	* product (U+220F): L<<412.0,-206.0>--<415.0,-183.0>>/B<<415.0,-183.0>-<415.0,-184.0>-<438.0,-184.0>> = 7.431407971172489
 
+	* product (U+220F): L<<494.0,-87.0>--<494.0,-88.0>>/B<<494.0,-88.0>-<493.0,-80.0>-<493.5,-75.5>> = 7.125016348901757
+
 	* product (U+220F): L<<495.0,-95.0>--<494.0,-87.0>>/L<<494.0,-87.0>--<494.0,-88.0>> = 7.125016348901757
 
+	* product (U+220F): L<<98.0,360.0>--<98.0,359.0>>/B<<98.0,359.0>-<96.0,373.0>-<100.0,373.0>> = 8.13010235415596
+
+	* registered (U+00AE): B<<219.5,577.5>-<209.0,572.0>-<210.0,573.0>>/L<<210.0,573.0>--<202.0,568.0>> = 12.994616791916512
+
 	* registered (U+00AE): B<<473.0,64.0>-<488.0,70.0>-<486.0,68.0>>/B<<486.0,68.0>-<491.0,72.0>-<494.0,72.0>> = 6.34019174590985
+
+	* registered (U+00AE): B<<510.5,582.5>-<502.0,587.0>-<503.0,587.0>>/B<<503.0,587.0>-<492.0,589.0>-<492.0,592.0>> = 10.304846468766044
+
+	* registered (U+00AE): B<<515.5,82.5>-<518.0,84.0>-<517.0,83.0>>/L<<517.0,83.0>--<538.0,96.0>> = 13.240519915187184
 
 	* registered (U+00AE): L<<564.0,45.0>--<567.0,48.0>>/L<<567.0,48.0>--<554.0,37.0>> = 4.763641690726066
 
@@ -1141,33 +1113,29 @@ The current recommendation is to completely remove the DSIG table. [code: found-
 
 	* second (U+2033): L<<46.0,627.0>--<46.0,626.0>>/L<<46.0,626.0>--<47.0,649.0>> = 2.489552921999128
 
-	* summation (U+2211): L<<529.0,534.0>--<519.0,535.0>>/B<<519.0,535.0>-<521.0,535.0>-<521.0,537.0>> = 5.710593137499633
+	* summation (U+2211): L<<529.0,534.0>--<519.0,535.0>>/B<<519.0,535.0>-<522.0,535.0>-<520.0,540.0>> = 5.710593137499633
 
 	* uni00B5 (U+00B5): L<<383.0,316.0>--<380.0,339.0>>/L<<380.0,339.0>--<380.0,338.0>> = 7.431407971172489
 
-	* uni0137 (U+0137): B<<280.0,195.0>-<322.0,150.0>-<321.0,151.0>>/B<<321.0,151.0>-<326.0,143.0>-<333.0,133.5>> = 12.994616791916483
-
-	* uni01EB (U+01EB): B<<363.0,123.0>-<378.0,141.0>-<377.0,140.0>>/B<<377.0,140.0>-<393.0,159.0>-<401.5,172.5>> = 4.899092453787774
+	* uni03A9 (U+03A9): B<<407.5,86.5>-<410.0,88.0>-<409.0,87.0>>/L<<409.0,87.0>--<424.0,99.0>> = 6.34019174590985
 
 	* uni03A9 (U+03A9): L<<122.0,596.0>--<145.0,617.0>>/L<<145.0,617.0>--<144.0,616.0>> = 2.6025622024998034
 
 	* uni03A9 (U+03A9): L<<145.0,617.0>--<144.0,616.0>>/L<<144.0,616.0>--<155.0,625.0>> = 5.710593137499696
 
-	* uni03A9 (U+03A9): L<<410.0,-3.0>--<377.0,0.0>>/B<<377.0,0.0>-<379.0,0.0>-<379.0,10.0>> = 5.1944289077348
+	* uni03A9 (U+03A9): L<<410.0,-3.0>--<377.0,0.0>>/B<<377.0,0.0>-<381.0,0.0>-<378.0,26.0>> = 5.1944289077348
 
 	* uni03A9 (U+03A9): L<<610.0,71.0>--<641.0,70.0>>/B<<641.0,70.0>-<639.0,70.0>-<641.0,62.0>> = 1.8476102659945155
 
 	* uni03BC (U+03BC): L<<383.0,316.0>--<380.0,339.0>>/L<<380.0,339.0>--<380.0,338.0>> = 7.431407971172489
 
-	* uni1E4D (U+1E4D): B<<363.0,123.0>-<378.0,141.0>-<377.0,140.0>>/B<<377.0,140.0>-<393.0,159.0>-<401.5,172.5>> = 4.899092453787774
+	* uni1E9E (U+1E9E): B<<453.5,90.0>-<455.0,91.0>-<454.0,90.0>>/L<<454.0,90.0>--<478.0,107.0>> = 9.688786560366827
 
-	* uni1E4F (U+1E4F): B<<363.0,123.0>-<378.0,141.0>-<377.0,140.0>>/B<<377.0,140.0>-<393.0,159.0>-<401.5,172.5>> = 4.899092453787774
+	* uni1E9E (U+1E9E): L<<541.0,696.0>--<557.0,695.0>>/B<<557.0,695.0>-<556.0,695.0>-<562.5,691.5>> = 3.576334374997269
 
-	* uni1E51 (U+1E51): B<<363.0,123.0>-<378.0,141.0>-<377.0,140.0>>/B<<377.0,140.0>-<393.0,159.0>-<401.5,172.5>> = 4.899092453787774
+	* uni2113 (U+2113): B<<290.0,88.0>-<301.0,73.0>-<300.0,73.0>>/L<<300.0,73.0>--<325.0,71.0>> = 4.573921259900818
 
-	* uni1E53 (U+1E53): B<<363.0,123.0>-<378.0,141.0>-<377.0,140.0>>/B<<377.0,140.0>-<393.0,159.0>-<401.5,172.5>> = 4.899092453787774
-
-	* uni1ECD (U+1ECD): B<<363.0,123.0>-<378.0,141.0>-<377.0,140.0>>/B<<377.0,140.0>-<393.0,159.0>-<401.5,172.5>> = 4.899092453787774
+	* uni2113 (U+2113): B<<341.0,477.0>-<345.0,488.0>-<345.0,487.0>>/L<<345.0,487.0>--<346.0,493.0>> = 9.462322208025613
 
 	* uni2113 (U+2113): L<<186.0,303.0>--<189.0,307.0>>/L<<189.0,307.0>--<188.0,306.0>> = 8.13010235415596
 
@@ -1179,57 +1147,39 @@ The current recommendation is to completely remove the DSIG table. [code: found-
 
 	* uni2113 (U+2113): L<<407.0,39.0>--<390.0,26.0>>/L<<390.0,26.0>--<393.0,29.0>> = 7.594643368591495
 
-	* uni2116 (U+2116): B<<1118.0,355.0>-<1133.0,373.0>-<1132.0,372.0>>/B<<1132.0,372.0>-<1148.0,391.0>-<1156.5,404.5>> = 4.899092453787774
+	* uni2126 (U+2126): B<<407.5,86.5>-<410.0,88.0>-<409.0,87.0>>/L<<409.0,87.0>--<424.0,99.0>> = 6.34019174590985
 
 	* uni2126 (U+2126): L<<122.0,596.0>--<145.0,617.0>>/L<<145.0,617.0>--<144.0,616.0>> = 2.6025622024998034
 
 	* uni2126 (U+2126): L<<145.0,617.0>--<144.0,616.0>>/L<<144.0,616.0>--<155.0,625.0>> = 5.710593137499696
 
-	* uni2126 (U+2126): L<<410.0,-3.0>--<377.0,0.0>>/B<<377.0,0.0>-<379.0,0.0>-<379.0,10.0>> = 5.1944289077348
+	* uni2126 (U+2126): L<<410.0,-3.0>--<377.0,0.0>>/B<<377.0,0.0>-<381.0,0.0>-<378.0,26.0>> = 5.1944289077348
 
 	* uni2126 (U+2126): L<<610.0,71.0>--<641.0,70.0>>/B<<641.0,70.0>-<639.0,70.0>-<641.0,62.0>> = 1.8476102659945155
 
-	* uni2318 (U+2318): L<<144.0,-51.0>--<175.0,-54.0>>/L<<175.0,-54.0>--<174.0,-54.0>> = 5.527540151656126
+	* uni2318 (U+2318): L<<174.0,-54.0>--<175.0,-54.0>>/L<<175.0,-54.0>--<144.0,-51.0>> = 5.527540151656126
 
-	* uni2318 (U+2318): L<<175.0,-54.0>--<174.0,-54.0>>/L<<174.0,-54.0>--<200.0,-52.0>> = 4.398705354995508
+	* uni2318 (U+2318): L<<200.0,-52.0>--<175.0,-54.0>>/L<<175.0,-54.0>--<175.0,-54.0>> = 4.573921259900818
 
 	* uni2325 (U+2325): L<<330.0,459.0>--<333.0,484.0>>/B<<333.0,484.0>-<333.0,483.0>-<338.0,488.0>> = 6.842773412630916
 
 	* uni2325 (U+2325): L<<364.0,409.0>--<339.0,412.0>>/B<<339.0,412.0>-<341.0,412.0>-<336.0,417.0>> = 6.842773412630916
 
+	* uni25CC (U+25CC): L<<746.0,205.0>--<749.0,205.0>>/L<<749.0,205.0>--<734.0,206.0>> = 3.8140748342903783
+
 	* uni2B1B (U+2B1B): L<<52.0,471.0>--<52.0,470.0>>/B<<52.0,470.0>-<51.0,482.0>-<54.0,482.0>> = 4.763641690726144
 
 	* uni2B1B (U+2B1B): L<<53.0,461.0>--<52.0,471.0>>/L<<52.0,471.0>--<52.0,470.0>> = 5.710593137499633 
 
-	* uni2B1C (U+2B1C): B<<167.0,501.0>-<154.0,501.0>-<154.0,503.0>>/L<<154.0,503.0>--<151.0,481.0>> = 7.765166018425354 [code: found-jaggy-segments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
-
-	* H (U+0048): L<<66.0,551.0>--<65.0,667.0>>
-
-	* Hcircumflex (U+0124): L<<66.0,551.0>--<65.0,667.0>>
-
-	* f_i (U+FB01): L<<67.0,46.0>--<66.0,169.0>>
-
-	* m (U+006D): L<<117.0,450.0>--<242.0,449.0>>
-
-	* seven (U+0037): L<<473.0,516.0>--<603.0,515.0>>
-
-	* uni1E24 (U+1E24): L<<66.0,551.0>--<65.0,667.0>>
-
-	* uni1E2A (U+1E2A): L<<66.0,551.0>--<65.0,667.0>> 
-
-	* uni1E43 (U+1E43): L<<117.0,450.0>--<242.0,449.0>> [code: found-semi-vertical]
+	* uni2B1C (U+2B1C): B<<161.0,501.0>-<154.0,502.0>-<154.0,503.0>>/L<<154.0,503.0>--<151.0,481.0>> = 7.765166018425354 [code: found-jaggy-segments]
 </div></details><br></div></details>
 
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 2 | 7 | 23 | 236 | 16 | 191 | 0 |
-| 0% | 1% | 5% | 50% | 3% | 40% | 0% |
+| 2 | 10 | 13 | 238 | 13 | 199 | 0 |
+| 0% | 2% | 3% | 50% | 3% | 42% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**

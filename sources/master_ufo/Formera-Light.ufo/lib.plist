@@ -10,6 +10,27 @@
     <integer>1</integer>
     <key>GSOffsetVertical</key>
     <integer>10</integer>
+    <key>com.github.googlei18n.ufo2ft.featureWriters</key>
+    <array>
+      <dict>
+        <key>class</key>
+        <string>KernFeatureWriter</string>
+      </dict>
+      <dict>
+        <key>class</key>
+        <string>ContextualMarkFeatureWriter</string>
+        <key>module</key>
+        <string>glyphsLib.featureWriters.markFeatureWriter</string>
+      </dict>
+      <dict>
+        <key>class</key>
+        <string>GdefFeatureWriter</string>
+      </dict>
+      <dict>
+        <key>class</key>
+        <string>CursFeatureWriter</string>
+      </dict>
+    </array>
     <key>com.github.googlei18n.ufo2ft.filters</key>
     <array>
       <dict>
@@ -36,13 +57,13 @@
     <key>com.schriftgestaltung.customParameter.GSFontMaster.iconName</key>
     <string>Light</string>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.weightValue</key>
-    <integer>300</integer>
+    <integer>100</integer>
     <key>com.schriftgestaltung.customParameter.GSFontMaster.widthValue</key>
     <integer>100</integer>
     <key>com.schriftgestaltung.fontMasterOrder</key>
     <integer>0</integer>
     <key>com.schriftgestaltung.weightValue</key>
-    <integer>300</integer>
+    <integer>100</integer>
     <key>com.schriftgestaltung.widthValue</key>
     <integer>100</integer>
     <key>public.glyphOrder</key>
@@ -122,6 +143,7 @@
       <string>Jcircumflex</string>
       <string>K</string>
       <string>Kcommaaccent</string>
+      <string>Kmacronbelow</string>
       <string>L</string>
       <string>Lacute</string>
       <string>Lcaron</string>
@@ -279,6 +301,7 @@
       <string>hbrevebelow</string>
       <string>hcircumflex</string>
       <string>hdotbelow</string>
+      <string>hmacronbelow</string>
       <string>i</string>
       <string>idotless</string>
       <string>i_dotaccentcomb</string>
@@ -301,6 +324,7 @@
       <string>k</string>
       <string>kcommaaccent</string>
       <string>kgreenlandic</string>
+      <string>kmacronbelow</string>
       <string>l</string>
       <string>lacute</string>
       <string>lcaron</string>
@@ -543,7 +567,6 @@
       <string>periodcentered.loclCAT</string>
       <string>periodcentered.loclCAT.case</string>
       <string>hyphen</string>
-      <string>softhyphen</string>
       <string>endash</string>
       <string>emdash</string>
       <string>figuredash</string>
@@ -640,6 +663,7 @@
       <string>upWhiteArrow</string>
       <string>blackCircle</string>
       <string>whiteCircle</string>
+      <string>dottedcircle</string>
       <string>blackDiamond</string>
       <string>whiteDiamond</string>
       <string>lozenge</string>
@@ -687,6 +711,8 @@
       <string>macron</string>
       <string>cedilla</string>
       <string>ogonek</string>
+      <string>apostrophemod</string>
+      <string>commareversedmod</string>
       <string>commaturnedmod</string>
       <string>ringhalfleft</string>
       <string>ringhalfright</string>
@@ -694,7 +720,6 @@
       <string>verticallinemod</string>
       <string>IJacute</string>
       <string>ijacute</string>
-      <string>prime</string>
     </array>
     <key>public.openTypeCategories</key>
     <dict>
@@ -845,6 +870,8 @@
       <key>K</key>
       <string>base</string>
       <key>Kcommaaccent</key>
+      <string>base</string>
+      <key>Kmacronbelow</key>
       <string>base</string>
       <key>L</key>
       <string>base</string>
@@ -1118,6 +1145,8 @@
       <string>mark</string>
       <key>dotbelowcomb</key>
       <string>mark</string>
+      <key>dottedcircle</key>
+      <string>base</string>
       <key>e</key>
       <string>base</string>
       <key>eacute</key>
@@ -1192,6 +1221,8 @@
       <string>base</string>
       <key>hdotbelow</key>
       <string>base</string>
+      <key>hmacronbelow</key>
+      <string>base</string>
       <key>hungarumlautcomb</key>
       <string>mark</string>
       <key>i</key>
@@ -1237,6 +1268,8 @@
       <key>kcommaaccent</key>
       <string>base</string>
       <key>kgreenlandic</key>
+      <string>base</string>
+      <key>kmacronbelow</key>
       <string>base</string>
       <key>l</key>
       <string>base</string>
@@ -1551,6 +1584,8 @@
       <string>uni1E92</string>
       <key>adotbelow</key>
       <string>uni1EA1</string>
+      <key>apostrophemod</key>
+      <string>uni02BC</string>
       <key>blackCircle</key>
       <string>uni25CF</string>
       <key>blackDiamond</key>
@@ -1589,6 +1624,8 @@
       <string>uni0302</string>
       <key>commaaccentcomb</key>
       <string>uni0326</string>
+      <key>commareversedmod</key>
+      <string>uni02BD</string>
       <key>commaturnedabovecomb</key>
       <string>uni0312</string>
       <key>commaturnedmod</key>
@@ -1601,6 +1638,8 @@
       <string>uni2215</string>
       <key>dotaccentcomb</key>
       <string>uni0307</string>
+      <key>dottedcircle</key>
+      <string>uni25CC</string>
       <key>downBlackTriangle</key>
       <string>triagdn</string>
       <key>downWhiteTriangle</key>
@@ -1769,8 +1808,6 @@
       <string>uni2086</string>
       <key>sixsuperior</key>
       <string>uni2076</string>
-      <key>softhyphen</key>
-      <string>uni00AD</string>
       <key>tcedilla</key>
       <string>uni0163</string>
       <key>tcommaaccent</key>
