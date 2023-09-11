@@ -2,35 +2,12 @@
 
 Fontbakery version: 0.8.13
 
-<details><summary><b>[11] Formera-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking with fontTools.ttx (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ttx_roundtrip">com.google.fonts/check/ttx_roundtrip</a>)</summary><div>
-
-
-* 🔥 **FAIL** name id 256 missing from name table
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+<details><summary><b>[7] Formera-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
 
 The dot of soft dotted characters should disappear in other cases, for example: i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̊ j̦̋ ǰ̦ j̦̒ į̆ į̇ į̈ į̊ [code: soft-dotted]
-</div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* ⚠ **WARN** GF_TransLatin_Arabic is almost fulfilled. Missing codepoints:
-
-	- 0x02BC (MODIFIER LETTER APOSTROPHE)
-
-
-	- 0x1E34 (LATIN CAPITAL LETTER K WITH LINE BELOW)
-
-
-	- 0x1E35 (LATIN SMALL LETTER K WITH LINE BELOW)
-
-
-	- 0x1E96 (LATIN SMALL LETTER H WITH LINE BELOW)
- 
-
-	- 0x02BD (MODIFIER LETTER REVERSED COMMA)
- [code: missing-codepoints]
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -56,7 +33,7 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- IJacute
+	- dotlessi_dotbelowcomb
 
 	- eight.subs
 
@@ -64,13 +41,9 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- four.subs
 
-	- ijacute
-
 	- nine.subs
 
 	- one.subs
-
-	- prime
 
 	- seven.subs
 
@@ -80,7 +53,9 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- two.subs
 
-	- uni00690307 
+	- uni00690307
+
+	- uni01310328 
 
 	- zero.subs
  [code: unreachable-glyphs]
@@ -94,8 +69,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: n	Contours detected: 2	Expected: 1
 
 	- Glyph name: r	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
 	- Glyph name: uni00B5	Contours detected: 2	Expected: 1
 
@@ -209,8 +182,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: tbar	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
 	- Glyph name: uni00B5	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni0146	Contours detected: 3	Expected: 2
@@ -239,14 +210,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
-
-
-* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -327,10 +290,6 @@ The following glyphs do not have the recommended number of contours:
 	* minus (U+2212): L<<443.0,349.0>--<468.0,348.0>>/B<<468.0,348.0>-<466.0,348.0>-<468.0,340.0>> = 2.2906100426384346
 
 	* minus (U+2212): L<<57.0,307.0>--<30.0,310.0>>/B<<30.0,310.0>-<32.0,310.0>-<32.0,318.0>> = 6.340191745909908
-
-	* minute (U+2032): L<<30.0,511.0>--<31.0,518.0>>/L<<31.0,518.0>--<31.0,517.0>> = 8.13010235415596
-
-	* minute (U+2032): L<<31.0,518.0>--<31.0,517.0>>/L<<31.0,517.0>--<35.0,542.0>> = 9.090276920822312
 
 	* multiply (U+00D7): B<<255.5,293.0>-<250.0,298.0>-<251.0,299.0>>/L<<251.0,299.0>--<228.0,280.0>> = 5.4403320310054815
 
@@ -426,6 +385,10 @@ The following glyphs do not have the recommended number of contours:
 
 	* plusminus (U+00B1): L<<468.0,95.0>--<467.0,73.0>>/B<<467.0,73.0>-<467.0,76.0>-<443.0,76.0>> = 2.6025622024998034
 
+	* prime (U+2032): L<<30.0,511.0>--<31.0,518.0>>/L<<31.0,518.0>--<31.0,517.0>> = 8.13010235415596
+
+	* prime (U+2032): L<<31.0,518.0>--<31.0,517.0>>/L<<31.0,517.0>--<35.0,542.0>> = 9.090276920822312
+
 	* product (U+220F): B<<567.0,-194.0>-<578.0,-209.0>-<577.0,-209.0>>/L<<577.0,-209.0>--<594.0,-210.0>> = 3.3664606634298315
 
 	* product (U+220F): L<<430.0,-230.0>--<433.0,-209.0>>/B<<433.0,-209.0>-<433.0,-210.0>-<456.0,-210.0>> = 8.13010235415596
@@ -452,13 +415,13 @@ The following glyphs do not have the recommended number of contours:
 
 	* registered (U+00AE): L<<675.0,304.0>--<675.0,303.0>>/L<<675.0,303.0>--<677.0,319.0>> = 7.1250163489018075
 
-	* second (U+2033): L<<211.0,511.0>--<212.0,518.0>>/L<<212.0,518.0>--<212.0,517.0>> = 8.13010235415596
+	* second (U+2033): L<<181.0,511.0>--<182.0,518.0>>/L<<182.0,518.0>--<182.0,517.0>> = 8.13010235415596
 
-	* second (U+2033): L<<212.0,518.0>--<212.0,517.0>>/L<<212.0,517.0>--<216.0,542.0>> = 9.090276920822312
+	* second (U+2033): L<<182.0,518.0>--<182.0,517.0>>/L<<182.0,517.0>--<186.0,542.0>> = 9.090276920822312
 
-	* second (U+2033): L<<31.0,511.0>--<32.0,518.0>>/L<<32.0,518.0>--<32.0,517.0>> = 8.13010235415596
+	* second (U+2033): L<<30.0,511.0>--<31.0,518.0>>/L<<31.0,518.0>--<31.0,517.0>> = 8.13010235415596
 
-	* second (U+2033): L<<32.0,518.0>--<32.0,517.0>>/L<<32.0,517.0>--<36.0,542.0>> = 9.090276920822312
+	* second (U+2033): L<<31.0,518.0>--<31.0,517.0>>/L<<31.0,517.0>--<35.0,542.0>> = 9.090276920822312
 
 	* threequarters (U+00BE): B<<213.0,433.0>-<207.0,444.0>-<200.0,454.0>>/B<<200.0,454.0>-<201.0,453.0>-<200.5,454.0>> = 10.007979801441312
 
@@ -528,6 +491,10 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni2325 (U+2325): L<<51.0,478.0>--<52.0,484.0>>/L<<52.0,484.0>--<52.0,483.0>> = 9.462322208025613
 
+	* uni25CC (U+25CC): L<<675.0,100.0>--<676.0,100.0>>/L<<676.0,100.0>--<668.0,102.0>> = 14.036243467926484
+
+	* uni25CC (U+25CC): L<<727.0,224.0>--<729.0,224.0>>/L<<729.0,224.0>--<720.0,225.0>> = 6.340191745909908
+
 	* uni2B1B (U+2B1B): L<<51.0,274.0>--<51.0,273.0>>/B<<51.0,273.0>-<50.0,284.0>-<52.0,286.0>> = 5.1944289077348
 
 	* uni2B1B (U+2B1B): L<<52.0,267.0>--<51.0,274.0>>/L<<51.0,274.0>--<51.0,273.0>> = 8.13010235415596
@@ -543,35 +510,12 @@ The following glyphs do not have the recommended number of contours:
 	* uni1E9E (U+1E9E): L<<124.0,571.0>--<123.0,416.0>> 
 
 	* uni2015 (U+2015): L<<443.0,405.0>--<565.0,404.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] Formera-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking with fontTools.ttx (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ttx_roundtrip">com.google.fonts/check/ttx_roundtrip</a>)</summary><div>
-
-
-* 🔥 **FAIL** name id 256 missing from name table
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[6] Formera-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
 
 The dot of soft dotted characters should disappear in other cases, for example: i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̊ j̦̋ ǰ̦ j̦̒ į̆ į̇ į̈ į̊ [code: soft-dotted]
-</div></details><details><summary>⚠ <b>WARN:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* ⚠ **WARN** GF_TransLatin_Arabic is almost fulfilled. Missing codepoints:
-
-	- 0x02BC (MODIFIER LETTER APOSTROPHE)
-
-
-	- 0x1E34 (LATIN CAPITAL LETTER K WITH LINE BELOW)
-
-
-	- 0x1E35 (LATIN SMALL LETTER K WITH LINE BELOW)
-
-
-	- 0x1E96 (LATIN SMALL LETTER H WITH LINE BELOW)
- 
-
-	- 0x02BD (MODIFIER LETTER REVERSED COMMA)
- [code: missing-codepoints]
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -597,7 +541,7 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- IJacute
+	- dotlessi_dotbelowcomb
 
 	- eight.subs
 
@@ -605,13 +549,9 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- four.subs
 
-	- ijacute
-
 	- nine.subs
 
 	- one.subs
-
-	- prime
 
 	- seven.subs
 
@@ -621,7 +561,9 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- two.subs
 
-	- uni00690307 
+	- uni00690307
+
+	- uni01310328 
 
 	- zero.subs
  [code: unreachable-glyphs]
@@ -633,8 +575,6 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: r	Contours detected: 2	Expected: 1
-
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
 
 	- Glyph name: Thorn	Contours detected: 3	Expected: 1 or 2
 
@@ -706,8 +646,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: tbar	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni00AD	Contours detected: 1	Expected: 0
-
 	- Glyph name: uni0157	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
@@ -722,23 +660,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uogonek	Contours detected: 2	Expected: 1
  [code: contour-count]
-</div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
-
-
-* ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
-</div></details><details><summary>⚠ <b>WARN:</b> Ensure dotted circle glyph is present and can attach marks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/dotted_circle">com.google.fonts/check/dotted_circle</a>)</summary><div>
-
-
-* ⚠ **WARN** No dotted circle glyph present [code: missing-dotted-circle]
-</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
-
-
-* ⚠ **WARN** The most common width is 500 among a set of 12 math glyphs.
-The following math glyphs have a different width, though:
-
-Width = 600:
-approxequal
- [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
@@ -797,10 +718,6 @@ approxequal
 	* logicalnot (U+00AC): B<<402.0,-2.0>-<396.0,-1.0>-<397.0,0.0>>/L<<397.0,0.0>--<394.0,-2.0>> = 11.309932474020195
 
 	* lozenge (U+25CA): B<<160.0,455.0>-<168.0,468.0>-<168.0,467.0>>/L<<168.0,467.0>--<169.0,471.0>> = 14.036243467926484
-
-	* minute (U+2032): L<<43.0,602.0>--<46.0,627.0>>/L<<46.0,627.0>--<46.0,626.0>> = 6.842773412630916
-
-	* minute (U+2032): L<<46.0,627.0>--<46.0,626.0>>/L<<46.0,626.0>--<47.0,649.0>> = 2.4895529219991284
 
 	* multiply (U+00D7): L<<267.0,397.0>--<281.0,414.0>>/L<<281.0,414.0>--<280.0,413.0>> = 5.527540151656193
 
@@ -866,9 +783,9 @@ approxequal
 
 	* registered (U+00AE): L<<587.0,62.0>--<564.0,45.0>>/L<<564.0,45.0>--<567.0,48.0>> = 8.530765609948139
 
-	* second (U+2033): L<<223.0,602.0>--<226.0,627.0>>/L<<226.0,627.0>--<226.0,626.0>> = 6.842773412630916
+	* second (U+2033): L<<221.0,602.0>--<224.0,627.0>>/L<<224.0,627.0>--<224.0,626.0>> = 6.842773412630916
 
-	* second (U+2033): L<<226.0,627.0>--<226.0,626.0>>/L<<226.0,626.0>--<227.0,649.0>> = 2.4895529219991284
+	* second (U+2033): L<<224.0,627.0>--<224.0,626.0>>/L<<224.0,626.0>--<225.0,649.0>> = 2.4895529219991284
 
 	* second (U+2033): L<<43.0,602.0>--<46.0,627.0>>/L<<46.0,627.0>--<46.0,626.0>> = 6.842773412630916
 
@@ -926,6 +843,8 @@ approxequal
 
 	* uni2325 (U+2325): L<<364.0,409.0>--<339.0,412.0>>/B<<339.0,412.0>-<341.0,412.0>-<336.0,417.0>> = 6.842773412630916
 
+	* uni25CC (U+25CC): L<<746.0,205.0>--<749.0,205.0>>/L<<749.0,205.0>--<734.0,206.0>> = 3.8140748342903783
+
 	* uni2B1B (U+2B1B): L<<52.0,471.0>--<52.0,470.0>>/B<<52.0,470.0>-<51.0,482.0>-<54.0,482.0>> = 4.763641690726143
 
 	* uni2B1B (U+2B1B): L<<53.0,461.0>--<52.0,471.0>>/L<<52.0,471.0>--<52.0,470.0>> = 5.710593137499633 
@@ -937,8 +856,8 @@ approxequal
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 4 | 18 | 236 | 13 | 204 | 0 |
-| 0% | 1% | 4% | 50% | 3% | 43% | 0% |
+| 0 | 2 | 11 | 236 | 13 | 213 | 0 |
+| 0% | 0% | 2% | 50% | 3% | 45% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
