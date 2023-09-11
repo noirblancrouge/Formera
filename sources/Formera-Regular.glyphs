@@ -57131,21 +57131,21 @@ unicode = 177;
 glyphname = approxequal;
 kernLeft = asciitilde;
 kernRight = asciitilde;
-lastChange = "2023-09-08 04:27:29 +0000";
+lastChange = "2023-09-11 10:23:59 +0000";
 layers = (
 {
 layerId = "7C3BCDA4-8F92-4DF1-91BA-B714BE37B8B5";
 shapes = (
 {
-pos = (50,148);
+pos = (-1,148);
 ref = asciitilde;
 },
 {
-pos = (50,-42);
+pos = (-1,-42);
 ref = asciitilde;
 }
 );
-width = 600;
+width = 500;
 }
 );
 unicode = 8776;

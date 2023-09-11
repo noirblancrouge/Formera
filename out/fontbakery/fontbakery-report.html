@@ -1,0 +1,1295 @@
+<!DOCTYPE html>
+                <html lang="en">
+                    <head>
+                        <meta charset="utf-8">
+                        <title>Fontbakery Check Report</title>
+                        <style>
+                            
+            html {
+                font-family: sans-serif;
+            }
+
+            h2 {
+                margin-top: 2em;
+            }
+
+            h3 {
+                margin-bottom: 1px;
+            }
+
+            table {
+                border-collapse: collapse;
+            }
+
+            th,
+            td {
+                border: 1px solid #ddd;
+                padding: 0.5em
+            }
+
+            tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            tr {
+                text-align: left;
+            }
+
+            ul {
+                margin-top: 0;
+            }
+
+            .details_item {
+                list-style: none;
+                display: flex;
+                align-items: baseline;
+            }
+
+            .details_indicator {
+                flex: 0 0 5em;
+                font-weight: bold;
+                padding-right: 0.5em;
+                text-align: right;
+            }
+
+            .details_text {
+                flex: 1 0;
+            }
+            
+                        </style>
+                    </head>
+                    <body>
+                    <h1>Fontbakery Technical Report</h1>
+<div>If you think a check is flawed or have an idea for a check, please  file an issue at <a href='https://github.com/googlefonts/fontbakery/issues'>https://github.com/googlefonts/fontbakery/issues</a> and remember to include a pointer to the repo and branch you're checking.</div>
+<h2>Summary</h2>
+            <table>
+            <tr>
+                <th>💥 ERROR</th>
+                <th>🔥 FAIL</th>
+                <th>⚠️ WARN</th>
+                <th>⏩ SKIP</th>
+                <th>ℹ️ INFO</th>
+                <th>✅ PASS</th>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>7</td>
+                <td>23</td>
+                <td>236</td>
+                <td>16</td>
+                <td>191</td>
+            </tr>
+            <tr>
+                <td>1%</td>
+                <td>2%</td>
+                <td>7%</td>
+                <td>67%</td>
+                <td>5%</td>
+                <td>55%</td>
+            </tr>
+            </table>
+            
+<p><strong>Note:</strong> The following loglevels were omitted in this report: SKIP, INFO, PASS, DEBUG</p>
+<h2>&lt;Section: Google Fonts&gt; 🔥🔥🔥🔥🔥⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️ℹ️</h2>
+<h3>Check Google Fonts glyph coverage.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/glyph_coverage&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/ttf/Formera-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GF_TransLatin_Arabic is almost fulfilled. Missing codepoints:</p>
+<pre><code>- 0x02BC (MODIFIER LETTER APOSTROPHE)
+
+
+- 0x1E34 (LATIN CAPITAL LETTER K WITH LINE BELOW)
+
+
+- 0x1E35 (LATIN SMALL LETTER K WITH LINE BELOW)
+
+
+- 0x1E96 (LATIN SMALL LETTER H WITH LINE BELOW)
+
+
+- 0x02BD (MODIFIER LETTER REVERSED COMMA)
+</code></pre>
+<p>[code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Formera-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GF_TransLatin_Arabic is almost fulfilled. Missing codepoints:</p>
+<pre><code>- 0x02BC (MODIFIER LETTER APOSTROPHE)
+
+
+- 0x1E34 (LATIN CAPITAL LETTER K WITH LINE BELOW)
+
+
+- 0x1E35 (LATIN SMALL LETTER K WITH LINE BELOW)
+
+
+- 0x1E96 (LATIN SMALL LETTER H WITH LINE BELOW)
+
+
+- 0x02BD (MODIFIER LETTER REVERSED COMMA)
+</code></pre>
+<p>[code: missing-codepoints]</p>
+</span></li></ul></div></details>
+<h3>Check font names are correct</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/font_names&gt;</div>
+
+<details><summary>🔥 <strong>fonts/ttf/Formera-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Font names are incorrect:</p>
+<p>| nameID | current | expected |
+| :--- | :--- | :--- |
+| Family Name | Formera | Formera |
+| Subfamily Name | Regular | Regular |
+| Full Name | Formera Regular | Formera Regular |
+| Poscript Name | Formera-Regular | Formera-Regular |
+| Typographic Family Name | Formera | N/A |
+| Typographic Subfamily Name | Regular | N/A | [code: bad-names]</p>
+</span></li></ul></div></details>
+<h3>Check glyphs do not have components which are themselves components.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/glyf_nested_components&gt;</div>
+
+<details><summary>🔥 <strong>fonts/ttf/Formera-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The following glyphs have components which themselves are component glyphs:
+* uni1EA0
+* uni1E0C
+* uni1E0E
+* uni1EB8
+* uni0122
+* uni1E2A
+* uni1E24
+* uni1ECA
+* uni0136
+* uni013B
+* uni1E36
+* uni1E3A
+* uni1E42
+* uni0145
+* uni1E46
+* uni1E48
+* uni1ECC
+* uni0156
+* uni1E5A
+* uni1E5E
+* uni0218
+* uni1E62
+* uni1E68
+* uni021A
+* uni1E6C
+* uni1E6E
+* uni1EE4
+* uni1E92
+* uni1EA1
+* uni1E0D
+* uni1E0F
+* uni1EB9
+* uni1E2B
+* uni1E25
+* uni1ECB
+* uni0137
+* uni013C
+* uni1E37
+* uni1E3B
+* uni1E43
+* uni0146
+* uni1E47
+* uni1E49
+* uni1ECD
+* uni0157
+* uni1E5B
+* uni1E5F
+* uni0219
+* uni1E63
+* uni1E69
+* uni021B
+* uni1E6D
+* uni1E6F
+* uni1EE5
+* uni1E93
+* onehalf
+* onequarter
+* threequarters
+* uni2070
+* uni00B9
+* uni00B2
+* uni00B3
+* uni2074
+* uni2075
+* uni2076
+* uni2077
+* uni2078
+* uni2079
+* quotedblbase and IJacute [code: found-nested-components]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/Formera-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The following glyphs have components which themselves are component glyphs:
+* uni1EA0
+* uni1E0C
+* uni1E0E
+* uni1EB8
+* uni0122
+* uni1E2A
+* uni1E24
+* uni1ECA
+* uni0136
+* uni013B
+* uni1E36
+* uni1E3A
+* uni1E42
+* uni0145
+* uni1E46
+* uni1E48
+* uni1ECC
+* uni0156
+* uni1E5A
+* uni1E5E
+* uni0218
+* uni1E62
+* uni1E68
+* uni021A
+* uni1E6C
+* uni1E6E
+* uni1EE4
+* uni1E92
+* uni1EA1
+* uni1E0D
+* uni1E0F
+* uni1EB9
+* uni1E2B
+* uni1E25
+* uni1ECB
+* uni0137
+* uni013C
+* uni1E37
+* uni1E3B
+* uni1E43
+* uni0146
+* uni1E47
+* uni1E49
+* uni1ECD
+* uni0157
+* uni1E5B
+* uni1E5F
+* uni0219
+* uni1E63
+* uni1E69
+* uni021B
+* uni1E6D
+* uni1E6F
+* uni1EE5
+* uni1E93
+* onehalf
+* onequarter
+* threequarters
+* uni2070
+* uni00B9
+* uni00B2
+* uni00B3
+* uni2074
+* uni2075
+* uni2076
+* uni2077
+* uni2078
+* uni2079
+* quotedblbase and IJacute [code: found-nested-components]</p>
+</span></li></ul></div></details>
+<h3>PPEM must be an integer on hinted fonts.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/integer_ppem_if_hinted&gt;</div>
+
+<details><summary>🔥 <strong>fonts/ttf/Formera-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>This is a hinted font, so it must have bit 3 set on the flags of the head table, so that PPEM values will be rounded into an integer value.</p>
+<p>This can be accomplished by using the 'gftools fix-hinting' command.</p>
+<h1>create virtualenv</h1>
+<p>python3 -m venv venv</p>
+<h1>activate virtualenv</h1>
+<p>source venv/bin/activate</p>
+<h1>install gftools</h1>
+<p>pip install git+https://www.github.com/googlefonts/tools [code: bad-flags]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/Formera-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>This is a hinted font, so it must have bit 3 set on the flags of the head table, so that PPEM values will be rounded into an integer value.</p>
+<p>This can be accomplished by using the 'gftools fix-hinting' command.</p>
+<h1>create virtualenv</h1>
+<p>python3 -m venv venv</p>
+<h1>activate virtualenv</h1>
+<p>source venv/bin/activate</p>
+<h1>install gftools</h1>
+<p>pip install git+https://www.github.com/googlefonts/tools [code: bad-flags]</p>
+</span></li></ul></div></details>
+<h3>Is there kerning info for non-ligated sequences?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/kerning_for_non_ligated_sequences&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/ttf/Formera-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning info for the following non-ligated sequences:</p>
+<pre><code>- f + f
+
+- f + i
+
+- i + f
+
+- f + l
+
+- l + f 
+
+- i + l [code: lacks-kern-info]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Formera-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning info for the following non-ligated sequences:</p>
+<pre><code>- f + f
+
+- f + i
+
+- i + f
+
+- f + l
+
+- l + f 
+
+- i + l [code: lacks-kern-info]
+</code></pre>
+</span></li></ul></div></details>
+<h3>Ensure Stylistic Sets have description.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/stylisticset_description&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/ttf/Formera-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The stylistic set ss01 lacks a description string on the 'name' table. [code: missing-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The stylistic set ss01 lacks a description string on the 'name' table. [code: missing-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The stylistic set ss01 lacks a description string on the 'name' table. [code: missing-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The stylistic set ss01 lacks a description string on the 'name' table. [code: missing-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The stylistic set ss01 lacks a description string on the 'name' table. [code: missing-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The stylistic set ss01 lacks a description string on the 'name' table. [code: missing-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The stylistic set ss01 lacks a description string on the 'name' table. [code: missing-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The stylistic set ss01 lacks a description string on the 'name' table. [code: missing-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The stylistic set ss01 lacks a description string on the 'name' table. [code: missing-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The stylistic set ss01 lacks a description string on the 'name' table. [code: missing-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The stylistic set ss01 lacks a description string on the 'name' table. [code: missing-description]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Formera-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The stylistic set ss01 lacks a description string on the 'name' table. [code: missing-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The stylistic set ss01 lacks a description string on the 'name' table. [code: missing-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The stylistic set ss01 lacks a description string on the 'name' table. [code: missing-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The stylistic set ss01 lacks a description string on the 'name' table. [code: missing-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The stylistic set ss01 lacks a description string on the 'name' table. [code: missing-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The stylistic set ss01 lacks a description string on the 'name' table. [code: missing-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The stylistic set ss01 lacks a description string on the 'name' table. [code: missing-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The stylistic set ss01 lacks a description string on the 'name' table. [code: missing-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The stylistic set ss01 lacks a description string on the 'name' table. [code: missing-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The stylistic set ss01 lacks a description string on the 'name' table. [code: missing-description]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The stylistic set ss01 lacks a description string on the 'name' table. [code: missing-description]</p>
+</span></li></ul></div></details>
+<h3>Ensure fonts have ScriptLangTags declared on the 'meta' table.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/meta/script_lang_tags&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/ttf/Formera-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Formera-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: Universal&gt; 💥💥🔥🔥⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️</h2>
+<h3>Check font contains no unreachable glyphs</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/unreachable_glyphs&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/ttf/Formera-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- IJacute
+
+- eight.subs
+
+- five.subs
+
+- four.subs
+
+- ijacute
+
+- nine.subs
+
+- one.subs
+
+- prime
+
+- seven.subs
+
+- six.subs
+
+- three.subs
+
+- two.subs
+
+- uni00690307 
+
+- zero.subs
+</code></pre>
+<p>[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Formera-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs could not be reached by codepoint or substitution rules:</p>
+<pre><code>- IJacute
+
+- eight.subs
+
+- five.subs
+
+- four.subs
+
+- ijacute
+
+- nine.subs
+
+- one.subs
+
+- prime
+
+- seven.subs
+
+- six.subs
+
+- three.subs
+
+- two.subs
+
+- uni00690307 
+
+- zero.subs
+</code></pre>
+<p>[code: unreachable-glyphs]</p>
+</span></li></ul></div></details>
+<h3>Check if each glyph has the recommended amount of contours.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/contour_count&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/ttf/Formera-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: n	Contours detected: 2	Expected: 1
+
+- Glyph name: r	Contours detected: 2	Expected: 1
+
+- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+- Glyph name: macron	Contours detected: 2	Expected: 1
+
+- Glyph name: uni00B5	Contours detected: 2	Expected: 1
+
+- Glyph name: onequarter	Contours detected: 5	Expected: 3 or 4
+
+- Glyph name: onehalf	Contours detected: 4	Expected: 3
+
+- Glyph name: threequarters	Contours detected: 5	Expected: 3 or 4
+
+- Glyph name: Thorn	Contours detected: 3	Expected: 1 or 2
+
+- Glyph name: aring	Contours detected: 3	Expected: 4
+
+- Glyph name: ae	Contours detected: 2	Expected: 3
+
+- Glyph name: ntilde	Contours detected: 3	Expected: 2
+
+- Glyph name: Amacron	Contours detected: 4	Expected: 3
+
+- Glyph name: amacron	Contours detected: 4	Expected: 3
+
+- Glyph name: Emacron	Contours detected: 3	Expected: 2
+
+- Glyph name: emacron	Contours detected: 4	Expected: 3
+
+- Glyph name: Imacron	Contours detected: 3	Expected: 2
+
+- Glyph name: imacron	Contours detected: 3	Expected: 2
+
+- Glyph name: iogonek	Contours detected: 1	Expected: 2 or 3
+
+- Glyph name: lslash	Contours detected: 2	Expected: 1
+
+- Glyph name: nacute	Contours detected: 3	Expected: 2
+
+- Glyph name: uni0146	Contours detected: 3	Expected: 2
+
+- Glyph name: ncaron	Contours detected: 3	Expected: 2
+
+- Glyph name: napostrophe	Contours detected: 3	Expected: 2
+
+- Glyph name: eng	Contours detected: 2	Expected: 1
+
+- Glyph name: Omacron	Contours detected: 4	Expected: 3
+
+- Glyph name: omacron	Contours detected: 4	Expected: 3
+
+- Glyph name: racute	Contours detected: 3	Expected: 2
+
+- Glyph name: uni0157	Contours detected: 3	Expected: 2
+
+- Glyph name: rcaron	Contours detected: 3	Expected: 2
+
+- Glyph name: Umacron	Contours detected: 3	Expected: 2
+
+- Glyph name: umacron	Contours detected: 3	Expected: 2
+
+- Glyph name: aeacute	Contours detected: 3	Expected: 4
+
+- Glyph name: uni0232	Contours detected: 3	Expected: 2
+
+- Glyph name: uni0233	Contours detected: 3	Expected: 2
+
+- Glyph name: uni0272	Contours detected: 2	Expected: 1
+
+- Glyph name: uni0304	Contours detected: 2	Expected: 1
+
+- Glyph name: uni0331	Contours detected: 2	Expected: 1
+
+- Glyph name: uni03BC	Contours detected: 2	Expected: 1
+
+- Glyph name: uni1E0E	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1E0F	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1E14	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1E15	Contours detected: 5	Expected: 4
+
+- Glyph name: uni1E16	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1E17	Contours detected: 5	Expected: 4
+
+- Glyph name: uni1E20	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E3A	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E3B	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E45	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E47	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E48	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E49	Contours detected: 4	Expected: 2
+
+- Glyph name: uni1E50	Contours detected: 5	Expected: 4
+
+- Glyph name: uni1E51	Contours detected: 5	Expected: 4
+
+- Glyph name: uni1E52	Contours detected: 5	Expected: 4
+
+- Glyph name: uni1E53	Contours detected: 5	Expected: 4
+
+- Glyph name: uni1E5B	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E5E	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1E5F	Contours detected: 4	Expected: 2
+
+- Glyph name: uni1E6E	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E6F	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E7A	Contours detected: 5	Expected: 4
+
+- Glyph name: uni1E7B	Contours detected: 5	Expected: 4
+
+- Glyph name: fraction	Contours detected: 2	Expected: 1
+
+- Glyph name: uni2105	Contours detected: 5	Expected: 4
+
+- Glyph name: uni2113	Contours detected: 4	Expected: 2
+
+- Glyph name: Amacron	Contours detected: 4	Expected: 3
+
+- Glyph name: Emacron	Contours detected: 3	Expected: 2
+
+- Glyph name: Imacron	Contours detected: 3	Expected: 2
+
+- Glyph name: Omacron	Contours detected: 4	Expected: 3
+
+- Glyph name: Thorn	Contours detected: 3	Expected: 1 or 2
+
+- Glyph name: Umacron	Contours detected: 3	Expected: 2
+
+- Glyph name: ae	Contours detected: 2	Expected: 3
+
+- Glyph name: aeacute	Contours detected: 3	Expected: 4
+
+- Glyph name: amacron	Contours detected: 4	Expected: 3
+
+- Glyph name: aring	Contours detected: 3	Expected: 4
+
+- Glyph name: emacron	Contours detected: 4	Expected: 3
+
+- Glyph name: eng	Contours detected: 2	Expected: 1
+
+- Glyph name: fraction	Contours detected: 2	Expected: 1
+
+- Glyph name: imacron	Contours detected: 3	Expected: 2
+
+- Glyph name: iogonek	Contours detected: 1	Expected: 2 or 3
+
+- Glyph name: lslash	Contours detected: 2	Expected: 1
+
+- Glyph name: macron	Contours detected: 2	Expected: 1
+
+- Glyph name: n	Contours detected: 2	Expected: 1
+
+- Glyph name: nacute	Contours detected: 3	Expected: 2
+
+- Glyph name: napostrophe	Contours detected: 3	Expected: 2
+
+- Glyph name: ncaron	Contours detected: 3	Expected: 2
+
+- Glyph name: ntilde	Contours detected: 3	Expected: 2
+
+- Glyph name: omacron	Contours detected: 4	Expected: 3
+
+- Glyph name: onehalf	Contours detected: 4	Expected: 3
+
+- Glyph name: onequarter	Contours detected: 5	Expected: 3 or 4
+
+- Glyph name: r	Contours detected: 2	Expected: 1
+
+- Glyph name: racute	Contours detected: 3	Expected: 2
+
+- Glyph name: rcaron	Contours detected: 3	Expected: 2
+
+- Glyph name: threequarters	Contours detected: 5	Expected: 3 or 4
+
+- Glyph name: umacron	Contours detected: 3	Expected: 2
+
+- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+- Glyph name: uni00B5	Contours detected: 2	Expected: 1
+
+- Glyph name: uni0146	Contours detected: 3	Expected: 2
+
+- Glyph name: uni0157	Contours detected: 3	Expected: 2
+
+- Glyph name: uni0232	Contours detected: 3	Expected: 2
+
+- Glyph name: uni0233	Contours detected: 3	Expected: 2
+
+- Glyph name: uni0272	Contours detected: 2	Expected: 1
+
+- Glyph name: uni0304	Contours detected: 2	Expected: 1
+
+- Glyph name: uni0331	Contours detected: 2	Expected: 1
+
+- Glyph name: uni03BC	Contours detected: 2	Expected: 1
+
+- Glyph name: uni1E0E	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1E0F	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1E14	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1E15	Contours detected: 5	Expected: 4
+
+- Glyph name: uni1E16	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1E17	Contours detected: 5	Expected: 4
+
+- Glyph name: uni1E20	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E3A	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E3B	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E45	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E47	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E48	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E49	Contours detected: 4	Expected: 2
+
+- Glyph name: uni1E50	Contours detected: 5	Expected: 4
+
+- Glyph name: uni1E51	Contours detected: 5	Expected: 4
+
+- Glyph name: uni1E52	Contours detected: 5	Expected: 4
+
+- Glyph name: uni1E53	Contours detected: 5	Expected: 4
+
+- Glyph name: uni1E5B	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E5E	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1E5F	Contours detected: 4	Expected: 2
+
+- Glyph name: uni1E6E	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E6F	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E7A	Contours detected: 5	Expected: 4
+
+- Glyph name: uni1E7B	Contours detected: 5	Expected: 4
+
+- Glyph name: uni2105	Contours detected: 5	Expected: 4 
+
+- Glyph name: uni2113	Contours detected: 4	Expected: 2
+</code></pre>
+<p>[code: contour-count]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Formera-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: r	Contours detected: 2	Expected: 1
+
+- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+- Glyph name: Thorn	Contours detected: 3	Expected: 1 or 2
+
+- Glyph name: aring	Contours detected: 3	Expected: 4
+
+- Glyph name: ae	Contours detected: 2	Expected: 3
+
+- Glyph name: iogonek	Contours detected: 1	Expected: 2 or 3
+
+- Glyph name: racute	Contours detected: 3	Expected: 2
+
+- Glyph name: uni0157	Contours detected: 3	Expected: 2
+
+- Glyph name: rcaron	Contours detected: 3	Expected: 2
+
+- Glyph name: aeacute	Contours detected: 3	Expected: 4
+
+- Glyph name: uni1E5B	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E5F	Contours detected: 3	Expected: 2
+
+- Glyph name: Thorn	Contours detected: 3	Expected: 1 or 2
+
+- Glyph name: ae	Contours detected: 2	Expected: 3
+
+- Glyph name: aeacute	Contours detected: 3	Expected: 4
+
+- Glyph name: aring	Contours detected: 3	Expected: 4
+
+- Glyph name: iogonek	Contours detected: 1	Expected: 2 or 3
+
+- Glyph name: r	Contours detected: 2	Expected: 1
+
+- Glyph name: racute	Contours detected: 3	Expected: 2
+
+- Glyph name: rcaron	Contours detected: 3	Expected: 2
+
+- Glyph name: uni00AD	Contours detected: 1	Expected: 0
+
+- Glyph name: uni0157	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E5B	Contours detected: 3	Expected: 2 
+
+- Glyph name: uni1E5F	Contours detected: 3	Expected: 2
+</code></pre>
+<p>[code: contour-count]</p>
+</span></li></ul></div></details>
+<h3>Does the font contain a soft hyphen?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/soft_hyphen&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/ttf/Formera-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font has a 'Soft Hyphen' character. [code: softhyphen]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Formera-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font has a 'Soft Hyphen' character. [code: softhyphen]</p>
+</span></li></ul></div></details>
+<h3>Ensure dotted circle glyph is present and can attach marks.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/dotted_circle&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/ttf/Formera-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>No dotted circle glyph present [code: missing-dotted-circle]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Formera-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>No dotted circle glyph present [code: missing-dotted-circle]</p>
+</span></li></ul></div></details>
+<h3>Ensure soft_dotted characters lose their dot when combined with marks that replace the dot.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/soft_dotted&gt;</div>
+
+<details><summary>🔥 <strong>fonts/ttf/Formera-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄</p>
+<p>The dot of soft dotted characters should disappear in other cases, for example: i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̊ j̦̋ ǰ̦ j̦̒ į̆ į̇ į̈ į̊ [code: soft-dotted]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/Formera-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄</p>
+<p>The dot of soft dotted characters should disappear in other cases, for example: i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̊ j̦̋ ǰ̦ j̦̒ į̆ į̇ į̈ į̊ [code: soft-dotted]</p>
+</span></li></ul></div></details>
+<h3>Ensure that the font can be rasterized by FreeType. (derived from com.adobe.fonts/check/freetype_rasterizer)</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.adobe.fonts/check/freetype_rasterizer:googlefonts&gt;</div>
+
+<details><summary>💥 <strong>fonts/ttf/Formera-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>💥 ERROR</span><span class='details_text'><p>Failed with UnboundLocalError: local variable 'FT_Exception' referenced before assignment</p>
+</span></li></ul></div></details>
+<details><summary>💥 <strong>fonts/ttf/Formera-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>💥 ERROR</span><span class='details_text'><p>Failed with UnboundLocalError: local variable 'FT_Exception' referenced before assignment</p>
+</span></li></ul></div></details>
+<h3>Check math signs have the same width.</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/math_signs_width&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/ttf/Formera-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The most common width is 500 among a set of 12 math glyphs.
+The following math glyphs have a different width, though:</p>
+<p>Width = 600:
+approxequal
+[code: width-outliers]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: fontbakery.profiles.dsig&gt; ⚠️⚠️</h2>
+<h3>Does the font have a DSIG table?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/dsig&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/ttf/Formera-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font has a digital signature (DSIG table) which is only required - even if only a placeholder - on old programs like MS Office 2013 in order to work properly.
+The current recommendation is to completely remove the DSIG table. [code: found-DSIG]</p>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Formera-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font has a digital signature (DSIG table) which is only required - even if only a placeholder - on old programs like MS Office 2013 in order to work properly.
+The current recommendation is to completely remove the DSIG table. [code: found-DSIG]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: Outline Correctness Checks&gt; ⚠️⚠️⚠️⚠️</h2>
+<h3>Do outlines contain any jaggy segments?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_jaggy_segments&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/ttf/Formera-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:</p>
+<pre><code>* approxequal (U+2248): L&lt;&lt;331.0,182.0&gt;--&lt;356.0,180.0&gt;&gt;/L&lt;&lt;356.0,180.0&gt;--&lt;352.0,180.0&gt;&gt; = 4.573921259900818
+
+* approxequal (U+2248): L&lt;&lt;331.0,372.0&gt;--&lt;356.0,370.0&gt;&gt;/L&lt;&lt;356.0,370.0&gt;--&lt;352.0,370.0&gt;&gt; = 4.573921259900818
+
+* approxequal (U+2248): L&lt;&lt;356.0,180.0&gt;--&lt;352.0,180.0&gt;&gt;/L&lt;&lt;352.0,180.0&gt;--&lt;369.0,177.0&gt;&gt; = 10.00797980144135
+
+* approxequal (U+2248): L&lt;&lt;356.0,370.0&gt;--&lt;352.0,370.0&gt;&gt;/L&lt;&lt;352.0,370.0&gt;--&lt;369.0,367.0&gt;&gt; = 10.00797980144135
+
+* asciitilde (U+007E): L&lt;&lt;338.0,224.0&gt;--&lt;363.0,222.0&gt;&gt;/L&lt;&lt;363.0,222.0&gt;--&lt;359.0,222.0&gt;&gt; = 4.573921259900818
+
+* asciitilde (U+007E): L&lt;&lt;363.0,222.0&gt;--&lt;359.0,222.0&gt;&gt;/L&lt;&lt;359.0,222.0&gt;--&lt;376.0,219.0&gt;&gt; = 10.00797980144135
+
+* copyright (U+00A9): B&lt;&lt;649.0,203.0&gt;-&lt;655.0,218.0&gt;-&lt;655.0,216.0&gt;&gt;/L&lt;&lt;655.0,216.0&gt;--&lt;656.0,223.0&gt;&gt; = 8.13010235415596
+
+* copyright (U+00A9): L&lt;&lt;514.0,439.0&gt;--&lt;513.0,418.0&gt;&gt;/B&lt;&lt;513.0,418.0&gt;-&lt;513.0,421.0&gt;-&lt;505.0,429.0&gt;&gt; = 2.726310993906212
+
+* currency (U+00A4): B&lt;&lt;450.0,202.0&gt;-&lt;450.0,194.0&gt;-&lt;461.0,192.0&gt;&gt;/L&lt;&lt;461.0,192.0&gt;--&lt;460.0,192.0&gt;&gt; = 10.304846468766044
+
+* currency (U+00A4): L&lt;&lt;239.0,129.0&gt;--&lt;242.0,129.0&gt;&gt;/L&lt;&lt;242.0,129.0&gt;--&lt;212.0,135.0&gt;&gt; = 11.309932474020195
+
+* currency (U+00A4): L&lt;&lt;276.0,127.0&gt;--&lt;239.0,129.0&gt;&gt;/L&lt;&lt;239.0,129.0&gt;--&lt;242.0,129.0&gt;&gt; = 3.0940580589171134
+
+* currency (U+00A4): L&lt;&lt;295.0,573.0&gt;--&lt;319.0,570.0&gt;&gt;/L&lt;&lt;319.0,570.0&gt;--&lt;318.0,570.0&gt;&gt; = 7.125016348901757
+
+* currency (U+00A4): L&lt;&lt;319.0,570.0&gt;--&lt;318.0,570.0&gt;&gt;/L&lt;&lt;318.0,570.0&gt;--&lt;330.0,567.0&gt;&gt; = 14.036243467926484
+
+* currency (U+00A4): L&lt;&lt;438.0,535.0&gt;--&lt;512.0,608.0&gt;&gt;/B&lt;&lt;512.0,608.0&gt;-&lt;511.0,607.0&gt;-&lt;518.0,601.0&gt;&gt; = 0.3897611953170412
+
+* dagger (U+2020): L&lt;&lt;179.0,775.0&gt;--&lt;178.0,775.0&gt;&gt;/L&lt;&lt;178.0,775.0&gt;--&lt;184.0,776.0&gt;&gt; = 9.462322208025613
+
+* degree (U+00B0): B&lt;&lt;243.0,697.0&gt;-&lt;283.0,699.0&gt;-&lt;278.0,699.0&gt;&gt;/B&lt;&lt;278.0,699.0&gt;-&lt;295.0,695.0&gt;-&lt;314.0,695.0&gt;&gt; = 13.240519915187184
+
+* divide (U+00F7): L&lt;&lt;468.0,329.0&gt;--&lt;467.0,307.0&gt;&gt;/B&lt;&lt;467.0,307.0&gt;-&lt;467.0,309.0&gt;-&lt;464.0,309.0&gt;&gt; = 2.6025622024998034
+
+* equal (U+003D): L&lt;&lt;443.0,278.0&gt;--&lt;462.0,277.0&gt;&gt;/L&lt;&lt;462.0,277.0&gt;--&lt;460.0,277.0&gt;&gt; = 3.012787504183286
+
+* equal (U+003D): L&lt;&lt;468.0,258.0&gt;--&lt;467.0,236.0&gt;&gt;/B&lt;&lt;467.0,236.0&gt;-&lt;467.0,238.0&gt;-&lt;464.0,238.0&gt;&gt; = 2.6025622024998034
+
+* estimated (U+212E): L&lt;&lt;203.0,613.0&gt;--&lt;206.0,616.0&gt;&gt;/L&lt;&lt;206.0,616.0&gt;--&lt;184.0,599.0&gt;&gt; = 7.3057595333108205
+
+* estimated (U+212E): L&lt;&lt;215.0,622.0&gt;--&lt;203.0,613.0&gt;&gt;/L&lt;&lt;203.0,613.0&gt;--&lt;206.0,616.0&gt;&gt; = 8.13010235415596
+
+* estimated (U+212E): L&lt;&lt;388.0,695.0&gt;--&lt;408.0,692.0&gt;&gt;/L&lt;&lt;408.0,692.0&gt;--&lt;407.0,692.0&gt;&gt; = 8.530765609948139
+
+* estimated (U+212E): L&lt;&lt;408.0,692.0&gt;--&lt;407.0,692.0&gt;&gt;/L&lt;&lt;407.0,692.0&gt;--&lt;421.0,691.0&gt;&gt; = 4.085616779974888
+
+* estimated (U+212E): L&lt;&lt;587.0,149.0&gt;--&lt;607.0,175.0&gt;&gt;/L&lt;&lt;607.0,175.0&gt;--&lt;606.0,174.0&gt;&gt; = 7.431407971172489
+
+* estimated (U+212E): L&lt;&lt;591.0,94.0&gt;--&lt;594.0,97.0&gt;&gt;/L&lt;&lt;594.0,97.0&gt;--&lt;576.0,80.0&gt;&gt; = 1.6365770416166923
+
+* estimated (U+212E): L&lt;&lt;600.0,102.0&gt;--&lt;591.0,94.0&gt;&gt;/L&lt;&lt;591.0,94.0&gt;--&lt;594.0,97.0&gt;&gt; = 3.3664606634298315
+
+* guillemotright (U+00BB): B&lt;&lt;307.0,270.0&gt;-&lt;321.0,253.0&gt;-&lt;320.0,254.0&gt;&gt;/B&lt;&lt;320.0,254.0&gt;-&lt;333.0,245.0&gt;-&lt;345.0,228.0&gt;&gt; = 10.304846468765973
+
+* infinity (U+221E): L&lt;&lt;208.0,443.0&gt;--&lt;209.0,443.0&gt;&gt;/B&lt;&lt;209.0,443.0&gt;-&lt;197.0,444.0&gt;-&lt;187.5,446.0&gt;&gt; = 4.763641690726144
+
+* infinity (U+221E): L&lt;&lt;545.0,239.0&gt;--&lt;544.0,238.0&gt;&gt;/L&lt;&lt;544.0,238.0&gt;--&lt;552.0,244.0&gt;&gt; = 8.13010235415596
+
+* integral (U+222B): L&lt;&lt;222.0,-182.0&gt;--&lt;222.0,-183.0&gt;&gt;/L&lt;&lt;222.0,-183.0&gt;--&lt;229.0,-152.0&gt;&gt; = 12.724355685422363
+
+* lslash (U+0142): L&lt;&lt;159.0,473.0&gt;--&lt;160.0,464.0&gt;&gt;/B&lt;&lt;160.0,464.0&gt;-&lt;160.0,475.0&gt;-&lt;159.0,473.0&gt;&gt; = 6.340191745909908
+
+* minus (U+2212): L&lt;&lt;32.0,342.0&gt;--&lt;33.0,349.0&gt;&gt;/B&lt;&lt;33.0,349.0&gt;-&lt;33.0,348.0&gt;-&lt;40.0,349.0&gt;&gt; = 8.13010235415596
+
+* minus (U+2212): L&lt;&lt;443.0,349.0&gt;--&lt;468.0,348.0&gt;&gt;/B&lt;&lt;468.0,348.0&gt;-&lt;466.0,348.0&gt;-&lt;468.0,340.0&gt;&gt; = 2.2906100426384346
+
+* minus (U+2212): L&lt;&lt;57.0,307.0&gt;--&lt;30.0,310.0&gt;&gt;/B&lt;&lt;30.0,310.0&gt;-&lt;32.0,310.0&gt;-&lt;32.0,318.0&gt;&gt; = 6.340191745909908
+
+* minute (U+2032): L&lt;&lt;30.0,511.0&gt;--&lt;31.0,518.0&gt;&gt;/L&lt;&lt;31.0,518.0&gt;--&lt;31.0,517.0&gt;&gt; = 8.13010235415596
+
+* minute (U+2032): L&lt;&lt;31.0,518.0&gt;--&lt;31.0,517.0&gt;&gt;/L&lt;&lt;31.0,517.0&gt;--&lt;35.0,542.0&gt;&gt; = 9.090276920822312
+
+* multiply (U+00D7): B&lt;&lt;255.0,293.0&gt;-&lt;250.0,298.0&gt;-&lt;251.0,299.0&gt;&gt;/L&lt;&lt;251.0,299.0&gt;--&lt;228.0,280.0&gt;&gt; = 5.4403320310054815
+
+* notequal (U+2260): B&lt;&lt;179.0,222.5&gt;-&lt;184.0,237.0&gt;-&lt;185.0,237.0&gt;&gt;/L&lt;&lt;185.0,237.0&gt;--&lt;159.0,239.0&gt;&gt; = 4.398705354995508
+
+* notequal (U+2260): B&lt;&lt;293.0,460.0&gt;-&lt;299.0,475.0&gt;-&lt;299.0,472.0&gt;&gt;/B&lt;&lt;299.0,472.0&gt;-&lt;300.0,476.0&gt;-&lt;307.0,488.0&gt;&gt; = 14.036243467926484
+
+* notequal (U+2260): L&lt;&lt;30.0,258.0&gt;--&lt;33.0,278.0&gt;&gt;/B&lt;&lt;33.0,278.0&gt;-&lt;33.0,276.0&gt;-&lt;56.0,278.0&gt;&gt; = 8.530765609948096
+
+* numbersign (U+0023): L&lt;&lt;448.0,313.0&gt;--&lt;449.0,313.0&gt;&gt;/B&lt;&lt;449.0,313.0&gt;-&lt;439.0,312.0&gt;-&lt;433.0,299.0&gt;&gt; = 5.710593137499633
+
+* numbersign (U+0023): L&lt;&lt;468.0,315.0&gt;--&lt;448.0,313.0&gt;&gt;/L&lt;&lt;448.0,313.0&gt;--&lt;449.0,313.0&gt;&gt; = 5.710593137499633
+
+* paragraph (U+00B6): L&lt;&lt;372.0,455.0&gt;--&lt;371.0,462.0&gt;&gt;/L&lt;&lt;371.0,462.0&gt;--&lt;371.0,461.0&gt;&gt; = 8.13010235415596
+
+* paragraph (U+00B6): L&lt;&lt;67.0,614.0&gt;--&lt;74.0,620.0&gt;&gt;/L&lt;&lt;74.0,620.0&gt;--&lt;73.0,619.0&gt;&gt; = 4.398705354995508
+
+* paragraph (U+00B6): L&lt;&lt;74.0,620.0&gt;--&lt;73.0,619.0&gt;&gt;/L&lt;&lt;73.0,619.0&gt;--&lt;87.0,630.0&gt;&gt; = 6.842773412630916
+
+* partialdiff (U+2202): L&lt;&lt;274.0,396.0&gt;--&lt;277.0,396.0&gt;&gt;/L&lt;&lt;277.0,396.0&gt;--&lt;259.0,399.0&gt;&gt; = 9.462322208025613
+
+* partialdiff (U+2202): L&lt;&lt;304.0,392.0&gt;--&lt;274.0,396.0&gt;&gt;/L&lt;&lt;274.0,396.0&gt;--&lt;277.0,396.0&gt;&gt; = 7.594643368591397
+
+* partialdiff (U+2202): L&lt;&lt;340.0,50.0&gt;--&lt;345.0,54.0&gt;&gt;/L&lt;&lt;345.0,54.0&gt;--&lt;344.0,53.0&gt;&gt; = 6.34019174590985
+
+* partialdiff (U+2202): L&lt;&lt;345.0,54.0&gt;--&lt;344.0,53.0&gt;&gt;/B&lt;&lt;344.0,53.0&gt;-&lt;354.0,62.0&gt;-&lt;354.0,60.0&gt;&gt; = 3.0127875041831653
+
+* partialdiff (U+2202): L&lt;&lt;90.0,222.0&gt;--&lt;90.0,225.0&gt;&gt;/L&lt;&lt;90.0,225.0&gt;--&lt;89.0,196.0&gt;&gt; = 1.9749340108819595
+
+* partialdiff (U+2202): L&lt;&lt;91.0,239.0&gt;--&lt;90.0,222.0&gt;&gt;/L&lt;&lt;90.0,222.0&gt;--&lt;90.0,225.0&gt;&gt; = 3.3664606634298315
+
+* percent (U+0025): B&lt;&lt;202.0,456.0&gt;-&lt;219.0,464.0&gt;-&lt;216.0,461.0&gt;&gt;/L&lt;&lt;216.0,461.0&gt;--&lt;239.0,479.0&gt;&gt; = 6.952957468173817
+
+* percent (U+0025): L&lt;&lt;119.0,620.0&gt;--&lt;120.0,621.0&gt;&gt;/L&lt;&lt;120.0,621.0&gt;--&lt;98.0,604.0&gt;&gt; = 7.3057595333108205
+
+* percent (U+0025): L&lt;&lt;150.0,451.0&gt;--&lt;154.0,450.0&gt;&gt;/L&lt;&lt;154.0,450.0&gt;--&lt;153.0,450.0&gt;&gt; = 14.036243467926484
+
+* percent (U+0025): L&lt;&lt;154.0,450.0&gt;--&lt;153.0,450.0&gt;&gt;/L&lt;&lt;153.0,450.0&gt;--&lt;170.0,448.0&gt;&gt; = 6.709836807756896
+
+* percent (U+0025): L&lt;&lt;391.0,204.0&gt;--&lt;391.0,205.0&gt;&gt;/L&lt;&lt;391.0,205.0&gt;--&lt;390.0,201.0&gt;&gt; = 14.036243467926484
+
+* percent (U+0025): L&lt;&lt;391.0,205.0&gt;--&lt;390.0,201.0&gt;&gt;/L&lt;&lt;390.0,201.0&gt;--&lt;390.0,204.0&gt;&gt; = 14.036243467926484
+
+* percent (U+0025): L&lt;&lt;485.0,206.0&gt;--&lt;486.0,207.0&gt;&gt;/L&lt;&lt;486.0,207.0&gt;--&lt;482.0,204.0&gt;&gt; = 8.13010235415596
+
+* percent (U+0025): L&lt;&lt;486.0,207.0&gt;--&lt;482.0,204.0&gt;&gt;/L&lt;&lt;482.0,204.0&gt;--&lt;485.0,207.0&gt;&gt; = 8.13010235415596
+
+* perthousand (U+2030): L&lt;&lt;118.0,619.0&gt;--&lt;120.0,621.0&gt;&gt;/L&lt;&lt;120.0,621.0&gt;--&lt;98.0,604.0&gt;&gt; = 7.3057595333108205
+
+* perthousand (U+2030): L&lt;&lt;516.0,13.0&gt;--&lt;519.0,16.0&gt;&gt;/B&lt;&lt;519.0,16.0&gt;-&lt;507.0,7.0&gt;-&lt;495.0,4.0&gt;&gt; = 8.13010235415596
+
+* perthousand (U+2030): L&lt;&lt;537.0,31.0&gt;--&lt;516.0,13.0&gt;&gt;/L&lt;&lt;516.0,13.0&gt;--&lt;519.0,16.0&gt;&gt; = 4.398705354995591
+
+* perthousand (U+2030): L&lt;&lt;707.0,201.0&gt;--&lt;710.0,204.0&gt;&gt;/L&lt;&lt;710.0,204.0&gt;--&lt;689.0,187.0&gt;&gt; = 6.009005957494474
+
+* perthousand (U+2030): L&lt;&lt;712.0,205.0&gt;--&lt;707.0,201.0&gt;&gt;/L&lt;&lt;707.0,201.0&gt;--&lt;710.0,204.0&gt;&gt; = 6.340191745909908
+
+* pi (U+03C0): B&lt;&lt;415.0,366.0&gt;-&lt;408.0,366.0&gt;-&lt;408.0,367.0&gt;&gt;/L&lt;&lt;408.0,367.0&gt;--&lt;406.0,343.0&gt;&gt; = 4.763641690726144
+
+* pi (U+03C0): L&lt;&lt;122.0,-3.0&gt;--&lt;99.0,0.0&gt;&gt;/L&lt;&lt;99.0,0.0&gt;--&lt;101.0,0.0&gt;&gt; = 7.431407971172489
+
+* pi (U+03C0): L&lt;&lt;366.0,101.0&gt;--&lt;363.0,133.0&gt;&gt;/L&lt;&lt;363.0,133.0&gt;--&lt;363.0,132.0&gt;&gt; = 5.355825042855143
+
+* plus (U+002B): L&lt;&lt;229.0,523.0&gt;--&lt;230.0,531.0&gt;&gt;/B&lt;&lt;230.0,531.0&gt;-&lt;230.0,530.0&gt;-&lt;250.0,530.0&gt;&gt; = 7.1250163489018075
+
+* plus (U+002B): L&lt;&lt;232.0,127.0&gt;--&lt;227.0,128.0&gt;&gt;/L&lt;&lt;227.0,128.0&gt;--&lt;230.0,128.0&gt;&gt; = 11.309932474020195
+
+* plus (U+002B): L&lt;&lt;418.0,348.0&gt;--&lt;443.0,349.0&gt;&gt;/L&lt;&lt;443.0,349.0&gt;--&lt;442.0,349.0&gt;&gt; = 2.2906100426384346
+
+* plus (U+002B): L&lt;&lt;443.0,349.0&gt;--&lt;442.0,349.0&gt;&gt;/B&lt;&lt;442.0,349.0&gt;-&lt;456.0,350.0&gt;-&lt;461.0,349.0&gt;&gt; = 4.085616779974799
+
+* plusminus (U+00B1): L&lt;&lt;228.0,309.0&gt;--&lt;227.0,314.0&gt;&gt;/L&lt;&lt;227.0,314.0&gt;--&lt;227.0,313.0&gt;&gt; = 11.309932474020227
+
+* plusminus (U+00B1): L&lt;&lt;250.0,559.0&gt;--&lt;271.0,558.0&gt;&gt;/B&lt;&lt;271.0,558.0&gt;-&lt;270.0,558.0&gt;-&lt;271.0,536.0&gt;&gt; = 2.726310993906212
+
+* plusminus (U+00B1): L&lt;&lt;42.0,75.0&gt;--&lt;30.0,76.0&gt;&gt;/B&lt;&lt;30.0,76.0&gt;-&lt;33.0,76.0&gt;-&lt;33.0,95.0&gt;&gt; = 4.763641690726144
+
+* plusminus (U+00B1): L&lt;&lt;468.0,95.0&gt;--&lt;467.0,73.0&gt;&gt;/B&lt;&lt;467.0,73.0&gt;-&lt;467.0,76.0&gt;-&lt;443.0,76.0&gt;&gt; = 2.6025622024998034
+
+* product (U+220F): B&lt;&lt;567.0,-194.0&gt;-&lt;578.0,-209.0&gt;-&lt;577.0,-209.0&gt;&gt;/L&lt;&lt;577.0,-209.0&gt;--&lt;594.0,-210.0&gt;&gt; = 3.3664606634298315
+
+* product (U+220F): L&lt;&lt;430.0,-230.0&gt;--&lt;433.0,-209.0&gt;&gt;/B&lt;&lt;433.0,-209.0&gt;-&lt;433.0,-210.0&gt;-&lt;456.0,-210.0&gt;&gt; = 8.13010235415596
+
+* product (U+220F): L&lt;&lt;452.0,-253.0&gt;--&lt;430.0,-250.0&gt;&gt;/B&lt;&lt;430.0,-250.0&gt;-&lt;433.0,-250.0&gt;-&lt;430.0,-240.0&gt;&gt; = 7.765166018425308
+
+* radical (U+221A): L&lt;&lt;187.0,91.0&gt;--&lt;193.0,64.0&gt;&gt;/L&lt;&lt;193.0,64.0&gt;--&lt;193.0,68.0&gt;&gt; = 12.52880770915152
+
+* radical (U+221A): L&lt;&lt;401.0,747.0&gt;--&lt;402.0,754.0&gt;&gt;/L&lt;&lt;402.0,754.0&gt;--&lt;402.0,753.0&gt;&gt; = 8.13010235415596
+
+* radical (U+221A): L&lt;&lt;644.0,828.0&gt;--&lt;669.0,827.0&gt;&gt;/B&lt;&lt;669.0,827.0&gt;-&lt;667.0,827.0&gt;-&lt;669.0,810.0&gt;&gt; = 2.2906100426384346
+
+* radical (U+221A): L&lt;&lt;87.0,354.0&gt;--&lt;110.0,353.0&gt;&gt;/B&lt;&lt;110.0,353.0&gt;-&lt;109.0,353.0&gt;-&lt;112.0,348.0&gt;&gt; = 2.489552921999128
+
+* registered (U+00AE): L&lt;&lt;674.0,280.0&gt;--&lt;675.0,304.0&gt;&gt;/L&lt;&lt;675.0,304.0&gt;--&lt;675.0,303.0&gt;&gt; = 2.3859440303887243
+
+* registered (U+00AE): L&lt;&lt;675.0,304.0&gt;--&lt;675.0,303.0&gt;&gt;/L&lt;&lt;675.0,303.0&gt;--&lt;677.0,319.0&gt;&gt; = 7.1250163489018075
+
+* second (U+2033): L&lt;&lt;211.0,511.0&gt;--&lt;212.0,518.0&gt;&gt;/L&lt;&lt;212.0,518.0&gt;--&lt;212.0,517.0&gt;&gt; = 8.13010235415596
+
+* second (U+2033): L&lt;&lt;212.0,518.0&gt;--&lt;212.0,517.0&gt;&gt;/L&lt;&lt;212.0,517.0&gt;--&lt;216.0,542.0&gt;&gt; = 9.090276920822312
+
+* second (U+2033): L&lt;&lt;31.0,511.0&gt;--&lt;32.0,518.0&gt;&gt;/L&lt;&lt;32.0,518.0&gt;--&lt;32.0,517.0&gt;&gt; = 8.13010235415596
+
+* second (U+2033): L&lt;&lt;32.0,518.0&gt;--&lt;32.0,517.0&gt;&gt;/L&lt;&lt;32.0,517.0&gt;--&lt;36.0,542.0&gt;&gt; = 9.090276920822312
+
+* uni00B5 (U+00B5): L&lt;&lt;386.0,75.0&gt;--&lt;387.0,76.0&gt;&gt;/L&lt;&lt;387.0,76.0&gt;--&lt;378.0,68.0&gt;&gt; = 3.3664606634298315
+
+* uni00B5 (U+00B5): L&lt;&lt;69.0,-156.0&gt;--&lt;69.0,-157.0&gt;&gt;/B&lt;&lt;69.0,-157.0&gt;-&lt;68.0,-147.0&gt;-&lt;70.0,-145.0&gt;&gt; = 5.710593137499633
+
+* uni00B5 (U+00B5): L&lt;&lt;70.0,-166.0&gt;--&lt;69.0,-155.0&gt;&gt;/L&lt;&lt;69.0,-155.0&gt;--&lt;69.0,-156.0&gt;&gt; = 5.1944289077348
+
+* uni03A9 (U+03A9): L&lt;&lt;371.0,630.0&gt;--&lt;374.0,630.0&gt;&gt;/L&lt;&lt;374.0,630.0&gt;--&lt;362.0,632.0&gt;&gt; = 9.462322208025613
+
+* uni03A9 (U+03A9): L&lt;&lt;398.0,626.0&gt;--&lt;371.0,630.0&gt;&gt;/L&lt;&lt;371.0,630.0&gt;--&lt;374.0,630.0&gt;&gt; = 8.426969021480636
+
+* uni03A9 (U+03A9): L&lt;&lt;587.0,292.0&gt;--&lt;589.0,314.0&gt;&gt;/L&lt;&lt;589.0,314.0&gt;--&lt;589.0,313.0&gt;&gt; = 5.1944289077348
+
+* uni03A9 (U+03A9): L&lt;&lt;589.0,313.0&gt;--&lt;592.0,337.0&gt;&gt;/L&lt;&lt;592.0,337.0&gt;--&lt;592.0,336.0&gt;&gt; = 7.1250163489018075
+
+* uni03A9 (U+03A9): L&lt;&lt;589.0,314.0&gt;--&lt;589.0,313.0&gt;&gt;/L&lt;&lt;589.0,313.0&gt;--&lt;592.0,337.0&gt;&gt; = 7.1250163489018075
+
+* uni03A9 (U+03A9): L&lt;&lt;592.0,337.0&gt;--&lt;592.0,336.0&gt;&gt;/L&lt;&lt;592.0,336.0&gt;--&lt;593.0,366.0&gt;&gt; = 1.9091524329963898
+
+* uni03BC (U+03BC): L&lt;&lt;386.0,75.0&gt;--&lt;387.0,76.0&gt;&gt;/L&lt;&lt;387.0,76.0&gt;--&lt;378.0,68.0&gt;&gt; = 3.3664606634298315
+
+* uni03BC (U+03BC): L&lt;&lt;69.0,-156.0&gt;--&lt;69.0,-157.0&gt;&gt;/B&lt;&lt;69.0,-157.0&gt;-&lt;68.0,-147.0&gt;-&lt;70.0,-145.0&gt;&gt; = 5.710593137499633
+
+* uni03BC (U+03BC): L&lt;&lt;70.0,-166.0&gt;--&lt;69.0,-155.0&gt;&gt;/L&lt;&lt;69.0,-155.0&gt;--&lt;69.0,-156.0&gt;&gt; = 5.1944289077348
+
+* uni1E9E (U+1E9E): L&lt;&lt;375.0,-5.0&gt;--&lt;376.0,-5.0&gt;&gt;/L&lt;&lt;376.0,-5.0&gt;--&lt;343.0,-3.0&gt;&gt; = 3.468229258917096
+
+* uni1E9E (U+1E9E): L&lt;&lt;385.0,-6.0&gt;--&lt;375.0,-5.0&gt;&gt;/L&lt;&lt;375.0,-5.0&gt;--&lt;376.0,-5.0&gt;&gt; = 5.710593137499633
+
+* uni2113 (U+2113): L&lt;&lt;200.0,97.0&gt;--&lt;197.0,86.0&gt;&gt;/B&lt;&lt;197.0,86.0&gt;-&lt;198.0,88.0&gt;-&lt;199.0,80.0&gt;&gt; = 11.309932474020195
+
+* uni2113 (U+2113): L&lt;&lt;274.0,560.0&gt;--&lt;279.0,600.0&gt;&gt;/L&lt;&lt;279.0,600.0&gt;--&lt;279.0,591.0&gt;&gt; = 7.1250163489018075
+
+* uni2113 (U+2113): L&lt;&lt;312.0,-6.0&gt;--&lt;314.0,-6.0&gt;&gt;/L&lt;&lt;314.0,-6.0&gt;--&lt;310.0,-7.0&gt;&gt; = 14.036243467926484
+
+* uni2113 (U+2113): L&lt;&lt;314.0,-6.0&gt;--&lt;310.0,-7.0&gt;&gt;/L&lt;&lt;310.0,-7.0&gt;--&lt;312.0,-6.0&gt;&gt; = 12.528807709151463
+
+* uni2113 (U+2113): L&lt;&lt;357.0,491.0&gt;--&lt;356.0,485.0&gt;&gt;/L&lt;&lt;356.0,485.0&gt;--&lt;356.0,487.0&gt;&gt; = 9.462322208025613
+
+* uni2113 (U+2113): L&lt;&lt;368.0,22.0&gt;--&lt;386.0,37.0&gt;&gt;/L&lt;&lt;386.0,37.0&gt;--&lt;383.0,35.0&gt;&gt; = 6.115503566285384
+
+* uni2113 (U+2113): L&lt;&lt;386.0,37.0&gt;--&lt;383.0,35.0&gt;&gt;/L&lt;&lt;383.0,35.0&gt;--&lt;400.0,48.0&gt;&gt; = 3.715289105428815
+
+* uni2126 (U+2126): L&lt;&lt;371.0,630.0&gt;--&lt;374.0,630.0&gt;&gt;/L&lt;&lt;374.0,630.0&gt;--&lt;362.0,632.0&gt;&gt; = 9.462322208025613
+
+* uni2126 (U+2126): L&lt;&lt;398.0,626.0&gt;--&lt;371.0,630.0&gt;&gt;/L&lt;&lt;371.0,630.0&gt;--&lt;374.0,630.0&gt;&gt; = 8.426969021480636
+
+* uni2126 (U+2126): L&lt;&lt;587.0,292.0&gt;--&lt;589.0,314.0&gt;&gt;/L&lt;&lt;589.0,314.0&gt;--&lt;589.0,313.0&gt;&gt; = 5.1944289077348
+
+* uni2126 (U+2126): L&lt;&lt;589.0,313.0&gt;--&lt;592.0,337.0&gt;&gt;/L&lt;&lt;592.0,337.0&gt;--&lt;592.0,336.0&gt;&gt; = 7.1250163489018075
+
+* uni2126 (U+2126): L&lt;&lt;589.0,314.0&gt;--&lt;589.0,313.0&gt;&gt;/L&lt;&lt;589.0,313.0&gt;--&lt;592.0,337.0&gt;&gt; = 7.1250163489018075
+
+* uni2126 (U+2126): L&lt;&lt;592.0,337.0&gt;--&lt;592.0,336.0&gt;&gt;/L&lt;&lt;592.0,336.0&gt;--&lt;593.0,366.0&gt;&gt; = 1.9091524329963898
+
+* uni2325 (U+2325): L&lt;&lt;51.0,478.0&gt;--&lt;52.0,484.0&gt;&gt;/L&lt;&lt;52.0,484.0&gt;--&lt;52.0,483.0&gt;&gt; = 9.462322208025613
+
+* uni2B1B (U+2B1B): L&lt;&lt;51.0,274.0&gt;--&lt;51.0,273.0&gt;&gt;/B&lt;&lt;51.0,273.0&gt;-&lt;50.0,284.0&gt;-&lt;52.0,286.0&gt;&gt; = 5.1944289077348
+
+* uni2B1B (U+2B1B): L&lt;&lt;52.0,267.0&gt;--&lt;51.0,274.0&gt;&gt;/L&lt;&lt;51.0,274.0&gt;--&lt;51.0,273.0&gt;&gt; = 8.13010235415596
+
+* uni2B1B (U+2B1B): L&lt;&lt;72.0,-121.0&gt;--&lt;60.0,-120.0&gt;&gt;/L&lt;&lt;60.0,-120.0&gt;--&lt;62.0,-120.0&gt;&gt; = 4.763641690726144 
+
+* uni2B1C (U+2B1C): L&lt;&lt;55.0,494.0&gt;--&lt;52.0,519.0&gt;&gt;/L&lt;&lt;52.0,519.0&gt;--&lt;52.0,518.0&gt;&gt; = 6.842773412630916 [code: found-jaggy-segments]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Formera-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:</p>
+<pre><code>* ampersand (U+0026): L&lt;&lt;286.0,469.0&gt;--&lt;290.0,472.0&gt;&gt;/L&lt;&lt;290.0,472.0&gt;--&lt;289.0,471.0&gt;&gt; = 8.13010235415596
+
+* ampersand (U+0026): L&lt;&lt;290.0,472.0&gt;--&lt;289.0,471.0&gt;&gt;/L&lt;&lt;289.0,471.0&gt;--&lt;301.0,481.0&gt;&gt; = 5.19442890773487
+
+* ampersand (U+0026): L&lt;&lt;419.0,543.0&gt;--&lt;418.0,534.0&gt;&gt;/L&lt;&lt;418.0,534.0&gt;--&lt;418.0,537.0&gt;&gt; = 6.340191745909908
+
+* copyright (U+00A9): L&lt;&lt;236.0,468.0&gt;--&lt;255.0,485.0&gt;&gt;/L&lt;&lt;255.0,485.0&gt;--&lt;254.0,484.0&gt;&gt; = 3.1798301198642793
+
+* copyright (U+00A9): L&lt;&lt;255.0,485.0&gt;--&lt;254.0,484.0&gt;&gt;/L&lt;&lt;254.0,484.0&gt;--&lt;262.0,491.0&gt;&gt; = 3.8140748342902824
+
+* copyright (U+00A9): L&lt;&lt;382.0,619.0&gt;--&lt;385.0,619.0&gt;&gt;/L&lt;&lt;385.0,619.0&gt;--&lt;356.0,620.0&gt;&gt; = 1.9749340108819595
+
+* copyright (U+00A9): L&lt;&lt;393.0,618.0&gt;--&lt;382.0,619.0&gt;&gt;/L&lt;&lt;382.0,619.0&gt;--&lt;385.0,619.0&gt;&gt; = 5.1944289077348
+
+* copyright (U+00A9): L&lt;&lt;583.0,62.0&gt;--&lt;586.0,65.0&gt;&gt;/L&lt;&lt;586.0,65.0&gt;--&lt;563.0,49.0&gt;&gt; = 10.175510843043194
+
+* copyright (U+00A9): L&lt;&lt;604.0,81.0&gt;--&lt;583.0,62.0&gt;&gt;/L&lt;&lt;583.0,62.0&gt;--&lt;586.0,65.0&gt;&gt; = 2.862405226111779
+
+* currency (U+00A4): B&lt;&lt;515.0,620.0&gt;-&lt;530.0,620.0&gt;-&lt;533.0,637.0&gt;&gt;/L&lt;&lt;533.0,637.0&gt;--&lt;533.0,636.0&gt;&gt; = 10.007979801441312
+
+* currency (U+00A4): L&lt;&lt;314.0,592.0&gt;--&lt;338.0,589.0&gt;&gt;/L&lt;&lt;338.0,589.0&gt;--&lt;337.0,589.0&gt;&gt; = 7.125016348901757
+
+* currency (U+00A4): L&lt;&lt;338.0,589.0&gt;--&lt;337.0,589.0&gt;&gt;/L&lt;&lt;337.0,589.0&gt;--&lt;362.0,583.0&gt;&gt; = 13.495733280795811
+
+* currency (U+00A4): L&lt;&lt;58.0,379.0&gt;--&lt;61.0,402.0&gt;&gt;/L&lt;&lt;61.0,402.0&gt;--&lt;61.0,401.0&gt;&gt; = 7.431407971172489
+
+* currency (U+00A4): L&lt;&lt;61.0,402.0&gt;--&lt;61.0,401.0&gt;&gt;/L&lt;&lt;61.0,401.0&gt;--&lt;67.0,426.0&gt;&gt; = 13.495733280795811
+
+* degree (U+00B0): B&lt;&lt;273.0,745.0&gt;-&lt;317.0,747.0&gt;-&lt;311.0,747.0&gt;&gt;/B&lt;&lt;311.0,747.0&gt;-&lt;329.0,743.0&gt;-&lt;349.0,743.0&gt;&gt; = 12.528807709151492
+
+* estimated (U+212E): L&lt;&lt;321.0,-19.0&gt;--&lt;324.0,-19.0&gt;&gt;/L&lt;&lt;324.0,-19.0&gt;--&lt;296.0,-16.0&gt;&gt; = 6.115503566285384
+
+* estimated (U+212E): L&lt;&lt;328.0,-20.0&gt;--&lt;321.0,-19.0&gt;&gt;/L&lt;&lt;321.0,-19.0&gt;--&lt;324.0,-19.0&gt;&gt; = 8.13010235415596
+
+* infinity (U+221E): L&lt;&lt;376.0,441.0&gt;--&lt;396.0,458.0&gt;&gt;/L&lt;&lt;396.0,458.0&gt;--&lt;395.0,457.0&gt;&gt; = 4.635463426902695
+
+* infinity (U+221E): L&lt;&lt;396.0,458.0&gt;--&lt;395.0,457.0&gt;&gt;/L&lt;&lt;395.0,457.0&gt;--&lt;407.0,466.0&gt;&gt; = 8.13010235415596
+
+* k (U+006B): B&lt;&lt;280.0,195.0&gt;-&lt;322.0,150.0&gt;-&lt;321.0,151.0&gt;&gt;/B&lt;&lt;321.0,151.0&gt;-&lt;326.0,143.0&gt;-&lt;333.0,133.5&gt;&gt; = 12.994616791916483
+
+* kgreenlandic (U+0138): B&lt;&lt;289.0,195.0&gt;-&lt;331.0,150.0&gt;-&lt;330.0,151.0&gt;&gt;/B&lt;&lt;330.0,151.0&gt;-&lt;335.0,143.0&gt;-&lt;342.0,133.5&gt;&gt; = 12.994616791916483
+
+* logicalnot (U+00AC): B&lt;&lt;417.0,-3.0&gt;-&lt;394.0,-3.0&gt;-&lt;397.0,0.0&gt;&gt;/L&lt;&lt;397.0,0.0&gt;--&lt;394.0,-2.0&gt;&gt; = 11.309932474020227
+
+* minute (U+2032): L&lt;&lt;43.0,602.0&gt;--&lt;46.0,627.0&gt;&gt;/L&lt;&lt;46.0,627.0&gt;--&lt;46.0,626.0&gt;&gt; = 6.842773412630916
+
+* minute (U+2032): L&lt;&lt;46.0,627.0&gt;--&lt;46.0,626.0&gt;&gt;/L&lt;&lt;46.0,626.0&gt;--&lt;47.0,649.0&gt;&gt; = 2.489552921999128
+
+* multiply (U+00D7): L&lt;&lt;267.0,397.0&gt;--&lt;281.0,414.0&gt;&gt;/L&lt;&lt;281.0,414.0&gt;--&lt;280.0,413.0&gt;&gt; = 5.527540151656193
+
+* multiply (U+00D7): L&lt;&lt;281.0,414.0&gt;--&lt;280.0,413.0&gt;&gt;/B&lt;&lt;280.0,413.0&gt;-&lt;286.0,421.0&gt;-&lt;294.0,426.0&gt;&gt; = 8.13010235415596
+
+* numbersign (U+0023): L&lt;&lt;403.0,71.0&gt;--&lt;399.0,53.0&gt;&gt;/B&lt;&lt;399.0,53.0&gt;-&lt;399.0,57.0&gt;-&lt;392.0,34.0&gt;&gt; = 12.528807709151492
+
+* o (U+006F): B&lt;&lt;363.0,123.0&gt;-&lt;378.0,141.0&gt;-&lt;377.0,140.0&gt;&gt;/B&lt;&lt;377.0,140.0&gt;-&lt;393.0,159.0&gt;-&lt;401.5,172.5&gt;&gt; = 4.899092453787774
+
+* oacute (U+00F3): B&lt;&lt;363.0,123.0&gt;-&lt;378.0,141.0&gt;-&lt;377.0,140.0&gt;&gt;/B&lt;&lt;377.0,140.0&gt;-&lt;393.0,159.0&gt;-&lt;401.5,172.5&gt;&gt; = 4.899092453787774
+
+* obreve (U+014F): B&lt;&lt;363.0,123.0&gt;-&lt;378.0,141.0&gt;-&lt;377.0,140.0&gt;&gt;/B&lt;&lt;377.0,140.0&gt;-&lt;393.0,159.0&gt;-&lt;401.5,172.5&gt;&gt; = 4.899092453787774
+
+* ocircumflex (U+00F4): B&lt;&lt;363.0,123.0&gt;-&lt;378.0,141.0&gt;-&lt;377.0,140.0&gt;&gt;/B&lt;&lt;377.0,140.0&gt;-&lt;393.0,159.0&gt;-&lt;401.5,172.5&gt;&gt; = 4.899092453787774
+
+* odieresis (U+00F6): B&lt;&lt;363.0,123.0&gt;-&lt;378.0,141.0&gt;-&lt;377.0,140.0&gt;&gt;/B&lt;&lt;377.0,140.0&gt;-&lt;393.0,159.0&gt;-&lt;401.5,172.5&gt;&gt; = 4.899092453787774
+
+* ograve (U+00F2): B&lt;&lt;363.0,123.0&gt;-&lt;378.0,141.0&gt;-&lt;377.0,140.0&gt;&gt;/B&lt;&lt;377.0,140.0&gt;-&lt;393.0,159.0&gt;-&lt;401.5,172.5&gt;&gt; = 4.899092453787774
+
+* ohungarumlaut (U+0151): B&lt;&lt;363.0,123.0&gt;-&lt;378.0,141.0&gt;-&lt;377.0,140.0&gt;&gt;/B&lt;&lt;377.0,140.0&gt;-&lt;393.0,159.0&gt;-&lt;401.5,172.5&gt;&gt; = 4.899092453787774
+
+* omacron (U+014D): B&lt;&lt;363.0,123.0&gt;-&lt;378.0,141.0&gt;-&lt;377.0,140.0&gt;&gt;/B&lt;&lt;377.0,140.0&gt;-&lt;393.0,159.0&gt;-&lt;401.5,172.5&gt;&gt; = 4.899092453787774
+
+* oslash (U+00F8): B&lt;&lt;375.0,123.0&gt;-&lt;390.0,141.0&gt;-&lt;389.0,140.0&gt;&gt;/B&lt;&lt;389.0,140.0&gt;-&lt;405.0,159.0&gt;-&lt;413.5,172.5&gt;&gt; = 4.899092453787774
+
+* oslashacute (U+01FF): B&lt;&lt;375.0,123.0&gt;-&lt;390.0,141.0&gt;-&lt;389.0,140.0&gt;&gt;/B&lt;&lt;389.0,140.0&gt;-&lt;405.0,159.0&gt;-&lt;413.5,172.5&gt;&gt; = 4.899092453787774
+
+* otilde (U+00F5): B&lt;&lt;363.0,123.0&gt;-&lt;378.0,141.0&gt;-&lt;377.0,140.0&gt;&gt;/B&lt;&lt;377.0,140.0&gt;-&lt;393.0,159.0&gt;-&lt;401.5,172.5&gt;&gt; = 4.899092453787774
+
+* paragraph (U+00B6): L&lt;&lt;385.0,586.0&gt;--&lt;385.0,585.0&gt;&gt;/B&lt;&lt;385.0,585.0&gt;-&lt;384.0,594.0&gt;-&lt;386.0,596.0&gt;&gt; = 6.340191745909908
+
+* paragraph (U+00B6): L&lt;&lt;386.0,575.0&gt;--&lt;385.0,586.0&gt;&gt;/L&lt;&lt;385.0,586.0&gt;--&lt;385.0,585.0&gt;&gt; = 5.1944289077348
+
+* partialdiff (U+2202): L&lt;&lt;135.0,668.0&gt;--&lt;153.0,665.0&gt;&gt;/L&lt;&lt;153.0,665.0&gt;--&lt;152.0,665.0&gt;&gt; = 9.462322208025613
+
+* partialdiff (U+2202): L&lt;&lt;153.0,665.0&gt;--&lt;152.0,665.0&gt;&gt;/B&lt;&lt;152.0,665.0&gt;-&lt;162.0,664.0&gt;-&lt;177.0,659.0&gt;&gt; = 5.710593137499633
+
+* percent (U+0025): L&lt;&lt;623.0,24.0&gt;--&lt;626.0,27.0&gt;&gt;/L&lt;&lt;626.0,27.0&gt;--&lt;603.0,10.0&gt;&gt; = 8.530765609948139
+
+* percent (U+0025): L&lt;&lt;631.0,31.0&gt;--&lt;623.0,24.0&gt;&gt;/L&lt;&lt;623.0,24.0&gt;--&lt;626.0,27.0&gt;&gt; = 3.8140748342902824
+
+* perthousand (U+2030): B&lt;&lt;558.0,56.0&gt;-&lt;574.0,62.0&gt;-&lt;572.0,60.0&gt;&gt;/L&lt;&lt;572.0,60.0&gt;--&lt;580.0,67.0&gt;&gt; = 3.814074834290187
+
+* perthousand (U+2030): B&lt;&lt;607.0,100.0&gt;-&lt;610.0,109.0&gt;-&lt;610.0,107.0&gt;&gt;/B&lt;&lt;610.0,107.0&gt;-&lt;611.0,123.0&gt;-&lt;614.0,123.0&gt;&gt; = 3.576334374997269
+
+* perthousand (U+2030): L&lt;&lt;457.0,177.0&gt;--&lt;457.0,178.0&gt;&gt;/L&lt;&lt;457.0,178.0&gt;--&lt;454.0,166.0&gt;&gt; = 14.036243467926484
+
+* plusminus (U+00B1): L&lt;&lt;211.0,270.0&gt;--&lt;211.0,269.0&gt;&gt;/B&lt;&lt;211.0,269.0&gt;-&lt;210.0,280.0&gt;-&lt;212.0,282.0&gt;&gt; = 5.1944289077348
+
+* plusminus (U+00B1): L&lt;&lt;212.0,262.0&gt;--&lt;211.0,270.0&gt;&gt;/L&lt;&lt;211.0,270.0&gt;--&lt;211.0,269.0&gt;&gt; = 7.125016348901757
+
+* plusminus (U+00B1): L&lt;&lt;287.0,197.0&gt;--&lt;286.0,171.0&gt;&gt;/B&lt;&lt;286.0,171.0&gt;-&lt;286.0,174.0&gt;-&lt;261.0,174.0&gt;&gt; = 2.2025981617658017
+
+* plusminus (U+00B1): L&lt;&lt;30.0,343.0&gt;--&lt;30.0,342.0&gt;&gt;/B&lt;&lt;30.0,342.0&gt;-&lt;28.0,355.0&gt;-&lt;32.0,355.0&gt;&gt; = 8.746162262555211
+
+* product (U+220F): L&lt;&lt;101.0,337.0&gt;--&lt;98.0,360.0&gt;&gt;/L&lt;&lt;98.0,360.0&gt;--&lt;98.0,359.0&gt;&gt; = 7.431407971172489
+
+* product (U+220F): L&lt;&lt;257.0,-228.0&gt;--&lt;256.0,-253.0&gt;&gt;/B&lt;&lt;256.0,-253.0&gt;-&lt;256.0,-250.0&gt;-&lt;231.0,-250.0&gt;&gt; = 2.2906100426384346
+
+* product (U+220F): L&lt;&lt;28.0,-251.0&gt;--&lt;20.0,-250.0&gt;&gt;/L&lt;&lt;20.0,-250.0&gt;--&lt;23.0,-250.0&gt;&gt; = 7.125016348901757
+
+* product (U+220F): L&lt;&lt;412.0,-206.0&gt;--&lt;415.0,-183.0&gt;&gt;/B&lt;&lt;415.0,-183.0&gt;-&lt;415.0,-184.0&gt;-&lt;438.0,-184.0&gt;&gt; = 7.431407971172489
+
+* product (U+220F): L&lt;&lt;495.0,-95.0&gt;--&lt;494.0,-87.0&gt;&gt;/L&lt;&lt;494.0,-87.0&gt;--&lt;494.0,-88.0&gt;&gt; = 7.125016348901757
+
+* registered (U+00AE): B&lt;&lt;473.0,64.0&gt;-&lt;488.0,70.0&gt;-&lt;486.0,68.0&gt;&gt;/B&lt;&lt;486.0,68.0&gt;-&lt;491.0,72.0&gt;-&lt;494.0,72.0&gt;&gt; = 6.34019174590985
+
+* registered (U+00AE): L&lt;&lt;564.0,45.0&gt;--&lt;567.0,48.0&gt;&gt;/L&lt;&lt;567.0,48.0&gt;--&lt;554.0,37.0&gt;&gt; = 4.763641690726066
+
+* registered (U+00AE): L&lt;&lt;587.0,62.0&gt;--&lt;564.0,45.0&gt;&gt;/L&lt;&lt;564.0,45.0&gt;--&lt;567.0,48.0&gt;&gt; = 8.530765609948139
+
+* second (U+2033): L&lt;&lt;223.0,602.0&gt;--&lt;226.0,627.0&gt;&gt;/L&lt;&lt;226.0,627.0&gt;--&lt;226.0,626.0&gt;&gt; = 6.842773412630916
+
+* second (U+2033): L&lt;&lt;226.0,627.0&gt;--&lt;226.0,626.0&gt;&gt;/L&lt;&lt;226.0,626.0&gt;--&lt;227.0,649.0&gt;&gt; = 2.489552921999128
+
+* second (U+2033): L&lt;&lt;43.0,602.0&gt;--&lt;46.0,627.0&gt;&gt;/L&lt;&lt;46.0,627.0&gt;--&lt;46.0,626.0&gt;&gt; = 6.842773412630916
+
+* second (U+2033): L&lt;&lt;46.0,627.0&gt;--&lt;46.0,626.0&gt;&gt;/L&lt;&lt;46.0,626.0&gt;--&lt;47.0,649.0&gt;&gt; = 2.489552921999128
+
+* summation (U+2211): L&lt;&lt;529.0,534.0&gt;--&lt;519.0,535.0&gt;&gt;/B&lt;&lt;519.0,535.0&gt;-&lt;521.0,535.0&gt;-&lt;521.0,537.0&gt;&gt; = 5.710593137499633
+
+* uni00B5 (U+00B5): L&lt;&lt;383.0,316.0&gt;--&lt;380.0,339.0&gt;&gt;/L&lt;&lt;380.0,339.0&gt;--&lt;380.0,338.0&gt;&gt; = 7.431407971172489
+
+* uni0137 (U+0137): B&lt;&lt;280.0,195.0&gt;-&lt;322.0,150.0&gt;-&lt;321.0,151.0&gt;&gt;/B&lt;&lt;321.0,151.0&gt;-&lt;326.0,143.0&gt;-&lt;333.0,133.5&gt;&gt; = 12.994616791916483
+
+* uni01EB (U+01EB): B&lt;&lt;363.0,123.0&gt;-&lt;378.0,141.0&gt;-&lt;377.0,140.0&gt;&gt;/B&lt;&lt;377.0,140.0&gt;-&lt;393.0,159.0&gt;-&lt;401.5,172.5&gt;&gt; = 4.899092453787774
+
+* uni03A9 (U+03A9): L&lt;&lt;122.0,596.0&gt;--&lt;145.0,617.0&gt;&gt;/L&lt;&lt;145.0,617.0&gt;--&lt;144.0,616.0&gt;&gt; = 2.6025622024998034
+
+* uni03A9 (U+03A9): L&lt;&lt;145.0,617.0&gt;--&lt;144.0,616.0&gt;&gt;/L&lt;&lt;144.0,616.0&gt;--&lt;155.0,625.0&gt;&gt; = 5.710593137499696
+
+* uni03A9 (U+03A9): L&lt;&lt;410.0,-3.0&gt;--&lt;377.0,0.0&gt;&gt;/B&lt;&lt;377.0,0.0&gt;-&lt;379.0,0.0&gt;-&lt;379.0,10.0&gt;&gt; = 5.1944289077348
+
+* uni03A9 (U+03A9): L&lt;&lt;610.0,71.0&gt;--&lt;641.0,70.0&gt;&gt;/B&lt;&lt;641.0,70.0&gt;-&lt;639.0,70.0&gt;-&lt;641.0,62.0&gt;&gt; = 1.8476102659945155
+
+* uni03BC (U+03BC): L&lt;&lt;383.0,316.0&gt;--&lt;380.0,339.0&gt;&gt;/L&lt;&lt;380.0,339.0&gt;--&lt;380.0,338.0&gt;&gt; = 7.431407971172489
+
+* uni1E4D (U+1E4D): B&lt;&lt;363.0,123.0&gt;-&lt;378.0,141.0&gt;-&lt;377.0,140.0&gt;&gt;/B&lt;&lt;377.0,140.0&gt;-&lt;393.0,159.0&gt;-&lt;401.5,172.5&gt;&gt; = 4.899092453787774
+
+* uni1E4F (U+1E4F): B&lt;&lt;363.0,123.0&gt;-&lt;378.0,141.0&gt;-&lt;377.0,140.0&gt;&gt;/B&lt;&lt;377.0,140.0&gt;-&lt;393.0,159.0&gt;-&lt;401.5,172.5&gt;&gt; = 4.899092453787774
+
+* uni1E51 (U+1E51): B&lt;&lt;363.0,123.0&gt;-&lt;378.0,141.0&gt;-&lt;377.0,140.0&gt;&gt;/B&lt;&lt;377.0,140.0&gt;-&lt;393.0,159.0&gt;-&lt;401.5,172.5&gt;&gt; = 4.899092453787774
+
+* uni1E53 (U+1E53): B&lt;&lt;363.0,123.0&gt;-&lt;378.0,141.0&gt;-&lt;377.0,140.0&gt;&gt;/B&lt;&lt;377.0,140.0&gt;-&lt;393.0,159.0&gt;-&lt;401.5,172.5&gt;&gt; = 4.899092453787774
+
+* uni1ECD (U+1ECD): B&lt;&lt;363.0,123.0&gt;-&lt;378.0,141.0&gt;-&lt;377.0,140.0&gt;&gt;/B&lt;&lt;377.0,140.0&gt;-&lt;393.0,159.0&gt;-&lt;401.5,172.5&gt;&gt; = 4.899092453787774
+
+* uni2113 (U+2113): L&lt;&lt;186.0,303.0&gt;--&lt;189.0,307.0&gt;&gt;/L&lt;&lt;189.0,307.0&gt;--&lt;188.0,306.0&gt;&gt; = 8.13010235415596
+
+* uni2113 (U+2113): L&lt;&lt;188.0,114.0&gt;--&lt;189.0,122.0&gt;&gt;/L&lt;&lt;189.0,122.0&gt;--&lt;189.0,121.0&gt;&gt; = 7.1250163489018075
+
+* uni2113 (U+2113): L&lt;&lt;189.0,122.0&gt;--&lt;189.0,121.0&gt;&gt;/L&lt;&lt;189.0,121.0&gt;--&lt;192.0,151.0&gt;&gt; = 5.710593137499633
+
+* uni2113 (U+2113): L&lt;&lt;390.0,26.0&gt;--&lt;393.0,29.0&gt;&gt;/L&lt;&lt;393.0,29.0&gt;--&lt;375.0,14.0&gt;&gt; = 5.1944289077348
+
+* uni2113 (U+2113): L&lt;&lt;407.0,39.0&gt;--&lt;390.0,26.0&gt;&gt;/L&lt;&lt;390.0,26.0&gt;--&lt;393.0,29.0&gt;&gt; = 7.594643368591495
+
+* uni2116 (U+2116): B&lt;&lt;1118.0,355.0&gt;-&lt;1133.0,373.0&gt;-&lt;1132.0,372.0&gt;&gt;/B&lt;&lt;1132.0,372.0&gt;-&lt;1148.0,391.0&gt;-&lt;1156.5,404.5&gt;&gt; = 4.899092453787774
+
+* uni2126 (U+2126): L&lt;&lt;122.0,596.0&gt;--&lt;145.0,617.0&gt;&gt;/L&lt;&lt;145.0,617.0&gt;--&lt;144.0,616.0&gt;&gt; = 2.6025622024998034
+
+* uni2126 (U+2126): L&lt;&lt;145.0,617.0&gt;--&lt;144.0,616.0&gt;&gt;/L&lt;&lt;144.0,616.0&gt;--&lt;155.0,625.0&gt;&gt; = 5.710593137499696
+
+* uni2126 (U+2126): L&lt;&lt;410.0,-3.0&gt;--&lt;377.0,0.0&gt;&gt;/B&lt;&lt;377.0,0.0&gt;-&lt;379.0,0.0&gt;-&lt;379.0,10.0&gt;&gt; = 5.1944289077348
+
+* uni2126 (U+2126): L&lt;&lt;610.0,71.0&gt;--&lt;641.0,70.0&gt;&gt;/B&lt;&lt;641.0,70.0&gt;-&lt;639.0,70.0&gt;-&lt;641.0,62.0&gt;&gt; = 1.8476102659945155
+
+* uni2318 (U+2318): L&lt;&lt;144.0,-51.0&gt;--&lt;175.0,-54.0&gt;&gt;/L&lt;&lt;175.0,-54.0&gt;--&lt;174.0,-54.0&gt;&gt; = 5.527540151656126
+
+* uni2318 (U+2318): L&lt;&lt;175.0,-54.0&gt;--&lt;174.0,-54.0&gt;&gt;/L&lt;&lt;174.0,-54.0&gt;--&lt;200.0,-52.0&gt;&gt; = 4.398705354995508
+
+* uni2325 (U+2325): L&lt;&lt;330.0,459.0&gt;--&lt;333.0,484.0&gt;&gt;/B&lt;&lt;333.0,484.0&gt;-&lt;333.0,483.0&gt;-&lt;338.0,488.0&gt;&gt; = 6.842773412630916
+
+* uni2325 (U+2325): L&lt;&lt;364.0,409.0&gt;--&lt;339.0,412.0&gt;&gt;/B&lt;&lt;339.0,412.0&gt;-&lt;341.0,412.0&gt;-&lt;336.0,417.0&gt;&gt; = 6.842773412630916
+
+* uni2B1B (U+2B1B): L&lt;&lt;52.0,471.0&gt;--&lt;52.0,470.0&gt;&gt;/B&lt;&lt;52.0,470.0&gt;-&lt;51.0,482.0&gt;-&lt;54.0,482.0&gt;&gt; = 4.763641690726144
+
+* uni2B1B (U+2B1B): L&lt;&lt;53.0,461.0&gt;--&lt;52.0,471.0&gt;&gt;/L&lt;&lt;52.0,471.0&gt;--&lt;52.0,470.0&gt;&gt; = 5.710593137499633 
+
+* uni2B1C (U+2B1C): B&lt;&lt;167.0,501.0&gt;-&lt;154.0,501.0&gt;-&lt;154.0,503.0&gt;&gt;/L&lt;&lt;154.0,503.0&gt;--&lt;151.0,481.0&gt;&gt; = 7.765166018425354 [code: found-jaggy-segments]
+</code></pre>
+</span></li></ul></div></details>
+<h3>Do outlines contain any semi-vertical or semi-horizontal lines?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_semi_vertical&gt;</div>
+
+<details><summary>⚠️ <strong>fonts/ttf/Formera-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<pre><code>* t (U+0074): L&lt;&lt;109.0,322.0&gt;--&lt;108.0,56.0&gt;&gt;
+
+* tcaron (U+0165): L&lt;&lt;109.0,322.0&gt;--&lt;108.0,56.0&gt;&gt;
+
+* thorn (U+00FE): L&lt;&lt;109.0,540.0&gt;--&lt;108.0,401.0&gt;&gt;
+
+* uni0163 (U+0163): L&lt;&lt;109.0,322.0&gt;--&lt;108.0,56.0&gt;&gt;
+
+* uni018F (U+018F): L&lt;&lt;491.0,288.0&gt;--&lt;375.0,289.0&gt;&gt;
+
+* uni021B (U+021B): L&lt;&lt;109.0,322.0&gt;--&lt;108.0,56.0&gt;&gt;
+
+* uni1E6D (U+1E6D): L&lt;&lt;109.0,322.0&gt;--&lt;108.0,56.0&gt;&gt;
+
+* uni1E6F (U+1E6F): L&lt;&lt;109.0,322.0&gt;--&lt;108.0,56.0&gt;&gt;
+
+* uni1E97 (U+1E97): L&lt;&lt;109.0,322.0&gt;--&lt;108.0,56.0&gt;&gt;
+
+* uni1E9E (U+1E9E): L&lt;&lt;124.0,571.0&gt;--&lt;123.0,416.0&gt;&gt; 
+
+* uni2015 (U+2015): L&lt;&lt;443.0,405.0&gt;--&lt;565.0,404.0&gt;&gt; [code: found-semi-vertical]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Formera-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
+<pre><code>* H (U+0048): L&lt;&lt;66.0,551.0&gt;--&lt;65.0,667.0&gt;&gt;
+
+* Hcircumflex (U+0124): L&lt;&lt;66.0,551.0&gt;--&lt;65.0,667.0&gt;&gt;
+
+* f_i (U+FB01): L&lt;&lt;67.0,46.0&gt;--&lt;66.0,169.0&gt;&gt;
+
+* m (U+006D): L&lt;&lt;117.0,450.0&gt;--&lt;242.0,449.0&gt;&gt;
+
+* seven (U+0037): L&lt;&lt;473.0,516.0&gt;--&lt;603.0,515.0&gt;&gt;
+
+* uni1E24 (U+1E24): L&lt;&lt;66.0,551.0&gt;--&lt;65.0,667.0&gt;&gt;
+
+* uni1E2A (U+1E2A): L&lt;&lt;66.0,551.0&gt;--&lt;65.0,667.0&gt;&gt; 
+
+* uni1E43 (U+1E43): L&lt;&lt;117.0,450.0&gt;--&lt;242.0,449.0&gt;&gt; [code: found-semi-vertical]
+</code></pre>
+</span></li></ul></div></details>
+                    </body>
+                </html>
