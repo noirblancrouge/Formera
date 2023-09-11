@@ -2,7 +2,7 @@
 
 Fontbakery version: 0.8.13
 
-<details><summary><b>[14] Formera-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Ensure that the font can be rasterized by FreeType. (derived from com.adobe.fonts/check/freetype_rasterizer) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.adobe.fonts/check/freetype_rasterizer">com.adobe.fonts/check/freetype_rasterizer</a>)</summary><div>
+<details><summary><b>[10] Formera-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Ensure that the font can be rasterized by FreeType. (derived from com.adobe.fonts/check/freetype_rasterizer) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.adobe.fonts/check/freetype_rasterizer">com.adobe.fonts/check/freetype_rasterizer</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with UnboundLocalError: local variable 'FT_Exception' referenced before assignment
@@ -60,6 +60,7 @@ Fontbakery version: 0.8.13
 	* uni1E2B
 	* uni1E25
 	* hmacronbelow
+	* dotlessi_dotbelowcomb
 	* uni1ECB
 	* uni0137
 	* kmacronbelow
@@ -139,14 +140,6 @@ Fontbakery version: 0.8.13
 	* uni02BC
 	* uni02BD
 	* uni02BB and IJacute [code: found-nested-components]
-</div></details><details><summary>🔥 <b>FAIL:</b> Font enables smart dropout control in "prep" table instructions? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/smart_dropout">com.google.fonts/check/smart_dropout</a>)</summary><div>
-
-
-* 🔥 **FAIL** The 'prep' table does not contain TrueType instructions enabling smart dropout control. To fix, export the font with autohinting enabled, or run ttfautohint on the font, or run the `gftools fix-nonhinting` script. [code: lacks-smart-dropout]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking with fontTools.ttx (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/ttx_roundtrip">com.google.fonts/check/ttx_roundtrip</a>)</summary><div>
-
-
-* 🔥 **FAIL** name id 256 missing from name table
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure component transforms do not perform scaling or rotation. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/transformed_components">com.google.fonts/check/transformed_components</a>)</summary><div>
 
 
@@ -168,15 +161,6 @@ or inverted outline direction:
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
 
 The dot of soft dotted characters should disappear in other cases, for example: i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̊ j̦̋ ǰ̦ j̦̒ į̆ į̇ į̈ į̊ [code: soft-dotted]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check name table for empty records. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.adobe.fonts/check/name/empty_records">com.adobe.fonts/check/name/empty_records</a>)</summary><div>
-
-
-* 🔥 **FAIL** "name" table record with key=(3, 1, 1033, 256) is empty and should be removed. [code: empty-record]
-</div></details><details><summary>⚠ <b>WARN:</b> Is the Grid-fitting and Scan-conversion Procedure ('gasp') table set to optimize rendering? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/gasp">com.google.fonts/check/gasp</a>)</summary><div>
-
-
-* ⚠ **WARN** The gasp table has a range of 9 that may be unneccessary. [code: non-ffff-range]
-* ⚠ **WARN** The gasp table has a range of 21 that may be unneccessary. [code: non-ffff-range]
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -202,6 +186,8 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- dotlessi_dotbelowcomb
+
 	- eight.subs
 
 	- five.subs
@@ -220,7 +206,9 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- two.subs
 
-	- uni00690307 
+	- uni00690307
+
+	- uni01310328 
 
 	- zero.subs
  [code: unreachable-glyphs]
@@ -458,10 +446,6 @@ The following glyphs do not have the recommended number of contours:
 
 	* minus (U+2212): L<<57.0,307.0>--<30.0,310.0>>/B<<30.0,310.0>-<32.0,310.0>-<32.0,318.0>> = 6.340191745909908
 
-	* minute (U+2032): L<<30.0,511.0>--<31.0,518.0>>/L<<31.0,518.0>--<31.0,517.0>> = 8.13010235415596
-
-	* minute (U+2032): L<<31.0,518.0>--<31.0,517.0>>/L<<31.0,517.0>--<35.0,542.0>> = 9.090276920822312
-
 	* multiply (U+00D7): B<<255.5,293.0>-<250.0,298.0>-<251.0,299.0>>/L<<251.0,299.0>--<228.0,280.0>> = 5.4403320310054815
 
 	* notequal (U+2260): B<<151.0,155.0>-<152.0,158.0>-<152.0,157.0>>/L<<152.0,157.0>--<153.0,161.0>> = 14.036243467926484
@@ -556,6 +540,10 @@ The following glyphs do not have the recommended number of contours:
 
 	* plusminus (U+00B1): L<<468.0,95.0>--<467.0,73.0>>/B<<467.0,73.0>-<467.0,76.0>-<443.0,76.0>> = 2.6025622024998034
 
+	* prime (U+2032): L<<30.0,511.0>--<31.0,518.0>>/L<<31.0,518.0>--<31.0,517.0>> = 8.13010235415596
+
+	* prime (U+2032): L<<31.0,518.0>--<31.0,517.0>>/L<<31.0,517.0>--<35.0,542.0>> = 9.090276920822312
+
 	* product (U+220F): B<<567.0,-194.0>-<578.0,-209.0>-<577.0,-209.0>>/L<<577.0,-209.0>--<594.0,-210.0>> = 3.3664606634298315
 
 	* product (U+220F): L<<430.0,-230.0>--<433.0,-209.0>>/B<<433.0,-209.0>-<433.0,-210.0>-<456.0,-210.0>> = 8.13010235415596
@@ -582,13 +570,13 @@ The following glyphs do not have the recommended number of contours:
 
 	* registered (U+00AE): L<<675.0,304.0>--<675.0,303.0>>/L<<675.0,303.0>--<677.0,319.0>> = 7.1250163489018075
 
-	* second (U+2033): L<<211.0,511.0>--<212.0,518.0>>/L<<212.0,518.0>--<212.0,517.0>> = 8.13010235415596
+	* second (U+2033): L<<181.0,511.0>--<182.0,518.0>>/L<<182.0,518.0>--<182.0,517.0>> = 8.13010235415596
 
-	* second (U+2033): L<<212.0,518.0>--<212.0,517.0>>/L<<212.0,517.0>--<216.0,542.0>> = 9.090276920822312
+	* second (U+2033): L<<182.0,518.0>--<182.0,517.0>>/L<<182.0,517.0>--<186.0,542.0>> = 9.090276920822312
 
-	* second (U+2033): L<<31.0,511.0>--<32.0,518.0>>/L<<32.0,518.0>--<32.0,517.0>> = 8.13010235415596
+	* second (U+2033): L<<30.0,511.0>--<31.0,518.0>>/L<<31.0,518.0>--<31.0,517.0>> = 8.13010235415596
 
-	* second (U+2033): L<<32.0,518.0>--<32.0,517.0>>/L<<32.0,517.0>--<36.0,542.0>> = 9.090276920822312
+	* second (U+2033): L<<31.0,518.0>--<31.0,517.0>>/L<<31.0,517.0>--<35.0,542.0>> = 9.090276920822312
 
 	* uni00B5 (U+00B5): L<<386.0,75.0>--<387.0,76.0>>/L<<387.0,76.0>--<378.0,68.0>> = 3.3664606634298315
 
@@ -671,7 +659,7 @@ The following glyphs do not have the recommended number of contours:
 	* uni1E9E (U+1E9E): L<<124.0,571.0>--<123.0,416.0>> 
 
 	* uni2015 (U+2015): L<<443.0,405.0>--<565.0,404.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[11] Formera-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Ensure that the font can be rasterized by FreeType. (derived from com.adobe.fonts/check/freetype_rasterizer) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.adobe.fonts/check/freetype_rasterizer">com.adobe.fonts/check/freetype_rasterizer</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[9] Formera-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Ensure that the font can be rasterized by FreeType. (derived from com.adobe.fonts/check/freetype_rasterizer) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.adobe.fonts/check/freetype_rasterizer">com.adobe.fonts/check/freetype_rasterizer</a>)</summary><div>
 
 
 * 💔 **ERROR** Failed with UnboundLocalError: local variable 'FT_Exception' referenced before assignment
@@ -729,6 +717,7 @@ The following glyphs do not have the recommended number of contours:
 	* uni1E2B
 	* uni1E25
 	* hmacronbelow
+	* dotlessi_dotbelowcomb
 	* uni1ECB
 	* uni0137
 	* kmacronbelow
@@ -808,10 +797,6 @@ The following glyphs do not have the recommended number of contours:
 	* uni02BC
 	* uni02BD
 	* uni02BB and IJacute [code: found-nested-components]
-</div></details><details><summary>🔥 <b>FAIL:</b> Font enables smart dropout control in "prep" table instructions? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/smart_dropout">com.google.fonts/check/smart_dropout</a>)</summary><div>
-
-
-* 🔥 **FAIL** The 'prep' table does not contain TrueType instructions enabling smart dropout control. To fix, export the font with autohinting enabled, or run ttfautohint on the font, or run the `gftools fix-nonhinting` script. [code: lacks-smart-dropout]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure component transforms do not perform scaling or rotation. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/transformed_components">com.google.fonts/check/transformed_components</a>)</summary><div>
 
 
@@ -833,11 +818,6 @@ or inverted outline direction:
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
 
 The dot of soft dotted characters should disappear in other cases, for example: i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̊ j̦̋ ǰ̦ j̦̒ į̆ į̇ į̈ į̊ [code: soft-dotted]
-</div></details><details><summary>⚠ <b>WARN:</b> Is the Grid-fitting and Scan-conversion Procedure ('gasp') table set to optimize rendering? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/gasp">com.google.fonts/check/gasp</a>)</summary><div>
-
-
-* ⚠ **WARN** The gasp table has a range of 9 that may be unneccessary. [code: non-ffff-range]
-* ⚠ **WARN** The gasp table has a range of 21 that may be unneccessary. [code: non-ffff-range]
 </div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
@@ -863,6 +843,8 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
+	- dotlessi_dotbelowcomb
+
 	- eight.subs
 
 	- five.subs
@@ -881,7 +863,9 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- two.subs
 
-	- uni00690307 
+	- uni00690307
+
+	- uni01310328 
 
 	- zero.subs
  [code: unreachable-glyphs]
@@ -1037,10 +1021,6 @@ The following glyphs do not have the recommended number of contours:
 
 	* lozenge (U+25CA): B<<160.0,455.0>-<168.0,468.0>-<168.0,467.0>>/L<<168.0,467.0>--<169.0,471.0>> = 14.036243467926484
 
-	* minute (U+2032): L<<43.0,602.0>--<46.0,627.0>>/L<<46.0,627.0>--<46.0,626.0>> = 6.842773412630916
-
-	* minute (U+2032): L<<46.0,627.0>--<46.0,626.0>>/L<<46.0,626.0>--<47.0,649.0>> = 2.489552921999128
-
 	* multiply (U+00D7): L<<267.0,397.0>--<281.0,414.0>>/L<<281.0,414.0>--<280.0,413.0>> = 5.527540151656193
 
 	* multiply (U+00D7): L<<281.0,414.0>--<280.0,413.0>>/B<<280.0,413.0>-<284.0,418.0>-<287.0,421.0>> = 6.340191745909908
@@ -1105,9 +1085,9 @@ The following glyphs do not have the recommended number of contours:
 
 	* registered (U+00AE): L<<587.0,62.0>--<564.0,45.0>>/L<<564.0,45.0>--<567.0,48.0>> = 8.530765609948139
 
-	* second (U+2033): L<<223.0,602.0>--<226.0,627.0>>/L<<226.0,627.0>--<226.0,626.0>> = 6.842773412630916
+	* second (U+2033): L<<221.0,602.0>--<224.0,627.0>>/L<<224.0,627.0>--<224.0,626.0>> = 6.842773412630916
 
-	* second (U+2033): L<<226.0,627.0>--<226.0,626.0>>/L<<226.0,626.0>--<227.0,649.0>> = 2.489552921999128
+	* second (U+2033): L<<224.0,627.0>--<224.0,626.0>>/L<<224.0,626.0>--<225.0,649.0>> = 2.489552921999128
 
 	* second (U+2033): L<<43.0,602.0>--<46.0,627.0>>/L<<46.0,627.0>--<46.0,626.0>> = 6.842773412630916
 
@@ -1178,8 +1158,8 @@ The following glyphs do not have the recommended number of contours:
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 2 | 10 | 13 | 238 | 13 | 199 | 0 |
-| 0% | 2% | 3% | 50% | 3% | 42% | 0% |
+| 2 | 6 | 11 | 238 | 15 | 203 | 0 |
+| 0% | 1% | 2% | 50% | 3% | 43% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
