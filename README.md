@@ -1,5 +1,18 @@
 # Formera
 
+[![][Fontbakery]](http://noirblancrouge.github.io/Formera/fontbakery/fontbakery-report.html)
+[![][Universal]](http://noirblancrouge.github.io/Formera/fontbakery/fontbakery-report.html)
+[![][GF Profile]](https://Element-Type.github.io/HostGrotesk/fontbakery/fontbakery-report.html)
+[![][Outline Correctness]](http://noirblancrouge.github.io/Formera/fontbakery/fontbakery-report.html)
+[![][Shaping]](http://noirblancrouge.github.io/Formera/fontbakery/fontbakery-report.html)
+
+[Fontbakery]: https://img.shields.io/endpoint?url=https://noirblancrouge.github.io/Formera/badges/overall.json
+[GF Profile]: https://img.shields.io/endpoint?url=https://noirblancrouge.github.io/Formera/badges/GoogleFonts.json
+[Outline Correctness]: https://img.shields.io/endpoint?url=https://noirblancrouge.github.io/Formera/badges/OutlineCorrectnessChecks.json
+[Shaping]: https://img.shields.io/endpoint?url=https://noirblancrouge.github.io/Formera/badges/ShapingChecks.json
+[Universal]: https://img.shields.io/endpoint?url=https://noirblancrouge.github.io/Formera/badges/Universal.json
+
+
 ![Cover](https://raw.githubusercontent.com/noirblancrouge/Formera/master/documentation/images/formera.jpg)
 
 Formera (AKA Futura Renner) family is a digital version of Futura lead character belonging to the typography department of Ecole Nationale Supérieure des Arts de la Cambre, and probably the first draft of Futura as we know it.
