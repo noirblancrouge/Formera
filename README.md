@@ -2,7 +2,7 @@
 
 [![][Fontbakery]](http://noirblancrouge.github.io/Formera/fontbakery/fontbakery-report.html)
 [![][Universal]](http://noirblancrouge.github.io/Formera/fontbakery/fontbakery-report.html)
-[![][GF Profile]](http://noirblancrouge.github.io/HostGrotesk/fontbakery/fontbakery-report.html)
+[![][GF Profile]](http://noirblancrouge.github.io/Formera/fontbakery/fontbakery-report.html)
 [![][Outline Correctness]](http://noirblancrouge.github.io/Formera/fontbakery/fontbakery-report.html)
 [![][Shaping]](http://noirblancrouge.github.io/Formera/fontbakery/fontbakery-report.html)
 
