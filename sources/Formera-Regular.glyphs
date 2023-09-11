@@ -1,9 +1,6 @@
 {
 .appVersion = "3151";
 .formatVersion = 3;
-DisplayStrings = (
-"/idotless_ogonekcomb/idotless_dotbelowcomb"
-);
 customParameters = (
 {
 name = blueScale;
@@ -39,6 +36,19 @@ value = (
 0,
 2,
 3
+);
+},
+{
+name = unicodeRanges;
+value = (
+0,
+1
+);
+},
+{
+name = codePageRanges;
+value = (
+"1252"
 );
 }
 );

@@ -37,6 +37,19 @@ value = (
 2,
 3
 );
+},
+{
+name = unicodeRanges;
+value = (
+0,
+1
+);
+},
+{
+name = codePageRanges;
+value = (
+"1252"
+);
 }
 );
 date = "2023-09-08 07:36:58 +0000";
