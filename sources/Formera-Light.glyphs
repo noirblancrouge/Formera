@@ -104,8 +104,7 @@ tag = aalt;
 {
 code = "lookup ccmp_Other_1 {
 	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
-	@CombiningNonTopAccents = [brevebelowcomb cedillacomb dotbelowcomb macronbelowcomb ogonekcomb];
-	sub [i j]' @CombiningTopAccents by [idotless jdotless];
+	@CombiningNonTopAccents = [brevebelowcomb cedillacomb dotbelowcomb macronbelowcomb ogonekcomb tildebelowcomb];
 	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
 } ccmp_Other_1;
 
@@ -115,6 +114,11 @@ lookup ccmp_latn_1 {
 
 script latn;
 lookup ccmp_latn_1;
+
+lookup ccmp_soft_dotted {
+    lookupflag UseMarkFilteringSet @CombiningTopAccents;
+    sub [i j idotbelow iogonek itildebelow ]' @CombiningTopAccents by [idotless jdotless idotless_dotbelowcomb idotless_ogonekcomb idotless_tildebelowcomb];
+} ccmp_soft_dotted;
 ";
 tag = ccmp;
 },
@@ -415,6 +419,12 @@ code = "lookup CATALAN {
 } CATALAN;
 ";
 tag = calt;
+},
+{
+automatic = 1;
+code = "pos @Uppercase <5 0 10 0>;
+";
+tag = cpsp;
 }
 );
 fontMaster = (
@@ -21322,6 +21332,31 @@ width = 185;
 );
 },
 {
+glyphname = idotless_tildebelowcomb;
+lastChange = "2023-09-12 08:35:21 +0000";
+layers = (
+{
+anchors = (
+{
+name = top;
+pos = (88,436);
+}
+);
+layerId = "C5490108-C233-4ADF-8B6D-CFE8E3B23812";
+shapes = (
+{
+ref = idotless;
+},
+{
+pos = (-128,0);
+ref = tildebelowcomb;
+}
+);
+width = 185;
+}
+);
+},
+{
 glyphname = i_dotaccentcomb;
 kernLeft = i;
 kernRight = i;
@@ -21762,6 +21797,26 @@ width = 4220;
 }
 );
 unicode = 297;
+},
+{
+glyphname = itildebelow;
+lastChange = "2023-09-12 08:37:30 +0000";
+layers = (
+{
+layerId = "C5490108-C233-4ADF-8B6D-CFE8E3B23812";
+shapes = (
+{
+ref = idotless_tildebelowcomb;
+},
+{
+pos = (-211,-64);
+ref = dotaccentcomb;
+}
+);
+width = 185;
+}
+);
+unicode = 7725;
 },
 {
 glyphname = j;
@@ -71354,6 +71409,29 @@ width = 3429;
 }
 );
 unicode = 814;
+},
+{
+glyphname = tildebelowcomb;
+lastChange = "2023-09-12 08:33:15 +0000";
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (221,0);
+}
+);
+layerId = "C5490108-C233-4ADF-8B6D-CFE8E3B23812";
+shapes = (
+{
+pos = (-72,-734);
+ref = tildecomb;
+}
+);
+width = 460;
+}
+);
+unicode = 816;
 },
 {
 glyphname = macronbelowcomb;
