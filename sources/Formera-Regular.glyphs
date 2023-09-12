@@ -1,6 +1,13 @@
 {
 .appVersion = "3151";
 .formatVersion = 3;
+classes = (
+{
+automatic = 1;
+code = "A Aacute Abreve Acircumflex Adieresis Adotbelow Agrave Amacron Aogonek Aring Aringacute Atilde AE AEacute B C Cacute Ccaron Ccedilla Ccedillaacute Ccircumflex Cdotaccent D Eth Dcaron Dcroat Ddotbelow Dmacronbelow E Eacute Ebreve Ecaron Ecedillabreve Ecircumflex Edieresis Edotaccent Edotbelow Egrave Emacron Emacronacute Emacrongrave Eogonek Etilde Schwa F G Gbreve Gcaron Gcircumflex Gcommaaccent Gdotaccent Gmacron H Hbar Hbrevebelow Hcircumflex Hdotbelow I IJ Iacute Ibreve Icircumflex Idieresis Idieresisacute Idotaccent Idotbelow Igrave Imacron Iogonek Itilde J Jacute Jcircumflex K Kcommaaccent Kmacronbelow L Lacute Lcaron Lcommaaccent Ldot Ldotbelow Lmacronbelow Lslash M Mdotbelow N Nacute Ncaron Ncommaaccent Ndotaccent Ndotbelow Nhookleft Nmacronbelow Ntilde Eng O Oacute Obreve Ocircumflex Odieresis Odotbelow Ograve Ohungarumlaut Omacron Omacronacute Omacrongrave Oogonek Oslash Oslashacute Otilde Otildeacute Otildedieresis OE P Thorn Q R Racute Rcaron Rcommaaccent Rdotbelow Rmacronbelow S Sacute Sacutedotaccent Scaron Scarondotaccent Scedilla Scircumflex Scommaaccent Sdotaccent Sdotbelow Sdotbelowdotaccent Germandbls T Tbar Tcaron Tcedilla Tcommaaccent Tdotbelow Tmacronbelow U Uacute Ubreve Ucircumflex Udieresis Udotbelow Ugrave Uhungarumlaut Umacron Umacrondieresis Uogonek Uring Utilde Utildeacute V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ydotaccent Ygrave Ymacron Ytilde Z Zacute Zcaron Zdotaccent Zdotbelow Delta Omega";
+name = Uppercase;
+}
+);
 customParameters = (
 {
 name = blueScale;
@@ -50,6 +57,10 @@ name = codePageRanges;
 value = (
 "1252"
 );
+},
+{
+name = "Use Extension Kerning";
+value = 1;
 }
 );
 date = "2023-09-08 07:36:58 +0000";
@@ -86,6 +97,7 @@ feature onum;
 feature case;
 feature zero;
 feature ss01;
+feature calt;
 ";
 tag = aalt;
 },
@@ -384,6 +396,12 @@ tag = zero;
 },
 {
 automatic = 1;
+code = "pos @Uppercase <5 0 10 0>;
+";
+tag = cpsp;
+},
+{
+automatic = 1;
 code = "sub ampersand by ampersand.ss01;
 ";
 labels = (
@@ -393,6 +411,18 @@ value = "ampersand variant";
 }
 );
 tag = ss01;
+},
+{
+code = "";
+tag = mkmk;
+},
+{
+code = "lookup CATALAN {
+    sub l periodcentered' l by periodcentered.loclCAT;
+    sub L periodcentered' L by periodcentered.loclCAT.case;
+} CATALAN;
+";
+tag = calt;
 }
 );
 fontMaster = (
@@ -5575,7 +5605,7 @@ unicode = 7732;
 glyphname = L;
 kernLeft = H;
 kernRight = L;
-lastChange = "2023-09-08 04:27:29 +0000";
+lastChange = "2023-09-12 02:38:20 +0000";
 layers = (
 {
 anchors = (
@@ -5584,8 +5614,8 @@ name = bottom;
 pos = (211,0);
 },
 {
-name = center;
-pos = (211,348);
+name = middle;
+pos = (250,329);
 },
 {
 name = top;
@@ -5606,7 +5636,7 @@ nodes = (
 (69,127,o),
 (70,125,c),
 (70,90,ls),
-(69,78,o),
+(70,78,o),
 (68,65,o),
 (68,56,cs),
 (68,52,o),
@@ -5678,7 +5708,7 @@ nodes = (
 (169,563,o),
 (169,572,cs),
 (172,628,ls),
-(172,647,o),
+(173,647,o),
 (174,666,o),
 (168,683,c),
 (164,685,o),
@@ -5785,7 +5815,7 @@ unicode = 315;
 glyphname = Ldot;
 kernLeft = H;
 kernRight = L;
-lastChange = "2023-09-08 04:27:29 +0000";
+lastChange = "2023-09-12 02:38:20 +0000";
 layers = (
 {
 layerId = "7C3BCDA4-8F92-4DF1-91BA-B714BE37B8B5";
@@ -5794,11 +5824,12 @@ shapes = (
 ref = L;
 },
 {
-pos = (174,15);
-ref = periodcentered;
+alignment = 1;
+pos = (236,0);
+ref = periodcentered.loclCAT.case;
 }
 );
-width = 426;
+width = 471;
 }
 );
 unicode = 319;
@@ -17605,7 +17636,7 @@ unicode = 7830;
 glyphname = i;
 kernLeft = i;
 kernRight = i;
-lastChange = "2023-09-11 10:55:35 +0000";
+lastChange = "2023-09-12 02:22:09 +0000";
 layers = (
 {
 anchors = (
@@ -18909,7 +18940,7 @@ unicode = 7733;
 glyphname = l;
 kernLeft = h;
 kernRight = l;
-lastChange = "2023-09-11 10:55:33 +0000";
+lastChange = "2023-09-12 02:38:35 +0000";
 layers = (
 {
 anchors = (
@@ -19105,7 +19136,7 @@ unicode = 316;
 glyphname = ldot;
 kernLeft = h;
 kernRight = l;
-lastChange = "2023-09-08 04:27:29 +0000";
+lastChange = "2023-09-12 02:38:35 +0000";
 layers = (
 {
 layerId = "7C3BCDA4-8F92-4DF1-91BA-B714BE37B8B5";
@@ -19114,11 +19145,12 @@ shapes = (
 ref = l;
 },
 {
-pos = (134,66);
-ref = periodcentered;
+alignment = 1;
+pos = (137,0);
+ref = periodcentered.loclCAT;
 }
 );
-width = 187;
+width = 372;
 }
 );
 unicode = 320;
@@ -38827,44 +38859,50 @@ unicode = 191;
 glyphname = periodcentered;
 kernLeft = anoteleia;
 kernRight = anoteleia;
-lastChange = "2023-09-08 04:27:29 +0000";
+lastChange = "2023-09-12 02:38:51 +0000";
 layers = (
 {
+anchors = (
+{
+name = _periodcentered;
+pos = (118,301);
+}
+);
 layerId = "7C3BCDA4-8F92-4DF1-91BA-B714BE37B8B5";
 shapes = (
 {
 closed = 1;
 nodes = (
-(170,378,o),
-(159,394,c),
-(146,400,o),
-(133,408,o),
-(120,408,cs),
-(100,408,o),
-(92,399,o),
-(82,386,cs),
-(76,378,o),
-(69,370,o),
-(66,364,cs),
-(59,351,o),
-(56,320,o),
-(61,310,c),
-(67,302,o),
-(75,300,o),
-(81,295,c),
-(86,287,o),
-(93,285,o),
-(103,281,c),
-(129,281,o),
-(149,287,o),
-(169,297,c),
-(175,311,o),
-(184,322,o),
-(188,340,c),
-(187,341,o),
-(187,342,o),
-(186,342,c),
-(180,364,o)
+(170,407,o),
+(159,423,c),
+(146,429,o),
+(133,437,o),
+(120,437,cs),
+(100,437,o),
+(92,428,o),
+(82,415,cs),
+(76,407,o),
+(69,399,o),
+(66,393,cs),
+(59,380,o),
+(56,349,o),
+(61,339,c),
+(67,331,o),
+(75,329,o),
+(81,324,c),
+(86,316,o),
+(93,314,o),
+(103,310,c),
+(129,310,o),
+(149,316,o),
+(169,326,c),
+(175,340,o),
+(184,351,o),
+(188,369,c),
+(187,370,o),
+(187,371,o),
+(186,371,c),
+(180,393,o)
 );
 }
 );
@@ -39669,7 +39707,7 @@ width = 235;
 },
 {
 glyphname = periodcentered.loclCAT.case;
-lastChange = "2023-09-08 04:27:29 +0000";
+lastChange = "2023-09-12 02:38:38 +0000";
 layers = (
 {
 layerId = "7C3BCDA4-8F92-4DF1-91BA-B714BE37B8B5";
@@ -70228,6 +70266,7 @@ kerningLTR = {
 "@MMK_R_V" = -130;
 "@MMK_R_W" = -90;
 "@MMK_R_Y" = -80;
+periodcentered.loclCAT.case = -190;
 };
 "@MMK_L_O" = {
 "@MMK_R_O" = -20;
@@ -70313,12 +70352,14 @@ kerningLTR = {
 "@MMK_L_i" = {
 "@MMK_R_f" = 10;
 "@MMK_R_h" = 10;
+"@MMK_R_j" = 10;
 };
 "@MMK_L_k" = {
 "@MMK_R_n" = -10;
 };
 "@MMK_L_l" = {
 "@MMK_R_f" = 10;
+periodcentered.loclCAT = -50;
 };
 "@MMK_L_n" = {
 "@MMK_R_o" = -10;
