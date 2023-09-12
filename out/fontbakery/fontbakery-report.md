@@ -2,166 +2,7 @@
 
 Fontbakery version: 0.8.13
 
-<details><summary><b>[10] Formera-Light.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Ensure that the font can be rasterized by FreeType. (derived from com.adobe.fonts/check/freetype_rasterizer) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.adobe.fonts/check/freetype_rasterizer">com.adobe.fonts/check/freetype_rasterizer</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with UnboundLocalError: local variable 'FT_Exception' referenced before assignment
-</div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have components which are themselves components. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyf_nested_components">com.google.fonts/check/glyf_nested_components</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs have components which themselves are component glyphs:
-	* uni1EA0
-	* Ccaron
-	* Dcaron
-	* uni1E0C
-	* Dmacronbelow
-	* Ecaron
-	* uni1EB8
-	* Gcaron
-	* uni0122
-	* uni1E2A
-	* uni1E24
-	* uni1ECA
-	* uni0136
-	* Kmacronbelow
-	* uni013B
-	* uni1E36
-	* Lmacronbelow
-	* uni1E42
-	* Ncaron
-	* uni0145
-	* uni1E46
-	* Nmacronbelow
-	* uni1ECC
-	* Rcaron
-	* uni0156
-	* uni1E5A
-	* Rmacronbelow
-	* Scaron
-	* uni1E66
-	* uni0218
-	* uni1E62
-	* uni1E68
-	* Tcaron
-	* uni021A
-	* uni1E6C
-	* Tmacronbelow
-	* uni1EE4
-	* Zcaron
-	* uni1E92
-	* uni1EA1
-	* ccaron
-	* uni1E0D
-	* dmacronbelow
-	* ecaron
-	* uni1EB9
-	* gcaron
-	* uni0123
-	* uni1E2B
-	* uni1E25
-	* hmacronbelow
-	* dotlessi_dotbelowcomb
-	* uni1ECB
-	* uni0137
-	* kmacronbelow
-	* uni013C
-	* uni1E37
-	* lmacronbelow
-	* uni1E43
-	* ncaron
-	* uni0146
-	* uni1E47
-	* nmacronbelow
-	* uni1ECD
-	* rcaron
-	* uni0157
-	* uni1E5B
-	* rmacronbelow
-	* scaron
-	* uni1E67
-	* uni0219
-	* uni1E63
-	* uni1E69
-	* uni021B
-	* uni1E6D
-	* tmacronbelow
-	* uni1EE5
-	* zcaron
-	* uni1E93
-	* zero.numr
-	* one.numr
-	* two.numr
-	* three.numr
-	* four.numr
-	* five.numr
-	* six.numr
-	* seven.numr
-	* eight.numr
-	* nine.numr
-	* onehalf
-	* onehalf
-	* onequarter
-	* onequarter
-	* threequarters
-	* threequarters
-	* zero.numr.zero
-	* zero.subs
-	* one.subs
-	* two.subs
-	* three.subs
-	* four.subs
-	* five.subs
-	* six.subs
-	* seven.subs
-	* eight.subs
-	* nine.subs
-	* uni2080
-	* uni2081
-	* uni2082
-	* uni2083
-	* uni2084
-	* uni2085
-	* uni2086
-	* uni2087
-	* uni2088
-	* uni2089
-	* uni2070
-	* uni00B9
-	* uni00B2
-	* uni00B3
-	* uni2074
-	* uni2075
-	* uni2076
-	* uni2077
-	* uni2078
-	* uni2079
-	* quotedblbase
-	* caron
-	* uni02BC
-	* uni02BD
-	* uni02BB and IJacute [code: found-nested-components]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure component transforms do not perform scaling or rotation. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/transformed_components">com.google.fonts/check/transformed_components</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs had components with scaling or rotation
-or inverted outline direction:
-
-* parenright (component parenleft)
-* braceright (component braceleft)
-* bracketright (component bracketleft)
-* less (component greater)
-* lessequal (component greaterequal)
-* uni030C (component uni0302)
-* uni02BB (component uni0326)
-* uni02BF (component uni02BE)
- [code: transformed-components]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
-
-
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
-
-The dot of soft dotted characters should disappear in other cases, for example: i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̊ j̦̋ ǰ̦ j̦̒ į̆ į̇ į̈ į̊ [code: soft-dotted]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+<details><summary><b>[5] Formera-Light.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
 * ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
@@ -186,8 +27,6 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- dotlessi_dotbelowcomb
-
 	- eight.subs
 
 	- five.subs
@@ -206,9 +45,7 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- two.subs
 
-	- uni00690307
-
-	- uni01310328 
+	- uni00690307 
 
 	- zero.subs
  [code: unreachable-glyphs]
@@ -219,15 +56,11 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: n	Contours detected: 2	Expected: 1
-
 	- Glyph name: r	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni00B5	Contours detected: 2	Expected: 1
 
 	- Glyph name: ae	Contours detected: 2	Expected: 3
-
-	- Glyph name: ntilde	Contours detected: 3	Expected: 2
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -238,16 +71,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: hbar	Contours detected: 2	Expected: 1
 
 	- Glyph name: lslash	Contours detected: 2	Expected: 1
-
-	- Glyph name: nacute	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni0146	Contours detected: 3	Expected: 2
-
-	- Glyph name: ncaron	Contours detected: 3	Expected: 2
-
-	- Glyph name: napostrophe	Contours detected: 3	Expected: 2
-
-	- Glyph name: eng	Contours detected: 2	Expected: 1
 
 	- Glyph name: racute	Contours detected: 3	Expected: 2
 
@@ -269,8 +92,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: aeacute	Contours detected: 3	Expected: 4
 
-	- Glyph name: uni0272	Contours detected: 2	Expected: 1
-
 	- Glyph name: uni03BC	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
@@ -280,12 +101,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni1E45	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E47	Contours detected: 3	Expected: 2
-
-	- Glyph name: nmacronbelow	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni1E5B	Contours detected: 3	Expected: 2
 
@@ -307,8 +122,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: dcroat	Contours detected: 3	Expected: 2
 
-	- Glyph name: eng	Contours detected: 2	Expected: 1
-
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: estimated	Contours detected: 3	Expected: 2
@@ -316,16 +129,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: hbar	Contours detected: 2	Expected: 1
 
 	- Glyph name: lslash	Contours detected: 2	Expected: 1
-
-	- Glyph name: n	Contours detected: 2	Expected: 1
-
-	- Glyph name: nacute	Contours detected: 3	Expected: 2
-
-	- Glyph name: napostrophe	Contours detected: 3	Expected: 2
-
-	- Glyph name: ncaron	Contours detected: 3	Expected: 2
-
-	- Glyph name: ntilde	Contours detected: 3	Expected: 2
 
 	- Glyph name: r	Contours detected: 2	Expected: 1
 
@@ -337,11 +140,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00B5	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni0146	Contours detected: 3	Expected: 2
-
 	- Glyph name: uni0157	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni0272	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni03BC	Contours detected: 2	Expected: 1
 
@@ -352,10 +151,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni1E45	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E47	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni1E5B	Contours detected: 3	Expected: 2
 
@@ -390,7 +185,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* currency (U+00A4): L<<239.0,129.0>--<242.0,129.0>>/L<<242.0,129.0>--<212.0,135.0>> = 11.309932474020195
 
-	* currency (U+00A4): L<<276.0,127.0>--<239.0,129.0>>/L<<239.0,129.0>--<242.0,129.0>> = 3.0940580589171134
+	* currency (U+00A4): L<<276.0,127.0>--<239.0,129.0>>/L<<239.0,129.0>--<242.0,129.0>> = 3.094058058917113
 
 	* currency (U+00A4): L<<295.0,573.0>--<319.0,570.0>>/L<<319.0,570.0>--<318.0,570.0>> = 7.125016348901757
 
@@ -436,9 +231,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* integral (U+222B): L<<222.0,-182.0>--<222.0,-183.0>>/L<<222.0,-183.0>--<229.0,-152.0>> = 12.724355685422363
 
-	* less (U+003C): B<<232.0,220.0>-<240.0,217.0>-<239.0,218.0>>/B<<239.0,218.0>-<251.0,208.0>-<257.0,207.0>> = 5.1944289077348
-
-	* less (U+003C): B<<434.0,525.0>-<420.0,520.0>-<421.0,520.0>>/B<<421.0,520.0>-<413.0,518.0>-<409.0,516.5>> = 14.036243467926484
+	* less (U+003C): B<<257.0,207.0>-<251.0,208.0>-<239.0,218.0>>/B<<239.0,218.0>-<240.0,217.0>-<232.0,220.0>> = 5.1944289077348
 
 	* minus (U+2212): L<<32.0,342.0>--<33.0,349.0>>/B<<33.0,349.0>-<33.0,348.0>-<40.0,349.0>> = 8.13010235415596
 
@@ -466,7 +259,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* paragraph (U+00B6): L<<372.0,455.0>--<371.0,462.0>>/L<<371.0,462.0>--<371.0,461.0>> = 8.13010235415596
 
-	* paragraph (U+00B6): L<<67.0,614.0>--<74.0,620.0>>/L<<74.0,620.0>--<73.0,619.0>> = 4.398705354995508
+	* paragraph (U+00B6): L<<67.0,614.0>--<74.0,620.0>>/L<<74.0,620.0>--<73.0,619.0>> = 4.398705354995591
 
 	* paragraph (U+00B6): L<<74.0,620.0>--<73.0,619.0>>/L<<73.0,619.0>--<87.0,630.0>> = 6.842773412630916
 
@@ -478,7 +271,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* partialdiff (U+2202): L<<304.0,392.0>--<274.0,396.0>>/L<<274.0,396.0>--<277.0,396.0>> = 7.594643368591397
 
-	* partialdiff (U+2202): L<<340.0,50.0>--<345.0,54.0>>/L<<345.0,54.0>--<344.0,53.0>> = 6.34019174590985
+	* partialdiff (U+2202): L<<340.0,50.0>--<345.0,54.0>>/L<<345.0,54.0>--<344.0,53.0>> = 6.340191745909908
 
 	* partialdiff (U+2202): L<<345.0,54.0>--<344.0,53.0>>/B<<344.0,53.0>-<354.0,62.0>-<354.0,60.0>> = 3.0127875041831653
 
@@ -514,7 +307,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* perthousand (U+2030): L<<712.0,205.0>--<707.0,201.0>>/L<<707.0,201.0>--<710.0,204.0>> = 6.340191745909908
 
-	* pi (U+03C0): B<<415.5,366.0>-<408.0,366.0>-<408.0,367.0>>/L<<408.0,367.0>--<406.0,343.0>> = 4.763641690726144
+	* pi (U+03C0): B<<415.5,366.0>-<408.0,366.0>-<408.0,367.0>>/L<<408.0,367.0>--<406.0,343.0>> = 4.763641690726143
 
 	* pi (U+03C0): L<<122.0,-3.0>--<99.0,0.0>>/L<<99.0,0.0>--<101.0,0.0>> = 7.431407971172489
 
@@ -528,7 +321,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* plus (U+002B): L<<418.0,348.0>--<443.0,349.0>>/L<<443.0,349.0>--<442.0,349.0>> = 2.2906100426384346
 
-	* plus (U+002B): L<<443.0,349.0>--<442.0,349.0>>/B<<442.0,349.0>-<456.0,350.0>-<461.0,349.0>> = 4.085616779974799
+	* plus (U+002B): L<<443.0,349.0>--<442.0,349.0>>/B<<442.0,349.0>-<456.0,350.0>-<461.0,349.0>> = 4.085616779974798
 
 	* plusminus (U+00B1): L<<227.0,314.0>--<227.0,313.0>>/B<<227.0,313.0>-<226.0,318.0>-<227.0,320.5>> = 11.309932474020195
 
@@ -536,7 +329,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* plusminus (U+00B1): L<<250.0,559.0>--<271.0,558.0>>/B<<271.0,558.0>-<270.0,558.0>-<271.0,536.0>> = 2.726310993906212
 
-	* plusminus (U+00B1): L<<42.0,75.0>--<30.0,76.0>>/B<<30.0,76.0>-<33.0,76.0>-<33.0,95.0>> = 4.763641690726144
+	* plusminus (U+00B1): L<<42.0,75.0>--<30.0,76.0>>/B<<30.0,76.0>-<33.0,76.0>-<33.0,95.0>> = 4.763641690726143
 
 	* plusminus (U+00B1): L<<468.0,95.0>--<467.0,73.0>>/B<<467.0,73.0>-<467.0,76.0>-<443.0,76.0>> = 2.6025622024998034
 
@@ -548,19 +341,19 @@ The following glyphs do not have the recommended number of contours:
 
 	* product (U+220F): L<<430.0,-230.0>--<433.0,-209.0>>/B<<433.0,-209.0>-<433.0,-210.0>-<456.0,-210.0>> = 8.13010235415596
 
-	* product (U+220F): L<<452.0,-253.0>--<430.0,-250.0>>/B<<430.0,-250.0>-<433.0,-250.0>-<430.0,-240.0>> = 7.765166018425308
+	* product (U+220F): L<<452.0,-253.0>--<430.0,-250.0>>/B<<430.0,-250.0>-<433.0,-250.0>-<430.0,-240.0>> = 7.765166018425354
 
 	* radical (U+221A): B<<248.0,100.5>-<245.0,92.0>-<245.0,93.0>>/L<<245.0,93.0>--<243.0,85.0>> = 14.036243467926484
 
 	* radical (U+221A): B<<262.0,146.5>-<259.0,138.0>-<259.0,139.0>>/B<<259.0,139.0>-<258.0,132.0>-<256.5,126.5>> = 8.13010235415596
 
-	* radical (U+221A): L<<187.0,91.0>--<193.0,64.0>>/L<<193.0,64.0>--<193.0,68.0>> = 12.52880770915152
+	* radical (U+221A): L<<187.0,91.0>--<193.0,64.0>>/L<<193.0,64.0>--<193.0,68.0>> = 12.528807709151522
 
 	* radical (U+221A): L<<401.0,747.0>--<402.0,754.0>>/L<<402.0,754.0>--<402.0,753.0>> = 8.13010235415596
 
 	* radical (U+221A): L<<644.0,828.0>--<669.0,827.0>>/B<<669.0,827.0>-<667.0,827.0>-<669.0,810.0>> = 2.2906100426384346
 
-	* radical (U+221A): L<<87.0,354.0>--<110.0,353.0>>/B<<110.0,353.0>-<109.0,353.0>-<112.0,348.0>> = 2.489552921999128
+	* radical (U+221A): L<<87.0,354.0>--<110.0,353.0>>/B<<110.0,353.0>-<109.0,353.0>-<112.0,348.0>> = 2.4895529219991284
 
 	* registered (U+00AE): B<<528.0,28.0>-<520.0,24.0>-<521.0,25.0>>/B<<521.0,25.0>-<511.0,16.0>-<498.0,12.0>> = 3.012787504183286
 
@@ -577,6 +370,10 @@ The following glyphs do not have the recommended number of contours:
 	* second (U+2033): L<<30.0,511.0>--<31.0,518.0>>/L<<31.0,518.0>--<31.0,517.0>> = 8.13010235415596
 
 	* second (U+2033): L<<31.0,518.0>--<31.0,517.0>>/L<<31.0,517.0>--<35.0,542.0>> = 9.090276920822312
+
+	* threequarters (U+00BE): B<<213.0,433.0>-<207.0,444.0>-<200.0,454.0>>/B<<200.0,454.0>-<201.0,453.0>-<200.5,454.0>> = 10.007979801441312
+
+	* uni00B3 (U+00B3): B<<223.0,433.0>-<217.0,444.0>-<210.0,454.0>>/B<<210.0,454.0>-<211.0,453.0>-<210.5,454.0>> = 10.007979801441312
 
 	* uni00B5 (U+00B5): L<<386.0,75.0>--<387.0,76.0>>/L<<387.0,76.0>--<378.0,68.0>> = 3.3664606634298315
 
@@ -605,6 +402,8 @@ The following glyphs do not have the recommended number of contours:
 	* uni1E9E (U+1E9E): L<<375.0,-5.0>--<376.0,-5.0>>/L<<376.0,-5.0>--<343.0,-3.0>> = 3.468229258917096
 
 	* uni1E9E (U+1E9E): L<<385.0,-6.0>--<375.0,-5.0>>/L<<375.0,-5.0>--<376.0,-5.0>> = 5.710593137499633
+
+	* uni2083 (U+2083): B<<223.0,38.0>-<217.0,49.0>-<210.0,59.0>>/B<<210.0,59.0>-<211.0,58.0>-<210.5,59.0>> = 10.007979801441312
 
 	* uni2113 (U+2113): B<<198.0,87.0>-<198.0,88.0>-<197.0,86.0>>/L<<197.0,86.0>--<200.0,97.0>> = 11.309932474020162
 
@@ -636,7 +435,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni2126 (U+2126): L<<592.0,337.0>--<592.0,336.0>>/L<<592.0,336.0>--<593.0,366.0>> = 1.9091524329963898
 
-	* uni21E7 (U+21E7): B<<308.0,37.0>-<309.0,15.0>-<308.0,15.0>>/L<<308.0,15.0>--<331.0,14.0>> = 2.489552921999128
+	* uni21E7 (U+21E7): B<<308.0,37.0>-<309.0,15.0>-<308.0,15.0>>/L<<308.0,15.0>--<331.0,14.0>> = 2.4895529219991284
 
 	* uni2325 (U+2325): L<<51.0,478.0>--<52.0,484.0>>/L<<52.0,484.0>--<52.0,483.0>> = 9.462322208025613
 
@@ -648,177 +447,10 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni2B1B (U+2B1B): L<<52.0,267.0>--<51.0,274.0>>/L<<51.0,274.0>--<51.0,273.0>> = 8.13010235415596
 
-	* uni2B1B (U+2B1B): L<<72.0,-121.0>--<60.0,-120.0>>/L<<60.0,-120.0>--<62.0,-120.0>> = 4.763641690726144 
+	* uni2B1B (U+2B1B): L<<72.0,-121.0>--<60.0,-120.0>>/L<<60.0,-120.0>--<62.0,-120.0>> = 4.763641690726143 
 
 	* uni2B1C (U+2B1C): L<<55.0,494.0>--<52.0,519.0>>/L<<52.0,519.0>--<52.0,518.0>> = 6.842773412630916 [code: found-jaggy-segments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
-
-	* uni1E9E (U+1E9E): L<<124.0,571.0>--<123.0,416.0>> 
-
-	* uni2015 (U+2015): L<<443.0,405.0>--<565.0,404.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[9] Formera-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Ensure that the font can be rasterized by FreeType. (derived from com.adobe.fonts/check/freetype_rasterizer) (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.adobe.fonts/check/freetype_rasterizer">com.adobe.fonts/check/freetype_rasterizer</a>)</summary><div>
-
-
-* 💔 **ERROR** Failed with UnboundLocalError: local variable 'FT_Exception' referenced before assignment
-</div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have components which are themselves components. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyf_nested_components">com.google.fonts/check/glyf_nested_components</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs have components which themselves are component glyphs:
-	* uni1EA0
-	* Ccaron
-	* Dcaron
-	* uni1E0C
-	* Dmacronbelow
-	* Ecaron
-	* uni1EB8
-	* Gcaron
-	* uni0122
-	* uni1E2A
-	* uni1E24
-	* uni1ECA
-	* uni0136
-	* Kmacronbelow
-	* uni013B
-	* uni1E36
-	* Lmacronbelow
-	* uni1E42
-	* Ncaron
-	* uni0145
-	* uni1E46
-	* Nmacronbelow
-	* uni1ECC
-	* Rcaron
-	* uni0156
-	* uni1E5A
-	* Rmacronbelow
-	* Scaron
-	* uni1E66
-	* uni0218
-	* uni1E62
-	* uni1E68
-	* Tcaron
-	* uni021A
-	* uni1E6C
-	* Tmacronbelow
-	* uni1EE4
-	* Zcaron
-	* uni1E92
-	* uni1EA1
-	* ccaron
-	* uni1E0D
-	* dmacronbelow
-	* ecaron
-	* uni1EB9
-	* gcaron
-	* uni0123
-	* uni1E2B
-	* uni1E25
-	* hmacronbelow
-	* dotlessi_dotbelowcomb
-	* uni1ECB
-	* uni0137
-	* kmacronbelow
-	* uni013C
-	* uni1E37
-	* lmacronbelow
-	* uni1E43
-	* ncaron
-	* uni0146
-	* uni1E47
-	* nmacronbelow
-	* uni1ECD
-	* rcaron
-	* uni0157
-	* uni1E5B
-	* rmacronbelow
-	* scaron
-	* uni1E67
-	* uni0219
-	* uni1E63
-	* uni1E69
-	* uni021B
-	* uni1E6D
-	* tmacronbelow
-	* uni1EE5
-	* zcaron
-	* uni1E93
-	* zero.numr
-	* one.numr
-	* two.numr
-	* three.numr
-	* four.numr
-	* five.numr
-	* six.numr
-	* seven.numr
-	* eight.numr
-	* nine.numr
-	* onehalf
-	* onehalf
-	* onequarter
-	* onequarter
-	* threequarters
-	* threequarters
-	* zero.numr.zero
-	* zero.subs
-	* one.subs
-	* two.subs
-	* three.subs
-	* four.subs
-	* five.subs
-	* six.subs
-	* seven.subs
-	* eight.subs
-	* nine.subs
-	* uni2080
-	* uni2081
-	* uni2082
-	* uni2083
-	* uni2084
-	* uni2085
-	* uni2086
-	* uni2087
-	* uni2088
-	* uni2089
-	* uni2070
-	* uni00B9
-	* uni00B2
-	* uni00B3
-	* uni2074
-	* uni2075
-	* uni2076
-	* uni2077
-	* uni2078
-	* uni2079
-	* quotedblbase
-	* caron
-	* uni02BC
-	* uni02BD
-	* uni02BB and IJacute [code: found-nested-components]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure component transforms do not perform scaling or rotation. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/transformed_components">com.google.fonts/check/transformed_components</a>)</summary><div>
-
-
-* 🔥 **FAIL** The following glyphs had components with scaling or rotation
-or inverted outline direction:
-
-* parenright (component parenleft)
-* braceright (component braceleft)
-* bracketright (component bracketleft)
-* less (component greater)
-* lessequal (component greaterequal)
-* uni030C (component uni0302)
-* uni02BB (component uni0326)
-* uni02BF (component uni02BE)
- [code: transformed-components]
-</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
-
-
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
-
-The dot of soft dotted characters should disappear in other cases, for example: i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̊ j̦̋ ǰ̦ j̦̒ į̆ į̇ į̈ į̊ [code: soft-dotted]
-</div></details><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[5] Formera-Regular.ttf</b></summary><div><details><summary>⚠ <b>WARN:</b> Is there kerning info for non-ligated sequences? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/kerning_for_non_ligated_sequences">com.google.fonts/check/kerning_for_non_ligated_sequences</a>)</summary><div>
 
 
 * ⚠ **WARN** GPOS table lacks kerning info for the following non-ligated sequences:
@@ -843,8 +475,6 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
-	- dotlessi_dotbelowcomb
-
 	- eight.subs
 
 	- five.subs
@@ -863,9 +493,7 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 	- two.subs
 
-	- uni00690307
-
-	- uni01310328 
+	- uni00690307 
 
 	- zero.subs
  [code: unreachable-glyphs]
@@ -987,7 +615,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* copyright (U+00A9): L<<393.0,618.0>--<382.0,619.0>>/L<<382.0,619.0>--<385.0,619.0>> = 5.1944289077348
 
-	* copyright (U+00A9): L<<583.0,62.0>--<586.0,65.0>>/L<<586.0,65.0>--<563.0,49.0>> = 10.175510843043194
+	* copyright (U+00A9): L<<583.0,62.0>--<586.0,65.0>>/L<<586.0,65.0>--<563.0,49.0>> = 10.175510843043119
 
 	* copyright (U+00A9): L<<604.0,81.0>--<583.0,62.0>>/L<<583.0,62.0>--<586.0,65.0>> = 2.862405226111779
 
@@ -1001,7 +629,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* estimated (U+212E): B<<278.0,74.0>-<293.0,71.0>-<290.0,71.0>>/L<<290.0,71.0>--<305.0,68.0>> = 11.309932474020195
 
-	* estimated (U+212E): B<<427.0,713.5>-<430.0,713.0>-<429.0,713.0>>/L<<429.0,713.0>--<438.0,711.0>> = 12.52880770915152
+	* estimated (U+212E): B<<427.0,713.5>-<430.0,713.0>-<429.0,713.0>>/L<<429.0,713.0>--<438.0,711.0>> = 12.528807709151522
 
 	* estimated (U+212E): B<<494.0,100.0>-<497.0,101.0>-<496.0,100.0>>/L<<496.0,100.0>--<520.0,117.0>> = 9.688786560366827
 
@@ -1015,9 +643,9 @@ The following glyphs do not have the recommended number of contours:
 
 	* infinity (U+221E): L<<396.0,458.0>--<395.0,457.0>>/L<<395.0,457.0>--<407.0,466.0>> = 8.13010235415596
 
-	* less (U+003C): B<<294.0,412.0>-<303.0,416.0>-<302.0,416.0>>/B<<302.0,416.0>-<314.0,418.0>-<314.0,421.0>> = 9.462322208025613
+	* less (U+003C): B<<314.0,421.0>-<314.0,418.0>-<302.0,416.0>>/B<<302.0,416.0>-<303.0,416.0>-<294.0,412.0>> = 9.462322208025613
 
-	* logicalnot (U+00AC): B<<402.0,-2.0>-<396.0,-1.0>-<397.0,0.0>>/L<<397.0,0.0>--<394.0,-2.0>> = 11.309932474020227
+	* logicalnot (U+00AC): B<<402.0,-2.0>-<396.0,-1.0>-<397.0,0.0>>/L<<397.0,0.0>--<394.0,-2.0>> = 11.309932474020195
 
 	* lozenge (U+25CA): B<<160.0,455.0>-<168.0,468.0>-<168.0,467.0>>/L<<168.0,467.0>--<169.0,471.0>> = 14.036243467926484
 
@@ -1059,6 +687,10 @@ The following glyphs do not have the recommended number of contours:
 
 	* plusminus (U+00B1): L<<30.0,389.0>--<33.0,412.0>>/B<<33.0,412.0>-<33.0,411.0>-<45.0,412.0>> = 7.431407971172489
 
+	* prime (U+2032): L<<43.0,602.0>--<46.0,627.0>>/L<<46.0,627.0>--<46.0,626.0>> = 6.842773412630916
+
+	* prime (U+2032): L<<46.0,627.0>--<46.0,626.0>>/L<<46.0,626.0>--<47.0,649.0>> = 2.4895529219991284
+
 	* product (U+220F): L<<101.0,337.0>--<98.0,360.0>>/L<<98.0,360.0>--<98.0,359.0>> = 7.431407971172489
 
 	* product (U+220F): L<<257.0,-228.0>--<256.0,-253.0>>/B<<256.0,-253.0>-<256.0,-250.0>-<231.0,-250.0>> = 2.2906100426384346
@@ -1073,7 +705,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* product (U+220F): L<<98.0,360.0>--<98.0,359.0>>/B<<98.0,359.0>-<96.0,373.0>-<100.0,373.0>> = 8.13010235415596
 
-	* registered (U+00AE): B<<219.5,577.5>-<209.0,572.0>-<210.0,573.0>>/L<<210.0,573.0>--<202.0,568.0>> = 12.994616791916512
+	* registered (U+00AE): B<<219.5,577.5>-<209.0,572.0>-<210.0,573.0>>/L<<210.0,573.0>--<202.0,568.0>> = 12.994616791916483
 
 	* registered (U+00AE): B<<473.0,64.0>-<488.0,70.0>-<486.0,68.0>>/B<<486.0,68.0>-<491.0,72.0>-<494.0,72.0>> = 6.34019174590985
 
@@ -1087,11 +719,11 @@ The following glyphs do not have the recommended number of contours:
 
 	* second (U+2033): L<<221.0,602.0>--<224.0,627.0>>/L<<224.0,627.0>--<224.0,626.0>> = 6.842773412630916
 
-	* second (U+2033): L<<224.0,627.0>--<224.0,626.0>>/L<<224.0,626.0>--<225.0,649.0>> = 2.489552921999128
+	* second (U+2033): L<<224.0,627.0>--<224.0,626.0>>/L<<224.0,626.0>--<225.0,649.0>> = 2.4895529219991284
 
 	* second (U+2033): L<<43.0,602.0>--<46.0,627.0>>/L<<46.0,627.0>--<46.0,626.0>> = 6.842773412630916
 
-	* second (U+2033): L<<46.0,627.0>--<46.0,626.0>>/L<<46.0,626.0>--<47.0,649.0>> = 2.489552921999128
+	* second (U+2033): L<<46.0,627.0>--<46.0,626.0>>/L<<46.0,626.0>--<47.0,649.0>> = 2.4895529219991284
 
 	* summation (U+2211): L<<529.0,534.0>--<519.0,535.0>>/B<<519.0,535.0>-<522.0,535.0>-<520.0,540.0>> = 5.710593137499633
 
@@ -1147,7 +779,7 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni25CC (U+25CC): L<<746.0,205.0>--<749.0,205.0>>/L<<749.0,205.0>--<734.0,206.0>> = 3.8140748342903783
 
-	* uni2B1B (U+2B1B): L<<52.0,471.0>--<52.0,470.0>>/B<<52.0,470.0>-<51.0,482.0>-<54.0,482.0>> = 4.763641690726144
+	* uni2B1B (U+2B1B): L<<52.0,471.0>--<52.0,470.0>>/B<<52.0,470.0>-<51.0,482.0>-<54.0,482.0>> = 4.763641690726143
 
 	* uni2B1B (U+2B1B): L<<53.0,461.0>--<52.0,471.0>>/L<<52.0,471.0>--<52.0,470.0>> = 5.710593137499633 
 
@@ -1158,8 +790,8 @@ The following glyphs do not have the recommended number of contours:
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 2 | 6 | 11 | 238 | 15 | 203 | 0 |
-| 0% | 1% | 2% | 50% | 3% | 43% | 0% |
+| 0 | 0 | 10 | 236 | 13 | 216 | 0 |
+| 0% | 0% | 2% | 50% | 3% | 45% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**

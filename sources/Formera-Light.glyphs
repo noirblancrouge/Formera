@@ -1,9 +1,6 @@
 {
 .appVersion = "3151";
 .formatVersion = 3;
-DisplayStrings = (
-ii
-);
 classes = (
 {
 automatic = 1;
@@ -471,7 +468,12 @@ value = 300;
 },
 {
 name = "meta Table";
-value = "{\012    data = \"de-Latn\";\012    tag = dlng;\012}";
+value = (
+{
+data = "de-Latn";
+tag = dlng;
+}
+);
 }
 );
 iconName = Light;
