@@ -7301,7 +7301,7 @@ unicode = 315;
 glyphname = Ldot;
 kernLeft = H;
 kernRight = L;
-lastChange = "2023-09-12 03:35:01 +0000";
+lastChange = "2023-09-12 06:52:30 +0000";
 layers = (
 {
 layerId = "C5490108-C233-4ADF-8B6D-CFE8E3B23812";
@@ -7311,11 +7311,11 @@ ref = L;
 },
 {
 alignment = 1;
-pos = (137,0);
+pos = (117,0);
 ref = periodcentered.loclCAT.case;
 }
 );
-width = 359;
+width = 339;
 },
 {
 associatedMasterId = "C5490108-C233-4ADF-8B6D-CFE8E3B23812";
@@ -20055,9 +20055,7 @@ unicode = 601;
 },
 {
 glyphname = f;
-kernLeft = f;
-kernRight = f;
-lastChange = "2023-09-12 03:35:01 +0000";
+lastChange = "2023-09-12 06:51:41 +0000";
 layers = (
 {
 anchors = (
@@ -21084,9 +21082,8 @@ unicode = 7830;
 },
 {
 glyphname = i;
-kernLeft = i;
 kernRight = i;
-lastChange = "2023-09-12 03:35:02 +0000";
+lastChange = "2023-09-12 06:51:36 +0000";
 layers = (
 {
 anchors = (
@@ -21775,9 +21772,8 @@ unicode = 297;
 },
 {
 glyphname = j;
-kernLeft = j;
 kernRight = j;
-lastChange = "2023-09-12 03:35:02 +0000";
+lastChange = "2023-09-12 06:51:34 +0000";
 layers = (
 {
 layerId = "C5490108-C233-4ADF-8B6D-CFE8E3B23812";
@@ -22801,7 +22797,7 @@ unicode = 316;
 glyphname = ldot;
 kernLeft = h;
 kernRight = l;
-lastChange = "2023-09-12 03:35:02 +0000";
+lastChange = "2023-09-12 06:52:30 +0000";
 layers = (
 {
 layerId = "C5490108-C233-4ADF-8B6D-CFE8E3B23812";
@@ -22811,11 +22807,11 @@ ref = l;
 },
 {
 alignment = 1;
-pos = (104,0);
+pos = (94,0);
 ref = periodcentered.loclCAT;
 }
 );
-width = 326;
+width = 316;
 },
 {
 associatedMasterId = "C5490108-C233-4ADF-8B6D-CFE8E3B23812";
@@ -30453,9 +30449,7 @@ unicode = 7827;
 },
 {
 glyphname = f_f;
-kernLeft = f;
-kernRight = ff;
-lastChange = "2023-09-12 03:35:02 +0000";
+lastChange = "2023-09-12 06:50:51 +0000";
 layers = (
 {
 anchors = (
@@ -31733,9 +31727,7 @@ metricRight = l;
 },
 {
 glyphname = f_i;
-kernLeft = f;
-kernRight = i;
-lastChange = "2023-09-12 03:35:02 +0000";
+lastChange = "2023-09-12 06:50:58 +0000";
 layers = (
 {
 anchors = (
@@ -32058,9 +32050,7 @@ unicode = 64257;
 },
 {
 glyphname = f_l;
-kernLeft = f;
-kernRight = l;
-lastChange = "2023-09-12 03:35:02 +0000";
+lastChange = "2023-09-12 06:51:01 +0000";
 layers = (
 {
 anchors = (
@@ -72560,7 +72550,7 @@ kerningLTR = {
 "@MMK_R_V" = -130;
 "@MMK_R_W" = -90;
 "@MMK_R_Y" = -80;
-periodcentered.loclCAT.case = -170;
+periodcentered.loclCAT.case = -190;
 };
 "@MMK_L_O" = {
 "@MMK_R_O" = -20;
@@ -72624,12 +72614,7 @@ periodcentered.loclCAT.case = -170;
 "@MMK_R_z" = -40;
 };
 "@MMK_L_eight.numr" = {
-"@MMK_R_slash" = -190;
-};
-"@MMK_L_f" = {
-"@MMK_R_f" = 10;
-"@MMK_R_h" = 10;
-"@MMK_R_i" = 10;
+"@MMK_R_slash" = -180;
 };
 "@MMK_L_five" = {
 "@MMK_R_zero" = -10;
@@ -72644,16 +72629,17 @@ periodcentered.loclCAT.case = -170;
 "@MMK_R_slash" = -140;
 };
 "@MMK_L_i" = {
-"@MMK_R_f" = 10;
-"@MMK_R_h" = 10;
+"@MMK_R_h" = 20;
 "@MMK_R_j" = 10;
+f = 10;
+j = 10;
 };
 "@MMK_L_k" = {
 "@MMK_R_n" = -10;
 };
 "@MMK_L_l" = {
-"@MMK_R_f" = 10;
-periodcentered.loclCAT = -40;
+f = 10;
+periodcentered.loclCAT = -50;
 };
 "@MMK_L_n" = {
 "@MMK_R_o" = -10;
@@ -72663,7 +72649,7 @@ periodcentered.loclCAT = -40;
 "@MMK_R_x" = -20;
 };
 "@MMK_L_nine.numr" = {
-"@MMK_R_slash" = -170;
+"@MMK_R_slash" = -210;
 };
 "@MMK_L_o" = {
 "@MMK_R_n" = -10;
@@ -72672,7 +72658,7 @@ periodcentered.loclCAT = -40;
 "@MMK_R_x" = -50;
 };
 "@MMK_L_one.numr" = {
-"@MMK_R_slash" = -150;
+"@MMK_R_slash" = -130;
 };
 "@MMK_L_r" = {
 "@MMK_R_a" = -30;
@@ -72683,19 +72669,19 @@ periodcentered.loclCAT = -40;
 "@MMK_R_zero" = -80;
 };
 "@MMK_L_seven.numr" = {
-"@MMK_R_slash" = -260;
+"@MMK_R_slash" = -270;
 };
 "@MMK_L_six.numr" = {
 "@MMK_R_slash" = -200;
 };
 "@MMK_L_slash" = {
-"@MMK_R_eight.dnom" = -130;
+"@MMK_R_eight.dnom" = -120;
 "@MMK_R_five.dnom" = -170;
-"@MMK_R_four.dnom" = -200;
-"@MMK_R_nine.dnom" = -160;
+"@MMK_R_four.dnom" = -240;
+"@MMK_R_nine.dnom" = -170;
 "@MMK_R_one.dnom" = -130;
 "@MMK_R_seven.dnom" = -150;
-"@MMK_R_six.dnom" = -150;
+"@MMK_R_six.dnom" = -160;
 "@MMK_R_three.dnom" = -160;
 "@MMK_R_two.dnom" = -170;
 "@MMK_R_zero.dnom" = -190;
@@ -72704,7 +72690,7 @@ periodcentered.loclCAT = -40;
 "@MMK_R_a" = -20;
 };
 "@MMK_L_three.numr" = {
-"@MMK_R_slash" = -150;
+"@MMK_R_slash" = -140;
 };
 "@MMK_L_two.numr" = {
 "@MMK_R_slash" = -170;
@@ -72729,11 +72715,16 @@ periodcentered.loclCAT = -40;
 "@MMK_R_seven" = -30;
 };
 "@MMK_L_zero.numr" = {
-"@MMK_R_slash" = -210;
+"@MMK_R_slash" = -220;
 };
 Lcaron = {
 "@MMK_R_T" = 10;
 "@MMK_R_V" = -20;
+};
+f = {
+"@MMK_R_h" = 20;
+f = 10;
+i = 10;
 };
 };
 };

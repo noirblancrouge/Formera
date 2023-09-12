@@ -16446,9 +16446,7 @@ unicode = 601;
 },
 {
 glyphname = f;
-kernLeft = f;
-kernRight = f;
-lastChange = "2023-09-12 03:35:46 +0000";
+lastChange = "2023-09-12 06:49:20 +0000";
 layers = (
 {
 anchors = (
@@ -17349,9 +17347,8 @@ unicode = 7830;
 },
 {
 glyphname = i;
-kernLeft = i;
 kernRight = i;
-lastChange = "2023-09-12 03:35:46 +0000";
+lastChange = "2023-09-12 06:50:18 +0000";
 layers = (
 {
 anchors = (
@@ -17892,9 +17889,8 @@ unicode = 297;
 },
 {
 glyphname = j;
-kernLeft = j;
 kernRight = j;
-lastChange = "2023-09-12 03:35:46 +0000";
+lastChange = "2023-09-12 06:46:24 +0000";
 layers = (
 {
 layerId = "7C3BCDA4-8F92-4DF1-91BA-B714BE37B8B5";
@@ -18655,7 +18651,7 @@ unicode = 7733;
 glyphname = l;
 kernLeft = h;
 kernRight = l;
-lastChange = "2023-09-12 03:35:46 +0000";
+lastChange = "2023-09-12 06:50:11 +0000";
 layers = (
 {
 anchors = (
@@ -25158,9 +25154,7 @@ unicode = 7827;
 },
 {
 glyphname = f_f;
-kernLeft = f;
-kernRight = ff;
-lastChange = "2023-09-12 03:35:46 +0000";
+lastChange = "2023-09-12 06:48:11 +0000";
 layers = (
 {
 anchors = (
@@ -26398,9 +26392,7 @@ metricRight = l;
 },
 {
 glyphname = f_i;
-kernLeft = f;
-kernRight = i;
-lastChange = "2023-09-12 03:35:46 +0000";
+lastChange = "2023-09-12 06:48:17 +0000";
 layers = (
 {
 anchors = (
@@ -26684,9 +26676,7 @@ unicode = 64257;
 },
 {
 glyphname = f_l;
-kernLeft = f;
-kernRight = l;
-lastChange = "2023-09-12 03:35:46 +0000";
+lastChange = "2023-09-12 06:49:06 +0000";
 layers = (
 {
 anchors = (
@@ -62358,11 +62348,6 @@ periodcentered.loclCAT.case = -190;
 "@MMK_L_eight.numr" = {
 "@MMK_R_slash" = -180;
 };
-"@MMK_L_f" = {
-"@MMK_R_f" = 10;
-"@MMK_R_h" = 10;
-"@MMK_R_i" = 10;
-};
 "@MMK_L_five" = {
 "@MMK_R_zero" = -10;
 };
@@ -62376,15 +62361,16 @@ periodcentered.loclCAT.case = -190;
 "@MMK_R_slash" = -140;
 };
 "@MMK_L_i" = {
-"@MMK_R_f" = 10;
-"@MMK_R_h" = 10;
+"@MMK_R_h" = 20;
 "@MMK_R_j" = 10;
+f = 10;
+j = 10;
 };
 "@MMK_L_k" = {
 "@MMK_R_n" = -10;
 };
 "@MMK_L_l" = {
-"@MMK_R_f" = 10;
+f = 10;
 periodcentered.loclCAT = -50;
 };
 "@MMK_L_n" = {
@@ -62466,6 +62452,11 @@ periodcentered.loclCAT = -50;
 Lcaron = {
 "@MMK_R_T" = 10;
 "@MMK_R_V" = -20;
+};
+f = {
+"@MMK_R_h" = 20;
+f = 10;
+i = 10;
 };
 };
 };
