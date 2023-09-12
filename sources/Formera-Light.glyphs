@@ -1,6 +1,9 @@
 {
 .appVersion = "3151";
 .formatVersion = 3;
+DisplayStrings = (
+ii
+);
 classes = (
 {
 automatic = 1;
@@ -465,6 +468,10 @@ value = 310;
 {
 name = weightClass;
 value = 300;
+},
+{
+name = "meta Table";
+value = "{\012    data = \"de-Latn\";\012    tag = dlng;\012}";
 }
 );
 iconName = Light;
@@ -21086,13 +21093,17 @@ unicode = 7830;
 {
 glyphname = i;
 kernRight = i;
-lastChange = "2023-09-12 06:51:36 +0000";
+lastChange = "2023-09-12 09:56:38 +0000";
 layers = (
 {
 anchors = (
 {
 name = bottom;
 pos = (87,0);
+},
+{
+name = top;
+pos = (84,610);
 }
 );
 layerId = "C5490108-C233-4ADF-8B6D-CFE8E3B23812";
@@ -21133,7 +21144,7 @@ nodes = (
 (84,434,o),
 (71,427,c),
 (60,413,o),
-(67,381,o),
+(69,381,o),
 (65,358,cs),
 (62,340,l),
 (69,325,o),
@@ -21196,7 +21207,7 @@ unicode = 105;
 glyphname = idotless;
 kernLeft = i;
 kernRight = i;
-lastChange = "2023-09-12 03:35:02 +0000";
+lastChange = "2023-09-12 09:56:23 +0000";
 layers = (
 {
 anchors = (
@@ -21353,45 +21364,6 @@ ref = tildebelowcomb;
 }
 );
 width = 185;
-}
-);
-},
-{
-glyphname = i_dotaccentcomb;
-kernLeft = i;
-kernRight = i;
-lastChange = "2023-09-12 03:35:02 +0000";
-layers = (
-{
-layerId = "C5490108-C233-4ADF-8B6D-CFE8E3B23812";
-shapes = (
-{
-ref = idotless;
-},
-{
-pos = (-206,-64);
-ref = dotaccentcomb;
-},
-{
-pos = (-205,105);
-ref = dotaccentcomb;
-}
-);
-width = 185;
-},
-{
-associatedMasterId = "C5490108-C233-4ADF-8B6D-CFE8E3B23812";
-layerId = "D1580C2B-5BB6-46B1-91BF-F93DAAA5DE86";
-shapes = (
-{
-ref = idotless;
-},
-{
-pos = (-366,-284);
-ref = dotaccentcomb;
-}
-);
-width = 4220;
 }
 );
 },

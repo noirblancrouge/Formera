@@ -1,6 +1,10 @@
 {
 .appVersion = "3151";
 .formatVersion = 3;
+DisplayStrings = (
+"̇ĊĖĠİṄṤṦṠṨẎŻċėġịįḭṅṥṧṡṩẏẓ̇˙",
+""
+);
 classes = (
 {
 automatic = 1;
@@ -465,6 +469,15 @@ value = 310;
 {
 name = weightClass;
 value = 400;
+},
+{
+name = "meta Table";
+value = (
+{
+data = "de-Latn";
+tag = dlng;
+}
+);
 }
 );
 id = "7C3BCDA4-8F92-4DF1-91BA-B714BE37B8B5";
@@ -17633,31 +17646,6 @@ width = 211;
 );
 },
 {
-glyphname = i_dotaccentcomb;
-kernLeft = i;
-kernRight = i;
-lastChange = "2023-09-12 03:35:46 +0000";
-layers = (
-{
-layerId = "7C3BCDA4-8F92-4DF1-91BA-B714BE37B8B5";
-shapes = (
-{
-ref = idotless;
-},
-{
-pos = (-214,-75);
-ref = dotaccentcomb;
-},
-{
-pos = (-216,112);
-ref = dotaccentcomb;
-}
-);
-width = 211;
-}
-);
-},
-{
 glyphname = iacute;
 kernLeft = i;
 kernRight = i;
@@ -34378,196 +34366,6 @@ ref = zero.dnom.zero;
 width = 355;
 }
 );
-},
-{
-glyphname = zero.subs;
-kernLeft = zero.dnom;
-kernRight = zero.dnom;
-lastChange = "2023-09-12 03:35:46 +0000";
-layers = (
-{
-layerId = "7C3BCDA4-8F92-4DF1-91BA-B714BE37B8B5";
-shapes = (
-{
-ref = zero.dnom;
-}
-);
-width = 355;
-}
-);
-metricLeft = zero.dnom;
-metricRight = zero.dnom;
-},
-{
-glyphname = one.subs;
-kernLeft = one.dnom;
-kernRight = one.dnom;
-lastChange = "2023-09-12 03:35:46 +0000";
-layers = (
-{
-layerId = "7C3BCDA4-8F92-4DF1-91BA-B714BE37B8B5";
-shapes = (
-{
-ref = one.dnom;
-}
-);
-width = 192;
-}
-);
-metricLeft = one.dnom;
-metricRight = one.dnom;
-},
-{
-glyphname = two.subs;
-kernLeft = two.dnom;
-kernRight = two.dnom;
-lastChange = "2023-09-12 03:35:46 +0000";
-layers = (
-{
-layerId = "7C3BCDA4-8F92-4DF1-91BA-B714BE37B8B5";
-shapes = (
-{
-ref = two.dnom;
-}
-);
-width = 336;
-}
-);
-metricLeft = two.dnom;
-metricRight = two.dnom;
-},
-{
-glyphname = three.subs;
-kernLeft = three.dnom;
-kernRight = three.dnom;
-lastChange = "2023-09-12 03:35:46 +0000";
-layers = (
-{
-layerId = "7C3BCDA4-8F92-4DF1-91BA-B714BE37B8B5";
-shapes = (
-{
-ref = three.dnom;
-}
-);
-width = 292;
-}
-);
-metricLeft = three.dnom;
-metricRight = three.dnom;
-},
-{
-glyphname = four.subs;
-kernLeft = four.dnom;
-kernRight = four.dnom;
-lastChange = "2023-09-12 03:35:46 +0000";
-layers = (
-{
-layerId = "7C3BCDA4-8F92-4DF1-91BA-B714BE37B8B5";
-shapes = (
-{
-ref = four.dnom;
-}
-);
-width = 351;
-}
-);
-metricLeft = four.dnom;
-metricRight = four.dnom;
-},
-{
-glyphname = five.subs;
-kernLeft = five.dnom;
-kernRight = five.dnom;
-lastChange = "2023-09-12 03:35:46 +0000";
-layers = (
-{
-layerId = "7C3BCDA4-8F92-4DF1-91BA-B714BE37B8B5";
-shapes = (
-{
-ref = five.dnom;
-}
-);
-width = 305;
-}
-);
-metricLeft = five.dnom;
-metricRight = five.dnom;
-},
-{
-glyphname = six.subs;
-kernLeft = six.dnom;
-kernRight = six.dnom;
-lastChange = "2023-09-12 03:35:46 +0000";
-layers = (
-{
-layerId = "7C3BCDA4-8F92-4DF1-91BA-B714BE37B8B5";
-shapes = (
-{
-ref = six.dnom;
-}
-);
-width = 329;
-}
-);
-metricLeft = six.dnom;
-metricRight = six.dnom;
-},
-{
-glyphname = seven.subs;
-kernLeft = seven.dnom;
-kernRight = seven.dnom;
-lastChange = "2023-09-12 03:35:46 +0000";
-layers = (
-{
-layerId = "7C3BCDA4-8F92-4DF1-91BA-B714BE37B8B5";
-shapes = (
-{
-ref = seven.dnom;
-}
-);
-width = 392;
-}
-);
-metricLeft = seven.dnom;
-metricRight = seven.dnom;
-},
-{
-glyphname = eight.subs;
-kernLeft = eight.dnom;
-kernRight = eight.dnom;
-lastChange = "2023-09-12 03:35:46 +0000";
-layers = (
-{
-layerId = "7C3BCDA4-8F92-4DF1-91BA-B714BE37B8B5";
-shapes = (
-{
-ref = eight.dnom;
-}
-);
-width = 315;
-}
-);
-metricLeft = eight.dnom;
-metricRight = eight.dnom;
-},
-{
-glyphname = nine.subs;
-kernLeft = nine.dnom;
-kernRight = nine.dnom;
-lastChange = "2023-09-12 03:35:46 +0000";
-layers = (
-{
-layerId = "7C3BCDA4-8F92-4DF1-91BA-B714BE37B8B5";
-shapes = (
-{
-ref = nine.dnom;
-}
-);
-width = 315;
-}
-);
-metricLeft = nine.dnom;
-metricRight = nine.dnom;
 },
 {
 glyphname = zeroinferior;
