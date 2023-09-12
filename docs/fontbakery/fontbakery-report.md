@@ -2,7 +2,7 @@
 
 Fontbakery version: 0.8.13
 
-<details><summary><b>[7] Formera-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+<details><summary><b>[6] Formera-Light.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: į̀ į́ į̂ į̃ į̄ į̌ ị̀ ị́ ị̂ ị̃ ị̄
@@ -66,15 +66,11 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 The following glyphs do not have the recommended number of contours:
 
-	- Glyph name: n	Contours detected: 2	Expected: 1
-
 	- Glyph name: r	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni00B5	Contours detected: 2	Expected: 1
 
 	- Glyph name: ae	Contours detected: 2	Expected: 3
-
-	- Glyph name: ntilde	Contours detected: 3	Expected: 2
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
@@ -85,16 +81,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: hbar	Contours detected: 2	Expected: 1
 
 	- Glyph name: lslash	Contours detected: 2	Expected: 1
-
-	- Glyph name: nacute	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni0146	Contours detected: 3	Expected: 2
-
-	- Glyph name: ncaron	Contours detected: 3	Expected: 2
-
-	- Glyph name: napostrophe	Contours detected: 3	Expected: 2
-
-	- Glyph name: eng	Contours detected: 2	Expected: 1
 
 	- Glyph name: racute	Contours detected: 3	Expected: 2
 
@@ -116,8 +102,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: aeacute	Contours detected: 3	Expected: 4
 
-	- Glyph name: uni0272	Contours detected: 2	Expected: 1
-
 	- Glyph name: uni03BC	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni1E08	Contours detected: 3	Expected: 2
@@ -127,12 +111,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni1E45	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E47	Contours detected: 3	Expected: 2
-
-	- Glyph name: nmacronbelow	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni1E5B	Contours detected: 3	Expected: 2
 
@@ -154,8 +132,6 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: dcroat	Contours detected: 3	Expected: 2
 
-	- Glyph name: eng	Contours detected: 2	Expected: 1
-
 	- Glyph name: eogonek	Contours detected: 3	Expected: 2
 
 	- Glyph name: estimated	Contours detected: 3	Expected: 2
@@ -163,16 +139,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: hbar	Contours detected: 2	Expected: 1
 
 	- Glyph name: lslash	Contours detected: 2	Expected: 1
-
-	- Glyph name: n	Contours detected: 2	Expected: 1
-
-	- Glyph name: nacute	Contours detected: 3	Expected: 2
-
-	- Glyph name: napostrophe	Contours detected: 3	Expected: 2
-
-	- Glyph name: ncaron	Contours detected: 3	Expected: 2
-
-	- Glyph name: ntilde	Contours detected: 3	Expected: 2
 
 	- Glyph name: r	Contours detected: 2	Expected: 1
 
@@ -184,11 +150,7 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uni00B5	Contours detected: 2	Expected: 1
 
-	- Glyph name: uni0146	Contours detected: 3	Expected: 2
-
 	- Glyph name: uni0157	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni0272	Contours detected: 2	Expected: 1
 
 	- Glyph name: uni03BC	Contours detected: 2	Expected: 1
 
@@ -199,10 +161,6 @@ The following glyphs do not have the recommended number of contours:
 	- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
-
-	- Glyph name: uni1E45	Contours detected: 3	Expected: 2
-
-	- Glyph name: uni1E47	Contours detected: 3	Expected: 2
 
 	- Glyph name: uni1E5B	Contours detected: 3	Expected: 2
 
@@ -502,14 +460,6 @@ The following glyphs do not have the recommended number of contours:
 	* uni2B1B (U+2B1B): L<<72.0,-121.0>--<60.0,-120.0>>/L<<60.0,-120.0>--<62.0,-120.0>> = 4.763641690726143 
 
 	* uni2B1C (U+2B1C): L<<55.0,494.0>--<52.0,519.0>>/L<<52.0,519.0>--<52.0,518.0>> = 6.842773412630916 [code: found-jaggy-segments]
-</div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have semi-vertical/semi-horizontal lines:
-
-	* uni1E9E (U+1E9E): L<<124.0,571.0>--<123.0,416.0>> 
-
-	* uni2015 (U+2015): L<<443.0,405.0>--<565.0,404.0>> [code: found-semi-vertical]
 </div></details><br></div></details><details><summary><b>[6] Formera-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
@@ -757,6 +707,10 @@ The following glyphs do not have the recommended number of contours:
 
 	* plusminus (U+00B1): L<<30.0,389.0>--<33.0,412.0>>/B<<33.0,412.0>-<33.0,411.0>-<45.0,412.0>> = 7.431407971172489
 
+	* prime (U+2032): L<<43.0,602.0>--<46.0,627.0>>/L<<46.0,627.0>--<46.0,626.0>> = 6.842773412630916
+
+	* prime (U+2032): L<<46.0,627.0>--<46.0,626.0>>/L<<46.0,626.0>--<47.0,649.0>> = 2.4895529219991284
+
 	* product (U+220F): L<<101.0,337.0>--<98.0,360.0>>/L<<98.0,360.0>--<98.0,359.0>> = 7.431407971172489
 
 	* product (U+220F): L<<257.0,-228.0>--<256.0,-253.0>>/B<<256.0,-253.0>-<256.0,-250.0>-<231.0,-250.0>> = 2.2906100426384346
@@ -856,7 +810,7 @@ The following glyphs do not have the recommended number of contours:
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 2 | 11 | 236 | 13 | 213 | 0 |
+| 0 | 2 | 10 | 236 | 13 | 214 | 0 |
 | 0% | 0% | 2% | 50% | 3% | 45% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
