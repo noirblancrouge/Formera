@@ -465,15 +465,6 @@ value = 310;
 {
 name = weightClass;
 value = 400;
-},
-{
-name = "meta Table";
-value = (
-{
-data = "de-Latn";
-tag = dlng;
-}
-);
 }
 );
 id = "7C3BCDA4-8F92-4DF1-91BA-B714BE37B8B5";
