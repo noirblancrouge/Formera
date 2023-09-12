@@ -60295,17 +60295,13 @@ unicode = 779;
 glyphname = caroncomb.alt;
 kernLeft = caroncomb.alt;
 kernRight = caroncomb.alt;
-lastChange = "2023-09-12 03:35:46 +0000";
+lastChange = "2023-09-12 03:45:28 +0000";
 layers = (
 {
 anchors = (
 {
 name = _top;
 pos = (247,530);
-},
-{
-name = top;
-pos = (399,750);
 }
 );
 layerId = "7C3BCDA4-8F92-4DF1-91BA-B714BE37B8B5";

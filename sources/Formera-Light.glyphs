@@ -7020,7 +7020,7 @@ unicode = 7732;
 glyphname = L;
 kernLeft = H;
 kernRight = L;
-lastChange = "2023-09-12 03:35:01 +0000";
+lastChange = "2023-09-12 03:41:33 +0000";
 layers = (
 {
 anchors = (
@@ -22727,7 +22727,7 @@ unicode = 314;
 glyphname = lcaron;
 kernLeft = h;
 kernRight = l;
-lastChange = "2023-09-12 03:35:02 +0000";
+lastChange = "2023-09-12 03:42:13 +0000";
 layers = (
 {
 layerId = "C5490108-C233-4ADF-8B6D-CFE8E3B23812";
@@ -69332,21 +69332,13 @@ unicode = 779;
 glyphname = caroncomb.alt;
 kernLeft = caroncomb.alt;
 kernRight = caroncomb.alt;
-lastChange = "2023-09-12 03:35:02 +0000";
+lastChange = "2023-09-12 03:42:09 +0000";
 layers = (
 {
 anchors = (
 {
-name = _center;
-pos = (229,601);
-},
-{
 name = _top;
-pos = (233,500);
-},
-{
-name = top;
-pos = (361,720);
+pos = (250,500);
 }
 );
 layerId = "C5490108-C233-4ADF-8B6D-CFE8E3B23812";
@@ -69354,6 +69346,7 @@ shapes = (
 {
 closed = 1;
 nodes = (
+(355,561,o),
 (359,586,o),
 (370,604,c),
 (368,624,o),
@@ -69397,8 +69390,7 @@ nodes = (
 (318,534,c),
 (331,534,o),
 (332,540,o),
-(344,541,c),
-(355,561,o)
+(344,541,c)
 );
 }
 );
