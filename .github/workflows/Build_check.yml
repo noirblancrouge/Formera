@@ -56,20 +56,32 @@ jobs:
     - name: proof
       run: make proof
     - name: setup site
-      run: cp scripts/index.html out/index.html
+      run: cp scripts/index.html docs/index.html
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       if: ${{ github.ref == 'refs/heads/main' }}
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./out
+        publish_dir: ./docs
+    - name: Commit files  # transfer the new html files back into the repository
+      run: |
+        git config --local user.name  ${{ github.actor }}        
+        git config --local user.email "${{ github.actor }}@users.noreply.github.com"
+        git add .
+        git commit -m "Updating the repository"
+    - name: Push changes  # push the output folder to your repo
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        force: true
+
     - name: Archive artifacts
       uses: actions/upload-artifact@v3
       with:
         name: ${{ env.ZIP_NAME }}
         path: |
           fonts
-          out
+          docs
     outputs:
       zip_name: ${{ env.ZIP_NAME }}
   release:
