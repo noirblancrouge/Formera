@@ -6,11 +6,11 @@
 [![][Outline Correctness]](http://noirblancrouge.github.io/Formera/fontbakery/fontbakery-report.html)
 [![][Shaping]](http://noirblancrouge.github.io/Formera/fontbakery/fontbakery-report.html)
 
-[Fontbakery]: https://img.shields.io/endpoint?url=https://noirblancrouge.github.io/Formera/badges/overall.json
-[GF Profile]: https://img.shields.io/endpoint?url=https://noirblancrouge.github.io/Formera/badges/GoogleFonts.json
-[Outline Correctness]: https://img.shields.io/endpoint?url=https://noirblancrouge.github.io/Formera/badges/OutlineCorrectnessChecks.json
-[Shaping]: https://img.shields.io/endpoint?url=https://noirblancrouge.github.io/Formera/badges/ShapingChecks.json
-[Universal]: https://img.shields.io/endpoint?url=https://noirblancrouge.github.io/Formera/badges/Universal.json
+[Fontbakery]: https://img.shields.io/endpoint?url=https://noirblancrouge.github.io/Formera/fontbakery/overall.json
+[GF Profile]: https://img.shields.io/endpoint?url=https://noirblancrouge.github.io/Formera/fontbakery/GoogleFonts.json
+[Outline Correctness]: https://img.shields.io/endpoint?url=https://noirblancrouge.github.io/Formera/fontbakery/OutlineCorrectnessChecks.json
+[Shaping]: https://img.shields.io/endpoint?url=https://noirblancrouge.github.io/Formera/fontbakery/ShapingChecks.json
+[Universal]: https://img.shields.io/endpoint?url=https://noirblancrouge.github.io/Formera/fontbakery/Universal.json
 
 
 ![Cover](https://raw.githubusercontent.com/noirblancrouge/Formera/master/documentation/images/formera.jpg)

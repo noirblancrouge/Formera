@@ -5607,7 +5607,7 @@ unicode = 7732;
 glyphname = L;
 kernLeft = H;
 kernRight = L;
-lastChange = "2023-09-12 03:35:45 +0000";
+lastChange = "2023-09-14 08:47:26 +0000";
 layers = (
 {
 anchors = (
@@ -5772,7 +5772,7 @@ unicode = 313;
 glyphname = Lcaron;
 kernLeft = H;
 kernRight = L;
-lastChange = "2023-09-12 03:35:45 +0000";
+lastChange = "2023-09-14 08:47:20 +0000";
 layers = (
 {
 layerId = "7C3BCDA4-8F92-4DF1-91BA-B714BE37B8B5";
@@ -18823,7 +18823,7 @@ unicode = 314;
 glyphname = lcaron;
 kernLeft = h;
 kernRight = l;
-lastChange = "2023-09-12 03:35:46 +0000";
+lastChange = "2023-09-14 08:47:34 +0000";
 layers = (
 {
 layerId = "7C3BCDA4-8F92-4DF1-91BA-B714BE37B8B5";

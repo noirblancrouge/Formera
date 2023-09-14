@@ -1,2 +1,5 @@
 venv
 .DS_Store
+.ninja_log
+build.ninja
+build.stamp
