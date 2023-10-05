@@ -73,11 +73,11 @@
             </tr>
             <tr>
                 <td>0</td>
-                <td>0</td>
+                <td>2</td>
                 <td>8</td>
                 <td>240</td>
                 <td>13</td>
-                <td>222</td>
+                <td>220</td>
             </tr>
             <tr>
                 <td>0%</td>
@@ -94,7 +94,7 @@
 <h3>Is there kerning info for non-ligated sequences?</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/kerning_for_non_ligated_sequences&gt;</div>
 
-<details><summary>⚠️ <strong>fonts/ttf/Formera-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning info for the following non-ligated sequences:</p>
+<details><summary>⚠️ <strong>fonts/ttf/Formera-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning info for the following non-ligated sequences:</p>
 <pre><code>- f + f
 
 - f + i
@@ -108,7 +108,7 @@
 - i + l [code: lacks-kern-info]
 </code></pre>
 </span></li></ul></div></details>
-<details><summary>⚠️ <strong>fonts/ttf/Formera-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning info for the following non-ligated sequences:</p>
+<details><summary>⚠️ <strong>fonts/ttf/Formera-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>GPOS table lacks kerning info for the following non-ligated sequences:</p>
 <pre><code>- f + f
 
 - f + i
@@ -125,104 +125,21 @@
 <h3>Ensure fonts have ScriptLangTags declared on the 'meta' table.</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/meta/script_lang_tags&gt;</div>
 
-<details><summary>⚠️ <strong>fonts/ttf/Formera-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
-</span></li></ul></div></details>
 <details><summary>⚠️ <strong>fonts/ttf/Formera-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
 </span></li></ul></div></details>
-<h2>&lt;Section: Universal&gt; ⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️</h2>
+<details><summary>⚠️ <strong>fonts/ttf/Formera-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This font file does not have a 'meta' table. [code: lacks-meta-table]</p>
+</span></li></ul></div></details>
+<h2>&lt;Section: Universal&gt; 🔥🔥⚠️⚠️⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩⏩ℹ️ℹ️ℹ️ℹ️</h2>
+<h3>Do we have the latest version of FontBakery installed?</h3>
+<div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/fontbakery_version&gt;</div>
+
+<details><summary>🔥 <strong>fonts/ttf/Formera-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Current FontBakery version is 0.9.0, while a newer 0.9.2 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]</p>
+</span></li></ul></div></details>
+<details><summary>🔥 <strong>fonts/ttf/Formera-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>Current FontBakery version is 0.9.0, while a newer 0.9.2 is already available. Please upgrade it with 'pip install -U fontbakery' [code: outdated-fontbakery]</p>
+</span></li></ul></div></details>
 <h3>Check if each glyph has the recommended amount of contours.</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/contour_count&gt;</div>
 
-<details><summary>⚠️ <strong>fonts/ttf/Formera-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
-<p>The following glyphs do not have the recommended number of contours:</p>
-<pre><code>- Glyph name: r	Contours detected: 2	Expected: 1
-
-- Glyph name: Thorn	Contours detected: 3	Expected: 1or2
-
-- Glyph name: ae	Contours detected: 2	Expected: 3
-
-- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-- Glyph name: dcroat	Contours detected: 3	Expected: 2
-
-- Glyph name: eogonek	Contours detected: 3	Expected: 2
-
-- Glyph name: hbar	Contours detected: 2	Expected: 1
-
-- Glyph name: racute	Contours detected: 3	Expected: 2
-
-- Glyph name: uni0157	Contours detected: 3	Expected: 2
-
-- Glyph name: rcaron	Contours detected: 3	Expected: 2
-
-- Glyph name: Tbar	Contours detected: 2	Expected: 1
-
-- Glyph name: tbar	Contours detected: 2	Expected: 1
-
-- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-
-- Glyph name: uogonek	Contours detected: 2	Expected: 1
-
-- Glyph name: uni01EA	Contours detected: 3	Expected: 2
-
-- Glyph name: uni01EB	Contours detected: 3	Expected: 2
-
-- Glyph name: aeacute	Contours detected: 3	Expected: 4
-
-- Glyph name: uni1E08	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1E09	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
-
-- Glyph name: uni1E5B	Contours detected: 3	Expected: 2
-
-- Glyph name: rmacronbelow	Contours detected: 3	Expected: 2
-
-- Glyph name: Tbar	Contours detected: 2	Expected: 1
-
-- Glyph name: Thorn	Contours detected: 3	Expected: 1or2
-
-- Glyph name: Uogonek	Contours detected: 2	Expected: 1
-
-- Glyph name: ae	Contours detected: 2	Expected: 3
-
-- Glyph name: aeacute	Contours detected: 3	Expected: 4
-
-- Glyph name: aogonek	Contours detected: 3	Expected: 2
-
-- Glyph name: dcroat	Contours detected: 3	Expected: 2
-
-- Glyph name: eogonek	Contours detected: 3	Expected: 2
-
-- Glyph name: hbar	Contours detected: 2	Expected: 1
-
-- Glyph name: r	Contours detected: 2	Expected: 1
-
-- Glyph name: racute	Contours detected: 3	Expected: 2
-
-- Glyph name: rcaron	Contours detected: 3	Expected: 2
-
-- Glyph name: tbar	Contours detected: 2	Expected: 1
-
-- Glyph name: uni0157	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1E08	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1E09	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
-
-- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
-
-- Glyph name: uni1E5B	Contours detected: 3	Expected: 2
-
-- Glyph name: uogonek	Contours detected: 2	Expected: 1
-</code></pre>
-<p>[code: contour-count]</p>
-</span></li></ul></div></details>
 <details><summary>⚠️ <strong>fonts/ttf/Formera-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
 <p>The following glyphs do not have the recommended number of contours:</p>
 <pre><code>- Glyph name: r	Contours detected: 2	Expected: 1
@@ -329,202 +246,100 @@
 </code></pre>
 <p>[code: contour-count]</p>
 </span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Formera-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>This check inspects the glyph outlines and detects the total number of contours in each of them. The expected values are infered from the typical ammounts of contours observed in a large collection of reference font families. The divergences listed below may simply indicate a significantly different design on some of your glyphs. On the other hand, some of these may flag actual bugs in the font such as glyphs mapped to an incorrect codepoint. Please consider reviewing the design and codepoint assignment of these to make sure they are correct.</p>
+<p>The following glyphs do not have the recommended number of contours:</p>
+<pre><code>- Glyph name: r	Contours detected: 2	Expected: 1
+
+- Glyph name: Thorn	Contours detected: 3	Expected: 1or2
+
+- Glyph name: ae	Contours detected: 2	Expected: 3
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: dcroat	Contours detected: 3	Expected: 2
+
+- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: hbar	Contours detected: 2	Expected: 1
+
+- Glyph name: racute	Contours detected: 3	Expected: 2
+
+- Glyph name: uni0157	Contours detected: 3	Expected: 2
+
+- Glyph name: rcaron	Contours detected: 3	Expected: 2
+
+- Glyph name: Tbar	Contours detected: 2	Expected: 1
+
+- Glyph name: tbar	Contours detected: 2	Expected: 1
+
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: uni01EA	Contours detected: 3	Expected: 2
+
+- Glyph name: uni01EB	Contours detected: 3	Expected: 2
+
+- Glyph name: aeacute	Contours detected: 3	Expected: 4
+
+- Glyph name: uni1E08	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E09	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1E5B	Contours detected: 3	Expected: 2
+
+- Glyph name: rmacronbelow	Contours detected: 3	Expected: 2
+
+- Glyph name: Tbar	Contours detected: 2	Expected: 1
+
+- Glyph name: Thorn	Contours detected: 3	Expected: 1or2
+
+- Glyph name: Uogonek	Contours detected: 2	Expected: 1
+
+- Glyph name: ae	Contours detected: 2	Expected: 3
+
+- Glyph name: aeacute	Contours detected: 3	Expected: 4
+
+- Glyph name: aogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: dcroat	Contours detected: 3	Expected: 2
+
+- Glyph name: eogonek	Contours detected: 3	Expected: 2
+
+- Glyph name: hbar	Contours detected: 2	Expected: 1
+
+- Glyph name: r	Contours detected: 2	Expected: 1
+
+- Glyph name: racute	Contours detected: 3	Expected: 2
+
+- Glyph name: rcaron	Contours detected: 3	Expected: 2
+
+- Glyph name: tbar	Contours detected: 2	Expected: 1
+
+- Glyph name: uni0157	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E08	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E09	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E1C	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1E1D	Contours detected: 4	Expected: 3
+
+- Glyph name: uni1E5B	Contours detected: 3	Expected: 2
+
+- Glyph name: uogonek	Contours detected: 2	Expected: 1
+</code></pre>
+<p>[code: contour-count]</p>
+</span></li></ul></div></details>
 <h2>&lt;Section: Outline Correctness Checks&gt; ⚠️⚠️</h2>
 <h3>Do outlines contain any jaggy segments?</h3>
 <div>Check ID: &lt;FontBakeryCheck:com.google.fonts/check/outline_jaggy_segments&gt;</div>
 
-<details><summary>⚠️ <strong>fonts/ttf/Formera-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:</p>
-<pre><code>* Eng (U+014A): B&lt;&lt;568.0,-163.0&gt;-&lt;586.0,-167.0&gt;-&lt;585.0,-168.0&gt;&gt;/L&lt;&lt;585.0,-168.0&gt;--&lt;603.0,-155.0&gt;&gt; = 9.162347045721626
-
-* ampersand (U+0026): B&lt;&lt;159.0,73.0&gt;-&lt;173.0,66.0&gt;-&lt;172.0,66.0&gt;&gt;/L&lt;&lt;172.0,66.0&gt;--&lt;186.0,64.0&gt;&gt; = 8.13010235415596
-
-* ampersand (U+0026): L&lt;&lt;286.0,469.0&gt;--&lt;290.0,472.0&gt;&gt;/L&lt;&lt;290.0,472.0&gt;--&lt;289.0,471.0&gt;&gt; = 8.13010235415596
-
-* ampersand (U+0026): L&lt;&lt;290.0,472.0&gt;--&lt;289.0,471.0&gt;&gt;/L&lt;&lt;289.0,471.0&gt;--&lt;301.0,481.0&gt;&gt; = 5.19442890773487
-
-* ampersand (U+0026): L&lt;&lt;419.0,543.0&gt;--&lt;418.0,534.0&gt;&gt;/L&lt;&lt;418.0,534.0&gt;--&lt;418.0,537.0&gt;&gt; = 6.340191745909908
-
-* copyright (U+00A9): B&lt;&lt;625.0,200.0&gt;-&lt;627.0,203.0&gt;-&lt;627.0,202.0&gt;&gt;/B&lt;&lt;627.0,202.0&gt;-&lt;629.0,210.0&gt;-&lt;631.0,210.0&gt;&gt; = 14.036243467926484
-
-* copyright (U+00A9): L&lt;&lt;236.0,468.0&gt;--&lt;255.0,485.0&gt;&gt;/L&lt;&lt;255.0,485.0&gt;--&lt;254.0,484.0&gt;&gt; = 3.1798301198642793
-
-* copyright (U+00A9): L&lt;&lt;255.0,485.0&gt;--&lt;254.0,484.0&gt;&gt;/L&lt;&lt;254.0,484.0&gt;--&lt;262.0,491.0&gt;&gt; = 3.8140748342902824
-
-* copyright (U+00A9): L&lt;&lt;382.0,619.0&gt;--&lt;385.0,619.0&gt;&gt;/L&lt;&lt;385.0,619.0&gt;--&lt;356.0,620.0&gt;&gt; = 1.9749340108819595
-
-* copyright (U+00A9): L&lt;&lt;393.0,618.0&gt;--&lt;382.0,619.0&gt;&gt;/L&lt;&lt;382.0,619.0&gt;--&lt;385.0,619.0&gt;&gt; = 5.1944289077348
-
-* copyright (U+00A9): L&lt;&lt;583.0,62.0&gt;--&lt;586.0,65.0&gt;&gt;/L&lt;&lt;586.0,65.0&gt;--&lt;563.0,49.0&gt;&gt; = 10.175510843043119
-
-* copyright (U+00A9): L&lt;&lt;604.0,81.0&gt;--&lt;583.0,62.0&gt;&gt;/L&lt;&lt;583.0,62.0&gt;--&lt;586.0,65.0&gt;&gt; = 2.862405226111779
-
-* currency (U+00A4): L&lt;&lt;314.0,592.0&gt;--&lt;338.0,589.0&gt;&gt;/L&lt;&lt;338.0,589.0&gt;--&lt;337.0,589.0&gt;&gt; = 7.125016348901757
-
-* currency (U+00A4): L&lt;&lt;338.0,589.0&gt;--&lt;337.0,589.0&gt;&gt;/L&lt;&lt;337.0,589.0&gt;--&lt;362.0,583.0&gt;&gt; = 13.495733280795811
-
-* currency (U+00A4): L&lt;&lt;58.0,379.0&gt;--&lt;61.0,402.0&gt;&gt;/L&lt;&lt;61.0,402.0&gt;--&lt;61.0,401.0&gt;&gt; = 7.431407971172489
-
-* currency (U+00A4): L&lt;&lt;61.0,402.0&gt;--&lt;61.0,401.0&gt;&gt;/L&lt;&lt;61.0,401.0&gt;--&lt;67.0,426.0&gt;&gt; = 13.495733280795811
-
-* estimated (U+212E): B&lt;&lt;278.0,74.0&gt;-&lt;293.0,71.0&gt;-&lt;290.0,71.0&gt;&gt;/L&lt;&lt;290.0,71.0&gt;--&lt;305.0,68.0&gt;&gt; = 11.309932474020195
-
-* estimated (U+212E): B&lt;&lt;427.0,713.5&gt;-&lt;430.0,713.0&gt;-&lt;429.0,713.0&gt;&gt;/L&lt;&lt;429.0,713.0&gt;--&lt;438.0,711.0&gt;&gt; = 12.528807709151522
-
-* estimated (U+212E): B&lt;&lt;494.0,100.0&gt;-&lt;497.0,101.0&gt;-&lt;496.0,100.0&gt;&gt;/L&lt;&lt;496.0,100.0&gt;--&lt;520.0,117.0&gt;&gt; = 9.688786560366827
-
-* estimated (U+212E): L&lt;&lt;321.0,-19.0&gt;--&lt;324.0,-19.0&gt;&gt;/L&lt;&lt;324.0,-19.0&gt;--&lt;296.0,-16.0&gt;&gt; = 6.115503566285384
-
-* estimated (U+212E): L&lt;&lt;328.0,-20.0&gt;--&lt;321.0,-19.0&gt;&gt;/L&lt;&lt;321.0,-19.0&gt;--&lt;324.0,-19.0&gt;&gt; = 8.13010235415596
-
-* greater (U+003E): B&lt;&lt;206.0,412.0&gt;-&lt;197.0,416.0&gt;-&lt;198.0,416.0&gt;&gt;/B&lt;&lt;198.0,416.0&gt;-&lt;186.0,418.0&gt;-&lt;186.0,421.0&gt;&gt; = 9.462322208025613
-
-* infinity (U+221E): L&lt;&lt;376.0,441.0&gt;--&lt;396.0,458.0&gt;&gt;/L&lt;&lt;396.0,458.0&gt;--&lt;395.0,457.0&gt;&gt; = 4.635463426902695
-
-* infinity (U+221E): L&lt;&lt;396.0,458.0&gt;--&lt;395.0,457.0&gt;&gt;/L&lt;&lt;395.0,457.0&gt;--&lt;407.0,466.0&gt;&gt; = 8.13010235415596
-
-* less (U+003C): B&lt;&lt;314.0,421.0&gt;-&lt;314.0,418.0&gt;-&lt;302.0,416.0&gt;&gt;/B&lt;&lt;302.0,416.0&gt;-&lt;303.0,416.0&gt;-&lt;294.0,412.0&gt;&gt; = 9.462322208025613
-
-* logicalnot (U+00AC): B&lt;&lt;402.0,-2.0&gt;-&lt;396.0,-1.0&gt;-&lt;397.0,0.0&gt;&gt;/L&lt;&lt;397.0,0.0&gt;--&lt;394.0,-2.0&gt;&gt; = 11.309932474020195
-
-* lozenge (U+25CA): B&lt;&lt;160.0,455.0&gt;-&lt;168.0,468.0&gt;-&lt;168.0,467.0&gt;&gt;/L&lt;&lt;168.0,467.0&gt;--&lt;169.0,471.0&gt;&gt; = 14.036243467926484
-
-* multiply (U+00D7): L&lt;&lt;267.0,397.0&gt;--&lt;281.0,414.0&gt;&gt;/L&lt;&lt;281.0,414.0&gt;--&lt;280.0,413.0&gt;&gt; = 5.527540151656193
-
-* multiply (U+00D7): L&lt;&lt;281.0,414.0&gt;--&lt;280.0,413.0&gt;&gt;/B&lt;&lt;280.0,413.0&gt;-&lt;284.0,418.0&gt;-&lt;287.0,421.0&gt;&gt; = 6.340191745909908
-
-* paragraph (U+00B6): L&lt;&lt;385.0,586.0&gt;--&lt;385.0,585.0&gt;&gt;/B&lt;&lt;385.0,585.0&gt;-&lt;384.0,594.0&gt;-&lt;386.0,596.0&gt;&gt; = 6.340191745909908
-
-* paragraph (U+00B6): L&lt;&lt;386.0,575.0&gt;--&lt;385.0,586.0&gt;&gt;/L&lt;&lt;385.0,586.0&gt;--&lt;385.0,585.0&gt;&gt; = 5.1944289077348
-
-* partialdiff (U+2202): B&lt;&lt;225.0,58.0&gt;-&lt;228.0,57.0&gt;-&lt;227.0,57.0&gt;&gt;/L&lt;&lt;227.0,57.0&gt;--&lt;251.0,53.0&gt;&gt; = 9.462322208025613
-
-* partialdiff (U+2202): L&lt;&lt;135.0,668.0&gt;--&lt;153.0,665.0&gt;&gt;/L&lt;&lt;153.0,665.0&gt;--&lt;152.0,665.0&gt;&gt; = 9.462322208025613
-
-* partialdiff (U+2202): L&lt;&lt;153.0,665.0&gt;--&lt;152.0,665.0&gt;&gt;/B&lt;&lt;152.0,665.0&gt;-&lt;160.0,664.0&gt;-&lt;165.0,662.5&gt;&gt; = 7.125016348901757
-
-* percent (U+0025): L&lt;&lt;623.0,24.0&gt;--&lt;626.0,27.0&gt;&gt;/L&lt;&lt;626.0,27.0&gt;--&lt;603.0,10.0&gt;&gt; = 8.530765609948139
-
-* percent (U+0025): L&lt;&lt;626.0,27.0&gt;--&lt;603.0,10.0&gt;&gt;/B&lt;&lt;603.0,10.0&gt;-&lt;604.0,11.0&gt;-&lt;597.5,8.5&gt;&gt; = 8.530765609948096
-
-* percent (U+0025): L&lt;&lt;631.0,31.0&gt;--&lt;623.0,24.0&gt;&gt;/L&lt;&lt;623.0,24.0&gt;--&lt;626.0,27.0&gt;&gt; = 3.8140748342902824
-
-* perthousand (U+2030): B&lt;&lt;252.0,490.0&gt;-&lt;256.0,501.0&gt;-&lt;256.0,500.0&gt;&gt;/L&lt;&lt;256.0,500.0&gt;--&lt;260.0,525.0&gt;&gt; = 9.090276920822312
-
-* perthousand (U+2030): B&lt;&lt;558.0,56.0&gt;-&lt;574.0,62.0&gt;-&lt;572.0,60.0&gt;&gt;/L&lt;&lt;572.0,60.0&gt;--&lt;580.0,67.0&gt;&gt; = 3.814074834290187
-
-* perthousand (U+2030): B&lt;&lt;607.0,100.0&gt;-&lt;610.0,109.0&gt;-&lt;610.0,107.0&gt;&gt;/B&lt;&lt;610.0,107.0&gt;-&lt;611.0,123.0&gt;-&lt;614.0,123.0&gt;&gt; = 3.576334374997269
-
-* perthousand (U+2030): L&lt;&lt;457.0,177.0&gt;--&lt;457.0,178.0&gt;&gt;/L&lt;&lt;457.0,178.0&gt;--&lt;454.0,166.0&gt;&gt; = 14.036243467926484
-
-* plusminus (U+00B1): L&lt;&lt;211.0,270.0&gt;--&lt;211.0,269.0&gt;&gt;/B&lt;&lt;211.0,269.0&gt;-&lt;210.0,280.0&gt;-&lt;212.0,282.0&gt;&gt; = 5.1944289077348
-
-* plusminus (U+00B1): L&lt;&lt;212.0,262.0&gt;--&lt;211.0,270.0&gt;&gt;/L&lt;&lt;211.0,270.0&gt;--&lt;211.0,269.0&gt;&gt; = 7.125016348901757
-
-* plusminus (U+00B1): L&lt;&lt;287.0,197.0&gt;--&lt;286.0,171.0&gt;&gt;/B&lt;&lt;286.0,171.0&gt;-&lt;286.0,174.0&gt;-&lt;261.0,174.0&gt;&gt; = 2.2025981617658017
-
-* plusminus (U+00B1): L&lt;&lt;30.0,343.0&gt;--&lt;30.0,342.0&gt;&gt;/B&lt;&lt;30.0,342.0&gt;-&lt;28.0,355.0&gt;-&lt;32.0,355.0&gt;&gt; = 8.746162262555211
-
-* plusminus (U+00B1): L&lt;&lt;30.0,389.0&gt;--&lt;33.0,412.0&gt;&gt;/B&lt;&lt;33.0,412.0&gt;-&lt;33.0,411.0&gt;-&lt;45.0,412.0&gt;&gt; = 7.431407971172489
-
-* prime (U+2032): L&lt;&lt;43.0,602.0&gt;--&lt;46.0,627.0&gt;&gt;/L&lt;&lt;46.0,627.0&gt;--&lt;46.0,626.0&gt;&gt; = 6.842773412630916
-
-* prime (U+2032): L&lt;&lt;46.0,627.0&gt;--&lt;46.0,626.0&gt;&gt;/L&lt;&lt;46.0,626.0&gt;--&lt;47.0,649.0&gt;&gt; = 2.4895529219991284
-
-* product (U+220F): L&lt;&lt;101.0,337.0&gt;--&lt;98.0,360.0&gt;&gt;/L&lt;&lt;98.0,360.0&gt;--&lt;98.0,359.0&gt;&gt; = 7.431407971172489
-
-* product (U+220F): L&lt;&lt;257.0,-228.0&gt;--&lt;256.0,-253.0&gt;&gt;/B&lt;&lt;256.0,-253.0&gt;-&lt;256.0,-250.0&gt;-&lt;231.0,-250.0&gt;&gt; = 2.2906100426384346
-
-* product (U+220F): L&lt;&lt;28.0,-251.0&gt;--&lt;20.0,-250.0&gt;&gt;/L&lt;&lt;20.0,-250.0&gt;--&lt;23.0,-250.0&gt;&gt; = 7.125016348901757
-
-* product (U+220F): L&lt;&lt;412.0,-206.0&gt;--&lt;415.0,-183.0&gt;&gt;/B&lt;&lt;415.0,-183.0&gt;-&lt;415.0,-184.0&gt;-&lt;438.0,-184.0&gt;&gt; = 7.431407971172489
-
-* product (U+220F): L&lt;&lt;494.0,-87.0&gt;--&lt;494.0,-88.0&gt;&gt;/B&lt;&lt;494.0,-88.0&gt;-&lt;493.0,-80.0&gt;-&lt;493.5,-75.5&gt;&gt; = 7.125016348901757
-
-* product (U+220F): L&lt;&lt;495.0,-95.0&gt;--&lt;494.0,-87.0&gt;&gt;/L&lt;&lt;494.0,-87.0&gt;--&lt;494.0,-88.0&gt;&gt; = 7.125016348901757
-
-* product (U+220F): L&lt;&lt;98.0,360.0&gt;--&lt;98.0,359.0&gt;&gt;/B&lt;&lt;98.0,359.0&gt;-&lt;96.0,373.0&gt;-&lt;100.0,373.0&gt;&gt; = 8.13010235415596
-
-* registered (U+00AE): B&lt;&lt;219.5,577.5&gt;-&lt;209.0,572.0&gt;-&lt;210.0,573.0&gt;&gt;/L&lt;&lt;210.0,573.0&gt;--&lt;202.0,568.0&gt;&gt; = 12.994616791916483
-
-* registered (U+00AE): B&lt;&lt;473.0,64.0&gt;-&lt;488.0,70.0&gt;-&lt;486.0,68.0&gt;&gt;/B&lt;&lt;486.0,68.0&gt;-&lt;491.0,72.0&gt;-&lt;494.0,72.0&gt;&gt; = 6.34019174590985
-
-* registered (U+00AE): B&lt;&lt;510.5,582.5&gt;-&lt;502.0,587.0&gt;-&lt;503.0,587.0&gt;&gt;/B&lt;&lt;503.0,587.0&gt;-&lt;492.0,589.0&gt;-&lt;492.0,592.0&gt;&gt; = 10.304846468766044
-
-* registered (U+00AE): B&lt;&lt;515.5,82.5&gt;-&lt;518.0,84.0&gt;-&lt;517.0,83.0&gt;&gt;/L&lt;&lt;517.0,83.0&gt;--&lt;538.0,96.0&gt;&gt; = 13.240519915187184
-
-* registered (U+00AE): L&lt;&lt;564.0,45.0&gt;--&lt;567.0,48.0&gt;&gt;/L&lt;&lt;567.0,48.0&gt;--&lt;554.0,37.0&gt;&gt; = 4.763641690726066
-
-* registered (U+00AE): L&lt;&lt;587.0,62.0&gt;--&lt;564.0,45.0&gt;&gt;/L&lt;&lt;564.0,45.0&gt;--&lt;567.0,48.0&gt;&gt; = 8.530765609948139
-
-* second (U+2033): L&lt;&lt;221.0,602.0&gt;--&lt;224.0,627.0&gt;&gt;/L&lt;&lt;224.0,627.0&gt;--&lt;224.0,626.0&gt;&gt; = 6.842773412630916
-
-* second (U+2033): L&lt;&lt;224.0,627.0&gt;--&lt;224.0,626.0&gt;&gt;/L&lt;&lt;224.0,626.0&gt;--&lt;225.0,649.0&gt;&gt; = 2.4895529219991284
-
-* second (U+2033): L&lt;&lt;43.0,602.0&gt;--&lt;46.0,627.0&gt;&gt;/L&lt;&lt;46.0,627.0&gt;--&lt;46.0,626.0&gt;&gt; = 6.842773412630916
-
-* second (U+2033): L&lt;&lt;46.0,627.0&gt;--&lt;46.0,626.0&gt;&gt;/L&lt;&lt;46.0,626.0&gt;--&lt;47.0,649.0&gt;&gt; = 2.4895529219991284
-
-* summation (U+2211): L&lt;&lt;529.0,534.0&gt;--&lt;519.0,535.0&gt;&gt;/B&lt;&lt;519.0,535.0&gt;-&lt;522.0,535.0&gt;-&lt;520.0,540.0&gt;&gt; = 5.710593137499633
-
-* uni00B5 (U+00B5): L&lt;&lt;383.0,316.0&gt;--&lt;380.0,339.0&gt;&gt;/L&lt;&lt;380.0,339.0&gt;--&lt;380.0,338.0&gt;&gt; = 7.431407971172489
-
-* uni03A9 (U+03A9): B&lt;&lt;407.5,86.5&gt;-&lt;410.0,88.0&gt;-&lt;409.0,87.0&gt;&gt;/L&lt;&lt;409.0,87.0&gt;--&lt;424.0,99.0&gt;&gt; = 6.34019174590985
-
-* uni03A9 (U+03A9): L&lt;&lt;122.0,596.0&gt;--&lt;145.0,617.0&gt;&gt;/L&lt;&lt;145.0,617.0&gt;--&lt;144.0,616.0&gt;&gt; = 2.6025622024998034
-
-* uni03A9 (U+03A9): L&lt;&lt;145.0,617.0&gt;--&lt;144.0,616.0&gt;&gt;/L&lt;&lt;144.0,616.0&gt;--&lt;155.0,625.0&gt;&gt; = 5.710593137499696
-
-* uni03A9 (U+03A9): L&lt;&lt;410.0,-3.0&gt;--&lt;377.0,0.0&gt;&gt;/B&lt;&lt;377.0,0.0&gt;-&lt;381.0,0.0&gt;-&lt;378.0,26.0&gt;&gt; = 5.1944289077348
-
-* uni03A9 (U+03A9): L&lt;&lt;610.0,71.0&gt;--&lt;641.0,70.0&gt;&gt;/B&lt;&lt;641.0,70.0&gt;-&lt;639.0,70.0&gt;-&lt;641.0,62.0&gt;&gt; = 1.8476102659945155
-
-* uni03BC (U+03BC): L&lt;&lt;383.0,316.0&gt;--&lt;380.0,339.0&gt;&gt;/L&lt;&lt;380.0,339.0&gt;--&lt;380.0,338.0&gt;&gt; = 7.431407971172489
-
-* uni1E9E (U+1E9E): B&lt;&lt;453.5,90.0&gt;-&lt;455.0,91.0&gt;-&lt;454.0,90.0&gt;&gt;/L&lt;&lt;454.0,90.0&gt;--&lt;478.0,107.0&gt;&gt; = 9.688786560366827
-
-* uni1E9E (U+1E9E): L&lt;&lt;541.0,696.0&gt;--&lt;557.0,695.0&gt;&gt;/B&lt;&lt;557.0,695.0&gt;-&lt;556.0,695.0&gt;-&lt;562.5,691.5&gt;&gt; = 3.576334374997269
-
-* uni2113 (U+2113): B&lt;&lt;290.0,88.0&gt;-&lt;301.0,73.0&gt;-&lt;300.0,73.0&gt;&gt;/L&lt;&lt;300.0,73.0&gt;--&lt;325.0,71.0&gt;&gt; = 4.573921259900818
-
-* uni2113 (U+2113): B&lt;&lt;341.0,477.0&gt;-&lt;345.0,488.0&gt;-&lt;345.0,487.0&gt;&gt;/L&lt;&lt;345.0,487.0&gt;--&lt;346.0,493.0&gt;&gt; = 9.462322208025613
-
-* uni2113 (U+2113): L&lt;&lt;186.0,303.0&gt;--&lt;189.0,307.0&gt;&gt;/L&lt;&lt;189.0,307.0&gt;--&lt;188.0,306.0&gt;&gt; = 8.13010235415596
-
-* uni2113 (U+2113): L&lt;&lt;188.0,114.0&gt;--&lt;189.0,122.0&gt;&gt;/L&lt;&lt;189.0,122.0&gt;--&lt;189.0,121.0&gt;&gt; = 7.1250163489018075
-
-* uni2113 (U+2113): L&lt;&lt;189.0,122.0&gt;--&lt;189.0,121.0&gt;&gt;/L&lt;&lt;189.0,121.0&gt;--&lt;192.0,151.0&gt;&gt; = 5.710593137499633
-
-* uni2113 (U+2113): L&lt;&lt;390.0,26.0&gt;--&lt;393.0,29.0&gt;&gt;/L&lt;&lt;393.0,29.0&gt;--&lt;375.0,14.0&gt;&gt; = 5.1944289077348
-
-* uni2113 (U+2113): L&lt;&lt;407.0,39.0&gt;--&lt;390.0,26.0&gt;&gt;/L&lt;&lt;390.0,26.0&gt;--&lt;393.0,29.0&gt;&gt; = 7.594643368591495
-
-* uni2126 (U+2126): B&lt;&lt;407.5,86.5&gt;-&lt;410.0,88.0&gt;-&lt;409.0,87.0&gt;&gt;/L&lt;&lt;409.0,87.0&gt;--&lt;424.0,99.0&gt;&gt; = 6.34019174590985
-
-* uni2126 (U+2126): L&lt;&lt;122.0,596.0&gt;--&lt;145.0,617.0&gt;&gt;/L&lt;&lt;145.0,617.0&gt;--&lt;144.0,616.0&gt;&gt; = 2.6025622024998034
-
-* uni2126 (U+2126): L&lt;&lt;145.0,617.0&gt;--&lt;144.0,616.0&gt;&gt;/L&lt;&lt;144.0,616.0&gt;--&lt;155.0,625.0&gt;&gt; = 5.710593137499696
-
-* uni2126 (U+2126): L&lt;&lt;410.0,-3.0&gt;--&lt;377.0,0.0&gt;&gt;/B&lt;&lt;377.0,0.0&gt;-&lt;381.0,0.0&gt;-&lt;378.0,26.0&gt;&gt; = 5.1944289077348
-
-* uni2126 (U+2126): L&lt;&lt;610.0,71.0&gt;--&lt;641.0,70.0&gt;&gt;/B&lt;&lt;641.0,70.0&gt;-&lt;639.0,70.0&gt;-&lt;641.0,62.0&gt;&gt; = 1.8476102659945155
-
-* uni2318 (U+2318): L&lt;&lt;174.0,-54.0&gt;--&lt;175.0,-54.0&gt;&gt;/L&lt;&lt;175.0,-54.0&gt;--&lt;144.0,-51.0&gt;&gt; = 5.527540151656126
-
-* uni2318 (U+2318): L&lt;&lt;200.0,-52.0&gt;--&lt;175.0,-54.0&gt;&gt;/L&lt;&lt;175.0,-54.0&gt;--&lt;175.0,-54.0&gt;&gt; = 4.573921259900818
-
-* uni2325 (U+2325): L&lt;&lt;330.0,459.0&gt;--&lt;333.0,484.0&gt;&gt;/B&lt;&lt;333.0,484.0&gt;-&lt;333.0,483.0&gt;-&lt;338.0,488.0&gt;&gt; = 6.842773412630916
-
-* uni2325 (U+2325): L&lt;&lt;364.0,409.0&gt;--&lt;339.0,412.0&gt;&gt;/B&lt;&lt;339.0,412.0&gt;-&lt;341.0,412.0&gt;-&lt;336.0,417.0&gt;&gt; = 6.842773412630916
-
-* uni25CC (U+25CC): L&lt;&lt;746.0,205.0&gt;--&lt;749.0,205.0&gt;&gt;/L&lt;&lt;749.0,205.0&gt;--&lt;734.0,206.0&gt;&gt; = 3.8140748342903783
-
-* uni2B1B (U+2B1B): L&lt;&lt;52.0,471.0&gt;--&lt;52.0,470.0&gt;&gt;/B&lt;&lt;52.0,470.0&gt;-&lt;51.0,482.0&gt;-&lt;54.0,482.0&gt;&gt; = 4.763641690726143
-
-* uni2B1B (U+2B1B): L&lt;&lt;53.0,461.0&gt;--&lt;52.0,471.0&gt;&gt;/L&lt;&lt;52.0,471.0&gt;--&lt;52.0,470.0&gt;&gt; = 5.710593137499633
-
-* uni2B1C (U+2B1C): B&lt;&lt;161.0,501.0&gt;-&lt;154.0,502.0&gt;-&lt;154.0,503.0&gt;&gt;/L&lt;&lt;154.0,503.0&gt;--&lt;151.0,481.0&gt;&gt; = 7.765166018425354 [code: found-jaggy-segments]
-</code></pre>
-</span></li></ul></div></details>
 <details><summary>⚠️ <strong>fonts/ttf/Formera-Light.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:</p>
 <pre><code>* approxequal (U+2248): L&lt;&lt;352.0,180.0&gt;--&lt;356.0,180.0&gt;&gt;/L&lt;&lt;356.0,180.0&gt;--&lt;331.0,182.0&gt;&gt; = 4.573921259900818
 
@@ -813,6 +628,198 @@
 * uni2B1B (U+2B1B): L&lt;&lt;72.0,-121.0&gt;--&lt;60.0,-120.0&gt;&gt;/L&lt;&lt;60.0,-120.0&gt;--&lt;62.0,-120.0&gt;&gt; = 4.763641690726143
 
 * uni2B1C (U+2B1C): L&lt;&lt;55.0,494.0&gt;--&lt;52.0,519.0&gt;&gt;/L&lt;&lt;52.0,519.0&gt;--&lt;52.0,518.0&gt;&gt; = 6.842773412630916 [code: found-jaggy-segments]
+</code></pre>
+</span></li></ul></div></details>
+<details><summary>⚠️ <strong>fonts/ttf/Formera-Regular.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:</p>
+<pre><code>* Eng (U+014A): B&lt;&lt;568.0,-163.0&gt;-&lt;586.0,-167.0&gt;-&lt;585.0,-168.0&gt;&gt;/L&lt;&lt;585.0,-168.0&gt;--&lt;603.0,-155.0&gt;&gt; = 9.162347045721626
+
+* ampersand (U+0026): B&lt;&lt;159.0,73.0&gt;-&lt;173.0,66.0&gt;-&lt;172.0,66.0&gt;&gt;/L&lt;&lt;172.0,66.0&gt;--&lt;186.0,64.0&gt;&gt; = 8.13010235415596
+
+* ampersand (U+0026): L&lt;&lt;286.0,469.0&gt;--&lt;290.0,472.0&gt;&gt;/L&lt;&lt;290.0,472.0&gt;--&lt;289.0,471.0&gt;&gt; = 8.13010235415596
+
+* ampersand (U+0026): L&lt;&lt;290.0,472.0&gt;--&lt;289.0,471.0&gt;&gt;/L&lt;&lt;289.0,471.0&gt;--&lt;301.0,481.0&gt;&gt; = 5.19442890773487
+
+* ampersand (U+0026): L&lt;&lt;419.0,543.0&gt;--&lt;418.0,534.0&gt;&gt;/L&lt;&lt;418.0,534.0&gt;--&lt;418.0,537.0&gt;&gt; = 6.340191745909908
+
+* copyright (U+00A9): B&lt;&lt;625.0,200.0&gt;-&lt;627.0,203.0&gt;-&lt;627.0,202.0&gt;&gt;/B&lt;&lt;627.0,202.0&gt;-&lt;629.0,210.0&gt;-&lt;631.0,210.0&gt;&gt; = 14.036243467926484
+
+* copyright (U+00A9): L&lt;&lt;236.0,468.0&gt;--&lt;255.0,485.0&gt;&gt;/L&lt;&lt;255.0,485.0&gt;--&lt;254.0,484.0&gt;&gt; = 3.1798301198642793
+
+* copyright (U+00A9): L&lt;&lt;255.0,485.0&gt;--&lt;254.0,484.0&gt;&gt;/L&lt;&lt;254.0,484.0&gt;--&lt;262.0,491.0&gt;&gt; = 3.8140748342902824
+
+* copyright (U+00A9): L&lt;&lt;382.0,619.0&gt;--&lt;385.0,619.0&gt;&gt;/L&lt;&lt;385.0,619.0&gt;--&lt;356.0,620.0&gt;&gt; = 1.9749340108819595
+
+* copyright (U+00A9): L&lt;&lt;393.0,618.0&gt;--&lt;382.0,619.0&gt;&gt;/L&lt;&lt;382.0,619.0&gt;--&lt;385.0,619.0&gt;&gt; = 5.1944289077348
+
+* copyright (U+00A9): L&lt;&lt;583.0,62.0&gt;--&lt;586.0,65.0&gt;&gt;/L&lt;&lt;586.0,65.0&gt;--&lt;563.0,49.0&gt;&gt; = 10.175510843043119
+
+* copyright (U+00A9): L&lt;&lt;604.0,81.0&gt;--&lt;583.0,62.0&gt;&gt;/L&lt;&lt;583.0,62.0&gt;--&lt;586.0,65.0&gt;&gt; = 2.862405226111779
+
+* currency (U+00A4): L&lt;&lt;314.0,592.0&gt;--&lt;338.0,589.0&gt;&gt;/L&lt;&lt;338.0,589.0&gt;--&lt;337.0,589.0&gt;&gt; = 7.125016348901757
+
+* currency (U+00A4): L&lt;&lt;338.0,589.0&gt;--&lt;337.0,589.0&gt;&gt;/L&lt;&lt;337.0,589.0&gt;--&lt;362.0,583.0&gt;&gt; = 13.495733280795811
+
+* currency (U+00A4): L&lt;&lt;58.0,379.0&gt;--&lt;61.0,402.0&gt;&gt;/L&lt;&lt;61.0,402.0&gt;--&lt;61.0,401.0&gt;&gt; = 7.431407971172489
+
+* currency (U+00A4): L&lt;&lt;61.0,402.0&gt;--&lt;61.0,401.0&gt;&gt;/L&lt;&lt;61.0,401.0&gt;--&lt;67.0,426.0&gt;&gt; = 13.495733280795811
+
+* estimated (U+212E): B&lt;&lt;278.0,74.0&gt;-&lt;293.0,71.0&gt;-&lt;290.0,71.0&gt;&gt;/L&lt;&lt;290.0,71.0&gt;--&lt;305.0,68.0&gt;&gt; = 11.309932474020195
+
+* estimated (U+212E): B&lt;&lt;427.0,713.5&gt;-&lt;430.0,713.0&gt;-&lt;429.0,713.0&gt;&gt;/L&lt;&lt;429.0,713.0&gt;--&lt;438.0,711.0&gt;&gt; = 12.528807709151522
+
+* estimated (U+212E): B&lt;&lt;494.0,100.0&gt;-&lt;497.0,101.0&gt;-&lt;496.0,100.0&gt;&gt;/L&lt;&lt;496.0,100.0&gt;--&lt;520.0,117.0&gt;&gt; = 9.688786560366827
+
+* estimated (U+212E): L&lt;&lt;321.0,-19.0&gt;--&lt;324.0,-19.0&gt;&gt;/L&lt;&lt;324.0,-19.0&gt;--&lt;296.0,-16.0&gt;&gt; = 6.115503566285384
+
+* estimated (U+212E): L&lt;&lt;328.0,-20.0&gt;--&lt;321.0,-19.0&gt;&gt;/L&lt;&lt;321.0,-19.0&gt;--&lt;324.0,-19.0&gt;&gt; = 8.13010235415596
+
+* greater (U+003E): B&lt;&lt;206.0,412.0&gt;-&lt;197.0,416.0&gt;-&lt;198.0,416.0&gt;&gt;/B&lt;&lt;198.0,416.0&gt;-&lt;186.0,418.0&gt;-&lt;186.0,421.0&gt;&gt; = 9.462322208025613
+
+* infinity (U+221E): L&lt;&lt;376.0,441.0&gt;--&lt;396.0,458.0&gt;&gt;/L&lt;&lt;396.0,458.0&gt;--&lt;395.0,457.0&gt;&gt; = 4.635463426902695
+
+* infinity (U+221E): L&lt;&lt;396.0,458.0&gt;--&lt;395.0,457.0&gt;&gt;/L&lt;&lt;395.0,457.0&gt;--&lt;407.0,466.0&gt;&gt; = 8.13010235415596
+
+* less (U+003C): B&lt;&lt;314.0,421.0&gt;-&lt;314.0,418.0&gt;-&lt;302.0,416.0&gt;&gt;/B&lt;&lt;302.0,416.0&gt;-&lt;303.0,416.0&gt;-&lt;294.0,412.0&gt;&gt; = 9.462322208025613
+
+* logicalnot (U+00AC): B&lt;&lt;402.0,-2.0&gt;-&lt;396.0,-1.0&gt;-&lt;397.0,0.0&gt;&gt;/L&lt;&lt;397.0,0.0&gt;--&lt;394.0,-2.0&gt;&gt; = 11.309932474020195
+
+* lozenge (U+25CA): B&lt;&lt;160.0,455.0&gt;-&lt;168.0,468.0&gt;-&lt;168.0,467.0&gt;&gt;/L&lt;&lt;168.0,467.0&gt;--&lt;169.0,471.0&gt;&gt; = 14.036243467926484
+
+* multiply (U+00D7): L&lt;&lt;267.0,397.0&gt;--&lt;281.0,414.0&gt;&gt;/L&lt;&lt;281.0,414.0&gt;--&lt;280.0,413.0&gt;&gt; = 5.527540151656193
+
+* multiply (U+00D7): L&lt;&lt;281.0,414.0&gt;--&lt;280.0,413.0&gt;&gt;/B&lt;&lt;280.0,413.0&gt;-&lt;284.0,418.0&gt;-&lt;287.0,421.0&gt;&gt; = 6.340191745909908
+
+* paragraph (U+00B6): L&lt;&lt;385.0,586.0&gt;--&lt;385.0,585.0&gt;&gt;/B&lt;&lt;385.0,585.0&gt;-&lt;384.0,594.0&gt;-&lt;386.0,596.0&gt;&gt; = 6.340191745909908
+
+* paragraph (U+00B6): L&lt;&lt;386.0,575.0&gt;--&lt;385.0,586.0&gt;&gt;/L&lt;&lt;385.0,586.0&gt;--&lt;385.0,585.0&gt;&gt; = 5.1944289077348
+
+* partialdiff (U+2202): B&lt;&lt;225.0,58.0&gt;-&lt;228.0,57.0&gt;-&lt;227.0,57.0&gt;&gt;/L&lt;&lt;227.0,57.0&gt;--&lt;251.0,53.0&gt;&gt; = 9.462322208025613
+
+* partialdiff (U+2202): L&lt;&lt;135.0,668.0&gt;--&lt;153.0,665.0&gt;&gt;/L&lt;&lt;153.0,665.0&gt;--&lt;152.0,665.0&gt;&gt; = 9.462322208025613
+
+* partialdiff (U+2202): L&lt;&lt;153.0,665.0&gt;--&lt;152.0,665.0&gt;&gt;/B&lt;&lt;152.0,665.0&gt;-&lt;160.0,664.0&gt;-&lt;165.0,662.5&gt;&gt; = 7.125016348901757
+
+* percent (U+0025): L&lt;&lt;623.0,24.0&gt;--&lt;626.0,27.0&gt;&gt;/L&lt;&lt;626.0,27.0&gt;--&lt;603.0,10.0&gt;&gt; = 8.530765609948139
+
+* percent (U+0025): L&lt;&lt;626.0,27.0&gt;--&lt;603.0,10.0&gt;&gt;/B&lt;&lt;603.0,10.0&gt;-&lt;604.0,11.0&gt;-&lt;597.5,8.5&gt;&gt; = 8.530765609948096
+
+* percent (U+0025): L&lt;&lt;631.0,31.0&gt;--&lt;623.0,24.0&gt;&gt;/L&lt;&lt;623.0,24.0&gt;--&lt;626.0,27.0&gt;&gt; = 3.8140748342902824
+
+* perthousand (U+2030): B&lt;&lt;252.0,490.0&gt;-&lt;256.0,501.0&gt;-&lt;256.0,500.0&gt;&gt;/L&lt;&lt;256.0,500.0&gt;--&lt;260.0,525.0&gt;&gt; = 9.090276920822312
+
+* perthousand (U+2030): B&lt;&lt;558.0,56.0&gt;-&lt;574.0,62.0&gt;-&lt;572.0,60.0&gt;&gt;/L&lt;&lt;572.0,60.0&gt;--&lt;580.0,67.0&gt;&gt; = 3.814074834290187
+
+* perthousand (U+2030): B&lt;&lt;607.0,100.0&gt;-&lt;610.0,109.0&gt;-&lt;610.0,107.0&gt;&gt;/B&lt;&lt;610.0,107.0&gt;-&lt;611.0,123.0&gt;-&lt;614.0,123.0&gt;&gt; = 3.576334374997269
+
+* perthousand (U+2030): L&lt;&lt;457.0,177.0&gt;--&lt;457.0,178.0&gt;&gt;/L&lt;&lt;457.0,178.0&gt;--&lt;454.0,166.0&gt;&gt; = 14.036243467926484
+
+* plusminus (U+00B1): L&lt;&lt;211.0,270.0&gt;--&lt;211.0,269.0&gt;&gt;/B&lt;&lt;211.0,269.0&gt;-&lt;210.0,280.0&gt;-&lt;212.0,282.0&gt;&gt; = 5.1944289077348
+
+* plusminus (U+00B1): L&lt;&lt;212.0,262.0&gt;--&lt;211.0,270.0&gt;&gt;/L&lt;&lt;211.0,270.0&gt;--&lt;211.0,269.0&gt;&gt; = 7.125016348901757
+
+* plusminus (U+00B1): L&lt;&lt;287.0,197.0&gt;--&lt;286.0,171.0&gt;&gt;/B&lt;&lt;286.0,171.0&gt;-&lt;286.0,174.0&gt;-&lt;261.0,174.0&gt;&gt; = 2.2025981617658017
+
+* plusminus (U+00B1): L&lt;&lt;30.0,343.0&gt;--&lt;30.0,342.0&gt;&gt;/B&lt;&lt;30.0,342.0&gt;-&lt;28.0,355.0&gt;-&lt;32.0,355.0&gt;&gt; = 8.746162262555211
+
+* plusminus (U+00B1): L&lt;&lt;30.0,389.0&gt;--&lt;33.0,412.0&gt;&gt;/B&lt;&lt;33.0,412.0&gt;-&lt;33.0,411.0&gt;-&lt;45.0,412.0&gt;&gt; = 7.431407971172489
+
+* prime (U+2032): L&lt;&lt;43.0,602.0&gt;--&lt;46.0,627.0&gt;&gt;/L&lt;&lt;46.0,627.0&gt;--&lt;46.0,626.0&gt;&gt; = 6.842773412630916
+
+* prime (U+2032): L&lt;&lt;46.0,627.0&gt;--&lt;46.0,626.0&gt;&gt;/L&lt;&lt;46.0,626.0&gt;--&lt;47.0,649.0&gt;&gt; = 2.4895529219991284
+
+* product (U+220F): L&lt;&lt;101.0,337.0&gt;--&lt;98.0,360.0&gt;&gt;/L&lt;&lt;98.0,360.0&gt;--&lt;98.0,359.0&gt;&gt; = 7.431407971172489
+
+* product (U+220F): L&lt;&lt;257.0,-228.0&gt;--&lt;256.0,-253.0&gt;&gt;/B&lt;&lt;256.0,-253.0&gt;-&lt;256.0,-250.0&gt;-&lt;231.0,-250.0&gt;&gt; = 2.2906100426384346
+
+* product (U+220F): L&lt;&lt;28.0,-251.0&gt;--&lt;20.0,-250.0&gt;&gt;/L&lt;&lt;20.0,-250.0&gt;--&lt;23.0,-250.0&gt;&gt; = 7.125016348901757
+
+* product (U+220F): L&lt;&lt;412.0,-206.0&gt;--&lt;415.0,-183.0&gt;&gt;/B&lt;&lt;415.0,-183.0&gt;-&lt;415.0,-184.0&gt;-&lt;438.0,-184.0&gt;&gt; = 7.431407971172489
+
+* product (U+220F): L&lt;&lt;494.0,-87.0&gt;--&lt;494.0,-88.0&gt;&gt;/B&lt;&lt;494.0,-88.0&gt;-&lt;493.0,-80.0&gt;-&lt;493.5,-75.5&gt;&gt; = 7.125016348901757
+
+* product (U+220F): L&lt;&lt;495.0,-95.0&gt;--&lt;494.0,-87.0&gt;&gt;/L&lt;&lt;494.0,-87.0&gt;--&lt;494.0,-88.0&gt;&gt; = 7.125016348901757
+
+* product (U+220F): L&lt;&lt;98.0,360.0&gt;--&lt;98.0,359.0&gt;&gt;/B&lt;&lt;98.0,359.0&gt;-&lt;96.0,373.0&gt;-&lt;100.0,373.0&gt;&gt; = 8.13010235415596
+
+* registered (U+00AE): B&lt;&lt;219.5,577.5&gt;-&lt;209.0,572.0&gt;-&lt;210.0,573.0&gt;&gt;/L&lt;&lt;210.0,573.0&gt;--&lt;202.0,568.0&gt;&gt; = 12.994616791916483
+
+* registered (U+00AE): B&lt;&lt;473.0,64.0&gt;-&lt;488.0,70.0&gt;-&lt;486.0,68.0&gt;&gt;/B&lt;&lt;486.0,68.0&gt;-&lt;491.0,72.0&gt;-&lt;494.0,72.0&gt;&gt; = 6.34019174590985
+
+* registered (U+00AE): B&lt;&lt;510.5,582.5&gt;-&lt;502.0,587.0&gt;-&lt;503.0,587.0&gt;&gt;/B&lt;&lt;503.0,587.0&gt;-&lt;492.0,589.0&gt;-&lt;492.0,592.0&gt;&gt; = 10.304846468766044
+
+* registered (U+00AE): B&lt;&lt;515.5,82.5&gt;-&lt;518.0,84.0&gt;-&lt;517.0,83.0&gt;&gt;/L&lt;&lt;517.0,83.0&gt;--&lt;538.0,96.0&gt;&gt; = 13.240519915187184
+
+* registered (U+00AE): L&lt;&lt;564.0,45.0&gt;--&lt;567.0,48.0&gt;&gt;/L&lt;&lt;567.0,48.0&gt;--&lt;554.0,37.0&gt;&gt; = 4.763641690726066
+
+* registered (U+00AE): L&lt;&lt;587.0,62.0&gt;--&lt;564.0,45.0&gt;&gt;/L&lt;&lt;564.0,45.0&gt;--&lt;567.0,48.0&gt;&gt; = 8.530765609948139
+
+* second (U+2033): L&lt;&lt;221.0,602.0&gt;--&lt;224.0,627.0&gt;&gt;/L&lt;&lt;224.0,627.0&gt;--&lt;224.0,626.0&gt;&gt; = 6.842773412630916
+
+* second (U+2033): L&lt;&lt;224.0,627.0&gt;--&lt;224.0,626.0&gt;&gt;/L&lt;&lt;224.0,626.0&gt;--&lt;225.0,649.0&gt;&gt; = 2.4895529219991284
+
+* second (U+2033): L&lt;&lt;43.0,602.0&gt;--&lt;46.0,627.0&gt;&gt;/L&lt;&lt;46.0,627.0&gt;--&lt;46.0,626.0&gt;&gt; = 6.842773412630916
+
+* second (U+2033): L&lt;&lt;46.0,627.0&gt;--&lt;46.0,626.0&gt;&gt;/L&lt;&lt;46.0,626.0&gt;--&lt;47.0,649.0&gt;&gt; = 2.4895529219991284
+
+* summation (U+2211): L&lt;&lt;529.0,534.0&gt;--&lt;519.0,535.0&gt;&gt;/B&lt;&lt;519.0,535.0&gt;-&lt;522.0,535.0&gt;-&lt;520.0,540.0&gt;&gt; = 5.710593137499633
+
+* uni00B5 (U+00B5): L&lt;&lt;383.0,316.0&gt;--&lt;380.0,339.0&gt;&gt;/L&lt;&lt;380.0,339.0&gt;--&lt;380.0,338.0&gt;&gt; = 7.431407971172489
+
+* uni03A9 (U+03A9): B&lt;&lt;407.5,86.5&gt;-&lt;410.0,88.0&gt;-&lt;409.0,87.0&gt;&gt;/L&lt;&lt;409.0,87.0&gt;--&lt;424.0,99.0&gt;&gt; = 6.34019174590985
+
+* uni03A9 (U+03A9): L&lt;&lt;122.0,596.0&gt;--&lt;145.0,617.0&gt;&gt;/L&lt;&lt;145.0,617.0&gt;--&lt;144.0,616.0&gt;&gt; = 2.6025622024998034
+
+* uni03A9 (U+03A9): L&lt;&lt;145.0,617.0&gt;--&lt;144.0,616.0&gt;&gt;/L&lt;&lt;144.0,616.0&gt;--&lt;155.0,625.0&gt;&gt; = 5.710593137499696
+
+* uni03A9 (U+03A9): L&lt;&lt;410.0,-3.0&gt;--&lt;377.0,0.0&gt;&gt;/B&lt;&lt;377.0,0.0&gt;-&lt;381.0,0.0&gt;-&lt;378.0,26.0&gt;&gt; = 5.1944289077348
+
+* uni03A9 (U+03A9): L&lt;&lt;610.0,71.0&gt;--&lt;641.0,70.0&gt;&gt;/B&lt;&lt;641.0,70.0&gt;-&lt;639.0,70.0&gt;-&lt;641.0,62.0&gt;&gt; = 1.8476102659945155
+
+* uni03BC (U+03BC): L&lt;&lt;383.0,316.0&gt;--&lt;380.0,339.0&gt;&gt;/L&lt;&lt;380.0,339.0&gt;--&lt;380.0,338.0&gt;&gt; = 7.431407971172489
+
+* uni1E9E (U+1E9E): B&lt;&lt;453.5,90.0&gt;-&lt;455.0,91.0&gt;-&lt;454.0,90.0&gt;&gt;/L&lt;&lt;454.0,90.0&gt;--&lt;478.0,107.0&gt;&gt; = 9.688786560366827
+
+* uni1E9E (U+1E9E): L&lt;&lt;541.0,696.0&gt;--&lt;557.0,695.0&gt;&gt;/B&lt;&lt;557.0,695.0&gt;-&lt;556.0,695.0&gt;-&lt;562.5,691.5&gt;&gt; = 3.576334374997269
+
+* uni2113 (U+2113): B&lt;&lt;290.0,88.0&gt;-&lt;301.0,73.0&gt;-&lt;300.0,73.0&gt;&gt;/L&lt;&lt;300.0,73.0&gt;--&lt;325.0,71.0&gt;&gt; = 4.573921259900818
+
+* uni2113 (U+2113): B&lt;&lt;341.0,477.0&gt;-&lt;345.0,488.0&gt;-&lt;345.0,487.0&gt;&gt;/L&lt;&lt;345.0,487.0&gt;--&lt;346.0,493.0&gt;&gt; = 9.462322208025613
+
+* uni2113 (U+2113): L&lt;&lt;186.0,303.0&gt;--&lt;189.0,307.0&gt;&gt;/L&lt;&lt;189.0,307.0&gt;--&lt;188.0,306.0&gt;&gt; = 8.13010235415596
+
+* uni2113 (U+2113): L&lt;&lt;188.0,114.0&gt;--&lt;189.0,122.0&gt;&gt;/L&lt;&lt;189.0,122.0&gt;--&lt;189.0,121.0&gt;&gt; = 7.1250163489018075
+
+* uni2113 (U+2113): L&lt;&lt;189.0,122.0&gt;--&lt;189.0,121.0&gt;&gt;/L&lt;&lt;189.0,121.0&gt;--&lt;192.0,151.0&gt;&gt; = 5.710593137499633
+
+* uni2113 (U+2113): L&lt;&lt;390.0,26.0&gt;--&lt;393.0,29.0&gt;&gt;/L&lt;&lt;393.0,29.0&gt;--&lt;375.0,14.0&gt;&gt; = 5.1944289077348
+
+* uni2113 (U+2113): L&lt;&lt;407.0,39.0&gt;--&lt;390.0,26.0&gt;&gt;/L&lt;&lt;390.0,26.0&gt;--&lt;393.0,29.0&gt;&gt; = 7.594643368591495
+
+* uni2126 (U+2126): B&lt;&lt;407.5,86.5&gt;-&lt;410.0,88.0&gt;-&lt;409.0,87.0&gt;&gt;/L&lt;&lt;409.0,87.0&gt;--&lt;424.0,99.0&gt;&gt; = 6.34019174590985
+
+* uni2126 (U+2126): L&lt;&lt;122.0,596.0&gt;--&lt;145.0,617.0&gt;&gt;/L&lt;&lt;145.0,617.0&gt;--&lt;144.0,616.0&gt;&gt; = 2.6025622024998034
+
+* uni2126 (U+2126): L&lt;&lt;145.0,617.0&gt;--&lt;144.0,616.0&gt;&gt;/L&lt;&lt;144.0,616.0&gt;--&lt;155.0,625.0&gt;&gt; = 5.710593137499696
+
+* uni2126 (U+2126): L&lt;&lt;410.0,-3.0&gt;--&lt;377.0,0.0&gt;&gt;/B&lt;&lt;377.0,0.0&gt;-&lt;381.0,0.0&gt;-&lt;378.0,26.0&gt;&gt; = 5.1944289077348
+
+* uni2126 (U+2126): L&lt;&lt;610.0,71.0&gt;--&lt;641.0,70.0&gt;&gt;/B&lt;&lt;641.0,70.0&gt;-&lt;639.0,70.0&gt;-&lt;641.0,62.0&gt;&gt; = 1.8476102659945155
+
+* uni2318 (U+2318): L&lt;&lt;174.0,-54.0&gt;--&lt;175.0,-54.0&gt;&gt;/L&lt;&lt;175.0,-54.0&gt;--&lt;144.0,-51.0&gt;&gt; = 5.527540151656126
+
+* uni2318 (U+2318): L&lt;&lt;200.0,-52.0&gt;--&lt;175.0,-54.0&gt;&gt;/L&lt;&lt;175.0,-54.0&gt;--&lt;175.0,-54.0&gt;&gt; = 4.573921259900818
+
+* uni2325 (U+2325): L&lt;&lt;330.0,459.0&gt;--&lt;333.0,484.0&gt;&gt;/B&lt;&lt;333.0,484.0&gt;-&lt;333.0,483.0&gt;-&lt;338.0,488.0&gt;&gt; = 6.842773412630916
+
+* uni2325 (U+2325): L&lt;&lt;364.0,409.0&gt;--&lt;339.0,412.0&gt;&gt;/B&lt;&lt;339.0,412.0&gt;-&lt;341.0,412.0&gt;-&lt;336.0,417.0&gt;&gt; = 6.842773412630916
+
+* uni25CC (U+25CC): L&lt;&lt;746.0,205.0&gt;--&lt;749.0,205.0&gt;&gt;/L&lt;&lt;749.0,205.0&gt;--&lt;734.0,206.0&gt;&gt; = 3.8140748342903783
+
+* uni2B1B (U+2B1B): L&lt;&lt;52.0,471.0&gt;--&lt;52.0,470.0&gt;&gt;/B&lt;&lt;52.0,470.0&gt;-&lt;51.0,482.0&gt;-&lt;54.0,482.0&gt;&gt; = 4.763641690726143
+
+* uni2B1B (U+2B1B): L&lt;&lt;53.0,461.0&gt;--&lt;52.0,471.0&gt;&gt;/L&lt;&lt;52.0,471.0&gt;--&lt;52.0,470.0&gt;&gt; = 5.710593137499633
+
+* uni2B1C (U+2B1C): B&lt;&lt;161.0,501.0&gt;-&lt;154.0,502.0&gt;-&lt;154.0,503.0&gt;&gt;/L&lt;&lt;154.0,503.0&gt;--&lt;151.0,481.0&gt;&gt; = 7.765166018425354 [code: found-jaggy-segments]
 </code></pre>
 </span></li></ul></div></details>
                     </body>
