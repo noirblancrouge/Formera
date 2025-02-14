@@ -1,6 +1,8 @@
 ## FontBakery report
 
-fontbakery version: 0.12.10
+fontbakery version: 0.13.2
+
+
 
 
 
@@ -10,10 +12,37 @@ fontbakery version: 0.12.10
 
 
 
-<details><summary>[11] Formera-Light.ttf</summary>
+<details><summary>[1] Family checks</summary>
 <div>
 <details>
-    <summary>🔥 <b>FAIL</b> Checking OS/2 usWinAscent & usWinDescent. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.metrics.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Make sure all font files have the same version value. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.html#opentype-family-equal-font-versions">opentype/family/equal_font_versions</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>Version info differs among font files of the same font project.
+These were the version values found:</p>
+<ul>
+<li>fonts/ttf/Formera-Light.ttf: 3.0099945068359375</li>
+<li>fonts/ttf/Formera-Regular.ttf: 3.009002685546875</li>
+</ul>
+ [code: mismatch]
+
+
+
+</div>
+</details>
+</div>
+</details>
+
+<details><summary>[12] Formera-Light.ttf</summary>
+<div>
+<details>
+    <summary>🔥 <b>FAIL</b> Checking OS/2 usWinAscent & usWinDescent. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#family-win-ascent-and-descent">family/win_ascent_and_descent</a></summary>
     <div>
 
 
@@ -31,7 +60,146 @@ fontbakery version: 0.12.10
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>GF_Phonetics_SinoExt glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">FAIL messages</th>
+<th align="left">Languages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Mandatory orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following base characters are missing from the font: ɛ, Ɛ, ɔ, Ɔ</td>
+<td align="left">bm_Latn (Bambara)</td>
+</tr>
+<tr>
+<td align="left">Mandatory orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following base characters are missing from the font: Ɛ, Ɔ, ɛ, ɔ</td>
+<td align="left">dyu_Latn (Dyula)</td>
+</tr>
+<tr>
+<td align="left">Mandatory orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following base characters are missing from the font: Ɛ, Ɔ, ɔ, ɛ</td>
+<td align="left">fat_Latn (Fanti)</td>
+</tr>
+<tr>
+<td align="left">Mandatory orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following base characters are missing from the font: Ɗ, ɓ, ƴ, Ƴ, ɗ, Ɓ</td>
+<td align="left">ff_Latn (Fulah)</td>
+</tr>
+<tr>
+<td align="left">Mandatory orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following base characters are missing from the font: Ƴ, Ƙ, Ɓ, ƙ, ɗ, ɓ, ƴ, Ɗ</td>
+<td align="left">ha_Latn (Hausa)</td>
+</tr>
+<tr>
+<td align="left">Mandatory orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following base characters are missing from the font: Ɛ, ɛ, Ɔ, ɔ</td>
+<td align="left">tw_akuapem_Latn (Akuapem Twi)</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* ⚠️ **WARN** <p>GF_Phonetics_SinoExt glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">WARN messages</th>
+<th align="left">Languages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ǥ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ʒ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ǯ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ǥ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ʒ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ǯ</td>
+<td align="left">fi_Latn (Finnish)</td>
+</tr>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ɛ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ɛ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ɵ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ɵ</td>
+<td align="left">ig_Latn (Igbo)</td>
+</tr>
+</tbody>
+</table>
+ [code: warning-language-shaping]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
     <div>
 
 
@@ -53,7 +221,7 @@ fontbakery version: 0.12.10
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
     <div>
 
 
@@ -122,6 +290,8 @@ fontbakery version: 0.12.10
 
 - Glyph name: uni1E5B	Contours detected: 3	Expected: 2
 
+- Glyph name: uni1E5D	Contours detected: 4	Expected: 3
+
 - Glyph name: uni1E5F	Contours detected: 3	Expected: 2
 
 - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
@@ -153,6 +323,8 @@ fontbakery version: 0.12.10
 - Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
 - Glyph name: uni1EF1	Contours detected: 3	Expected: 2
+
+- Glyph name: uni203D	Contours detected: 4	Expected: 2
 
 - Glyph name: uni2113	Contours detected: 3	Expected: 2
 
@@ -210,6 +382,8 @@ fontbakery version: 0.12.10
 
 - Glyph name: uni1E5B	Contours detected: 3	Expected: 2
 
+- Glyph name: uni1E5D	Contours detected: 4	Expected: 3
+
 - Glyph name: uni1E5F	Contours detected: 3	Expected: 2
 
 - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
@@ -242,6 +416,8 @@ fontbakery version: 0.12.10
 
 - Glyph name: uni1EF1	Contours detected: 3	Expected: 2
 
+- Glyph name: uni203D	Contours detected: 4	Expected: 2
+
 - Glyph name: uni2113	Contours detected: 3	Expected: 2
 
 - Glyph name: uniFFFC	Contours detected: 8	Expected: 22
@@ -256,7 +432,97 @@ fontbakery version: 0.12.10
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Does the font contain a soft hyphen? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Check there are no overlapping path segments <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#overlapping-path-segments">overlapping_path_segments</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs have overlapping path segments:</p>
+<pre><code>* a.blackCircled: B&lt;&lt;569.0,391.0&gt;-&lt;569.0,391.0&gt;-&lt;569.0,391.0&gt;&gt; has the same coordinates as a previous segment.
+
+* a.blackCircled: L&lt;&lt;569.0,391.0&gt;--&lt;569.0,391.0&gt;&gt; has the same coordinates as a previous segment.
+
+* c.blackCircled: B&lt;&lt;583.0,419.0&gt;-&lt;583.0,419.0&gt;-&lt;583.0,419.0&gt;&gt; has the same coordinates as a previous segment.
+
+* c.blackCircled: L&lt;&lt;583.0,419.0&gt;--&lt;583.0,419.0&gt;&gt; has the same coordinates as a previous segment.
+
+* j.blackCircled: B&lt;&lt;512.0,426.0&gt;-&lt;512.0,426.0&gt;-&lt;512.0,426.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni24FF (U+24FF): B&lt;&lt;460.0,166.0&gt;-&lt;460.0,166.0&gt;-&lt;460.0,166.0&gt;&gt; has the same coordinates as a previous segment.
+
+* fraction (U+2044): B&lt;&lt;29.0,-41.0&gt;-&lt;29.0,-41.0&gt;-&lt;29.0,-41.0&gt;&gt; has the same coordinates as a previous segment.
+
+* onehalf (U+00BD): B&lt;&lt;74.0,-41.0&gt;-&lt;74.0,-41.0&gt;-&lt;74.0,-41.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni2153 (U+2153): B&lt;&lt;74.0,-41.0&gt;-&lt;74.0,-41.0&gt;-&lt;74.0,-41.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni2154 (U+2154): B&lt;&lt;190.0,-41.0&gt;-&lt;190.0,-41.0&gt;-&lt;190.0,-41.0&gt;&gt; has the same coordinates as a previous segment.
+
+* onequarter (U+00BC): B&lt;&lt;74.0,-41.0&gt;-&lt;74.0,-41.0&gt;-&lt;74.0,-41.0&gt;&gt; has the same coordinates as a previous segment.
+
+* threequarters (U+00BE): B&lt;&lt;181.0,-41.0&gt;-&lt;181.0,-41.0&gt;-&lt;181.0,-41.0&gt;&gt; has the same coordinates as a previous segment.
+
+* oneeighth (U+215B): B&lt;&lt;74.0,-41.0&gt;-&lt;74.0,-41.0&gt;-&lt;74.0,-41.0&gt;&gt; has the same coordinates as a previous segment.
+
+* threeeighths (U+215C): B&lt;&lt;181.0,-41.0&gt;-&lt;181.0,-41.0&gt;-&lt;181.0,-41.0&gt;&gt; has the same coordinates as a previous segment.
+
+* fiveeighths (U+215D): B&lt;&lt;192.0,-41.0&gt;-&lt;192.0,-41.0&gt;-&lt;192.0,-41.0&gt;&gt; has the same coordinates as a previous segment.
+
+* seveneighths (U+215E): B&lt;&lt;171.0,-41.0&gt;-&lt;171.0,-41.0&gt;-&lt;171.0,-41.0&gt;&gt; has the same coordinates as a previous segment.
+
+* spade (U+2660): L&lt;&lt;342.0,191.0&gt;--&lt;342.0,191.0&gt;&gt; has the same coordinates as a previous segment.
+
+* u1F150 (U+1F150): B&lt;&lt;632.5,131.5&gt;-&lt;632.0,133.0&gt;-&lt;636.0,128.0&gt;&gt; has the same coordinates as a previous segment.
+
+* u1F160 (U+1F160): B&lt;&lt;331.0,347.0&gt;-&lt;331.0,347.0&gt;-&lt;331.0,347.0&gt;&gt; has the same coordinates as a previous segment.
+
+* u1F160 (U+1F160): B&lt;&lt;331.0,347.0&gt;-&lt;331.0,347.0&gt;-&lt;331.0,347.0&gt;&gt; has the same coordinates as a previous segment.
+
+* u1F161 (U+1F161): B&lt;&lt;606.0,143.0&gt;-&lt;607.0,144.0&gt;-&lt;608.0,147.0&gt;&gt; has the same coordinates as a previous segment.
+
+* u1F162 (U+1F162): B&lt;&lt;514.0,125.0&gt;-&lt;514.0,125.0&gt;-&lt;514.0,125.0&gt;&gt; has the same coordinates as a previous segment.
+
+* u1F162 (U+1F162): B&lt;&lt;514.0,125.0&gt;-&lt;514.0,125.0&gt;-&lt;514.0,125.0&gt;&gt; has the same coordinates as a previous segment.
+
+* u1F166 (U+1F166): B&lt;&lt;329.0,211.0&gt;-&lt;329.0,211.0&gt;-&lt;329.0,211.0&gt;&gt; has the same coordinates as a previous segment.
+
+* u1F166 (U+1F166): B&lt;&lt;329.0,211.0&gt;-&lt;332.0,210.0&gt;-&lt;329.0,211.0&gt;&gt; has the same coordinates as a previous segment.
+
+* paragraph (U+00B6): L&lt;&lt;352.0,438.0&gt;--&lt;352.0,439.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni2105 (U+2105): B&lt;&lt;198.0,-41.0&gt;-&lt;198.0,-41.0&gt;-&lt;198.0,-41.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni2113 (U+2113): B&lt;&lt;376.0,635.0&gt;-&lt;376.0,635.0&gt;-&lt;376.0,635.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni2113 (U+2113): L&lt;&lt;187.0,443.0&gt;--&lt;186.0,442.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni2B1B (U+2B1B): L&lt;&lt;51.0,259.0&gt;--&lt;51.0,260.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni2106 (U+2106): B&lt;&lt;199.0,-41.0&gt;-&lt;199.0,-41.0&gt;-&lt;199.0,-41.0&gt;&gt; has the same coordinates as a previous segment.
+
+* ampersand.ss01: B&lt;&lt;114.0,564.0&gt;-&lt;113.0,563.0&gt;-&lt;114.0,565.0&gt;&gt; has the same coordinates as a previous segment.
+
+* ampersand.ss01: B&lt;&lt;250.0,1.0&gt;-&lt;250.0,1.0&gt;-&lt;250.0,1.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni24CF (U+24CF): B&lt;&lt;530.0,349.0&gt;-&lt;531.0,350.0&gt;-&lt;530.0,348.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni24E4 (U+24E4): B&lt;&lt;543.0,262.0&gt;-&lt;542.0,262.0&gt;-&lt;541.0,262.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni24E9 (U+24E9): B&lt;&lt;391.5,241.0&gt;-&lt;391.0,241.0&gt;-&lt;390.0,240.0&gt;&gt; has the same coordinates as a previous segment.
+</code></pre>
+ [code: overlapping-path-segments]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Does the font contain a soft hyphen? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#soft-hyphen">soft_hyphen</a></summary>
     <div>
 
 
@@ -274,7 +540,7 @@ fontbakery version: 0.12.10
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#unreachable-glyphs">unreachable_glyphs</a></summary>
     <div>
 
 
@@ -294,7 +560,7 @@ fontbakery version: 0.12.10
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.article.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-article-images">googlefonts/article/images</a></summary>
     <div>
 
 
@@ -312,7 +578,7 @@ fontbakery version: 0.12.10
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Check for codepoints not covered by METADATA subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.subsets.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Check for codepoints not covered by METADATA subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-metadata-unreachable-subsetting">googlefonts/metadata/unreachable_subsetting</a></summary>
     <div>
 
 
@@ -327,39 +593,42 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, coptic, tifinagh</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, coptic, cherokee</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, hebrew, tifinagh, todhri, canadian-aboriginal, malayalam, math, syriac, duployan, coptic, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, malayalam, tifinagh, coptic, hebrew, duployan, math, todhri, syriac, old-permic, canadian-aboriginal</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, cherokee, duployan</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, duployan, cherokee</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: syriac, cherokee, math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, caucasian-albanian, cherokee, tifinagh, gothic, syriac, sunuwar</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: syriac, math, cherokee</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, gothic, thai, sunuwar, cherokee, syriac, caucasian-albanian</li>
 <li>U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: math, elbasan, greek</li>
 <li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: math, elbasan, greek</li>
 <li>U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: math, yi, greek</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: math, greek, yi</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+2007 FIGURE SPACE: try adding symbols2</li>
 <li>U+2008 PUNCTUATION SPACE: try adding symbols2</li>
 <li>U+200A HAIR SPACE: try adding symbols2</li>
-<li>U+2010 HYPHEN: try adding one of: syloti-nagri, kharoshthi, sundanese, arabic, lisu, hebrew, kaithi, sora-sompeng, kayah-li, cham, yi, armenian, coptic</li>
+<li>U+2010 HYPHEN: try adding one of: sora-sompeng, armenian, coptic, yi, arabic, hebrew, lisu, kaithi, kharoshthi, kayah-li, sundanese, cham, syloti-nagri</li>
 <li>U+2012 FIGURE DASH: not included in any glyphset definition</li>
 <li>U+2015 HORIZONTAL BAR: try adding adlam</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
+<li>U+203D INTERROBANG: not included in any glyphset definition</li>
+<li>U+2042 ASTERISM: not included in any glyphset definition</li>
+<li>U+2048 QUESTION EXCLAMATION MARK: try adding mongolian</li>
 <li>U+2070 SUPERSCRIPT ZERO: try adding math</li>
 <li>U+2074 SUPERSCRIPT FOUR: try adding math</li>
 <li>U+2075 SUPERSCRIPT FIVE: try adding math</li>
@@ -381,18 +650,20 @@ definitions.</p>
 <li>U+2106 CADA UNA: try adding math</li>
 <li>U+2126 OHM SIGN: try adding math</li>
 <li>U+212E ESTIMATED SYMBOL: try adding math</li>
+<li>U+2153 VULGAR FRACTION ONE THIRD: try adding symbols</li>
+<li>U+2154 VULGAR FRACTION TWO THIRDS: try adding symbols</li>
 <li>U+215B VULGAR FRACTION ONE EIGHTH: try adding symbols</li>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
 <li>U+21BA ANTICLOCKWISE OPEN CIRCLE ARROW: try adding math</li>
 <li>U+21BB CLOCKWISE OPEN CIRCLE ARROW: try adding math</li>
 <li>U+21C4 RIGHTWARDS ARROW OVER LEFTWARDS ARROW: try adding math</li>
@@ -403,7 +674,7 @@ definitions.</p>
 <li>U+2206 INCREMENT: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: symbols, tai-tham, math, yi</li>
+<li>U+2219 BULLET OPERATOR: try adding one of: math, tai-tham, yi, symbols</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
 <li>U+221E INFINITY: try adding math</li>
 <li>U+222B INTEGRAL: try adding math</li>
@@ -414,15 +685,25 @@ definitions.</p>
 <li>U+2317 VIEWDATA SQUARE: try adding symbols</li>
 <li>U+2318 PLACE OF INTEREST SIGN: try adding symbols</li>
 <li>U+2325 OPTION KEY: try adding symbols</li>
-<li>U+2460 CIRCLED DIGIT ONE: try adding one of: yi, mongolian, symbols</li>
-<li>U+2461 CIRCLED DIGIT TWO: try adding one of: yi, mongolian, symbols</li>
-<li>U+2462 CIRCLED DIGIT THREE: try adding one of: yi, mongolian, symbols</li>
-<li>U+2463 CIRCLED DIGIT FOUR: try adding one of: yi, mongolian, symbols</li>
-<li>U+2464 CIRCLED DIGIT FIVE: try adding one of: yi, mongolian, symbols</li>
-<li>U+2465 CIRCLED DIGIT SIX: try adding one of: yi, mongolian, symbols</li>
-<li>U+2466 CIRCLED DIGIT SEVEN: try adding one of: yi, mongolian, symbols</li>
-<li>U+2467 CIRCLED DIGIT EIGHT: try adding one of: yi, mongolian, symbols</li>
-<li>U+2468 CIRCLED DIGIT NINE: try adding one of: yi, mongolian, symbols</li>
+<li>U+23CE RETURN SYMBOL: try adding symbols</li>
+<li>U+23CF EJECT SYMBOL: try adding symbols</li>
+<li>U+23E9 BLACK RIGHT-POINTING DOUBLE TRIANGLE: try adding symbols</li>
+<li>U+23EA BLACK LEFT-POINTING DOUBLE TRIANGLE: try adding symbols</li>
+<li>U+23ED BLACK RIGHT-POINTING DOUBLE TRIANGLE WITH VERTICAL BAR: try adding symbols</li>
+<li>U+23EE BLACK LEFT-POINTING DOUBLE TRIANGLE WITH VERTICAL BAR: try adding symbols</li>
+<li>U+23F5 BLACK MEDIUM RIGHT-POINTING TRIANGLE: try adding symbols</li>
+<li>U+23F8 DOUBLE VERTICAL BAR: try adding symbols</li>
+<li>U+23F9 BLACK SQUARE FOR STOP: try adding symbols</li>
+<li>U+23FA BLACK CIRCLE FOR RECORD: try adding symbols</li>
+<li>U+2460 CIRCLED DIGIT ONE: try adding one of: symbols, mongolian, yi</li>
+<li>U+2461 CIRCLED DIGIT TWO: try adding one of: symbols, mongolian, yi</li>
+<li>U+2462 CIRCLED DIGIT THREE: try adding one of: symbols, mongolian, yi</li>
+<li>U+2463 CIRCLED DIGIT FOUR: try adding one of: symbols, mongolian, yi</li>
+<li>U+2464 CIRCLED DIGIT FIVE: try adding one of: symbols, mongolian, yi</li>
+<li>U+2465 CIRCLED DIGIT SIX: try adding one of: symbols, mongolian, yi</li>
+<li>U+2466 CIRCLED DIGIT SEVEN: try adding one of: symbols, mongolian, yi</li>
+<li>U+2467 CIRCLED DIGIT EIGHT: try adding one of: symbols, mongolian, yi</li>
+<li>U+2468 CIRCLED DIGIT NINE: try adding one of: symbols, mongolian, yi</li>
 <li>U+24B6 CIRCLED LATIN CAPITAL LETTER A: try adding symbols</li>
 <li>U+24B7 CIRCLED LATIN CAPITAL LETTER B: try adding symbols</li>
 <li>U+24B8 CIRCLED LATIN CAPITAL LETTER C: try adding symbols</li>
@@ -480,18 +761,18 @@ definitions.</p>
 <li>U+25A0 BLACK SQUARE: try adding symbols</li>
 <li>U+25A1 WHITE SQUARE: try adding symbols</li>
 <li>U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25B6 BLACK RIGHT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25BC BLACK DOWN-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25C0 BLACK LEFT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25C6 BLACK DIAMOND: try adding symbols</li>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
-<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
+<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: new-tai-lue, devanagari, balinese, chakma, zanabazar-square, tagbanwa, khojki, javanese, canadian-aboriginal, malayalam, yi, myanmar, kharoshthi, takri, adlam, bhaiksuki, kaithi, modi, tifinagh, cham, sinhala, gunjala-gondi, tirhuta, meetei-mayek, music, khmer, sharada, hanunoo, buhid, miao, lao, tai-le, psalter-pahlavi, phags-pa, mende-kikakui, duployan, siddham, saurashtra, bassa-vah, tamil, dogra, syriac, math, manichaean, batak, elbasan, limbu, khudawadi, hebrew, lepcha, tagalog, thai, grantha, brahmi, mongolian, gujarati, coptic, kannada, masaram-gondi, buginese, newa, sundanese, tibetan, rejang, mahajani, thaana, tai-viet, ahom, pahawh-hmong, telugu, gurmukhi, hanifi-rohingya, armenian, nko, caucasian-albanian, oriya, mandaic, kayah-li, syloti-nagri, tai-tham, sogdian, marchen, warang-citi, bengali, wancho, osage, soyombo, symbols, old-permic</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: tamil, lao, coptic, mende-kikakui, new-tai-lue, malayalam, psalter-pahlavi, tagalog, zanabazar-square, gunjala-gondi, marchen, syriac, siddham, telugu, oriya, buginese, osage, sharada, tai-viet, hanunoo, grantha, masaram-gondi, khojki, takri, hanifi-rohingya, buhid, armenian, chakma, tai-tham, kharoshthi, sogdian, wancho, newa, khmer, gujarati, hebrew, kayah-li, devanagari, syloti-nagri, tagbanwa, gurmukhi, symbols, adlam, javanese, manichaean, brahmi, math, kaithi, bhaiksuki, meetei-mayek, thaana, dogra, mandaic, tai-le, warang-citi, rejang, saurashtra, batak, music, soyombo, sinhala, khudawadi, limbu, mahajani, myanmar, cham, old-permic, tirhuta, nko, caucasian-albanian, thai, sundanese, pahawh-hmong, modi, canadian-aboriginal, tifinagh, phags-pa, ahom, mongolian, lepcha, bengali, kannada, tibetan, balinese, bassa-vah, yi, duployan, miao, elbasan</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+2606 WHITE STAR: try adding symbols</li>
 <li>U+261A BLACK LEFT POINTING INDEX: try adding symbols</li>
@@ -568,6 +849,13 @@ definitions.</p>
 <li>U+1F167 NEGATIVE CIRCLED LATIN CAPITAL LETTER X: try adding symbols</li>
 <li>U+1F168 NEGATIVE CIRCLED LATIN CAPITAL LETTER Y: try adding symbols</li>
 <li>U+1F169 NEGATIVE CIRCLED LATIN CAPITAL LETTER Z: try adding symbols</li>
+<li>U+1F500 TWISTED RIGHTWARDS ARROWS: not included in any glyphset definition</li>
+<li>U+1F501 CLOCKWISE RIGHTWARDS AND LEFTWARDS OPEN CIRCLE ARROWS: not included in any glyphset definition</li>
+<li>U+1F502 CLOCKWISE RIGHTWARDS AND LEFTWARDS OPEN CIRCLE ARROWS WITH CIRCLED ONE OVERLAY: not included in any glyphset definition</li>
+<li>U+1F503 CLOCKWISE DOWNWARDS AND UPWARDS OPEN CIRCLE ARROWS: try adding symbols</li>
+<li>U+1F504 ANTICLOCKWISE DOWNWARDS AND UPWARDS OPEN CIRCLE ARROWS: not included in any glyphset definition</li>
+<li>U+1F5A2 BLACK UP POINTING BACKHAND INDEX: try adding symbols</li>
+<li>U+1F5A3 BLACK DOWN POINTING BACKHAND INDEX: try adding symbols</li>
 <li>U+1F7CF HEAVY EIGHT POINTED BLACK STAR: try adding symbols</li>
 <li>U+1F7D3 HEAVY TWELVE POINTED BLACK STAR: try adding symbols</li>
 <li>U+1F7D4 HEAVY TWELVE POINTED PINWHEEL STAR: try adding symbols</li>
@@ -581,7 +869,7 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#soft-dotted">soft_dotted</a></summary>
     <div>
 
 
@@ -592,8 +880,6 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: j̑</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: j̉ j̏ j̛̉ j̛̏ j̛̑ j̣̉ j̣̏ j̣̑ j̤̉ j̤̏ j̤̑ j̦̉ j̦̏ j̦̑ j̧̉ j̧̏ j̧̑ j̨̉ j̨̏ j̨̑</p>
-<p>Your font fully covers the following languages that require the soft-dotted feature: Ekpeye (Latn, 226,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Ma’di (Latn, 584,000 speakers), Avokaya (Latn, 100,000 speakers), Kaska (Latn, 125 speakers), Navajo (Latn, 166,319 speakers), Han (Latn, 6 speakers), Igbo (Latn, 27,823,640 speakers), Ebira (Latn, 2,200,000 speakers), Dutch (Latn, 31,709,104 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Nateni (Latn, 100,000 speakers), Dii (Latn, 71,000 speakers), Vute (Latn, 21,000 speakers), Nzakara (Latn, 50,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Gulay (Latn, 250,478 speakers), Southern Kisi (Latn, 360,000 speakers), Sar (Latn, 500,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Cicipu (Latn, 44,000 speakers), Mango (Latn, 77,000 speakers), Teke-Ebo (Latn, 260,000 speakers), Fur (Latn, 1,230,163 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Ejagham (Latn, 120,000 speakers), Makaa (Latn, 221,000 speakers), South Central Banda (Latn, 244,000 speakers), Bafut (Latn, 158,146 speakers), Yala (Latn, 200,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Heiltsuk (Latn, 300 speakers), Mfumte (Latn, 79,000 speakers), Mundani (Latn, 34,000 speakers), Dan (Latn, 1,099,244 speakers), Koonzime (Latn, 40,000 speakers), Basaa (Latn, 332,940 speakers), Lugbara (Latn, 2,200,000 speakers), Kom (Latn, 360,685 speakers), Aghem (Latn, 38,843 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Belarusian (Cyrl, 10,064,517 speakers), Zapotec (Latn, 490,000 speakers).</p>
  [code: soft-dotted]
 
 
@@ -602,7 +888,7 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Do outlines contain any jaggy segments? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/outline.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Do outlines contain any jaggy segments? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-jaggy-segments">outline_jaggy_segments</a></summary>
     <div>
 
 
@@ -654,11 +940,19 @@ definitions.</p>
 
 * divide (U+00F7): L&lt;&lt;445.0,313.0&gt;--&lt;444.0,292.0&gt;&gt;/B&lt;&lt;444.0,292.0&gt;-&lt;444.0,295.0&gt;-&lt;432.0,292.0&gt;&gt; = 2.726310993906212
 
+* divide.case: L&lt;&lt;445.0,344.0&gt;--&lt;444.0,323.0&gt;&gt;/B&lt;&lt;444.0,323.0&gt;-&lt;444.0,326.0&gt;-&lt;432.0,323.0&gt;&gt; = 2.726310993906212
+
 * equal (U+003D): L&lt;&lt;421.0,264.0&gt;--&lt;439.0,263.0&gt;&gt;/B&lt;&lt;439.0,263.0&gt;-&lt;435.0,263.0&gt;-&lt;439.5,261.0&gt;&gt; = 3.1798301198641643
 
 * equal (U+003D): L&lt;&lt;422.0,399.0&gt;--&lt;435.0,398.0&gt;&gt;/B&lt;&lt;435.0,398.0&gt;-&lt;434.0,398.0&gt;-&lt;439.0,396.0&gt;&gt; = 4.398705354995508
 
 * equal (U+003D): L&lt;&lt;445.0,245.0&gt;--&lt;444.0,224.0&gt;&gt;/B&lt;&lt;444.0,224.0&gt;-&lt;444.0,227.0&gt;-&lt;431.0,224.0&gt;&gt; = 2.726310993906212
+
+* equal.case: L&lt;&lt;421.0,295.0&gt;--&lt;439.0,294.0&gt;&gt;/B&lt;&lt;439.0,294.0&gt;-&lt;435.0,294.0&gt;-&lt;439.5,292.0&gt;&gt; = 3.1798301198641643
+
+* equal.case: L&lt;&lt;422.0,430.0&gt;--&lt;435.0,429.0&gt;&gt;/B&lt;&lt;435.0,429.0&gt;-&lt;434.0,429.0&gt;-&lt;439.0,427.0&gt;&gt; = 4.398705354995508
+
+* equal.case: L&lt;&lt;445.0,276.0&gt;--&lt;444.0,255.0&gt;&gt;/B&lt;&lt;444.0,255.0&gt;-&lt;444.0,258.0&gt;-&lt;431.0,255.0&gt;&gt; = 2.726310993906212
 
 * estimated (U+212E): B&lt;&lt;162.0,61.0&gt;-&lt;155.0,66.0&gt;-&lt;156.0,66.0&gt;&gt;/B&lt;&lt;156.0,66.0&gt;-&lt;145.0,68.0&gt;-&lt;147.0,70.0&gt;&gt; = 10.304846468766044
 
@@ -674,11 +968,11 @@ definitions.</p>
 
 * estimated (U+212E): L&lt;&lt;570.0,97.0&gt;--&lt;561.0,89.0&gt;&gt;/L&lt;&lt;561.0,89.0&gt;--&lt;564.0,92.0&gt;&gt; = 3.3664606634298315
 
-* fiveeighths (U+215D): B&lt;&lt;229.5,-40.0&gt;-&lt;230.0,-40.0&gt;-&lt;232.0,-40.0&gt;&gt;/B&lt;&lt;232.0,-40.0&gt;-&lt;228.0,-39.0&gt;-&lt;222.5,-36.0&gt;&gt; = 14.036243467926484
+* fiveeighths (U+215D): B&lt;&lt;185.5,-40.0&gt;-&lt;186.0,-40.0&gt;-&lt;188.0,-40.0&gt;&gt;/B&lt;&lt;188.0,-40.0&gt;-&lt;184.0,-39.0&gt;-&lt;178.5,-36.0&gt;&gt; = 14.036243467926484
 
-* fiveeighths (U+215D): B&lt;&lt;244.5,-37.5&gt;-&lt;236.0,-40.0&gt;-&lt;232.0,-40.0&gt;&gt;/L&lt;&lt;232.0,-40.0&gt;--&lt;236.0,-41.0&gt;&gt; = 14.036243467926484
+* fiveeighths (U+215D): B&lt;&lt;200.5,-37.5&gt;-&lt;192.0,-40.0&gt;-&lt;188.0,-40.0&gt;&gt;/L&lt;&lt;188.0,-40.0&gt;--&lt;192.0,-41.0&gt;&gt; = 14.036243467926484
 
-* fiveeighths (U+215D): B&lt;&lt;589.5,751.5&gt;-&lt;591.0,751.0&gt;-&lt;587.0,751.0&gt;&gt;/L&lt;&lt;587.0,751.0&gt;--&lt;591.0,750.0&gt;&gt; = 14.036243467926484
+* fiveeighths (U+215D): B&lt;&lt;545.5,751.5&gt;-&lt;547.0,751.0&gt;-&lt;543.0,751.0&gt;&gt;/L&lt;&lt;543.0,751.0&gt;--&lt;547.0,750.0&gt;&gt; = 14.036243467926484
 
 * fraction (U+2044): B&lt;&lt;22.5,-40.0&gt;-&lt;23.0,-40.0&gt;-&lt;25.0,-40.0&gt;&gt;/B&lt;&lt;25.0,-40.0&gt;-&lt;21.0,-39.0&gt;-&lt;15.5,-36.0&gt;&gt; = 14.036243467926484
 
@@ -689,6 +983,8 @@ definitions.</p>
 * g.blackCircled: B&lt;&lt;570.5,102.5&gt;-&lt;570.0,99.0&gt;-&lt;575.0,99.0&gt;&gt;/B&lt;&lt;575.0,99.0&gt;-&lt;567.0,98.0&gt;-&lt;555.0,96.0&gt;&gt; = 7.125016348901757
 
 * greater (U+003E): B&lt;&lt;254.5,209.0&gt;-&lt;247.0,206.0&gt;-&lt;248.0,207.0&gt;&gt;/B&lt;&lt;248.0,207.0&gt;-&lt;237.0,199.0&gt;-&lt;231.0,197.0&gt;&gt; = 8.972626614896358
+
+* greater.case: B&lt;&lt;254.5,240.0&gt;-&lt;247.0,237.0&gt;-&lt;248.0,238.0&gt;&gt;/B&lt;&lt;248.0,238.0&gt;-&lt;237.0,230.0&gt;-&lt;231.0,228.0&gt;&gt; = 8.972626614896358
 
 * infinity (U+221E): B&lt;&lt;132.0,222.0&gt;-&lt;147.0,219.0&gt;-&lt;144.0,219.0&gt;&gt;/L&lt;&lt;144.0,219.0&gt;--&lt;158.0,218.0&gt;&gt; = 4.085616779974888
 
@@ -704,6 +1000,8 @@ definitions.</p>
 
 * less (U+003C): B&lt;&lt;244.0,197.0&gt;-&lt;238.0,199.0&gt;-&lt;227.0,207.0&gt;&gt;/B&lt;&lt;227.0,207.0&gt;-&lt;228.0,206.0&gt;-&lt;220.5,209.0&gt;&gt; = 8.972626614896358
 
+* less.case: B&lt;&lt;244.0,228.0&gt;-&lt;238.0,230.0&gt;-&lt;227.0,238.0&gt;&gt;/B&lt;&lt;227.0,238.0&gt;-&lt;228.0,237.0&gt;-&lt;220.5,240.0&gt;&gt; = 8.972626614896358
+
 * m.blackCircled: B&lt;&lt;382.5,255.5&gt;-&lt;382.0,257.0&gt;-&lt;382.0,255.0&gt;&gt;/B&lt;&lt;382.0,255.0&gt;-&lt;381.0,283.0&gt;-&lt;381.5,308.0&gt;&gt; = 2.0454084888871935
 
 * minus (U+2212): L&lt;&lt;30.0,325.0&gt;--&lt;31.0,332.0&gt;&gt;/B&lt;&lt;31.0,332.0&gt;-&lt;31.0,331.0&gt;-&lt;38.0,332.0&gt;&gt; = 8.13010235415596
@@ -712,7 +1010,15 @@ definitions.</p>
 
 * minus (U+2212): L&lt;&lt;54.0,292.0&gt;--&lt;29.0,295.0&gt;&gt;/B&lt;&lt;29.0,295.0&gt;-&lt;30.0,295.0&gt;-&lt;30.0,302.0&gt;&gt; = 6.842773412630916
 
+* minus.case: L&lt;&lt;30.0,356.0&gt;--&lt;31.0,363.0&gt;&gt;/B&lt;&lt;31.0,363.0&gt;-&lt;31.0,362.0&gt;-&lt;38.0,363.0&gt;&gt; = 8.13010235415596
+
+* minus.case: L&lt;&lt;421.0,363.0&gt;--&lt;445.0,362.0&gt;&gt;/B&lt;&lt;445.0,362.0&gt;-&lt;443.0,362.0&gt;-&lt;445.0,354.0&gt;&gt; = 2.3859440303887243
+
+* minus.case: L&lt;&lt;54.0,323.0&gt;--&lt;29.0,326.0&gt;&gt;/B&lt;&lt;29.0,326.0&gt;-&lt;30.0,326.0&gt;-&lt;30.0,333.0&gt;&gt; = 6.842773412630916
+
 * multiply (U+00D7): B&lt;&lt;242.5,278.5&gt;-&lt;237.0,283.0&gt;-&lt;238.0,284.0&gt;&gt;/L&lt;&lt;238.0,284.0&gt;--&lt;217.0,266.0&gt;&gt; = 4.398705354995508
+
+* multiply.case: B&lt;&lt;242.5,309.5&gt;-&lt;237.0,314.0&gt;-&lt;238.0,315.0&gt;&gt;/L&lt;&lt;238.0,315.0&gt;--&lt;217.0,297.0&gt;&gt; = 4.398705354995508
 
 * notequal (U+2260): B&lt;&lt;143.0,147.0&gt;-&lt;144.0,150.0&gt;-&lt;144.0,149.0&gt;&gt;/L&lt;&lt;144.0,149.0&gt;--&lt;145.0,153.0&gt;&gt; = 14.036243467926484
 
@@ -722,29 +1028,37 @@ definitions.</p>
 
 * notequal (U+2260): L&lt;&lt;29.0,245.0&gt;--&lt;31.0,264.0&gt;&gt;/B&lt;&lt;31.0,264.0&gt;-&lt;31.0,262.0&gt;-&lt;53.0,264.0&gt;&gt; = 6.009005957494474
 
+* notequal.case: B&lt;&lt;143.0,178.0&gt;-&lt;144.0,181.0&gt;-&lt;144.0,180.0&gt;&gt;/L&lt;&lt;144.0,180.0&gt;--&lt;145.0,184.0&gt;&gt; = 14.036243467926484
+
+* notequal.case: B&lt;&lt;162.0,217.0&gt;-&lt;163.0,220.0&gt;-&lt;163.0,219.0&gt;&gt;/B&lt;&lt;163.0,219.0&gt;-&lt;164.0,225.0&gt;-&lt;169.5,240.5&gt;&gt; = 9.462322208025613
+
+* notequal.case: B&lt;&lt;169.5,240.5&gt;-&lt;175.0,256.0&gt;-&lt;176.0,256.0&gt;&gt;/L&lt;&lt;176.0,256.0&gt;--&lt;151.0,258.0&gt;&gt; = 4.573921259900818
+
+* notequal.case: L&lt;&lt;29.0,276.0&gt;--&lt;31.0,295.0&gt;&gt;/B&lt;&lt;31.0,295.0&gt;-&lt;31.0,293.0&gt;-&lt;53.0,295.0&gt;&gt; = 6.009005957494474
+
 * numbersign (U+0023): B&lt;&lt;25.5,132.0&gt;-&lt;25.0,133.0&gt;-&lt;25.0,132.0&gt;&gt;/B&lt;&lt;25.0,132.0&gt;-&lt;23.0,150.0&gt;-&lt;39.0,155.0&gt;&gt; = 6.340191745909908
 
 * numbersign (U+0023): L&lt;&lt;426.0,297.0&gt;--&lt;427.0,297.0&gt;&gt;/B&lt;&lt;427.0,297.0&gt;-&lt;417.0,296.0&gt;-&lt;412.5,285.5&gt;&gt; = 5.710593137499633
 
 * numbersign (U+0023): L&lt;&lt;445.0,299.0&gt;--&lt;426.0,297.0&gt;&gt;/L&lt;&lt;426.0,297.0&gt;--&lt;427.0,297.0&gt;&gt; = 6.009005957494535
 
-* oneeighth (U+215B): B&lt;&lt;167.5,-40.0&gt;-&lt;168.0,-40.0&gt;-&lt;170.0,-40.0&gt;&gt;/B&lt;&lt;170.0,-40.0&gt;-&lt;166.0,-39.0&gt;-&lt;160.5,-36.0&gt;&gt; = 14.036243467926484
+* oneeighth (U+215B): B&lt;&lt;427.5,751.5&gt;-&lt;429.0,751.0&gt;-&lt;425.0,751.0&gt;&gt;/L&lt;&lt;425.0,751.0&gt;--&lt;429.0,750.0&gt;&gt; = 14.036243467926484
 
-* oneeighth (U+215B): B&lt;&lt;182.5,-37.5&gt;-&lt;174.0,-40.0&gt;-&lt;170.0,-40.0&gt;&gt;/L&lt;&lt;170.0,-40.0&gt;--&lt;174.0,-41.0&gt;&gt; = 14.036243467926484
+* oneeighth (U+215B): B&lt;&lt;67.5,-40.0&gt;-&lt;68.0,-40.0&gt;-&lt;70.0,-40.0&gt;&gt;/B&lt;&lt;70.0,-40.0&gt;-&lt;66.0,-39.0&gt;-&lt;60.5,-36.0&gt;&gt; = 14.036243467926484
 
-* oneeighth (U+215B): B&lt;&lt;527.5,751.5&gt;-&lt;529.0,751.0&gt;-&lt;525.0,751.0&gt;&gt;/L&lt;&lt;525.0,751.0&gt;--&lt;529.0,750.0&gt;&gt; = 14.036243467926484
+* oneeighth (U+215B): B&lt;&lt;82.5,-37.5&gt;-&lt;74.0,-40.0&gt;-&lt;70.0,-40.0&gt;&gt;/L&lt;&lt;70.0,-40.0&gt;--&lt;74.0,-41.0&gt;&gt; = 14.036243467926484
 
-* onehalf (U+00BD): B&lt;&lt;181.5,-40.0&gt;-&lt;182.0,-40.0&gt;-&lt;184.0,-40.0&gt;&gt;/B&lt;&lt;184.0,-40.0&gt;-&lt;180.0,-39.0&gt;-&lt;174.5,-36.0&gt;&gt; = 14.036243467926484
+* onehalf (U+00BD): B&lt;&lt;427.5,751.5&gt;-&lt;429.0,751.0&gt;-&lt;425.0,751.0&gt;&gt;/L&lt;&lt;425.0,751.0&gt;--&lt;429.0,750.0&gt;&gt; = 14.036243467926484
 
-* onehalf (U+00BD): B&lt;&lt;196.5,-37.5&gt;-&lt;188.0,-40.0&gt;-&lt;184.0,-40.0&gt;&gt;/L&lt;&lt;184.0,-40.0&gt;--&lt;188.0,-41.0&gt;&gt; = 14.036243467926484
+* onehalf (U+00BD): B&lt;&lt;67.5,-40.0&gt;-&lt;68.0,-40.0&gt;-&lt;70.0,-40.0&gt;&gt;/B&lt;&lt;70.0,-40.0&gt;-&lt;66.0,-39.0&gt;-&lt;60.5,-36.0&gt;&gt; = 14.036243467926484
 
-* onehalf (U+00BD): B&lt;&lt;541.5,751.5&gt;-&lt;543.0,751.0&gt;-&lt;539.0,751.0&gt;&gt;/L&lt;&lt;539.0,751.0&gt;--&lt;543.0,750.0&gt;&gt; = 14.036243467926484
+* onehalf (U+00BD): B&lt;&lt;82.5,-37.5&gt;-&lt;74.0,-40.0&gt;-&lt;70.0,-40.0&gt;&gt;/L&lt;&lt;70.0,-40.0&gt;--&lt;74.0,-41.0&gt;&gt; = 14.036243467926484
 
-* onequarter (U+00BC): B&lt;&lt;189.5,-40.0&gt;-&lt;190.0,-40.0&gt;-&lt;192.0,-40.0&gt;&gt;/B&lt;&lt;192.0,-40.0&gt;-&lt;188.0,-39.0&gt;-&lt;182.5,-36.0&gt;&gt; = 14.036243467926484
+* onequarter (U+00BC): B&lt;&lt;427.5,751.5&gt;-&lt;429.0,751.0&gt;-&lt;425.0,751.0&gt;&gt;/L&lt;&lt;425.0,751.0&gt;--&lt;429.0,750.0&gt;&gt; = 14.036243467926484
 
-* onequarter (U+00BC): B&lt;&lt;204.5,-37.5&gt;-&lt;196.0,-40.0&gt;-&lt;192.0,-40.0&gt;&gt;/L&lt;&lt;192.0,-40.0&gt;--&lt;196.0,-41.0&gt;&gt; = 14.036243467926484
+* onequarter (U+00BC): B&lt;&lt;67.5,-40.0&gt;-&lt;68.0,-40.0&gt;-&lt;70.0,-40.0&gt;&gt;/B&lt;&lt;70.0,-40.0&gt;-&lt;66.0,-39.0&gt;-&lt;60.5,-36.0&gt;&gt; = 14.036243467926484
 
-* onequarter (U+00BC): B&lt;&lt;549.5,751.5&gt;-&lt;551.0,751.0&gt;-&lt;547.0,751.0&gt;&gt;/L&lt;&lt;547.0,751.0&gt;--&lt;551.0,750.0&gt;&gt; = 14.036243467926484
+* onequarter (U+00BC): B&lt;&lt;82.5,-37.5&gt;-&lt;74.0,-40.0&gt;-&lt;70.0,-40.0&gt;&gt;/L&lt;&lt;70.0,-40.0&gt;--&lt;74.0,-41.0&gt;&gt; = 14.036243467926484
 
 * partialdiff (U+2202): B&lt;&lt;171.0,585.0&gt;-&lt;166.0,587.0&gt;-&lt;167.0,587.0&gt;&gt;/B&lt;&lt;167.0,587.0&gt;-&lt;154.0,589.0&gt;-&lt;146.0,591.0&gt;&gt; = 8.746162262555211
 
@@ -790,6 +1104,12 @@ definitions.</p>
 
 * plus (U+002B): L&lt;&lt;421.0,332.0&gt;--&lt;420.0,332.0&gt;&gt;/B&lt;&lt;420.0,332.0&gt;-&lt;432.0,333.0&gt;-&lt;438.0,332.0&gt;&gt; = 4.763641690726143
 
+* plus.case: L&lt;&lt;220.0,151.0&gt;--&lt;216.0,152.0&gt;&gt;/L&lt;&lt;216.0,152.0&gt;--&lt;219.0,152.0&gt;&gt; = 14.036243467926484
+
+* plus.case: L&lt;&lt;397.0,361.0&gt;--&lt;421.0,362.0&gt;&gt;/L&lt;&lt;421.0,362.0&gt;--&lt;420.0,362.0&gt;&gt; = 2.3859440303887243
+
+* plus.case: L&lt;&lt;421.0,362.0&gt;--&lt;420.0,362.0&gt;&gt;/B&lt;&lt;420.0,362.0&gt;-&lt;432.0,363.0&gt;-&lt;438.0,362.0&gt;&gt; = 4.763641690726143
+
 * plusminus (U+00B1): L&lt;&lt;216.0,298.0&gt;--&lt;216.0,297.0&gt;&gt;/B&lt;&lt;216.0,297.0&gt;-&lt;215.0,302.0&gt;-&lt;216.0,304.5&gt;&gt; = 11.309932474020195
 
 * plusminus (U+00B1): L&lt;&lt;217.0,294.0&gt;--&lt;216.0,298.0&gt;&gt;/L&lt;&lt;216.0,298.0&gt;--&lt;216.0,297.0&gt;&gt; = 14.036243467926484
@@ -797,6 +1117,14 @@ definitions.</p>
 * plusminus (U+00B1): L&lt;&lt;40.0,71.0&gt;--&lt;29.0,72.0&gt;&gt;/B&lt;&lt;29.0,72.0&gt;-&lt;31.0,72.0&gt;-&lt;31.0,90.0&gt;&gt; = 5.1944289077348
 
 * plusminus (U+00B1): L&lt;&lt;445.0,90.0&gt;--&lt;444.0,69.0&gt;&gt;/B&lt;&lt;444.0,69.0&gt;-&lt;444.0,72.0&gt;-&lt;421.0,72.0&gt;&gt; = 2.726310993906212
+
+* plusminus.case: L&lt;&lt;216.0,329.0&gt;--&lt;216.0,328.0&gt;&gt;/B&lt;&lt;216.0,328.0&gt;-&lt;215.0,333.0&gt;-&lt;216.0,335.5&gt;&gt; = 11.309932474020195
+
+* plusminus.case: L&lt;&lt;217.0,325.0&gt;--&lt;216.0,329.0&gt;&gt;/L&lt;&lt;216.0,329.0&gt;--&lt;216.0,328.0&gt;&gt; = 14.036243467926484
+
+* plusminus.case: L&lt;&lt;40.0,102.0&gt;--&lt;29.0,103.0&gt;&gt;/B&lt;&lt;29.0,103.0&gt;-&lt;31.0,103.0&gt;-&lt;31.0,121.0&gt;&gt; = 5.1944289077348
+
+* plusminus.case: L&lt;&lt;445.0,121.0&gt;--&lt;444.0,100.0&gt;&gt;/B&lt;&lt;444.0,100.0&gt;-&lt;444.0,103.0&gt;-&lt;421.0,103.0&gt;&gt; = 2.726310993906212
 
 * product (U+220F): L&lt;&lt;429.0,-240.0&gt;--&lt;409.0,-237.0&gt;&gt;/B&lt;&lt;409.0,-237.0&gt;-&lt;411.0,-237.0&gt;-&lt;409.0,-228.0&gt;&gt; = 8.530765609948139
 
@@ -820,25 +1148,25 @@ definitions.</p>
 
 * registered (U+00AE): L&lt;&lt;641.0,289.0&gt;--&lt;641.0,288.0&gt;&gt;/L&lt;&lt;641.0,288.0&gt;--&lt;643.0,303.0&gt;&gt; = 7.594643368591447
 
-* seveneighths (U+215E): B&lt;&lt;206.5,-40.0&gt;-&lt;207.0,-40.0&gt;-&lt;209.0,-40.0&gt;&gt;/B&lt;&lt;209.0,-40.0&gt;-&lt;205.0,-39.0&gt;-&lt;199.5,-36.0&gt;&gt; = 14.036243467926484
+* seveneighths (U+215E): B&lt;&lt;164.5,-40.0&gt;-&lt;165.0,-40.0&gt;-&lt;167.0,-40.0&gt;&gt;/B&lt;&lt;167.0,-40.0&gt;-&lt;163.0,-39.0&gt;-&lt;157.5,-36.0&gt;&gt; = 14.036243467926484
 
-* seveneighths (U+215E): B&lt;&lt;221.5,-37.5&gt;-&lt;213.0,-40.0&gt;-&lt;209.0,-40.0&gt;&gt;/L&lt;&lt;209.0,-40.0&gt;--&lt;213.0,-41.0&gt;&gt; = 14.036243467926484
+* seveneighths (U+215E): B&lt;&lt;179.5,-37.5&gt;-&lt;171.0,-40.0&gt;-&lt;167.0,-40.0&gt;&gt;/L&lt;&lt;167.0,-40.0&gt;--&lt;171.0,-41.0&gt;&gt; = 14.036243467926484
 
-* seveneighths (U+215E): B&lt;&lt;566.5,751.5&gt;-&lt;568.0,751.0&gt;-&lt;564.0,751.0&gt;&gt;/L&lt;&lt;564.0,751.0&gt;--&lt;568.0,750.0&gt;&gt; = 14.036243467926484
+* seveneighths (U+215E): B&lt;&lt;524.5,751.5&gt;-&lt;526.0,751.0&gt;-&lt;522.0,751.0&gt;&gt;/L&lt;&lt;522.0,751.0&gt;--&lt;526.0,750.0&gt;&gt; = 14.036243467926484
 
 * spade (U+2660): L&lt;&lt;338.0,176.0&gt;--&lt;341.0,186.0&gt;&gt;/L&lt;&lt;341.0,186.0&gt;--&lt;339.0,182.0&gt;&gt; = 9.865806943084328
 
-* threeeighths (U+215C): B&lt;&lt;224.5,-40.0&gt;-&lt;225.0,-40.0&gt;-&lt;227.0,-40.0&gt;&gt;/B&lt;&lt;227.0,-40.0&gt;-&lt;223.0,-39.0&gt;-&lt;217.5,-36.0&gt;&gt; = 14.036243467926484
+* threeeighths (U+215C): B&lt;&lt;174.5,-40.0&gt;-&lt;175.0,-40.0&gt;-&lt;177.0,-40.0&gt;&gt;/B&lt;&lt;177.0,-40.0&gt;-&lt;173.0,-39.0&gt;-&lt;167.5,-36.0&gt;&gt; = 14.036243467926484
 
-* threeeighths (U+215C): B&lt;&lt;239.5,-37.5&gt;-&lt;231.0,-40.0&gt;-&lt;227.0,-40.0&gt;&gt;/L&lt;&lt;227.0,-40.0&gt;--&lt;231.0,-41.0&gt;&gt; = 14.036243467926484
+* threeeighths (U+215C): B&lt;&lt;189.5,-37.5&gt;-&lt;181.0,-40.0&gt;-&lt;177.0,-40.0&gt;&gt;/L&lt;&lt;177.0,-40.0&gt;--&lt;181.0,-41.0&gt;&gt; = 14.036243467926484
 
-* threeeighths (U+215C): B&lt;&lt;584.5,751.5&gt;-&lt;586.0,751.0&gt;-&lt;582.0,751.0&gt;&gt;/L&lt;&lt;582.0,751.0&gt;--&lt;586.0,750.0&gt;&gt; = 14.036243467926484
+* threeeighths (U+215C): B&lt;&lt;534.5,751.5&gt;-&lt;536.0,751.0&gt;-&lt;532.0,751.0&gt;&gt;/L&lt;&lt;532.0,751.0&gt;--&lt;536.0,750.0&gt;&gt; = 14.036243467926484
 
-* threequarters (U+00BE): B&lt;&lt;255.5,-40.0&gt;-&lt;256.0,-40.0&gt;-&lt;258.0,-40.0&gt;&gt;/B&lt;&lt;258.0,-40.0&gt;-&lt;254.0,-39.0&gt;-&lt;248.5,-36.0&gt;&gt; = 14.036243467926484
+* threequarters (U+00BE): B&lt;&lt;174.5,-40.0&gt;-&lt;175.0,-40.0&gt;-&lt;177.0,-40.0&gt;&gt;/B&lt;&lt;177.0,-40.0&gt;-&lt;173.0,-39.0&gt;-&lt;167.5,-36.0&gt;&gt; = 14.036243467926484
 
-* threequarters (U+00BE): B&lt;&lt;270.5,-37.5&gt;-&lt;262.0,-40.0&gt;-&lt;258.0,-40.0&gt;&gt;/L&lt;&lt;258.0,-40.0&gt;--&lt;262.0,-41.0&gt;&gt; = 14.036243467926484
+* threequarters (U+00BE): B&lt;&lt;189.5,-37.5&gt;-&lt;181.0,-40.0&gt;-&lt;177.0,-40.0&gt;&gt;/L&lt;&lt;177.0,-40.0&gt;--&lt;181.0,-41.0&gt;&gt; = 14.036243467926484
 
-* threequarters (U+00BE): B&lt;&lt;615.5,751.5&gt;-&lt;617.0,751.0&gt;-&lt;613.0,751.0&gt;&gt;/L&lt;&lt;613.0,751.0&gt;--&lt;617.0,750.0&gt;&gt; = 14.036243467926484
+* threequarters (U+00BE): B&lt;&lt;534.5,751.5&gt;-&lt;536.0,751.0&gt;-&lt;532.0,751.0&gt;&gt;/L&lt;&lt;532.0,751.0&gt;--&lt;536.0,750.0&gt;&gt; = 14.036243467926484
 
 * u1F160 (U+1F160): B&lt;&lt;616.5,158.0&gt;-&lt;617.0,161.0&gt;-&lt;621.0,160.0&gt;&gt;/B&lt;&lt;621.0,160.0&gt;-&lt;618.0,160.0&gt;-&lt;623.0,155.0&gt;&gt; = 14.036243467926484
 
@@ -912,6 +1240,18 @@ definitions.</p>
 
 * uni2126 (U+2126): L&lt;&lt;562.0,320.0&gt;--&lt;562.0,319.0&gt;&gt;/L&lt;&lt;562.0,319.0&gt;--&lt;563.0,348.0&gt;&gt; = 1.9749340108819595
 
+* uni2153 (U+2153): B&lt;&lt;427.5,751.5&gt;-&lt;429.0,751.0&gt;-&lt;425.0,751.0&gt;&gt;/L&lt;&lt;425.0,751.0&gt;--&lt;429.0,750.0&gt;&gt; = 14.036243467926484
+
+* uni2153 (U+2153): B&lt;&lt;67.5,-40.0&gt;-&lt;68.0,-40.0&gt;-&lt;70.0,-40.0&gt;&gt;/B&lt;&lt;70.0,-40.0&gt;-&lt;66.0,-39.0&gt;-&lt;60.5,-36.0&gt;&gt; = 14.036243467926484
+
+* uni2153 (U+2153): B&lt;&lt;82.5,-37.5&gt;-&lt;74.0,-40.0&gt;-&lt;70.0,-40.0&gt;&gt;/L&lt;&lt;70.0,-40.0&gt;--&lt;74.0,-41.0&gt;&gt; = 14.036243467926484
+
+* uni2154 (U+2154): B&lt;&lt;183.5,-40.0&gt;-&lt;184.0,-40.0&gt;-&lt;186.0,-40.0&gt;&gt;/B&lt;&lt;186.0,-40.0&gt;-&lt;182.0,-39.0&gt;-&lt;176.5,-36.0&gt;&gt; = 14.036243467926484
+
+* uni2154 (U+2154): B&lt;&lt;198.5,-37.5&gt;-&lt;190.0,-40.0&gt;-&lt;186.0,-40.0&gt;&gt;/L&lt;&lt;186.0,-40.0&gt;--&lt;190.0,-41.0&gt;&gt; = 14.036243467926484
+
+* uni2154 (U+2154): B&lt;&lt;543.5,751.5&gt;-&lt;545.0,751.0&gt;-&lt;541.0,751.0&gt;&gt;/L&lt;&lt;541.0,751.0&gt;--&lt;545.0,750.0&gt;&gt; = 14.036243467926484
+
 * uni21E7 (U+21E7): B&lt;&lt;295.0,35.0&gt;-&lt;297.0,14.0&gt;-&lt;295.0,14.0&gt;&gt;/L&lt;&lt;295.0,14.0&gt;--&lt;316.0,13.0&gt;&gt; = 2.726310993906212
 
 * uni2325 (U+2325): L&lt;&lt;50.0,454.0&gt;--&lt;51.0,460.0&gt;&gt;/L&lt;&lt;51.0,460.0&gt;--&lt;51.0,459.0&gt;&gt; = 9.462322208025613
@@ -984,31 +1324,7 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Is there kerning info for non-ligated sequences? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gpos.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>GPOS table lacks kerning info for the following non-ligated sequences:</p>
-<pre><code>- f + f
-
-- f + i
-
-- f + l
-</code></pre>
- [code: lacks-kern-info]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.meta.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-meta-script-lang-tags">googlefonts/meta/script_lang_tags</a></summary>
     <div>
 
 
@@ -1027,10 +1343,10 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[12] Formera-Regular.ttf</summary>
+<details><summary>[13] Formera-Regular.ttf</summary>
 <div>
 <details>
-    <summary>🔥 <b>FAIL</b> Checking OS/2 usWinAscent & usWinDescent. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.metrics.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Checking OS/2 usWinAscent & usWinDescent. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#family-win-ascent-and-descent">family/win_ascent_and_descent</a></summary>
     <div>
 
 
@@ -1048,7 +1364,146 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
+    <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
+    <div>
+
+
+
+
+
+
+
+* 🔥 **FAIL** <p>GF_Phonetics_SinoExt glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">FAIL messages</th>
+<th align="left">Languages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Mandatory orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following base characters are missing from the font: ɛ, Ɛ, Ɔ, ɔ</td>
+<td align="left">bm_Latn (Bambara)</td>
+</tr>
+<tr>
+<td align="left">Mandatory orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following base characters are missing from the font: ɛ, Ɛ, ɔ, Ɔ</td>
+<td align="left">dyu_Latn (Dyula)</td>
+</tr>
+<tr>
+<td align="left">Mandatory orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following base characters are missing from the font: Ɛ, ɛ, Ɔ, ɔ</td>
+<td align="left">fat_Latn (Fanti)</td>
+</tr>
+<tr>
+<td align="left">Mandatory orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following base characters are missing from the font: Ɗ, ɗ, Ƴ, ɓ, ƴ, Ɓ</td>
+<td align="left">ff_Latn (Fulah)</td>
+</tr>
+<tr>
+<td align="left">Mandatory orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following base characters are missing from the font: ɓ, ɗ, Ɓ, ƙ, Ƴ, Ɗ, Ƙ, ƴ</td>
+<td align="left">ha_Latn (Hausa)</td>
+</tr>
+<tr>
+<td align="left">Mandatory orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following base characters are missing from the font: ɛ, Ɔ, Ɛ, ɔ</td>
+<td align="left">tw_akuapem_Latn (Akuapem Twi)</td>
+</tr>
+</tbody>
+</table>
+ [code: failed-language-shaping]
+
+
+
+* ⚠️ **WARN** <p>GF_Phonetics_SinoExt glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">WARN messages</th>
+<th align="left">Languages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ǥ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ʒ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ǯ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ǥ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ʒ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ǯ</td>
+<td align="left">fi_Latn (Finnish)</td>
+</tr>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ɛ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ɛ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ɵ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ɵ</td>
+<td align="left">ig_Latn (Igbo)</td>
+</tr>
+</tbody>
+</table>
+ [code: warning-language-shaping]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>🔥 <b>FAIL</b> Ensure dotted circle glyph is present and can attach marks. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#dotted-circle">dotted_circle</a></summary>
     <div>
 
 
@@ -1070,7 +1525,7 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
     <div>
 
 
@@ -1137,6 +1592,8 @@ definitions.</p>
 
 - Glyph name: uni1E5B	Contours detected: 3	Expected: 2
 
+- Glyph name: uni1E5D	Contours detected: 4	Expected: 3
+
 - Glyph name: uni1E5F	Contours detected: 3	Expected: 2
 
 - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
@@ -1168,6 +1625,8 @@ definitions.</p>
 - Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
 - Glyph name: uni1EF1	Contours detected: 3	Expected: 2
+
+- Glyph name: uni203D	Contours detected: 4	Expected: 2
 
 - Glyph name: uniFFFC	Contours detected: 8	Expected: 22
 
@@ -1217,6 +1676,8 @@ definitions.</p>
 
 - Glyph name: uni1E5B	Contours detected: 3	Expected: 2
 
+- Glyph name: uni1E5D	Contours detected: 4	Expected: 3
+
 - Glyph name: uni1E5F	Contours detected: 3	Expected: 2
 
 - Glyph name: uni1EDB	Contours detected: 4	Expected: 3
@@ -1249,6 +1710,8 @@ definitions.</p>
 
 - Glyph name: uni1EF1	Contours detected: 3	Expected: 2
 
+- Glyph name: uni203D	Contours detected: 4	Expected: 2
+
 - Glyph name: uniFFFC	Contours detected: 8	Expected: 22
 
 - Glyph name: uogonek	Contours detected: 2	Expected: 1
@@ -1261,7 +1724,255 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Does the font contain a soft hyphen? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Check there are no overlapping path segments <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#overlapping-path-segments">overlapping_path_segments</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs have overlapping path segments:</p>
+<pre><code>* uni1EB2 (U+1EB2): B&lt;&lt;310.0,908.0&gt;-&lt;310.0,908.0&gt;-&lt;310.0,908.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EB2 (U+1EB2): B&lt;&lt;310.0,908.0&gt;-&lt;310.0,908.0&gt;-&lt;310.0,908.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EB2 (U+1EB2): B&lt;&lt;310.0,908.0&gt;-&lt;311.0,907.0&gt;-&lt;310.0,908.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EA8 (U+1EA8): B&lt;&lt;474.0,796.0&gt;-&lt;474.0,796.0&gt;-&lt;474.0,796.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EA8 (U+1EA8): B&lt;&lt;474.0,796.0&gt;-&lt;474.0,796.0&gt;-&lt;474.0,796.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EA8 (U+1EA8): B&lt;&lt;474.0,796.0&gt;-&lt;475.0,795.0&gt;-&lt;474.0,796.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EA2 (U+1EA2): B&lt;&lt;316.0,699.0&gt;-&lt;316.0,699.0&gt;-&lt;316.0,699.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EA2 (U+1EA2): B&lt;&lt;316.0,699.0&gt;-&lt;316.0,699.0&gt;-&lt;316.0,699.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EA2 (U+1EA2): B&lt;&lt;316.0,699.0&gt;-&lt;317.0,698.0&gt;-&lt;316.0,699.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EC2 (U+1EC2): B&lt;&lt;384.0,796.0&gt;-&lt;384.0,796.0&gt;-&lt;384.0,796.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EC2 (U+1EC2): B&lt;&lt;384.0,796.0&gt;-&lt;384.0,796.0&gt;-&lt;384.0,796.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EC2 (U+1EC2): B&lt;&lt;384.0,796.0&gt;-&lt;385.0,795.0&gt;-&lt;384.0,796.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EBA (U+1EBA): B&lt;&lt;226.0,699.0&gt;-&lt;226.0,699.0&gt;-&lt;226.0,699.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EBA (U+1EBA): B&lt;&lt;226.0,699.0&gt;-&lt;226.0,699.0&gt;-&lt;226.0,699.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EBA (U+1EBA): B&lt;&lt;226.0,699.0&gt;-&lt;227.0,698.0&gt;-&lt;226.0,699.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EC8 (U+1EC8): B&lt;&lt;89.0,699.0&gt;-&lt;89.0,699.0&gt;-&lt;89.0,699.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EC8 (U+1EC8): B&lt;&lt;89.0,699.0&gt;-&lt;89.0,699.0&gt;-&lt;89.0,699.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EC8 (U+1EC8): B&lt;&lt;89.0,699.0&gt;-&lt;90.0,698.0&gt;-&lt;89.0,699.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1ED4 (U+1ED4): B&lt;&lt;537.0,796.0&gt;-&lt;537.0,796.0&gt;-&lt;537.0,796.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1ED4 (U+1ED4): B&lt;&lt;537.0,796.0&gt;-&lt;537.0,796.0&gt;-&lt;537.0,796.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1ED4 (U+1ED4): B&lt;&lt;537.0,796.0&gt;-&lt;538.0,795.0&gt;-&lt;537.0,796.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1ECE (U+1ECE): B&lt;&lt;379.0,699.0&gt;-&lt;379.0,699.0&gt;-&lt;379.0,699.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1ECE (U+1ECE): B&lt;&lt;379.0,699.0&gt;-&lt;379.0,699.0&gt;-&lt;379.0,699.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1ECE (U+1ECE): B&lt;&lt;379.0,699.0&gt;-&lt;380.0,698.0&gt;-&lt;379.0,699.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EDE (U+1EDE): B&lt;&lt;379.0,699.0&gt;-&lt;379.0,699.0&gt;-&lt;379.0,699.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EDE (U+1EDE): B&lt;&lt;379.0,699.0&gt;-&lt;379.0,699.0&gt;-&lt;379.0,699.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EDE (U+1EDE): B&lt;&lt;379.0,699.0&gt;-&lt;380.0,698.0&gt;-&lt;379.0,699.0&gt;&gt; has the same coordinates as a previous segment.
+
+* Thorn (U+00DE): L&lt;&lt;138.0,169.0&gt;--&lt;135.0,168.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EE6 (U+1EE6): B&lt;&lt;300.0,699.0&gt;-&lt;300.0,699.0&gt;-&lt;300.0,699.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EE6 (U+1EE6): B&lt;&lt;300.0,699.0&gt;-&lt;300.0,699.0&gt;-&lt;300.0,699.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EE6 (U+1EE6): B&lt;&lt;300.0,699.0&gt;-&lt;301.0,698.0&gt;-&lt;300.0,699.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EEC (U+1EEC): B&lt;&lt;300.0,699.0&gt;-&lt;300.0,699.0&gt;-&lt;300.0,699.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EEC (U+1EEC): B&lt;&lt;300.0,699.0&gt;-&lt;300.0,699.0&gt;-&lt;300.0,699.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EEC (U+1EEC): B&lt;&lt;300.0,699.0&gt;-&lt;301.0,698.0&gt;-&lt;300.0,699.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EF6 (U+1EF6): B&lt;&lt;273.0,699.0&gt;-&lt;273.0,699.0&gt;-&lt;273.0,699.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EF6 (U+1EF6): B&lt;&lt;273.0,699.0&gt;-&lt;273.0,699.0&gt;-&lt;273.0,699.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EF6 (U+1EF6): B&lt;&lt;273.0,699.0&gt;-&lt;274.0,698.0&gt;-&lt;273.0,699.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EB3 (U+1EB3): B&lt;&lt;232.0,680.0&gt;-&lt;232.0,680.0&gt;-&lt;232.0,680.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EB3 (U+1EB3): B&lt;&lt;232.0,680.0&gt;-&lt;232.0,680.0&gt;-&lt;232.0,680.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EB3 (U+1EB3): B&lt;&lt;232.0,680.0&gt;-&lt;233.0,679.0&gt;-&lt;232.0,680.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EA9 (U+1EA9): B&lt;&lt;396.0,568.0&gt;-&lt;396.0,568.0&gt;-&lt;396.0,568.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EA9 (U+1EA9): B&lt;&lt;396.0,568.0&gt;-&lt;396.0,568.0&gt;-&lt;396.0,568.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EA9 (U+1EA9): B&lt;&lt;396.0,568.0&gt;-&lt;397.0,567.0&gt;-&lt;396.0,568.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EA3 (U+1EA3): B&lt;&lt;238.0,471.0&gt;-&lt;238.0,471.0&gt;-&lt;238.0,471.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EA3 (U+1EA3): B&lt;&lt;238.0,471.0&gt;-&lt;238.0,471.0&gt;-&lt;238.0,471.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EA3 (U+1EA3): B&lt;&lt;238.0,471.0&gt;-&lt;239.0,470.0&gt;-&lt;238.0,471.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EC3 (U+1EC3): B&lt;&lt;372.0,568.0&gt;-&lt;372.0,568.0&gt;-&lt;372.0,568.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EC3 (U+1EC3): B&lt;&lt;372.0,568.0&gt;-&lt;372.0,568.0&gt;-&lt;372.0,568.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EC3 (U+1EC3): B&lt;&lt;372.0,568.0&gt;-&lt;373.0,567.0&gt;-&lt;372.0,568.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EBB (U+1EBB): B&lt;&lt;214.0,471.0&gt;-&lt;214.0,471.0&gt;-&lt;214.0,471.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EBB (U+1EBB): B&lt;&lt;214.0,471.0&gt;-&lt;214.0,471.0&gt;-&lt;214.0,471.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EBB (U+1EBB): B&lt;&lt;214.0,471.0&gt;-&lt;215.0,470.0&gt;-&lt;214.0,471.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EC9 (U+1EC9): B&lt;&lt;72.0,471.0&gt;-&lt;72.0,471.0&gt;-&lt;72.0,471.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EC9 (U+1EC9): B&lt;&lt;72.0,471.0&gt;-&lt;72.0,471.0&gt;-&lt;72.0,471.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EC9 (U+1EC9): B&lt;&lt;72.0,471.0&gt;-&lt;73.0,470.0&gt;-&lt;72.0,471.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1ED5 (U+1ED5): B&lt;&lt;396.0,568.0&gt;-&lt;396.0,568.0&gt;-&lt;396.0,568.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1ED5 (U+1ED5): B&lt;&lt;396.0,568.0&gt;-&lt;396.0,568.0&gt;-&lt;396.0,568.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1ED5 (U+1ED5): B&lt;&lt;396.0,568.0&gt;-&lt;397.0,567.0&gt;-&lt;396.0,568.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1ECF (U+1ECF): B&lt;&lt;238.0,471.0&gt;-&lt;238.0,471.0&gt;-&lt;238.0,471.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1ECF (U+1ECF): B&lt;&lt;238.0,471.0&gt;-&lt;238.0,471.0&gt;-&lt;238.0,471.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1ECF (U+1ECF): B&lt;&lt;238.0,471.0&gt;-&lt;239.0,470.0&gt;-&lt;238.0,471.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EDF (U+1EDF): B&lt;&lt;238.0,471.0&gt;-&lt;238.0,471.0&gt;-&lt;238.0,471.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EDF (U+1EDF): B&lt;&lt;238.0,471.0&gt;-&lt;238.0,471.0&gt;-&lt;238.0,471.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EDF (U+1EDF): B&lt;&lt;238.0,471.0&gt;-&lt;239.0,470.0&gt;-&lt;238.0,471.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EE7 (U+1EE7): B&lt;&lt;207.0,471.0&gt;-&lt;207.0,471.0&gt;-&lt;207.0,471.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EE7 (U+1EE7): B&lt;&lt;207.0,471.0&gt;-&lt;207.0,471.0&gt;-&lt;207.0,471.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EE7 (U+1EE7): B&lt;&lt;207.0,471.0&gt;-&lt;208.0,470.0&gt;-&lt;207.0,471.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EED (U+1EED): B&lt;&lt;207.0,471.0&gt;-&lt;207.0,471.0&gt;-&lt;207.0,471.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EED (U+1EED): B&lt;&lt;207.0,471.0&gt;-&lt;207.0,471.0&gt;-&lt;207.0,471.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EED (U+1EED): B&lt;&lt;207.0,471.0&gt;-&lt;208.0,470.0&gt;-&lt;207.0,471.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EF7 (U+1EF7): B&lt;&lt;236.0,471.0&gt;-&lt;236.0,471.0&gt;-&lt;236.0,471.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EF7 (U+1EF7): B&lt;&lt;236.0,471.0&gt;-&lt;236.0,471.0&gt;-&lt;236.0,471.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EF7 (U+1EF7): B&lt;&lt;236.0,471.0&gt;-&lt;237.0,470.0&gt;-&lt;236.0,471.0&gt;&gt; has the same coordinates as a previous segment.
+
+* c.blackCircled: B&lt;&lt;399.0,290.0&gt;-&lt;399.0,290.0&gt;-&lt;399.0,290.0&gt;&gt; has the same coordinates as a previous segment.
+
+* f.blackCircled: B&lt;&lt;492.0,550.0&gt;-&lt;492.0,550.0&gt;-&lt;492.0,550.0&gt;&gt; has the same coordinates as a previous segment.
+
+* g.blackCircled: L&lt;&lt;436.0,356.0&gt;--&lt;436.0,356.0&gt;&gt; has the same coordinates as a previous segment.
+
+* k.blackCircled: B&lt;&lt;395.0,492.0&gt;-&lt;395.0,492.0&gt;-&lt;395.0,491.0&gt;&gt; has the same coordinates as a previous segment.
+
+* m.blackCircled: B&lt;&lt;672.0,266.0&gt;-&lt;672.0,266.0&gt;-&lt;672.0,266.0&gt;&gt; has the same coordinates as a previous segment.
+
+* p.blackCircled: B&lt;&lt;576.0,391.0&gt;-&lt;576.0,391.0&gt;-&lt;576.0,391.0&gt;&gt; has the same coordinates as a previous segment.
+
+* p.blackCircled: B&lt;&lt;576.0,391.0&gt;-&lt;576.0,391.0&gt;-&lt;576.0,391.0&gt;&gt; has the same coordinates as a previous segment.
+
+* v.blackCircled: B&lt;&lt;496.0,201.0&gt;-&lt;496.0,201.0&gt;-&lt;496.0,201.0&gt;&gt; has the same coordinates as a previous segment.
+
+* v.blackCircled: B&lt;&lt;470.0,246.0&gt;-&lt;470.0,246.0&gt;-&lt;470.0,246.0&gt;&gt; has the same coordinates as a previous segment.
+
+* v.blackCircled: L&lt;&lt;471.0,240.0&gt;--&lt;471.0,241.0&gt;&gt; has the same coordinates as a previous segment.
+
+* v.blackCircled: B&lt;&lt;471.0,241.0&gt;-&lt;471.0,241.0&gt;-&lt;471.0,240.0&gt;&gt; has the same coordinates as a previous segment.
+
+* w.blackCircled: B&lt;&lt;348.0,452.0&gt;-&lt;348.0,452.0&gt;-&lt;348.0,452.0&gt;&gt; has the same coordinates as a previous segment.
+
+* y.blackCircled: B&lt;&lt;576.0,383.0&gt;-&lt;576.0,383.0&gt;-&lt;576.0,383.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni24FF (U+24FF): B&lt;&lt;551.0,450.0&gt;-&lt;551.0,450.0&gt;-&lt;551.0,451.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni24FF (U+24FF): B&lt;&lt;512.0,189.0&gt;-&lt;512.0,189.0&gt;-&lt;512.0,189.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni24FF (U+24FF): L&lt;&lt;560.0,211.0&gt;--&lt;560.0,211.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni24FF (U+24FF): L&lt;&lt;560.0,211.0&gt;--&lt;560.0,211.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni2776 (U+2776): B&lt;&lt;445.0,497.0&gt;-&lt;445.0,497.0&gt;-&lt;445.0,497.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni277C (U+277C): B&lt;&lt;564.0,469.0&gt;-&lt;564.0,469.0&gt;-&lt;564.0,468.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni277E (U+277E): B&lt;&lt;575.0,402.0&gt;-&lt;575.0,402.0&gt;-&lt;575.0,402.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni277E (U+277E): B&lt;&lt;467.0,211.0&gt;-&lt;467.0,211.0&gt;-&lt;467.0,211.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni2467 (U+2467): B&lt;&lt;414.0,172.0&gt;-&lt;417.0,175.0&gt;-&lt;406.0,174.0&gt;&gt; has the same coordinates as a previous segment.
+
+* u1F152 (U+1F152): B&lt;&lt;355.0,201.0&gt;-&lt;355.0,201.0&gt;-&lt;355.0,201.0&gt;&gt; has the same coordinates as a previous segment.
+
+* u1F157 (U+1F157): B&lt;&lt;590.0,140.0&gt;-&lt;590.0,140.0&gt;-&lt;590.0,139.0&gt;&gt; has the same coordinates as a previous segment.
+
+* u1F160 (U+1F160): L&lt;&lt;563.0,198.0&gt;--&lt;563.0,198.0&gt;&gt; has the same coordinates as a previous segment.
+
+* u1F167 (U+1F167): B&lt;&lt;554.5,298.0&gt;-&lt;556.0,299.0&gt;-&lt;557.0,298.0&gt;&gt; has the same coordinates as a previous segment.
+
+* ampersand (U+0026): B&lt;&lt;195.0,310.0&gt;-&lt;195.0,310.0&gt;-&lt;195.0,310.0&gt;&gt; has the same coordinates as a previous segment.
+
+* ampersand (U+0026): B&lt;&lt;195.0,310.0&gt;-&lt;195.0,310.0&gt;-&lt;195.0,310.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni2318 (U+2318): L&lt;&lt;168.0,-51.0&gt;--&lt;167.0,-51.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni24C6 (U+24C6): B&lt;&lt;559.0,205.0&gt;-&lt;559.0,205.0&gt;-&lt;559.0,205.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni24C9 (U+24C9): L&lt;&lt;451.0,509.0&gt;--&lt;451.0,509.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni24CB (U+24CB): B&lt;&lt;541.0,341.0&gt;-&lt;541.0,341.0&gt;-&lt;541.0,341.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni24DE (U+24DE): B&lt;&lt;584.0,332.0&gt;-&lt;587.0,336.0&gt;-&lt;576.0,335.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni24E7 (U+24E7): B&lt;&lt;616.0,236.0&gt;-&lt;616.0,236.0&gt;-&lt;616.0,236.0&gt;&gt; has the same coordinates as a previous segment.
+
+* plusminus (U+00B1): L&lt;&lt;200.0,256.0&gt;--&lt;200.0,257.0&gt;&gt; has the same coordinates as a previous segment.
+
+* plusminus.case: L&lt;&lt;200.0,287.0&gt;--&lt;200.0,288.0&gt;&gt; has the same coordinates as a previous segment.
+
+* hookabovecomb (U+0309): B&lt;&lt;139.0,471.0&gt;-&lt;139.0,471.0&gt;-&lt;139.0,471.0&gt;&gt; has the same coordinates as a previous segment.
+
+* hookabovecomb (U+0309): B&lt;&lt;139.0,471.0&gt;-&lt;139.0,471.0&gt;-&lt;139.0,471.0&gt;&gt; has the same coordinates as a previous segment.
+
+* hookabovecomb (U+0309): B&lt;&lt;139.0,471.0&gt;-&lt;140.0,470.0&gt;-&lt;139.0,471.0&gt;&gt; has the same coordinates as a previous segment.
+
+* hookabovecomb.circumflex: B&lt;&lt;139.0,481.0&gt;-&lt;139.0,481.0&gt;-&lt;139.0,481.0&gt;&gt; has the same coordinates as a previous segment.
+
+* hookabovecomb.circumflex: B&lt;&lt;139.0,481.0&gt;-&lt;139.0,481.0&gt;-&lt;139.0,481.0&gt;&gt; has the same coordinates as a previous segment.
+
+* hookabovecomb.circumflex: B&lt;&lt;139.0,481.0&gt;-&lt;140.0,480.0&gt;-&lt;139.0,481.0&gt;&gt; has the same coordinates as a previous segment.
+</code></pre>
+ [code: overlapping-path-segments]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Does the font contain a soft hyphen? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#soft-hyphen">soft_hyphen</a></summary>
     <div>
 
 
@@ -1279,7 +1990,7 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.glyphset.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#unreachable-glyphs">unreachable_glyphs</a></summary>
     <div>
 
 
@@ -1299,7 +2010,7 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.article.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Validate size, and resolution of article images, and ensure article page has minimum length and includes visual assets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-article-images">googlefonts/article/images</a></summary>
     <div>
 
 
@@ -1317,7 +2028,7 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Check for codepoints not covered by METADATA subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.subsets.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Check for codepoints not covered by METADATA subsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-metadata-unreachable-subsetting">googlefonts/metadata/unreachable_subsetting</a></summary>
     <div>
 
 
@@ -1332,39 +2043,42 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
-<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, cherokee, coptic, tifinagh</li>
+<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
+<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, coptic, cherokee</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, hebrew, tifinagh, todhri, canadian-aboriginal, malayalam, math, syriac, duployan, coptic, old-permic</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, malayalam, tifinagh, coptic, hebrew, duployan, math, todhri, syriac, old-permic, canadian-aboriginal</li>
 <li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
 <li>U+031B COMBINING HORN: not included in any glyphset definition</li>
-<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, cherokee, duployan</li>
+<li>U+0324 COMBINING DIAERESIS BELOW: try adding one of: syriac, duployan, cherokee</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: syriac, cherokee, math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: thai, caucasian-albanian, cherokee, tifinagh, gothic, syriac, sunuwar</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: syriac, math, cherokee</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, gothic, thai, sunuwar, cherokee, syriac, caucasian-albanian</li>
 <li>U+0394 GREEK CAPITAL LETTER DELTA: try adding one of: math, elbasan, greek</li>
 <li>U+03A9 GREEK CAPITAL LETTER OMEGA: try adding one of: math, elbasan, greek</li>
 <li>U+03BC GREEK SMALL LETTER MU: try adding one of: math, greek</li>
-<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: math, yi, greek</li>
+<li>U+03C0 GREEK SMALL LETTER PI: try adding one of: math, greek, yi</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
 <li>U+2007 FIGURE SPACE: try adding symbols2</li>
 <li>U+2008 PUNCTUATION SPACE: try adding symbols2</li>
 <li>U+200A HAIR SPACE: try adding symbols2</li>
-<li>U+2010 HYPHEN: try adding one of: syloti-nagri, kharoshthi, sundanese, arabic, lisu, hebrew, kaithi, sora-sompeng, kayah-li, cham, yi, armenian, coptic</li>
+<li>U+2010 HYPHEN: try adding one of: sora-sompeng, armenian, coptic, yi, arabic, hebrew, lisu, kaithi, kharoshthi, kayah-li, sundanese, cham, syloti-nagri</li>
 <li>U+2012 FIGURE DASH: not included in any glyphset definition</li>
 <li>U+2015 HORIZONTAL BAR: try adding adlam</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
+<li>U+203D INTERROBANG: not included in any glyphset definition</li>
+<li>U+2042 ASTERISM: not included in any glyphset definition</li>
+<li>U+2048 QUESTION EXCLAMATION MARK: try adding mongolian</li>
 <li>U+2070 SUPERSCRIPT ZERO: try adding math</li>
 <li>U+2074 SUPERSCRIPT FOUR: try adding math</li>
 <li>U+2075 SUPERSCRIPT FIVE: try adding math</li>
@@ -1386,18 +2100,20 @@ definitions.</p>
 <li>U+2106 CADA UNA: try adding math</li>
 <li>U+2126 OHM SIGN: try adding math</li>
 <li>U+212E ESTIMATED SYMBOL: try adding math</li>
+<li>U+2153 VULGAR FRACTION ONE THIRD: try adding symbols</li>
+<li>U+2154 VULGAR FRACTION TWO THIRDS: try adding symbols</li>
 <li>U+215B VULGAR FRACTION ONE EIGHTH: try adding symbols</li>
 <li>U+215C VULGAR FRACTION THREE EIGHTHS: try adding symbols</li>
 <li>U+215D VULGAR FRACTION FIVE EIGHTHS: try adding symbols</li>
 <li>U+215E VULGAR FRACTION SEVEN EIGHTHS: try adding symbols</li>
-<li>U+2190 LEFTWARDS ARROW: try adding one of: symbols, math</li>
-<li>U+2192 RIGHTWARDS ARROW: try adding one of: symbols, math</li>
-<li>U+2194 LEFT RIGHT ARROW: try adding one of: symbols, math</li>
-<li>U+2195 UP DOWN ARROW: try adding one of: symbols, math</li>
-<li>U+2196 NORTH WEST ARROW: try adding one of: symbols, math</li>
-<li>U+2197 NORTH EAST ARROW: try adding one of: symbols, math</li>
-<li>U+2198 SOUTH EAST ARROW: try adding one of: symbols, math</li>
-<li>U+2199 SOUTH WEST ARROW: try adding one of: symbols, math</li>
+<li>U+2190 LEFTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2192 RIGHTWARDS ARROW: try adding one of: math, symbols</li>
+<li>U+2194 LEFT RIGHT ARROW: try adding one of: math, symbols</li>
+<li>U+2195 UP DOWN ARROW: try adding one of: math, symbols</li>
+<li>U+2196 NORTH WEST ARROW: try adding one of: math, symbols</li>
+<li>U+2197 NORTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2198 SOUTH EAST ARROW: try adding one of: math, symbols</li>
+<li>U+2199 SOUTH WEST ARROW: try adding one of: math, symbols</li>
 <li>U+21BA ANTICLOCKWISE OPEN CIRCLE ARROW: try adding math</li>
 <li>U+21BB CLOCKWISE OPEN CIRCLE ARROW: try adding math</li>
 <li>U+21C4 RIGHTWARDS ARROW OVER LEFTWARDS ARROW: try adding math</li>
@@ -1408,7 +2124,7 @@ definitions.</p>
 <li>U+2206 INCREMENT: try adding math</li>
 <li>U+220F N-ARY PRODUCT: try adding math</li>
 <li>U+2211 N-ARY SUMMATION: try adding math</li>
-<li>U+2219 BULLET OPERATOR: try adding one of: symbols, tai-tham, math, yi</li>
+<li>U+2219 BULLET OPERATOR: try adding one of: math, tai-tham, yi, symbols</li>
 <li>U+221A SQUARE ROOT: try adding math</li>
 <li>U+221E INFINITY: try adding math</li>
 <li>U+222B INTEGRAL: try adding math</li>
@@ -1419,15 +2135,25 @@ definitions.</p>
 <li>U+2317 VIEWDATA SQUARE: try adding symbols</li>
 <li>U+2318 PLACE OF INTEREST SIGN: try adding symbols</li>
 <li>U+2325 OPTION KEY: try adding symbols</li>
-<li>U+2460 CIRCLED DIGIT ONE: try adding one of: yi, mongolian, symbols</li>
-<li>U+2461 CIRCLED DIGIT TWO: try adding one of: yi, mongolian, symbols</li>
-<li>U+2462 CIRCLED DIGIT THREE: try adding one of: yi, mongolian, symbols</li>
-<li>U+2463 CIRCLED DIGIT FOUR: try adding one of: yi, mongolian, symbols</li>
-<li>U+2464 CIRCLED DIGIT FIVE: try adding one of: yi, mongolian, symbols</li>
-<li>U+2465 CIRCLED DIGIT SIX: try adding one of: yi, mongolian, symbols</li>
-<li>U+2466 CIRCLED DIGIT SEVEN: try adding one of: yi, mongolian, symbols</li>
-<li>U+2467 CIRCLED DIGIT EIGHT: try adding one of: yi, mongolian, symbols</li>
-<li>U+2468 CIRCLED DIGIT NINE: try adding one of: yi, mongolian, symbols</li>
+<li>U+23CE RETURN SYMBOL: try adding symbols</li>
+<li>U+23CF EJECT SYMBOL: try adding symbols</li>
+<li>U+23E9 BLACK RIGHT-POINTING DOUBLE TRIANGLE: try adding symbols</li>
+<li>U+23EA BLACK LEFT-POINTING DOUBLE TRIANGLE: try adding symbols</li>
+<li>U+23ED BLACK RIGHT-POINTING DOUBLE TRIANGLE WITH VERTICAL BAR: try adding symbols</li>
+<li>U+23EE BLACK LEFT-POINTING DOUBLE TRIANGLE WITH VERTICAL BAR: try adding symbols</li>
+<li>U+23F5 BLACK MEDIUM RIGHT-POINTING TRIANGLE: try adding symbols</li>
+<li>U+23F8 DOUBLE VERTICAL BAR: try adding symbols</li>
+<li>U+23F9 BLACK SQUARE FOR STOP: try adding symbols</li>
+<li>U+23FA BLACK CIRCLE FOR RECORD: try adding symbols</li>
+<li>U+2460 CIRCLED DIGIT ONE: try adding one of: symbols, mongolian, yi</li>
+<li>U+2461 CIRCLED DIGIT TWO: try adding one of: symbols, mongolian, yi</li>
+<li>U+2462 CIRCLED DIGIT THREE: try adding one of: symbols, mongolian, yi</li>
+<li>U+2463 CIRCLED DIGIT FOUR: try adding one of: symbols, mongolian, yi</li>
+<li>U+2464 CIRCLED DIGIT FIVE: try adding one of: symbols, mongolian, yi</li>
+<li>U+2465 CIRCLED DIGIT SIX: try adding one of: symbols, mongolian, yi</li>
+<li>U+2466 CIRCLED DIGIT SEVEN: try adding one of: symbols, mongolian, yi</li>
+<li>U+2467 CIRCLED DIGIT EIGHT: try adding one of: symbols, mongolian, yi</li>
+<li>U+2468 CIRCLED DIGIT NINE: try adding one of: symbols, mongolian, yi</li>
 <li>U+24B6 CIRCLED LATIN CAPITAL LETTER A: try adding symbols</li>
 <li>U+24B7 CIRCLED LATIN CAPITAL LETTER B: try adding symbols</li>
 <li>U+24B8 CIRCLED LATIN CAPITAL LETTER C: try adding symbols</li>
@@ -1485,18 +2211,18 @@ definitions.</p>
 <li>U+25A0 BLACK SQUARE: try adding symbols</li>
 <li>U+25A1 WHITE SQUARE: try adding symbols</li>
 <li>U+25B2 BLACK UP-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25B3 WHITE UP-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25B6 BLACK RIGHT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25B7 WHITE RIGHT-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25BC BLACK DOWN-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25BD WHITE DOWN-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25C0 BLACK LEFT-POINTING TRIANGLE: try adding symbols</li>
-<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: symbols, math</li>
+<li>U+25C1 WHITE LEFT-POINTING TRIANGLE: try adding one of: math, symbols</li>
 <li>U+25C6 BLACK DIAMOND: try adding symbols</li>
 <li>U+25C7 WHITE DIAMOND: try adding symbols</li>
-<li>U+25CA LOZENGE: try adding one of: symbols, math</li>
+<li>U+25CA LOZENGE: try adding one of: math, symbols</li>
 <li>U+25CB WHITE CIRCLE: try adding symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: new-tai-lue, devanagari, balinese, chakma, zanabazar-square, tagbanwa, khojki, javanese, canadian-aboriginal, malayalam, yi, myanmar, kharoshthi, takri, adlam, bhaiksuki, kaithi, modi, tifinagh, cham, sinhala, gunjala-gondi, tirhuta, meetei-mayek, music, khmer, sharada, hanunoo, buhid, miao, lao, tai-le, psalter-pahlavi, phags-pa, mende-kikakui, duployan, siddham, saurashtra, bassa-vah, tamil, dogra, syriac, math, manichaean, batak, elbasan, limbu, khudawadi, hebrew, lepcha, tagalog, thai, grantha, brahmi, mongolian, gujarati, coptic, kannada, masaram-gondi, buginese, newa, sundanese, tibetan, rejang, mahajani, thaana, tai-viet, ahom, pahawh-hmong, telugu, gurmukhi, hanifi-rohingya, armenian, nko, caucasian-albanian, oriya, mandaic, kayah-li, syloti-nagri, tai-tham, sogdian, marchen, warang-citi, bengali, wancho, osage, soyombo, symbols, old-permic</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: tamil, lao, coptic, mende-kikakui, new-tai-lue, malayalam, psalter-pahlavi, tagalog, zanabazar-square, gunjala-gondi, marchen, syriac, siddham, telugu, oriya, buginese, osage, sharada, tai-viet, hanunoo, grantha, masaram-gondi, khojki, takri, hanifi-rohingya, buhid, armenian, chakma, tai-tham, kharoshthi, sogdian, wancho, newa, khmer, gujarati, hebrew, kayah-li, devanagari, syloti-nagri, tagbanwa, gurmukhi, symbols, adlam, javanese, manichaean, brahmi, math, kaithi, bhaiksuki, meetei-mayek, thaana, dogra, mandaic, tai-le, warang-citi, rejang, saurashtra, batak, music, soyombo, sinhala, khudawadi, limbu, mahajani, myanmar, cham, old-permic, tirhuta, nko, caucasian-albanian, thai, sundanese, pahawh-hmong, modi, canadian-aboriginal, tifinagh, phags-pa, ahom, mongolian, lepcha, bengali, kannada, tibetan, balinese, bassa-vah, yi, duployan, miao, elbasan</li>
 <li>U+25CF BLACK CIRCLE: try adding symbols</li>
 <li>U+2606 WHITE STAR: try adding symbols</li>
 <li>U+261A BLACK LEFT POINTING INDEX: try adding symbols</li>
@@ -1573,6 +2299,13 @@ definitions.</p>
 <li>U+1F167 NEGATIVE CIRCLED LATIN CAPITAL LETTER X: try adding symbols</li>
 <li>U+1F168 NEGATIVE CIRCLED LATIN CAPITAL LETTER Y: try adding symbols</li>
 <li>U+1F169 NEGATIVE CIRCLED LATIN CAPITAL LETTER Z: try adding symbols</li>
+<li>U+1F500 TWISTED RIGHTWARDS ARROWS: not included in any glyphset definition</li>
+<li>U+1F501 CLOCKWISE RIGHTWARDS AND LEFTWARDS OPEN CIRCLE ARROWS: not included in any glyphset definition</li>
+<li>U+1F502 CLOCKWISE RIGHTWARDS AND LEFTWARDS OPEN CIRCLE ARROWS WITH CIRCLED ONE OVERLAY: not included in any glyphset definition</li>
+<li>U+1F503 CLOCKWISE DOWNWARDS AND UPWARDS OPEN CIRCLE ARROWS: try adding symbols</li>
+<li>U+1F504 ANTICLOCKWISE DOWNWARDS AND UPWARDS OPEN CIRCLE ARROWS: not included in any glyphset definition</li>
+<li>U+1F5A2 BLACK UP POINTING BACKHAND INDEX: try adding symbols</li>
+<li>U+1F5A3 BLACK DOWN POINTING BACKHAND INDEX: try adding symbols</li>
 <li>U+1F7CF HEAVY EIGHT POINTED BLACK STAR: try adding symbols</li>
 <li>U+1F7D3 HEAVY TWELVE POINTED BLACK STAR: try adding symbols</li>
 <li>U+1F7D4 HEAVY TWELVE POINTED PINWHEEL STAR: try adding symbols</li>
@@ -1586,7 +2319,7 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/shaping.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#soft-dotted">soft_dotted</a></summary>
     <div>
 
 
@@ -1597,8 +2330,6 @@ definitions.</p>
 
 * ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: j̑</p>
 <p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: j̉ j̏ j̛̉ j̛̏ j̛̑ j̣̉ j̣̏ j̣̑ j̤̉ j̤̏ j̤̑ j̦̉ j̦̏ j̦̑ j̧̉ j̧̏ j̧̑ j̨̉ j̨̏ j̨̑</p>
-<p>Your font fully covers the following languages that require the soft-dotted feature: Ekpeye (Latn, 226,000 speakers), Lithuanian (Latn, 2,357,094 speakers), Ma’di (Latn, 584,000 speakers), Avokaya (Latn, 100,000 speakers), Kaska (Latn, 125 speakers), Navajo (Latn, 166,319 speakers), Han (Latn, 6 speakers), Igbo (Latn, 27,823,640 speakers), Ebira (Latn, 2,200,000 speakers), Dutch (Latn, 31,709,104 speakers).</p>
-<p>Your font does <em>not</em> cover the following languages that require the soft-dotted feature: Nateni (Latn, 100,000 speakers), Dii (Latn, 71,000 speakers), Vute (Latn, 21,000 speakers), Nzakara (Latn, 50,000 speakers), Ngbaka (Latn, 1,020,000 speakers), Gulay (Latn, 250,478 speakers), Southern Kisi (Latn, 360,000 speakers), Sar (Latn, 500,000 speakers), Bete-Bendi (Latn, 100,000 speakers), Cicipu (Latn, 44,000 speakers), Mango (Latn, 77,000 speakers), Teke-Ebo (Latn, 260,000 speakers), Fur (Latn, 1,230,163 speakers), Kpelle, Guinea (Latn, 622,000 speakers), Ejagham (Latn, 120,000 speakers), Makaa (Latn, 221,000 speakers), South Central Banda (Latn, 244,000 speakers), Bafut (Latn, 158,146 speakers), Yala (Latn, 200,000 speakers), Ijo, Southeast (Latn, 2,471,000 speakers), Heiltsuk (Latn, 300 speakers), Mfumte (Latn, 79,000 speakers), Mundani (Latn, 34,000 speakers), Dan (Latn, 1,099,244 speakers), Koonzime (Latn, 40,000 speakers), Basaa (Latn, 332,940 speakers), Lugbara (Latn, 2,200,000 speakers), Kom (Latn, 360,685 speakers), Aghem (Latn, 38,843 speakers), Ukrainian (Cyrl, 29,273,587 speakers), Belarusian (Cyrl, 10,064,517 speakers), Zapotec (Latn, 490,000 speakers).</p>
  [code: soft-dotted]
 
 
@@ -1607,7 +2338,7 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Do outlines contain any jaggy segments? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/outline.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Do outlines contain any jaggy segments? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-jaggy-segments">outline_jaggy_segments</a></summary>
     <div>
 
 
@@ -1659,6 +2390,8 @@ definitions.</p>
 
 * greater (U+003E): B&lt;&lt;195.5,391.5&gt;-&lt;187.0,395.0&gt;-&lt;188.0,395.0&gt;&gt;/B&lt;&lt;188.0,395.0&gt;-&lt;177.0,397.0&gt;-&lt;177.0,400.0&gt;&gt; = 10.304846468766044
 
+* greater.case: B&lt;&lt;195.5,422.5&gt;-&lt;187.0,426.0&gt;-&lt;188.0,426.0&gt;&gt;/B&lt;&lt;188.0,426.0&gt;-&lt;177.0,428.0&gt;-&lt;177.0,431.0&gt;&gt; = 10.304846468766044
+
 * infinity (U+221E): L&lt;&lt;357.0,419.0&gt;--&lt;376.0,435.0&gt;&gt;/L&lt;&lt;376.0,435.0&gt;--&lt;375.0,434.0&gt;&gt; = 4.899092453787774
 
 * infinity (U+221E): L&lt;&lt;376.0,435.0&gt;--&lt;375.0,434.0&gt;&gt;/L&lt;&lt;375.0,434.0&gt;--&lt;387.0,443.0&gt;&gt; = 8.13010235415596
@@ -1667,11 +2400,17 @@ definitions.</p>
 
 * less (U+003C): B&lt;&lt;298.0,400.0&gt;-&lt;298.0,397.0&gt;-&lt;287.0,395.0&gt;&gt;/B&lt;&lt;287.0,395.0&gt;-&lt;288.0,395.0&gt;-&lt;279.5,391.5&gt;&gt; = 10.304846468766044
 
+* less.case: B&lt;&lt;298.0,431.0&gt;-&lt;298.0,428.0&gt;-&lt;287.0,426.0&gt;&gt;/B&lt;&lt;287.0,426.0&gt;-&lt;288.0,426.0&gt;-&lt;279.5,422.5&gt;&gt; = 10.304846468766044
+
 * logicalnot (U+00AC): B&lt;&lt;382.0,-2.0&gt;-&lt;376.0,-1.0&gt;-&lt;377.0,0.0&gt;&gt;/L&lt;&lt;377.0,0.0&gt;--&lt;374.0,-2.0&gt;&gt; = 11.309932474020195
 
 * multiply (U+00D7): L&lt;&lt;254.0,377.0&gt;--&lt;267.0,393.0&gt;&gt;/L&lt;&lt;267.0,393.0&gt;--&lt;266.0,392.0&gt;&gt; = 5.906141113770435
 
 * multiply (U+00D7): L&lt;&lt;267.0,393.0&gt;--&lt;266.0,392.0&gt;&gt;/B&lt;&lt;266.0,392.0&gt;-&lt;270.0,397.0&gt;-&lt;273.0,400.0&gt;&gt; = 6.340191745909908
+
+* multiply.case: L&lt;&lt;254.0,408.0&gt;--&lt;267.0,424.0&gt;&gt;/L&lt;&lt;267.0,424.0&gt;--&lt;266.0,423.0&gt;&gt; = 5.906141113770435
+
+* multiply.case: L&lt;&lt;267.0,424.0&gt;--&lt;266.0,423.0&gt;&gt;/B&lt;&lt;266.0,423.0&gt;-&lt;270.0,428.0&gt;-&lt;273.0,431.0&gt;&gt; = 6.340191745909908
 
 * numbersign (U+0023): B&lt;&lt;333.0,122.0&gt;-&lt;333.0,124.0&gt;-&lt;334.0,124.0&gt;&gt;/B&lt;&lt;334.0,124.0&gt;-&lt;302.0,123.0&gt;-&lt;278.5,122.5&gt;&gt; = 1.789910608246076
 
@@ -1698,6 +2437,12 @@ definitions.</p>
 * plusminus (U+00B1): L&lt;&lt;29.0,326.0&gt;--&lt;29.0,325.0&gt;&gt;/B&lt;&lt;29.0,325.0&gt;-&lt;28.0,337.0&gt;-&lt;30.0,337.0&gt;&gt; = 4.763641690726143
 
 * plusminus (U+00B1): L&lt;&lt;29.0,370.0&gt;--&lt;31.0,391.0&gt;&gt;/B&lt;&lt;31.0,391.0&gt;-&lt;31.0,390.0&gt;-&lt;43.0,391.0&gt;&gt; = 5.4403320310054815
+
+* plusminus.case: L&lt;&lt;273.0,218.0&gt;--&lt;272.0,193.0&gt;&gt;/B&lt;&lt;272.0,193.0&gt;-&lt;272.0,196.0&gt;-&lt;248.0,196.0&gt;&gt; = 2.2906100426384346
+
+* plusminus.case: L&lt;&lt;29.0,357.0&gt;--&lt;29.0,356.0&gt;&gt;/B&lt;&lt;29.0,356.0&gt;-&lt;28.0,368.0&gt;-&lt;30.0,368.0&gt;&gt; = 4.763641690726143
+
+* plusminus.case: L&lt;&lt;29.0,401.0&gt;--&lt;31.0,422.0&gt;&gt;/B&lt;&lt;31.0,422.0&gt;-&lt;31.0,421.0&gt;-&lt;43.0,422.0&gt;&gt; = 5.4403320310054815
 
 * prime (U+2032): L&lt;&lt;41.0,572.0&gt;--&lt;44.0,596.0&gt;&gt;/L&lt;&lt;44.0,596.0&gt;--&lt;44.0,595.0&gt;&gt; = 7.1250163489018075
 
@@ -1753,6 +2498,14 @@ definitions.</p>
 
 * u1F164 (U+1F164): B&lt;&lt;648.5,325.5&gt;-&lt;648.0,328.0&gt;-&lt;648.0,326.0&gt;&gt;/B&lt;&lt;648.0,326.0&gt;-&lt;647.0,331.0&gt;-&lt;647.0,339.5&gt;&gt; = 11.309932474020195
 
+* u1F501 (U+1F501): L&lt;&lt;797.0,516.0&gt;--&lt;799.0,514.0&gt;&gt;/L&lt;&lt;799.0,514.0&gt;--&lt;783.0,534.0&gt;&gt; = 6.340191745909908
+
+* u1F501 (U+1F501): L&lt;&lt;803.0,509.0&gt;--&lt;800.0,513.0&gt;&gt;/B&lt;&lt;800.0,513.0&gt;-&lt;802.0,511.0&gt;-&lt;802.0,508.0&gt;&gt; = 8.130102354155916
+
+* u1F503 (U+1F503): L&lt;&lt;628.0,-59.0&gt;--&lt;632.0,-56.0&gt;&gt;/B&lt;&lt;632.0,-56.0&gt;-&lt;630.0,-58.0&gt;-&lt;627.0,-58.0&gt;&gt; = 8.13010235415596
+
+* u1F503 (U+1F503): L&lt;&lt;635.0,-53.0&gt;--&lt;633.0,-55.0&gt;&gt;/L&lt;&lt;633.0,-55.0&gt;--&lt;653.0,-39.0&gt;&gt; = 6.340191745909908
+
 * uni00B5 (U+00B5): L&lt;&lt;364.0,300.0&gt;--&lt;361.0,322.0&gt;&gt;/L&lt;&lt;361.0,322.0&gt;--&lt;361.0,321.0&gt;&gt; = 7.765166018425354
 
 * uni03A9 (U+03A9): B&lt;&lt;387.5,82.5&gt;-&lt;390.0,84.0&gt;-&lt;389.0,83.0&gt;&gt;/L&lt;&lt;389.0,83.0&gt;--&lt;403.0,94.0&gt;&gt; = 6.842773412630916
@@ -1792,6 +2545,8 @@ definitions.</p>
 * uni2325 (U+2325): L&lt;&lt;316.0,436.0&gt;--&lt;318.0,460.0&gt;&gt;/B&lt;&lt;318.0,460.0&gt;-&lt;318.0,459.0&gt;-&lt;323.0,464.0&gt;&gt; = 4.763641690726143
 
 * uni2325 (U+2325): L&lt;&lt;348.0,389.0&gt;--&lt;324.0,391.0&gt;&gt;/B&lt;&lt;324.0,391.0&gt;-&lt;326.0,391.0&gt;-&lt;321.0,396.0&gt;&gt; = 4.763641690726143
+
+* uni23CE (U+23CE): L&lt;&lt;159.0,333.0&gt;--&lt;158.0,334.0&gt;&gt;/L&lt;&lt;158.0,334.0&gt;--&lt;167.0,319.0&gt;&gt; = 14.036243467926484
 
 * uni2462 (U+2462): B&lt;&lt;592.0,372.0&gt;-&lt;584.0,362.0&gt;-&lt;572.0,351.0&gt;&gt;/B&lt;&lt;572.0,351.0&gt;-&lt;574.0,354.0&gt;-&lt;570.5,354.5&gt;&gt; = 13.799485396019389
 
@@ -1843,7 +2598,7 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Do outlines contain any semi-vertical or semi-horizontal lines? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/outline.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Do outlines contain any semi-vertical or semi-horizontal lines? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-semi-vertical">outline_semi_vertical</a></summary>
     <div>
 
 
@@ -1867,31 +2622,7 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Is there kerning info for non-ligated sequences? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.gpos.html#"></a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>GPOS table lacks kerning info for the following non-ligated sequences:</p>
-<pre><code>- f + f
-
-- f + i
-
-- f + l
-</code></pre>
- [code: lacks-kern-info]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.meta.html#"></a></summary>
+    <summary>⚠️ <b>WARN</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-meta-script-lang-tags">googlefonts/meta/script_lang_tags</a></summary>
     <div>
 
 
@@ -1917,8 +2648,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 4 | 19 | 227 | 13 | 221 | 0 | 
-| 0% | 0% | 1% | 4% | 47% | 3% | 46% | 0% | 
+| 0 | 0 | 6 | 20 | 207 | 11 | 211 | 0 | 
+| 0% | 0% | 1% | 4% | 45% | 2% | 46% | 0% | 
 
 
 
